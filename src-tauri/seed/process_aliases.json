@@ -1,0 +1,53 @@
+{
+  "_comment": "Maps REAL Windows executable basenames (lowercase) to the process_name used in apps.json. Additive: augments the runtime lookup map without editing the seed dataset. Both sides are matched case-insensitively.",
+
+  "idea64.exe": "intellijidea.exe",
+  "idea.exe": "intellijidea.exe",
+  "webstorm64.exe": "webstorm.exe",
+  "pycharm64.exe": "pycharm.exe",
+  "nvim.exe": "neovim.exe",
+  "sublime_text.exe": "sublimetext.exe",
+  "studio64.exe": "androidstudio.exe",
+
+  "ms-teams.exe": "microsoftteams.exe",
+  "teams.exe": "microsoftteams.exe",
+
+  "resolve.exe": "davinciresolve.exe",
+  "adobe premiere pro.exe": "premierepro.exe",
+  "afterfx.exe": "aftereffects.exe",
+  "acrobat.exe": "adobeacrobatreader.exe",
+  "acrord32.exe": "adobeacrobatreader.exe",
+  "adobexd.exe": "adobexd.exe",
+  "capcut.exe": "capcutdesktop.exe",
+
+  "wt.exe": "windowsterminal.exe",
+  "windowsterminal.exe": "windowsterminal.exe",
+
+  "fl64.exe": "flstudio.exe",
+  "fl.exe": "flstudio.exe",
+  "reaper.exe": "reaper.exe",
+
+  "unrealeditor.exe": "unrealengine.exe",
+
+  "onenote.exe": "microsoftonenote.exe",
+  "visio.exe": "microsoftvisio.exe",
+  "mspub.exe": "microsoftpublisher.exe",
+  "msaccess.exe": "microsoftaccess.exe",
+  "pbidesktop.exe": "powerbi.exe",
+  "winproj.exe": "microsoftproject.exe",
+
+  "explorer.exe": "fileexplorer.exe",
+  "taskmgr.exe": "taskmanager.exe",
+  "regedit.exe": "registryeditor.exe",
+  "cmd.exe": "commandprompt.exe",
+  "mspaint.exe": "paint.exe",
+  "snippingtool.exe": "snippingtool.exe",
+  "screenclippinghost.exe": "snippingtool.exe",
+  "charmap.exe": "charactermap.exe",
+  "magnify.exe": "magnifier.exe",
+  "narrator.exe": "narrator.exe",
+  "calculatorapp.exe": "calculator.exe",
+  "calc.exe": "calculator.exe",
+  "control.exe": "controlpanel.exe",
+  "powershell_ise.exe": "powershellise.exe"
+}

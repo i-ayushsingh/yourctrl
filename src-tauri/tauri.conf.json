@@ -1,0 +1,71 @@
+{
+  "productName": "YourCtrl",
+  "version": "1.0.0",
+  "identifier": "com.yourctrl.app",
+  "build": {
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "YourCtrl",
+        "width": 980,
+        "height": 720,
+        "minWidth": 760,
+        "minHeight": 520,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "windowEffects": {
+          "effects": ["mica"]
+        }
+      },
+      {
+        "label": "popover",
+        "url": "index.html?view=popover",
+        "title": "YourCtrl",
+        "width": 440,
+        "height": 520,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "center": true,
+        "visible": false,
+        "focus": false,
+        "shadow": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE1RDYzMEUzNzlCRDA1RTAKUldUZ0JiMTU0ekRXRlNqZzhXSldBSy8yYTN1RDN6Y0Z1R0dyMmFOc2M0Nko2a1o4enpMVDU5c2UK",
+      "endpoints": [
+        "https://github.com/i-ayushsingh/yourctrl/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

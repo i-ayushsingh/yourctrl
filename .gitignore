@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Tauri / Rust build output
+src-tauri/target/
+src-tauri/gen/
+
+# Data extraction workspace (scripts, CSVs, intermediate JSON)
+Sources/
+
+
+# Build-time intermediate files
+build.log
+dashboard_dl.json
+dashboard_match.json
+dashboard_slugs.txt
+dashboard_tree.json
+logos_collection.json
+image.png
+smoke_test.py
+skills-lock.json
+
+# Verification artifacts
+screenshots/
+__pycache__/
+
+# Logs / env
+*.log
+.env
+.env.local
+
+# Signing keys (NEVER commit - keep in home directory)
+~/.tauri/
