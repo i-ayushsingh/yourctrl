@@ -1,0 +1,2287 @@
+{
+  "app_name": "Affinity Designer",
+  "process_name": "Designer.exe",
+  "category": "Graphic Design",
+  "platforms": ["windows"],
+  "icon_slug": "affinity-designer",
+  "brand_color": "#134881",
+  "shortcuts": [
+    {
+      "section": "Workspace",
+      "action": "Constrain object movement horizontally, vertically or diagonally",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Select multiple objects",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Select overlapped object",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Cycle Selection Box",
+      "keys": [["."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Set Selection Box",
+      "keys": [["Ctrl", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Decrease stroke width by percentage",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Increase stroke width by percentage",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Decrease stroke width by absolute value",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Increase stroke width by absolute value",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Change opacity for selected layer (or Brush tools in Pixel Persona)",
+      "keys": [["0"], ["1"], ["2"], ["3"], ["4"], ["5"], ["6"], ["7"], ["8"], ["9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Erase with Pixel Tool (Pixel Persona only)",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Switch between Stroke/Fill color selectors",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Swap Stroke/Fill color selectors",
+      "keys": [["Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Set color selectors and selected vector objects to black and white",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Set No fill on color selectors",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Fill with foreground color (Pixel Persona only)",
+      "keys": [["Alt", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Fill with background color (Pixel Persona only)",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Toggle Snapping",
+      "keys": [[";"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Edit line or brush strokes as you draw/paint",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Create cusp node (sharp corner) when dragging control handle",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Snap control handle to 45 degree intervals",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Create a straight line segment as you draw",
+      "keys": [["Drag", "Right-click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Convert to Smooth node",
+      "keys": [["Right-click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Convert to Sharp node",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Select next node on a curve",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Select previous node on a curve",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Straighten a segment",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Delete a segment",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Delete a node retaining curve geometry",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Delete a node for best-fitting reshaped curve",
+      "keys": [["Alt", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Move with horizontal, vertical or diagonal constraint",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Rotate in 15 degree intervals",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Rotate around opposite corner",
+      "keys": [["Drag", "Right-click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Cancel a sizing, moving, or creating operation",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Resize vector objects maintaining aspect ratio",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Resize an object from its center",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Mirror shearing",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Nudge selection",
+      "keys": [["Up"], ["Down"], ["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Nudge by modified distance",
+      "keys": [["Shift", "Up"], ["Shift", "Down"], ["Shift", "Left"], ["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Apply mesh warp",
+      "keys": [["Ctrl", "Alt", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Shape Builder - Add mode",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Shape Builder - Delete mode",
+      "keys": [["-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Shape Builder - Create mode",
+      "keys": [["*"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Create symbol",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Rotate document view about cursor",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Rotate document view about center",
+      "keys": [["Shift", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Reset document view rotation",
+      "keys": [["Ctrl", "Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom In",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom Out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to Fit",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to Width",
+      "keys": [["Alt", "Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to Selection",
+      "keys": [["Ctrl", "Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to 100%",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to 200%",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to 400%",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to 800%",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to Actual Size",
+      "keys": [["Ctrl", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Zoom to Pixel Size",
+      "keys": [["Ctrl", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Hot key zoom",
+      "keys": [["Space", "Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Hot key zoom in",
+      "keys": [["Space", "Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Hot key zoom out",
+      "keys": [["Space", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Hot key zoom in marquee",
+      "keys": [["Space", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Hot key panning",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Scroll vertically",
+      "keys": [["MouseWheel"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Scroll horizontally",
+      "keys": [["Shift", "MouseWheel"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Show Rulers",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Show Guides",
+      "keys": [["Ctrl", ";"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Show Grid",
+      "keys": [["Ctrl", "'"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Grid Plane cycle",
+      "keys": [["'"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Pixel view mode",
+      "keys": [["Ctrl", "Alt", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Pixel (Retina) view mode",
+      "keys": [["Ctrl", "Alt", "Shift", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Toggle last used wireframe mode (Outline or X-ray)",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Toggle Split View",
+      "keys": [[","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Switch to Next View",
+      "keys": [["`"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Clip to Canvas",
+      "keys": [["\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Isolate an object",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Show/Hide Studio",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Show/Hide Toolbar",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Toggle UI",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Next Blend Mode",
+      "keys": [["Shift", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Previous Blend Mode",
+      "keys": [["Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Normal",
+      "keys": [["Alt", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Darken",
+      "keys": [["Alt", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Multiply",
+      "keys": [["Alt", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Color Burn",
+      "keys": [["Alt", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Linear Burn",
+      "keys": [["Alt", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Lighten",
+      "keys": [["Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Screen",
+      "keys": [["Alt", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Color Dodge",
+      "keys": [["Alt", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Add",
+      "keys": [["Alt", "Shift", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Overlay",
+      "keys": [["Alt", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Soft Light",
+      "keys": [["Alt", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Hard Light",
+      "keys": [["Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Vivid Light",
+      "keys": [["Alt", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Linear Light",
+      "keys": [["Alt", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Pin Light",
+      "keys": [["Alt", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Hard Mix",
+      "keys": [["Alt", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Difference",
+      "keys": [["Alt", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Exclusion",
+      "keys": [["Alt", "Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Hue",
+      "keys": [["Alt", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Saturation",
+      "keys": [["Alt", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Color",
+      "keys": [["Alt", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Workspace",
+      "action": "Blend Mode: Luminosity",
+      "keys": [["Alt", "Shift", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "New Document",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "New from Clipboard",
+      "keys": [["Ctrl", "Alt", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Open Document",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Close Document / Close App",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Close All Documents",
+      "keys": [["Ctrl", "Alt", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Switch Document/View",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Save",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Save As",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Export",
+      "keys": [["Ctrl", "Alt", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Document Setup",
+      "keys": [["Ctrl", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Redo",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Paste Style",
+      "keys": [["Ctrl", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Paste FX",
+      "keys": [["Alt", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Paste Inside",
+      "keys": [["Ctrl", "Alt", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Paste without Format",
+      "keys": [["Ctrl", "Alt", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Select All",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Deselect",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Invert Pixel Selection",
+      "keys": [["Ctrl", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Select Next",
+      "keys": [["Ctrl", "Alt", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Select Previous",
+      "keys": [["Ctrl", "Alt", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Select Parent",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge selection",
+      "keys": [["Up"], ["Down"], ["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Modified nudge selection",
+      "keys": [["Shift", "Up"], ["Shift", "Down"], ["Shift", "Left"], ["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Selection from layer",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Selection from layer luminosity",
+      "keys": [["Ctrl", "Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Add to/remove from object selection by clicking",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Add to/remove from object selection when marquee wholly encompasses object",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Add to pixel selection",
+      "keys": [["Ctrl", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Remove from pixel selection",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Settings / Preferences",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Curves Adjustment",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Black and White Adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move Tool",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Node Tool",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Point Transform Tool",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Contour Tool",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Corner Tool",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Pen Tool",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Pencil Tool",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Stroke Width Tool",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Knife Tool",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Vector Brush Tool",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Gradient Tool",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Transparency Tool",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Vector Flood Fill Tool",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Cycle Rectangle/Ellipse/Rounded Rectangle tools",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Shape Builder Tool",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Cycle Artistic and Frame text tools",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Color Picker Tool",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "View Tool",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Zoom Tool",
+      "keys": [["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Group",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Ungroup",
+      "keys": [["Ctrl", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Duplicate",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move to Front",
+      "keys": [["Ctrl", "Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move Forward One",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move to Back",
+      "keys": [["Ctrl", "Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move Back One",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move Inside",
+      "keys": [["Ctrl", "Alt", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Move Outside",
+      "keys": [["Ctrl", "Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Show All",
+      "keys": [["Ctrl", "Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Select All on Current Layer",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Lock",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Unlock",
+      "keys": [["Ctrl", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Unlock All",
+      "keys": [["Ctrl", "Alt", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "New Pixel Layer",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Rename Layer",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Vector Studio",
+      "action": "Convert to Curves",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Move Tool",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Cycle Marquee Selection Tools",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Freehand Selection Tool",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Selection Brush Tool",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Pixel Tool",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Paint Brush Tool",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Erase Brush Tool",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Flood Fill Tool",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Cycle Dodge and Burn Brush Tools",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Color Picker Tool",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "View Tool",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Zoom Tool",
+      "keys": [["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Pick up brush color",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Change brush opacity",
+      "keys": [["0"], ["1"], ["2"], ["3"], ["4"], ["5"], ["6"], ["7"], ["8"], ["9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Decrease brush width",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Increase brush width",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Toggle between standard brush cursor and crosshair cursor",
+      "keys": [["CapsLock"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Rotate brush nozzle anti-clockwise",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Rotate brush nozzle clockwise",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Decrease/increase brush width with on-screen readout",
+      "keys": [["Ctrl", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Decrease/increase brush hardness with on-screen readout",
+      "keys": [["Ctrl", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Paint a brush stroke along a straight line",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Toggle brush properties for width/hardness/shape/spacing/rotation",
+      "keys": [["Ctrl", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Increase brush hardness",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Decrease brush hardness",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Modify brush flow",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Setting Strength for Smudge Brush Tool",
+      "keys": [["0"], ["1"], ["2"], ["3"], ["4"], ["5"], ["6"], ["7"], ["8"], ["9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Ignore brush size and associated tool on Brushes panel",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pixel Studio",
+      "action": "Ignore associated tool on Brushes panel",
+      "keys": [["Alt", "Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Show Character panel",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Show Typography panel",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Spelling Options",
+      "keys": [["Ctrl", "Shift", ";"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point one character left",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point one character right",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to start of word",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to end of word",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to start of line",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to end of line",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to start of text frame",
+      "keys": [["Ctrl", "Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to end of text frame",
+      "keys": [["Ctrl", "End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to start of current paragraph",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Move insertion point to start of next paragraph",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Delete character to left of insertion point",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Delete character to right of insertion point",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Delete from insertion point to start of word",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Delete from insertion point to end of word",
+      "keys": [["Ctrl", "Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Bigger text",
+      "keys": [["Ctrl", ">"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Smaller text",
+      "keys": [["Ctrl", "<"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise bigger text",
+      "keys": [["Ctrl", "Alt", ">"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise smaller text",
+      "keys": [["Ctrl", "Alt", "<"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Bold",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Italic",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Underline",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Superscript",
+      "keys": [["Ctrl", "Shift", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Subscript",
+      "keys": [["Ctrl", "Alt", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Align Left",
+      "keys": [["Ctrl", "Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Align Center",
+      "keys": [["Ctrl", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Align Right",
+      "keys": [["Ctrl", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Justify Left",
+      "keys": [["Ctrl", "Alt", "|"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Tighten spacing (10 per thousand decrement)",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Loosen spacing (10 per thousand increment)",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Tighten More spacing (50 per thousand decrement)",
+      "keys": [["Alt", "Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Loosen More spacing (50 per thousand increment)",
+      "keys": [["Alt", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Raise Baseline",
+      "keys": [["Alt", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Lower Baseline",
+      "keys": [["Alt", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise Raise Baseline",
+      "keys": [["Ctrl", "Alt", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise Lower Baseline",
+      "keys": [["Ctrl", "Alt", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Increase Paragraph Leading",
+      "keys": [["Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Decrease Paragraph Leading",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise Increase Paragraph Leading",
+      "keys": [["Ctrl", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Precise Decrease Paragraph Leading",
+      "keys": [["Ctrl", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Line Break",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Non-Breaking Space",
+      "keys": [["Alt", "Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Soft Hyphen",
+      "keys": [["Ctrl", "Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Non-Breaking Hyphen",
+      "keys": [["Ctrl", "Alt", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "En Dash",
+      "keys": [["Alt", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Em Dash",
+      "keys": [["Alt", "Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Toggle Unicode",
+      "keys": [["Alt", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Slice Tool (Export Persona)",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layout Studio",
+      "action": "Slice Selection Tool (Export Persona)",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

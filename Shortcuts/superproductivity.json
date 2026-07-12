@@ -1,0 +1,307 @@
+{
+  "app_name": "Super Productivity",
+  "process_name": "SuperProductivity.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "superproductivity",
+  "brand_color": "#2196F3",
+  "shortcuts": [
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Add New Task",
+      "keys": [["Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Add new note",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Show & Focus/Hide Sidebar",
+      "keys": [["Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Show & Focus/Hide Issue Panel",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Show search bar",
+      "keys": [["Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Show/Hide Bookmark Bar",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Go to Work View and focus first task",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Enter Focus Mode",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Go to Schedule",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Go to Scheduled Tasks",
+      "keys": [["Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Go to Settings",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Zoom out (Desktop only)",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Zoom default (Desktop only)",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global Shortcuts (Application Wide)",
+      "action": "Trigger sync (if configured)",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Edit Title",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Edit estimation / time spent",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Toggle Done",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Add sub Task",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Attach file or link",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Delete Task",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Open move task to project menu",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Open context menu",
+      "keys": [["Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Select previous Task",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Select next Task",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task up in list",
+      "keys": [["Ctrl", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task down in list",
+      "keys": [["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task to the top of the list",
+      "keys": [["Ctrl", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task to the bottom of the list",
+      "keys": [["Ctrl", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task to Task Backlog",
+      "keys": [["Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Move Task to Today's Task List",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Expand Sub Tasks",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Collapse Sub Tasks",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tasks",
+      "action": "Start/Stop Task",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

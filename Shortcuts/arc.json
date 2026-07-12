@@ -1,0 +1,484 @@
+{
+  "app_name": "Arc",
+  "process_name": "Arc.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "arc",
+  "brand_color": "#1D1D1F",
+  "shortcuts": [
+    {
+      "section": "Everyday Use",
+      "action": "New tab",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "New window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "New incognito window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Close current tab or window",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Re-open last closed tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Pin/Unpin current tab",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Copy current tab URL",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Copy current tab URL as Markdown",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Change current tab URL",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ],
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Show/Hide the Sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Everyday Use",
+      "action": "Clear unpinned tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Go directly to tab 1-9",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ],
+        [
+          "Ctrl",
+          "5"
+        ],
+        [
+          "Ctrl",
+          "6"
+        ],
+        [
+          "Ctrl",
+          "7"
+        ],
+        [
+          "Ctrl",
+          "8"
+        ],
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Focus on Space 1-9",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ],
+        [
+          "Alt",
+          "2"
+        ],
+        [
+          "Alt",
+          "3"
+        ],
+        [
+          "Alt",
+          "4"
+        ],
+        [
+          "Alt",
+          "5"
+        ],
+        [
+          "Alt",
+          "6"
+        ],
+        [
+          "Alt",
+          "7"
+        ],
+        [
+          "Alt",
+          "8"
+        ],
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Toggle between recent tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Switch between tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Up"
+        ],
+        [
+          "Alt",
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Switch between Spaces",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Left"
+        ],
+        [
+          "Alt",
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Go forward on tab history",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Go back on tab history",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Add Split View",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Close Split View",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Quick Navigation",
+      "action": "Switch Split View focus",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "View History",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Zoom in webpage",
+      "keys": [
+        [
+          "Ctrl",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Zoom out webpage",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Reset webpage zoom",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Reload webpage",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Find in webpage",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

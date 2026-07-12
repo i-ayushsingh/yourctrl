@@ -1,0 +1,496 @@
+{
+  "app_name": "Animate",
+  "process_name": "animate.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "adobe-animate",
+  "brand_color": "#FF6A00",
+  "shortcuts": [
+    {
+      "section": "File",
+      "action": "Import Image/Sound/etc...",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File",
+      "action": "Export Movie",
+      "keys": [["Ctrl", "Shift", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File",
+      "action": "Open as Library",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "View movie at 100% size",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "Show Frame",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "Show All",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window",
+      "action": "Show/Hide Library",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window",
+      "action": "Comment selection",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window",
+      "action": "Toggle between Edit Movie and Edit Symbol Mode",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window",
+      "action": "Show/Hide Timeline",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Group",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Ungroup",
+      "keys": [["Ctrl", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Break Apart",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Paste in Place",
+      "keys": [["Ctrl", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Duplicate",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Select All",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Deselect All",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Import Library",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Align Window",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Save As",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Scale and Rotate",
+      "keys": [["Ctrl", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Remove Transform",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Move Ahead",
+      "keys": [["Ctrl", "Up Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Move Behind",
+      "keys": [["Ctrl", "Down Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Bring to Front",
+      "keys": [["Ctrl", "Shift", "Up Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Send to Back",
+      "keys": [["Ctrl", "Shift", "Down Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Show or hide Transform Panel",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Narrower letterspacing (kerning)",
+      "keys": [["Ctrl", "Alt", "Left Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and modify",
+      "action": "Wider letterspacing (kerning)",
+      "keys": [["Ctrl", "Alt", "Right Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Remove rotation or scaling from the selected objects",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Rotate the selection to 90 degrees left",
+      "keys": [["Ctrl", "Shift", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Scale and/or rotate the selection using numeric values",
+      "keys": [["Ctrl", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Auto formats the editor code",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show hidden characters",
+      "keys": [["Ctrl", "Shift", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Suppresses highlighting of selected items",
+      "keys": [["Ctrl", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the rulers",
+      "keys": [["Ctrl", "Shift", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show Frame Script Navigator",
+      "keys": [["Ctrl", "Alt", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the tweening shape hints",
+      "keys": [["Ctrl", "Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show a smaller area of the drawing with more detail",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show a larger area of the drawing with less detail",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the Align panel",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the Color panel",
+      "keys": [["Ctrl", "Shift", "F9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the Compiler Errors panel",
+      "keys": [["Alt", "F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Open a new window in the front most simulation that is a duplicate of the active window",
+      "keys": [["Ctrl", "Alt", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the History panel",
+      "keys": [["Ctrl", "F10"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide Info Panel",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the Library panel for this document",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the Property Inspector",
+      "keys": [["Ctrl", "F3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or change a list of the scenes in the current movie",
+      "keys": [["Shift", "F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Select colors from swatches and manage swatches",
+      "keys": [["Ctrl", "F9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the animation timeline and layers controls",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Show or hide the drawing toolbar",
+      "keys": [["Ctrl", "F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Increase onion skin marker size on both directions equally",
+      "keys": [["Ctrl", "drag towards right/left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous actions",
+      "action": "Shifts the entire range of onion skin markers to the right/left respectively",
+      "keys": [["Shift", "drag towards right/left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { useAppStore } from "@/store";
 import { AppCard } from "./AppCard";
 import { WindowControls } from "./WindowControls";
+import { sortCategories } from "@/data/categoryOrder";
 
 import logoUrl from "@/assets/yourctrl.png";
 
@@ -57,7 +58,8 @@ export function Dashboard() {
       }
       map.get(a.category)!.push(a);
     }
-    return order.map((c) => [c, map.get(c)!] as const);
+    const sortedOrder = sortCategories(order);
+    return sortedOrder.map((c) => [c, map.get(c)!] as const);
   }, [filtered]);
 
   return (

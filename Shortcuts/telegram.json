@@ -1,0 +1,541 @@
+{
+  "app_name": "Telegram",
+  "process_name": "Telegram.exe",
+  "category": "Communication",
+  "platforms": ["windows"],
+  "icon_slug": "telegram",
+  "brand_color": "#2AABEE",
+  "shortcuts": [
+    {
+      "section": "Chats",
+      "action": "In-chat navigation (up)",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "In-chat navigation (down)",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "In-chat navigation (page up)",
+      "keys": [["PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "In-chat navigation (page down)",
+      "keys": [["PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat below",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat below",
+      "keys": [["Ctrl", "PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat below",
+      "keys": [["Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat above",
+      "keys": [["Ctrl", "Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat above",
+      "keys": [["Ctrl", "PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Move to the chat above",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Exit / go back / cancel current action",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chats",
+      "action": "Send file",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Move to the folder below",
+      "keys": [["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Move to the folder above",
+      "keys": [["Ctrl", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 1",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 2",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 3",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 4",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 5",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 6",
+      "keys": [["Ctrl", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump directly to folder 7",
+      "keys": [["Ctrl", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Folders",
+      "action": "Jump to the last folder",
+      "keys": [["Ctrl", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Reply to a message",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Reply to a message",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Cancel reply",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Cancel reply",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Edit last message sent",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Delete currently selected message",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Zoom image/video in",
+      "keys": [["Ctrl", "PadNum+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Zoom image/video out",
+      "keys": [["Ctrl", "PadNum-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Search selected chat",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Exit search",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Search contact",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "QuickShare Panel",
+      "action": "Select chat",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "QuickShare Panel",
+      "action": "Remove chat",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "QuickShare Panel",
+      "action": "Remove chat",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "QuickShare Panel",
+      "action": "Send message",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Bottom of chat / scroll chat list to top",
+      "keys": [["Alt", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Saved Messages",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Jump directly to pinned chat 1",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Jump directly to pinned chat 2",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Jump directly to pinned chat 3",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Jump directly to pinned chat 4",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Jump directly to pinned chat 5",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Jump to",
+      "action": "Archived chat",
+      "keys": [["Ctrl", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Related",
+      "action": "Minimize to system tray",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Related",
+      "action": "Minimize to system tray",
+      "keys": [["Alt", "F4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Related",
+      "action": "Quit Telegram",
+      "keys": [["Ctrl", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Related",
+      "action": "Lock Telegram",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Related",
+      "action": "Minimize Telegram",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Bold",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Italic",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Create link",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Underline",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Monospace",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Plain / null text",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Spoiler",
+      "keys": [["Ctrl", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Strikethrough",
+      "keys": [["Ctrl", "Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selected Text",
+      "action": "Quote",
+      "keys": [["Ctrl", "Shift", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

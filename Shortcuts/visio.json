@@ -1,0 +1,2434 @@
+{
+  "app_name": "Microsoft Visio",
+  "process_name": "VISIO.EXE",
+  "category": "Productivity",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "microsoftvisio",
+  "brand_color": "#3955A3",
+  "shortcuts": [
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Cycle the focus through the left frame, the drawing, and shapes that contain shape data, hyperlinks, and the address bar.",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Enter the full-screen view.",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Exit the full-screen view.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Open the Home tab on the ribbon.",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Open the Text dialog box.",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Open the Format Shape task pane.",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Group the selected shapes.",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Bring the selected shape to the front.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Select the Pointer Tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Select the text tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Select the text block tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Move between master shapes in a stencil.",
+      "keys": [
+        [
+          "Arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Enter the full-screen view.",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Exit the full-screen view.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Open the next page in the drawing.",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Return to the previous page in the drawing.",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Cycle the focus through the left frame, the drawing, and shapes that contain shape data, hyperlinks, and the address bar.",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Activate the hyperlink for the shape or hyperlink on the drawing that has the focus.",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one character to the left.",
+      "keys": [
+        [
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one character to the right.",
+      "keys": [
+        [
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one line up.",
+      "keys": [
+        [
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one line down.",
+      "keys": [
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one word to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move one word to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move to the end of the line.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move to the beginning of the line.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move up one paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move down one paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move to the end of a text box.",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate in Visio",
+      "action": "Move to the beginning of a text box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Open the Home tab in the ribbon.",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Open the Text dialog box.",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Open the Format Shape task pane.",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch bold formatting on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch italic formatting on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch underline formatting on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch double underline on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch all caps mode on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch small caps mode on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch subscript formatting on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Switch superscript formatting on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Increase the font size of the selected text.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Decrease the font size of the selected text.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the next character.",
+      "keys": [
+        [
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the previous character.",
+      "keys": [
+        [
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the next line of text.",
+      "keys": [
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the previous line of text.",
+      "keys": [
+        [
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the next word.",
+      "keys": [
+        [
+          "Ctrl",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the previous word.",
+      "keys": [
+        [
+          "Ctrl",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the next paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow key"
+        ],
+        [
+          "Ctrl",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Move to the previous paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select all text in a text block.",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the next character.",
+      "keys": [
+        [
+          "Shift",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the previous character.",
+      "keys": [
+        [
+          "Shift",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the next word.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the previous word.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the next line.",
+      "keys": [
+        [
+          "Shift",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the previous line.",
+      "keys": [
+        [
+          "Shift",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the next paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Select the previous paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Delete the previous word.",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Replace the selected text with the field height.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Align text left.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Center text horizontally.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Align text right.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Justify text horizontally.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Top-align text vertically.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Center text vertically.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and format text",
+      "action": "Bottom-align text vertically.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snap & Glue",
+      "action": "Open the Snap & Glue dialog box.",
+      "keys": [
+        [
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Group the selected shapes.",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Ungroup shapes in the selected group.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Bring the selected shape to the front.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Send the selected shape to the back.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Rotate the selected shape to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Rotate the selected shape to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Flip the selected shape horizontally.",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Flip the selected shape vertically.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Group, rotate, and flip shapes",
+      "action": "Open the Align Shapes dialog box for the selected shape.",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display drawing windows",
+      "action": "Display the open drawing windows tiled vertically.",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display drawing windows",
+      "action": "Display the open drawing windows tiled horizontally.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display drawing windows",
+      "action": "Display the open drawing windows so that the title of every window is visible.",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Switch the Format Painter tool on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the Pointer Tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the Connector tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the connection point tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the text tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the text block tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the rectangle tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the ellipse tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the line tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the arc tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the freeform tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select tools",
+      "action": "Select the pencil tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop a picture",
+      "action": "Select the crop tool.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move from shape to shape on the drawing page.",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Select a shape that has focus.",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Clear selection of or focus on a shape.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Switch between text edit mode and shape selection mode on the selected shape.",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Nudge the selected shape.",
+      "keys": [
+        [
+          "Arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Nudge the selected shape one pixel at a time.",
+      "keys": [
+        [
+          "Shift",
+          "Arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move between master shapes in a stencil.",
+      "keys": [
+        [
+          "Arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move to the first master shape in a row of a stencil.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move to the last master shape in a row of a stencil.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move to the first master shape in a column of a stencil.",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Move to the last master shape in a column of a stencil.",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Copy the selected master shapes to the clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Paste the contents of the clipboard to a new stencil.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Select all the master shapes in a stencil.",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Select or cancel selection of a master shape that has the focus.",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Cancel the selection of master shapes in a stencil.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Insert the selected master shapes into the drawing.",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Delete the selected master shape.",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Cut the selected master shape from the custom stencil and put it on the clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Shapes and stencils",
+      "action": "Rename the selected master shape.",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Switch to the next window.",
+      "keys": [
+        [
+          "Alt",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Close the active window.",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to a task pane from another pane in the app window.",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Maximize a selected window.",
+      "keys": [
+        [
+          "Ctrl",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Restore the size of the Visio app window after you maximized it.",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Copy a picture of the screen to the clipboard.",
+      "keys": [
+        [
+          "Print Screen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Copy a picture of the selected window to the clipboard.",
+      "keys": [
+        [
+          "Alt",
+          "Print Screen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Display the window shortcut menu for a window with an icon in its title bar.",
+      "keys": [
+        [
+          "Alt",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open the Page dialog box.",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open the Reorder Pages dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Cycle the focus through open drawings.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ],
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Cycle the focus through open drawings in reverse order.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Cycle the focus through pages in a drawing.",
+      "keys": [
+        [
+          "Ctrl",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Cycle the focus through pages in a drawing in reverse order.",
+      "keys": [
+        [
+          "Ctrl",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "When a task pane is active, select the next or previous option in the task pane.",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open the Help pane.",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select the next item in the Help pane.",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select the previous item in the Help pane.",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move back to the Help home.",
+      "keys": [
+        [
+          "Alt",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Scroll small amounts up or down within the currently displayed help topic.",
+      "keys": [
+        [
+          "Up arrow key"
+        ],
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Scroll larger amounts up or down within the currently displayed help topic.",
+      "keys": [
+        [
+          "Page up"
+        ],
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move between choices on a selected submenu or move between options within a group of options in a dialog box.",
+      "keys": [
+        [
+          "Down arrow key"
+        ],
+        [
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open the selected menu, or perform the action assigned to the selected button.",
+      "keys": [
+        [
+          "Spacebar"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open a shortcut menu.",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Windows Menu key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "When a menu or submenu is visible, select the first on the menu or submenu.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "When a menu or submenu is visible, select the last command on the menu or submenu.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the next option or option group in a dialog box.",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the previous option or option group in a dialog box.",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Switch to the next tab in a dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Switch to the previous tab in a dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move between options in an open dropdown list, or between options in a group of options.",
+      "keys": [
+        [
+          "Arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Perform the action assigned to the selected button; select or clear the selected checkbox.",
+      "keys": [
+        [
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open the selected dropdown list.",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Close the selected dropdown list, or cancel a command and close a dialog box.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Perform the action assigned to the default button in a dialog box.",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the beginning of the entry in an edit box.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the end of the entry in an edit box.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move one character to the left or right in an edit box.",
+      "keys": [
+        [
+          "Left arrow key"
+        ],
+        [
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move one word to the left in an edit box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move one word to the right in an edit box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select or cancel selection one character to the left in an edit box.",
+      "keys": [
+        [
+          "Shift",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select or cancel selection one character to the right in an edit box.",
+      "keys": [
+        [
+          "Shift",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select or cancel selection one word to the left in an edit box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select or cancel selection one word to the right in an edit box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select from the insertion point to the beginning of the entry.",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Select from the insertion point to the end of the entry.",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the Save as type list or file type list in the Open and Save As dialog boxes.",
+      "keys": [
+        [
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Move to the File name box in the Save As dialog box.",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Open a selected file in the Open dialog box.",
+      "keys": [
+        [
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Save the current file in the Save dialog box.",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Update the file list.",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows, task panes, and dialog boxes",
+      "action": "Display a shortcut menu for a selected item such as a folder or file.",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Windows Menu key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom in.",
+      "keys": [
+        [
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom out.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Fit the view to the window.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

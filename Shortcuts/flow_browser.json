@@ -1,0 +1,256 @@
+{
+  "app_name": "Flow Browser",
+  "process_name": "Flow.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "flowbrowser",
+  "brand_color": "#6366F1",
+  "shortcuts": [
+    {
+      "section": "Tabs",
+      "action": "New Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Close Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Reload",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Force Reload",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Copy URL",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Toggle DevTools",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tab",
+      "action": "Find in Page",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go Back",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go Forward",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Toggle Command Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Browser",
+      "action": "Open Settings",
+      "keys": [
+        [
+          "Ctrl",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Browser",
+      "action": "New Window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Browser",
+      "action": "Close Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Browser",
+      "action": "Toggle Sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Spaces",
+      "action": "Switch to Space 1-9",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ],
+        [
+          "Ctrl",
+          "5"
+        ],
+        [
+          "Ctrl",
+          "6"
+        ],
+        [
+          "Ctrl",
+          "7"
+        ],
+        [
+          "Ctrl",
+          "8"
+        ],
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

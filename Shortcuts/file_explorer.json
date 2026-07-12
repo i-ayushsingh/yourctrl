@@ -1,0 +1,343 @@
+{
+  "app_name": "File Explorer",
+  "process_name": "explorer.exe",
+  "category": "Windows OS",
+  "platforms": ["windows"],
+  "icon_slug": "windows",
+  "brand_color": "#0078D4",
+  "shortcuts": [
+    {
+      "section": "General",
+      "action": "Open File Explorer",
+      "keys": [["Win", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Select the address bar",
+      "keys": [["Alt", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Display properties for the selected item",
+      "keys": [["Alt", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate to the previous folder",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate to the previous folder",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "View the next folder",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Show or hide the preview pane",
+      "keys": [["Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Show or hide the details pane",
+      "keys": [["Alt", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move up a level in the folder path",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus on the address bar",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Select the address bar to change the current path",
+      "keys": [["F4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Refresh the window",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Cycle through elements in the window",
+      "keys": [["F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Scroll to the bottom of the active window",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Scroll to the top of the active window",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Delete the selected item and move it to the Recycle Bin",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Delete the selected item and move it to the Recycle Bin",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Select the search box",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Select the search box",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Rename the selected item",
+      "keys": [["F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Search for a file or folder",
+      "keys": [["F3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Maximize or minimize the active window",
+      "keys": [["F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Permanently delete the selected item without moving it to the Recycle Bin",
+      "keys": [["Shift", "Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Operations",
+      "action": "Display the context menu for the selected item",
+      "keys": [["Shift", "F10"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select multiple items",
+      "keys": [["Shift", "Arrow"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Collapse the current selection (if expanded), or select the parent folder",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Display the current selection (if collapsed), or select the first subfolder",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Open a new window",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Move to that tab number (1-9)",
+      "keys": [["Ctrl", "Number"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Resize all columns to fit text (numeric keypad)",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Expand all folders from the tree in the navigation pane",
+      "keys": [["Ctrl", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Create a new folder",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Change the view style (2 = Large icons, 6 = Details, etc.)",
+      "keys": [["Ctrl", "Shift", "Number"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Move to the previous tab",
+      "keys": [["Ctrl", "Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Open a new tab and switch to it",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Close the active tab (closes the window if only one tab)",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tabs & Views",
+      "action": "Move to the next tab",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

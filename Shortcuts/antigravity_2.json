@@ -1,0 +1,33 @@
+{
+  "app_name": "Antigravity 2",
+  "process_name": "antigravity.exe",
+  "category": "AI",
+  "platforms": ["windows"],
+  "icon_slug": "antigravity-2",
+  "brand_color": "#7C3AED",
+  "shortcuts": [
+    { "section": "Recommended", "action": "Open Conversation Picker", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recommended", "action": "Open File Search", "keys": [["Ctrl", "P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recommended", "action": "Focus Input", "keys": [["Ctrl", "L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recommended", "action": "New Conversation", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Go Back", "keys": [["Ctrl", "["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Go Forward", "keys": [["Ctrl", "]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "File Picker", "keys": [["Ctrl", "P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "New Conversation", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Open Conversation Picker", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Scheduled Tasks", "keys": [["Ctrl", "U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Select Previous Conversation", "keys": [["Alt", "Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Select Next Conversation", "keys": [["Alt", "Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Open Settings", "keys": [["Ctrl", ","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation", "action": "New Conversation", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation", "action": "Focus Input", "keys": [["Ctrl", "L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation", "action": "Toggle Model Selector", "keys": [["Ctrl", "/"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation", "action": "Toggle Voice Recording", "keys": [["Ctrl", "M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation", "action": "Find in Pane", "keys": [["Ctrl", "F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Layout", "action": "Toggle Sidebar", "keys": [["Ctrl", "B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Layout", "action": "Toggle Auxiliary Pane", "keys": [["Ctrl", "Shift", "B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Layout", "action": "Zoom In", "keys": [["Ctrl", "="]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Layout", "action": "Zoom Out", "keys": [["Ctrl", "-"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Layout", "action": "Reset Zoom", "keys": [["Ctrl", "0"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

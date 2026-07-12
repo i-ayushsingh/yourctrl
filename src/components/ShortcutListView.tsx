@@ -1,11 +1,13 @@
-import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, Search, ChevronLeft, ChevronRight, AlertTriangle } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { ArrowLeft, Search, ChevronLeft, ChevronRight, AlertTriangle, Download, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useAppStore } from "@/store";
 import { filterShortcuts } from "@/filter";
 import { AppIcon } from "./AppIcon";
 import { ShortcutGroups } from "./ShortcutGroups";
+import { ShortcutExportSheet } from "./ShortcutExportSheet";
+import { exportShortcutPng, exportShortcutPdf } from "@/lib/export";
 import { WindowControls } from "./WindowControls";
 
 export function ShortcutListView() {
@@ -13,7 +15,10 @@ export function ShortcutListView() {
   const openApp = useAppStore((s) => s.openApp);
   const back = useAppStore((s) => s.backToDashboard);
   const openReportWithPrefill = useAppStore((s) => s.openReportWithPrefill);
+  const accentColor = useAppStore((s) => s.accentColor);
   const [query, setQuery] = useState("");
+  const [exportOpen, setExportOpen] = useState(false);
+  const exportSheetRef = useRef<HTMLDivElement>(null);
   const apps = useAppStore((s) => s.apps);
 
   const appsByName = useMemo(() => {
@@ -99,6 +104,16 @@ export function ShortcutListView() {
               <AlertTriangle className="size-4" />
               Report
             </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="gap-2 text-muted-foreground hover:text-foreground"
+              onClick={() => setExportOpen(true)}
+              title="Export a cheat sheet (PNG or PDF)"
+            >
+              <Download className="size-4" />
+              Export
+            </Button>
             <div className="relative w-56">
               <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
               <Input
@@ -141,6 +156,52 @@ export function ShortcutListView() {
           </button>
         )}
       </div>
+
+      {/* Export cheat-sheet modal */}
+      {/* TODO: add a bulk "export all pinned/favorited apps" option once a
+          favorites/pinning concept exists in the store. For now only single-app
+          export is shipped (no favorites concept exists yet). */}
+      {app && exportOpen && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-6"
+          onClick={() => setExportOpen(false)}
+        >
+          <div
+            className="flex max-h-[88vh] w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-border px-4 py-2.5">
+              <span className="text-sm font-semibold">Export cheat sheet</span>
+              <Button variant="ghost" size="icon" onClick={() => setExportOpen(false)} aria-label="Close">
+                <X className="size-4" />
+              </Button>
+            </div>
+            <div className="flex-1 overflow-auto bg-muted/30 p-6">
+              <div className="mx-auto w-fit rounded-lg shadow-lg">
+                <ShortcutExportSheet ref={exportSheetRef} app={app} accent={accentColor} />
+              </div>
+            </div>
+            <div className="flex items-center justify-end gap-2 border-t border-border px-4 py-3">
+              <Button variant="ghost" size="sm" onClick={() => setExportOpen(false)}>
+                Cancel
+              </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => exportSheetRef.current && void exportShortcutPng(exportSheetRef.current, app.app_name)}
+              >
+                Export PNG
+              </Button>
+              <Button
+                size="sm"
+                onClick={() => exportSheetRef.current && void exportShortcutPdf(exportSheetRef.current, app.app_name)}
+              >
+                Export PDF
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

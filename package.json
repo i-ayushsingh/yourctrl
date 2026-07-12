@@ -1,7 +1,7 @@
 {
   "name": "yourctrl",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,22 +10,22 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@fluentui/react-components": "^9.54.0",
-    "@fluentui/react-icons": "^2.0.245",
     "@fontsource-variable/geist": "^5.2.9",
     "@fontsource-variable/geist-mono": "^5.2.8",
-    "@iconify-json/logos": "^1.2.11",
     "@iconify/react": "^6.0.2",
     "@tailwindcss/vite": "^4.3.2",
     "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.7.1",
+    "@tauri-apps/plugin-fs": "^2.5.1",
     "@tauri-apps/plugin-process": "^2.3.1",
     "@tauri-apps/plugin-updater": "^2.10.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "framer-motion": "^12.42.1",
+    "html-to-image": "^1.11.13",
+    "jspdf": "^4.2.1",
     "lucide-react": "^1.22.0",
-    "next-themes": "^0.4.6",
     "radix-ui": "^1.6.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -41,7 +41,6 @@
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "simple-icons": "^16.24.1",
     "typescript": "^5.6.2",
     "vite": "^5.4.0"
   }

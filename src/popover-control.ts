@@ -3,9 +3,8 @@
 // the popover route in a small separate window so the surface is still a real window,
 // never an in-app modal (per the UI build spec).
 
-export function isTauri(): boolean {
-  return typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
-}
+import { useAppStore } from "@/store";
+import { isTauri } from "./lib/tauri";
 
 /** Mock "Ctrl-hold" trigger for this build pass. */
 export async function showPopover(): Promise<void> {
@@ -29,6 +28,15 @@ export async function dismissPopover(): Promise<void> {
     return;
   }
   window.close();
+}
+
+/**
+ * Like {@link dismissPopover} but respects the pinned state: when the popover is
+ * pinned it stays on screen after Ctrl is released or focus is lost.
+ */
+export async function requestDismissPopover(): Promise<void> {
+  if (useAppStore.getState().pinned) return;
+  await dismissPopover();
 }
 
 /** From the popover's unsupported state: bring the main window forward. */

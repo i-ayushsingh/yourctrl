@@ -1,0 +1,325 @@
+{
+  "app_name": "Notepad",
+  "process_name": "notepad.exe",
+  "category": "Windows OS",
+  "platforms": ["windows"],
+  "icon_slug": "windows",
+  "brand_color": "#0078D4",
+  "shortcuts": [
+    {
+      "section": "File Management",
+      "action": "Create a new document",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File Management",
+      "action": "Open an existing file",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File Management",
+      "action": "Save the current document",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File Management",
+      "action": "Save as",
+      "keys": [["F12"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File Management",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File Management",
+      "action": "Close Notepad",
+      "keys": [["Alt", "F4"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Undo the last action",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Redo the undone action",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Cut the selected text",
+      "keys": [["Ctrl", "X"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Copy the selected text",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Paste text from the clipboard",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Delete the selected text",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Select all text",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Insert the current date and time",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Enable or disable word wrap",
+      "keys": [["Alt", "O"], ["F"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Reset text zoom",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to the beginning of the line",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to the end of the line",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to the beginning of the document",
+      "keys": [["Ctrl", "Home"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to the end of the document",
+      "keys": [["Ctrl", "End"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move the view one screen up",
+      "keys": [["PageUp"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move the view one screen down",
+      "keys": [["PageDown"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Find & Replace",
+      "action": "Find text",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Find & Replace",
+      "action": "Find the next occurrence",
+      "keys": [["F3"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Find & Replace",
+      "action": "Find the previous occurrence",
+      "keys": [["Shift", "F3"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Find & Replace",
+      "action": "Replace text",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Find & Replace",
+      "action": "Go to a specified line (when line numbers are enabled)",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Open the window system menu (minimize, maximize, move)",
+      "keys": [["Alt", "Space"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Switch between tabs (Windows 11 tab support)",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Restore a closed tab (Windows 11)",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Special",
+      "action": "Open help",
+      "keys": [["F1"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Special",
+      "action": "Create a new Notepad in a separate window (Windows 11)",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Special",
+      "action": "Close the current tab (Windows 11)",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Special",
+      "action": "Move the tab left (Windows 11)",
+      "keys": [["Alt", "Shift", "Left"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Special",
+      "action": "Move the tab right (Windows 11)",
+      "keys": [["Alt", "Shift", "Right"]],
+      "os": "windows",
+      "source": "qwerty.school",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

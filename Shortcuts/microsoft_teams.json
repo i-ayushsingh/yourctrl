@@ -1,0 +1,1009 @@
+{
+  "app_name": "Microsoft Teams",
+  "process_name": "ms-teams.exe",
+  "category": "Communication",
+  "platforms": ["windows"],
+  "icon_slug": "teams",
+  "brand_color": "#6264A7",
+  "shortcuts": [
+    {
+      "section": "General",
+      "action": "Show keyboard shortcuts",
+      "keys": [["Ctrl", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Show keyboard shortcuts",
+      "keys": [["Alt", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Go to Search",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open filter",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Start a new chat",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Start a chat in a new window",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open Settings",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open Help",
+      "keys": [["F1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Close",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Reset zoom level",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Report a problem",
+      "keys": [["Ctrl", "Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Go to a specific chat or channel",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Move focus to pane divider",
+      "keys": [["Ctrl", "Alt", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Return pane to the default width",
+      "keys": [["Ctrl", "Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Pin a window on top",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open existing conversation in new window",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 1st app on app bar",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 2nd app on app bar",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 3rd app on app bar",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 4th app on app bar",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 5th app on app bar",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 6th app on app bar",
+      "keys": [["Ctrl", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 7th app on app bar",
+      "keys": [["Ctrl", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 8th app on app bar",
+      "keys": [["Ctrl", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open 9th app on app bar",
+      "keys": [["Ctrl", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Add Loop paragraph",
+      "keys": [["Alt", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move focus to chat or channel list",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move focus to message pane",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move focus to toast",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to compose box",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open history menu",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to previous section",
+      "keys": [["Ctrl", "Shift", "F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to next section",
+      "keys": [["Ctrl", "F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go back",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Go forward",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move focus to notification",
+      "keys": [["Win", "Shift", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Collapse all conversational folders",
+      "keys": [["Alt", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Mark all as read",
+      "keys": [["Shift", "Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Jump to last read or newest message",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Find in current chat or channel",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 1st tab on chat header",
+      "keys": [["Alt", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 2nd tab on chat header",
+      "keys": [["Alt", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 3rd tab on chat header",
+      "keys": [["Alt", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 4th tab on chat header",
+      "keys": [["Alt", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 5th tab on chat header",
+      "keys": [["Alt", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 6th tab on chat header",
+      "keys": [["Alt", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 7th tab on chat header",
+      "keys": [["Alt", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 8th tab on chat header",
+      "keys": [["Alt", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Open 9th tab on chat header",
+      "keys": [["Alt", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Toggle details pane",
+      "keys": [["Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Reply to the last message",
+      "keys": [["Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "React to the last message",
+      "keys": [["Ctrl", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "See all unread chats",
+      "keys": [["Ctrl", "Alt", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "See all chat conversations",
+      "keys": [["Ctrl", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "See all channel conversations",
+      "keys": [["Ctrl", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "See all meeting chats",
+      "keys": [["Ctrl", "Alt", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Clear all filters",
+      "keys": [["Ctrl", "Alt", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Expand compose box",
+      "keys": [["Ctrl", "Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Send (expanded compose box)",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Paragraph style",
+      "keys": [["Ctrl", "Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Insert block quote",
+      "keys": [["Ctrl", "Alt", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Attach file",
+      "keys": [["Alt", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Start new line",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply heading 1 style",
+      "keys": [["Ctrl", "Alt", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply heading 2 style",
+      "keys": [["Ctrl", "Alt", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply heading 3 style",
+      "keys": [["Ctrl", "Alt", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply bold style",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply italic style",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply underline style",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Apply strikethrough style",
+      "keys": [["Ctrl", "Alt", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Mark message as important",
+      "keys": [["Ctrl", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Rewrite with Copilot",
+      "keys": [["Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Open video recorder",
+      "keys": [["Alt", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Add Loop paragraph",
+      "keys": [["Ctrl", "Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Insert link",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Insert inline code",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Insert code block",
+      "keys": [["Ctrl", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Compose",
+      "action": "Insert code",
+      "keys": [["Ctrl", "Alt", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Accept video call",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Accept audio call",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Decline call",
+      "keys": [["Ctrl", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Start audio call",
+      "keys": [["Alt", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Start video call",
+      "keys": [["Alt", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Toggle full screen",
+      "keys": [["F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Toggle mute",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Toggle speaker",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Temporarily unmute",
+      "keys": [["Ctrl", "Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Raise or lower your hand",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Toggle video",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Toggle share content tray",
+      "keys": [["Ctrl", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Schedule a meeting",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Save or send meeting request",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meetings & Calls",
+      "action": "Create a meeting request",
+      "keys": [["Ctrl", "Shift", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open the calendar view",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open Day view",
+      "keys": [["Alt", "Shift", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open Work week view",
+      "keys": [["Alt", "Shift", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open Week view",
+      "keys": [["Alt", "Shift", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open Month view",
+      "keys": [["Alt", "Shift", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Open agenda in Month view",
+      "keys": [["Alt", "Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Go to previous time period",
+      "keys": [["Ctrl", "Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Go to next time period",
+      "keys": [["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Print calendar",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Create a new event",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar",
+      "action": "Send a meeting",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity feed",
+      "action": "Mark all as read",
+      "keys": [["Ctrl", "Alt", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity feed",
+      "action": "See all unread activity",
+      "keys": [["Ctrl", "Alt", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity feed",
+      "action": "Filter activity to missed calls",
+      "keys": [["Ctrl", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity feed",
+      "action": "Filter activity to @ mentions",
+      "keys": [["Ctrl", "Alt", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Debug",
+      "action": "Download diagnostic logs",
+      "keys": [["Ctrl", "Alt", "Shift", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

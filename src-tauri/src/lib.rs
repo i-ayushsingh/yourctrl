@@ -157,10 +157,24 @@ fn set_autostart(enabled: bool) {
     }
 }
 
+#[derive(Serialize, Deserialize, Clone, Default)]
+struct PinnedPosition {
+    x: i32,
+    y: i32,
+}
+
 #[derive(Serialize, Deserialize)]
 struct Settings {
     #[serde(default = "default_theme")]
     theme: String,
+    #[serde(default)]
+    accent_color: Option<String>,
+    #[serde(default)]
+    match_os_accent: bool,
+    #[serde(default)]
+    pinned: bool,
+    #[serde(default)]
+    pinned_position: Option<PinnedPosition>,
     #[serde(default)]
     excluded: Vec<String>,
     #[serde(default = "default_hold_ms")]
@@ -195,6 +209,10 @@ impl Default for Settings {
     fn default() -> Self {
         Self {
             theme: default_theme(),
+            accent_color: None,
+            match_os_accent: false,
+            pinned: false,
+            pinned_position: None,
             excluded: Vec::new(),
             hold_ms: default_hold_ms(),
             trigger_type: default_trigger_type(),
@@ -257,6 +275,7 @@ struct AppState {
     trigger_type: Mutex<String>,
     settings_path: Mutex<PathBuf>,
     disable_unsupported_trigger: std::sync::atomic::AtomicBool,
+    pinned: std::sync::atomic::AtomicBool,
     popover_position: Mutex<String>,
     popover_opacity: Mutex<f64>,
     popover_scale: Mutex<f64>,
@@ -579,6 +598,11 @@ fn check_hotkey_conflict(_hotkey_str: &str) -> bool { false }
 
 fn configure_popover_window(app: &tauri::AppHandle) {
     if let Some(win) = app.get_webview_window("popover") {
+        // When pinned, the user controls the window position; leave it where it is.
+        if app.state::<AppState>().pinned.load(Ordering::Relaxed) {
+            return;
+        }
+
         let (position_pref, scale_pref) = {
             let state = app.state::<AppState>();
             let pos = state.popover_position.lock().unwrap().clone();
@@ -645,7 +669,7 @@ fn configure_popover_window(app: &tauri::AppHandle) {
 fn trigger_popover(app: &tauri::AppHandle) {
     let proc = foreground_process_name().unwrap_or_default();
     let state = app.state::<AppState>();
-    let app_name = state.process_map.lock().unwrap().get(&proc).cloned();
+    let app_name = state.process_map.lock().unwrap().get(&proc.to_lowercase()).cloned();
 
     // If the setting is on and the app is unsupported, do not trigger the popover.
     // Except for explorer.exe which represents the desktop (we always want to allow the desktop popover).
@@ -791,7 +815,9 @@ fn spawn_detection(app: tauri::AppHandle) {
                     press_count = 0;
                     if let Some(win) = app.get_webview_window("popover") {
                         if win.is_visible().unwrap_or(false) {
-                            let _ = win.hide();
+                            if !app.state::<AppState>().pinned.load(Ordering::Relaxed) {
+                                let _ = win.hide();
+                            }
                         } else {
                             trigger_popover_desktop(&app);
                         }
@@ -808,13 +834,15 @@ fn spawn_detection(app: tauri::AppHandle) {
                     }
                 } else if popover_shown_by_hold {
                     if ctrl && !last_ctrl_state {
-                        if let Some(win) = app.get_webview_window("popover") {
-                            let _ = win.hide();
+                        if !app.state::<AppState>().pinned.load(Ordering::Relaxed) {
+                            if let Some(win) = app.get_webview_window("popover") {
+                                let _ = win.hide();
+                            }
+                            popover_shown_by_hold = false;
+                            last_ctrl_state = true;
+                            std::thread::sleep(Duration::from_millis(300));
+                            continue;
                         }
-                        popover_shown_by_hold = false;
-                        last_ctrl_state = true;
-                        std::thread::sleep(Duration::from_millis(300));
-                        continue;
                     }
                 }
             } else {
@@ -882,6 +910,43 @@ fn focus_main(app: tauri::AppHandle) -> Result<(), String> {
         window.set_focus().map_err(|e| e.to_string())?;
     }
     Ok(())
+}
+
+/// Toggles the popover window's "pinned" (always-on-top) state. While pinned,
+/// the popover stays visible after Ctrl is released and the Rust detection loop
+/// will not auto-hide it.
+#[tauri::command]
+fn set_pinned(app: tauri::AppHandle, pinned: bool) {
+    app.state::<AppState>().pinned.store(pinned, Ordering::Relaxed);
+    if let Some(win) = app.get_webview_window("popover") {
+        let _ = win.set_always_on_top(pinned);
+    }
+}
+
+/// Best-effort read of the Windows accent color (DWM colorization color).
+/// Returns a `#RRGGBB` string, or null if unavailable (non-Windows or failure).
+#[tauri::command]
+fn get_windows_accent_color() -> Option<String> {
+    #[cfg(windows)]
+    {
+        use windows::Win32::Graphics::Dwm::DwmGetColorizationColor;
+        use windows::Win32::Foundation::BOOL;
+        unsafe {
+            let mut color: u32 = 0;
+            let mut opaque: BOOL = BOOL(0);
+            if DwmGetColorizationColor(&mut color, &mut opaque).is_ok() {
+                let r = (color >> 16) & 0xFF;
+                let g = (color >> 8) & 0xFF;
+                let b = color & 0xFF;
+                return Some(format!("#{:02X}{:02X}{:02X}", r, g, b));
+            }
+        }
+        None
+    }
+    #[cfg(not(windows))]
+    {
+        None
+    }
 }
 
 #[cfg(windows)]
@@ -1035,9 +1100,12 @@ fn load_settings(state: tauri::State<AppState>) -> Settings {
 fn save_settings(
     state: tauri::State<AppState>,
     theme: String,
+    accent_color: Option<String>,
+    match_os_accent: bool,
+    pinned: bool,
+    pinned_position: Option<PinnedPosition>,
     excluded: Vec<String>,
     hold_ms: u64,
-    trigger_type: String,
     autostart: bool,
     start_minimized: bool,
     disable_unsupported_trigger: bool,
@@ -1052,10 +1120,6 @@ fn save_settings(
 ) {
     state.hold_ms.store(hold_ms.max(150), Ordering::Relaxed);
     state.disable_unsupported_trigger.store(disable_unsupported_trigger, Ordering::Relaxed);
-    {
-        let mut tr = state.trigger_type.lock().unwrap();
-        *tr = trigger_type.clone();
-    }
     {
         let mut ex = state.excluded.lock().unwrap();
         *ex = excluded.iter().cloned().collect();
@@ -1089,9 +1153,13 @@ fn save_settings(
         &path,
         &Settings {
             theme,
+            accent_color,
+            match_os_accent,
+            pinned,
+            pinned_position,
             excluded,
             hold_ms,
-            trigger_type,
+            trigger_type: default_trigger_type(),
             autostart,
             start_minimized,
             disable_unsupported_trigger,
@@ -1145,6 +1213,7 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
     let conn = state.db_pool.get().map_err(|e| e.to_string())?;
 
     // Clear existing
+    conn.execute("DELETE FROM shortcut_overrides", []).map_err(|e| e.to_string())?;
     conn.execute("DELETE FROM shortcuts", []).map_err(|e| e.to_string())?;
     conn.execute("DELETE FROM apps", []).map_err(|e| e.to_string())?;
 
@@ -1211,6 +1280,8 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
         let mut pm = state.process_map.lock().unwrap();
         *pm = process_map;
     }
+
+    let _ = conn.execute("PRAGMA user_version = 2", []);
 
     get_apps(state)
 }
@@ -1436,13 +1507,19 @@ fn build_state() -> AppState {
     let manager = SqliteConnectionManager::file(&db_path);
     let db_pool = Pool::new(manager).expect("Failed to create SQLite connection pool");
 
-    // Initialize schema and seed database if empty
+    // Initialize schema and seed database if empty or outdated
     {
         let conn = db_pool.get().expect("Failed to get connection from pool during init");
         init_db(&conn).expect("Failed to initialize database tables and triggers");
         
+        let db_version: i32 = conn.query_row("PRAGMA user_version", [], |row| row.get(0)).unwrap_or(0);
+        const CURRENT_DB_VERSION: i32 = 5; // Increment when apps.json is updated to force re-seed
+
         let count: i64 = conn.query_row("SELECT COUNT(*) FROM apps", [], |row| row.get(0)).unwrap_or(0);
-        if count == 0 {
+        if count == 0 || db_version < CURRENT_DB_VERSION {
+            let _ = conn.execute("DELETE FROM shortcuts", []);
+            let _ = conn.execute("DELETE FROM apps", []);
+            
             // Seed database from embedded apps.json
             let raw = include_str!("../seed/apps.json");
             if let Ok(apps_val) = serde_json::from_str::<serde_json::Value>(raw) {
@@ -1482,6 +1559,7 @@ fn build_state() -> AppState {
                     }
                 }
             }
+            let _ = conn.execute(&format!("PRAGMA user_version = {}", CURRENT_DB_VERSION), []);
         }
     }
 
@@ -1500,6 +1578,7 @@ fn build_state() -> AppState {
                 trigger_type: Mutex::new(default_trigger_type()),
                 settings_path: Mutex::new(PathBuf::new()),
                 disable_unsupported_trigger: std::sync::atomic::AtomicBool::new(false),
+                pinned: std::sync::atomic::AtomicBool::new(false),
                 popover_position: Mutex::new(default_popover_position()),
                 popover_opacity: Mutex::new(default_popover_opacity()),
                 popover_scale: Mutex::new(default_popover_scale()),
@@ -1541,6 +1620,7 @@ fn build_state() -> AppState {
         trigger_type: Mutex::new(default_trigger_type()),
         settings_path: Mutex::new(PathBuf::new()),
         disable_unsupported_trigger: std::sync::atomic::AtomicBool::new(false),
+        pinned: std::sync::atomic::AtomicBool::new(false),
         popover_position: Mutex::new(default_popover_position()),
         popover_opacity: Mutex::new(default_popover_opacity()),
         popover_scale: Mutex::new(default_popover_scale()),
@@ -1553,6 +1633,8 @@ fn build_state() -> AppState {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_process::init())
+        .plugin(tauri_plugin_dialog::init())
+        .plugin(tauri_plugin_fs::init())
         .manage(build_state())
         .manage(app_updates::PendingUpdate(Mutex::new(None)))
         .invoke_handler(tauri::generate_handler![
@@ -1565,6 +1647,8 @@ pub fn run() {
             load_settings,
             save_settings,
             refresh_database,
+            set_pinned,
+            get_windows_accent_color,
             search_shortcuts,
             app_updates::fetch_update,
             app_updates::install_update

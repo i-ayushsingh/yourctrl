@@ -1,5 +1,34 @@
 # Changelog
 
+## v1.1.0
+
+Major experience and database synchronization update.
+
+### Features
+
+- Added offline shortcut cheat-sheet export (download as PNG or multi-page PDF)
+- Added Popover Pinning to keep shortcuts floating on screen (Always-on-Top)
+- Added persistent coordinate saving when dragging the pinned popover window
+- Simplified Settings panel by removing the Appearance section
+- Standardized and fixed UI spacing on range sliders and exclusion lists
+- Fixed active window process case-sensitivity lookup bugs in the Rust layer
+
+### Apps updated & reorganized
+
+- Consolidated all Office apps into a dedicated Microsoft 365 category, except for Edge (Browsers), OneNote (Productivity), and Outlook (Email).
+- Upgraded OneDrive to the modern 2025 Fluent Microsoft Design icon.
+- Added full keyboard shortcut mappings for Blender (3D Modeling), FreeCAD (CAD), and Excalidraw, draw.io, Miro, Whimsical (Graphic Design).
+- Removed the Game Development category (deleted all 8 engines: Unity, Unreal, Godot, etc.).
+- Removed Steam, Heroic Games Launcher, Streamlabs, and Power Automate Desktop.
+- Moved OBS Studio to a new dedicated Screen Recording category.
+- Added CapCut, eM Client, Mailbird, and SumatraPDF shortcut support.
+
+### Technical details
+
+- Incremented database schema to version 5 to force auto-seeding of 143 clean app configurations
+- Integrated HTML-to-Image and jsPDF libraries for client-side document exports
+- Configured .gitignore to exclude Vite build configs and local agent workspace files
+
 ## v1.0.0
 
 Initial release.

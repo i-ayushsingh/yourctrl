@@ -1,0 +1,307 @@
+{
+  "app_name": "Discord",
+  "process_name": "Discord.exe",
+  "category": "Communication",
+  "platforms": ["windows"],
+  "icon_slug": "discord",
+  "brand_color": "#5865F2",
+  "shortcuts": [
+    {
+      "section": "Navigation",
+      "action": "Navigate between servers (up)",
+      "keys": [["Ctrl", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between servers (down)",
+      "keys": [["Ctrl", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between channels (up)",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between channels (down)",
+      "keys": [["Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between unread channels (up)",
+      "keys": [["Alt", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between unread channels (down)",
+      "keys": [["Alt", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between unread channels with mentions (up)",
+      "keys": [["Ctrl", "Shift", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Navigate between unread channels with mentions (down)",
+      "keys": [["Ctrl", "Shift", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Return to connected audio channel",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Return to previous text channel",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Mark channel as read",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Mark server read",
+      "keys": [["Shift", "Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Scroll chat up",
+      "keys": [["PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Scroll chat down",
+      "keys": [["PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Jump to oldest unread message",
+      "keys": [["Shift", "PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Find or start a direct message",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Return to previous text channel",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Return to active audio channel",
+      "keys": [["Ctrl", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Focus text area",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messaging",
+      "action": "Upload a file",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panels",
+      "action": "Toggle pins popout",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panels",
+      "action": "Toggle mentions popout",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panels",
+      "action": "Toggle channel member list",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panels",
+      "action": "Toggle emoji picker",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Toggle hotkeys",
+      "keys": [["Ctrl", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Create or join a server",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Create a private group",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Get help",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Answer incoming call",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Decline incoming call",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Start call in private message or group",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Toggle mute",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Toggle deafen",
+      "keys": [["Ctrl", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

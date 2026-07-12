@@ -1,0 +1,3539 @@
+{
+  "app_name": "Microsoft PowerPoint",
+  "process_name": "POWERPNT.EXE",
+  "category": "Productivity",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "microsoftpowerpoint",
+  "brand_color": "#D24726",
+  "shortcuts": [
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Create new presentation",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Add a new slide",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Apply bold formatting to the selected text",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Open the Font dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Cut selected text, object, or slide",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Copy selected text, object, or slide",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Paste cut or copied text, object, or slide",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Insert a hyperlink",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Insert a new comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Undo the last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Redo the last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Go to the next slide",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Go to the previous slide",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Start the slide show",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "End the slide show",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Print a presentation",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Save the presentation",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Frequently used shortcuts",
+      "action": "Close PowerPoint",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Insert a new slide",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Go to the next slide",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Go to the previous slide",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Zoom to fit",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Make a copy of the selected slide",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Open a presentation",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Close a presentation",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Save a presentation with a different name, location, or file format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Cancel a command, such as Save As",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with presentations and slides",
+      "action": "Open a recent file",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Cut selected object or text",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Copy selected object or text",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Paste cut or copied object or text",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Duplicate selected objects",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Copy the formatting of the selected object or text",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Paste copied formatting to the selected object or text",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Copy animation painter",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Paste animation painter",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Copy objects and text",
+      "action": "Open the Paste Special dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Move the focus to the first floating shape, such as an image or a text box",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Select another object when one object is selected",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Send object back one position",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Bring object forward one position",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Select all objects on a slide",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Group the selected objects",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Ungroup the selected group",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Regroup the selected objects",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Rotate the selected object clockwise 15 degrees",
+      "keys": [
+        [
+          "Alt",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Rotate the selected object counterclockwise 15 degrees",
+      "keys": [
+        [
+          "Alt",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Play or pause media",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Insert a hyperlink",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Insert a new comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in objects and text",
+      "action": "Insert equation",
+      "keys": [
+        [
+          "Alt",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select one character to the right",
+      "keys": [
+        [
+          "Shift",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select one character to the left",
+      "keys": [
+        [
+          "Shift",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select to the end of a word",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select to the beginning of a word",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select from the insertion point to the same point one line up",
+      "keys": [
+        [
+          "Shift",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select from the insertion point to the same point one line down",
+      "keys": [
+        [
+          "Shift",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select from the insertion point to the end of the paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select from the insertion point to the beginning of the paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select text within an object (with an object selected)",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Select text",
+      "action": "Select an object when the text inside the object is selected",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Rewrite text with Copilot",
+      "action": "Invoke Copilot options for rewriting selected textbox",
+      "keys": [
+        [
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Delete text",
+      "action": "Delete one character to the left",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Delete text",
+      "action": "Delete one word to the left",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Delete text",
+      "action": "Delete one character to the right",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Delete text",
+      "action": "Delete one word to the right (with the cursor between the words)",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one character to the left",
+      "keys": [
+        [
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one character to the right",
+      "keys": [
+        [
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one line up",
+      "keys": [
+        [
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one line down",
+      "keys": [
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one word to the left",
+      "keys": [
+        [
+          "Ctrl",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move one word to the right",
+      "keys": [
+        [
+          "Ctrl",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move to the end of a line",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move to the beginning of a line",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move up one paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move down one paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move to the end of a text box",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move to the beginning of a text box",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move to the next title or body text placeholder",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Promote a paragraph",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Demote a paragraph",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move selected paragraphs up",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move around in text",
+      "action": "Move selected paragraphs down",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Find and replace text",
+      "action": "Open the Find dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Find and replace text",
+      "action": "Open the Replace dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Find and replace text",
+      "action": "Repeat the last Find action",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Open the Font dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Increase the font size",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Decrease the font size",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Switch between sentence case, lowercase, or uppercase",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Apply bold formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Apply underline formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Apply italic formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Apply subscript formatting (automatic spacing)",
+      "keys": [
+        [
+          "Ctrl",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Apply superscript formatting (automatic spacing)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Remove manual character formatting, such as subscript and superscript",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Center a paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Justify a paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Left align a paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Format text",
+      "action": "Right align a paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Move to the next cell",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Move to the preceding cell",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Move to the next row",
+      "keys": [
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Move to the preceding row",
+      "keys": [
+        [
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Insert a tab in a cell",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Start a new paragraph",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with tables",
+      "action": "Add a new row at the bottom of the table with the cursor in the last cell of the last row",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move a slide",
+      "action": "Move the selected slide or section up in order",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move a slide",
+      "action": "Move the selected slide or section down in order",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move a slide",
+      "action": "Move the selected slide or section to the beginning",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Move a slide",
+      "action": "Move the selected slide or section to the end",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Switch to Presenter view",
+      "keys": [
+        [
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Switch to Slide Show",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Toggle between Outline and Thumbnail views",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Switch to full screen (hide menus)",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Show or hide guides",
+      "keys": [
+        [
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Show or hide the grid",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Cycle clockwise through panes in the Normal view",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Cycle counterclockwise through panes in the Normal view",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Switch between the Thumbnail pane and the Outline View pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Show Outline View level 1 headings",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Expand Outline View text below a heading",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Collapse Outline View text below a heading",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Select all text in the Outline View",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Select all slides in the Slide Sorter view or the thumbnail pane",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with views and panes",
+      "action": "Show the help menu",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Open the Selection pane",
+      "keys": [
+        [
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Cycle the focus through the different panes",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Display the context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Menu"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move the focus to a single item or group",
+      "keys": [
+        [
+          "Up arrow"
+        ],
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move the focus from an item in a group to its parent group",
+      "keys": [
+        [
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move the focus from a group to the first item in that group",
+      "keys": [
+        [
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Expand a focused group and all its child groups",
+      "keys": [
+        [
+          "Num *"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Expand a focused group",
+      "keys": [
+        [
+          "Num +"
+        ],
+        [
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Collapse a focused group",
+      "keys": [
+        [
+          "Num -"
+        ],
+        [
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move the focus to an item and select it",
+      "keys": [
+        [
+          "Shift",
+          "Up arrow"
+        ],
+        [
+          "Shift",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Select a focused item",
+      "keys": [
+        [
+          "Space"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Cancel selection of a focused item",
+      "keys": [
+        [
+          "Shift",
+          "Space"
+        ],
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move a selected item forward",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Move a selected item backward",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Show or hide a focused item",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Rename a focused item",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Switch the keyboard focus within the Selection pane between tree view and the Show All and Hide All buttons",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Collapse all groups (with the focus in the tree view of the Selection pane)",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the Selection pane",
+      "action": "Expand all groups",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "Move to a task pane from another pane or area in the program window",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "When a task pane option has focus, move to the next or previous option in the task pane",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "Display the full set of commands on a task pane menu",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ],
+        [
+          "Ctrl",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "Move to the next command on the task pane menu",
+      "keys": [
+        [
+          "Up arrow"
+        ],
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "Select the highlighted option on the task pane menu",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work with the task pane",
+      "action": "Move or resize the task pane after the corresponding command has been selected",
+      "keys": [
+        [
+          "Up arrow"
+        ],
+        [
+          "Down arrow"
+        ],
+        [
+          "Left arrow"
+        ],
+        [
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Move to the Tell me or Search field on the ribbon and type a search term for assistance or Help content",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the File menu",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Home tab and format slides, fonts, paragraphs, or drawings",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Insert tab and insert slides, tables, images, illustrations, forms, links, text, symbols, or media",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Draw tab and access the drawing tools",
+      "keys": [
+        [
+          "Alt",
+          "J",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Design tab and apply themes and customize slides",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Transitions tab and add transitions between slides",
+      "keys": [
+        [
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Animations tab and add animations to slides",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Slide Show tab and set up and play the slide show",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Review tab and check spelling and accessibility and add comments",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the View tab and preview presentation layouts, show and hide gridlines and guides, set zoom magnification, manage windows, and view macros",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Recording tab and manage screen recordings, audio, and video in your presentation",
+      "keys": [
+        [
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Open the ribbon tabs",
+      "action": "Open the Help tab and browse the PowerPoint, contact support, and leave feedback",
+      "keys": [
+        [
+          "Alt",
+          "Y",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Select the active tab on the ribbon, and activate the access keys",
+      "keys": [
+        [
+          "Alt"
+        ],
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Move the focus to commands on the ribbon",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Move down, up, left, or right, respectively, among the items on the ribbon",
+      "keys": [
+        [
+          "Up arrow"
+        ],
+        [
+          "Down arrow"
+        ],
+        [
+          "Left arrow"
+        ],
+        [
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Show the tooltip for the ribbon element currently in focus",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Activate a selected button or control",
+      "keys": [
+        [
+          "Space"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Open the list for a selected command",
+      "keys": [
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Open the menu for a selected button",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "When a menu or submenu is open, move to the next command",
+      "keys": [
+        [
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Expand or collapse the ribbon",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Open a context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Menu"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Move to the submenu when a main menu is open or selected",
+      "keys": [
+        [
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Work in the ribbon with the keyboard",
+      "action": "Get help on the currently selected command or control on the ribbon",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Change the font size for selected text",
+      "keys": [
+        [
+          "Alt",
+          "H",
+          "F",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Open the Zoom dialog box",
+      "keys": [
+        [
+          "Alt",
+          "W",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Print all slides in your presentation as full page slides using your default printer settings (when the Print dialog box is open)",
+      "keys": [
+        [
+          "Alt",
+          "P",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Select a theme",
+      "keys": [
+        [
+          "Alt",
+          "G",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Select a slide layout",
+      "keys": [
+        [
+          "Alt",
+          "H",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Show or hide the Notes pane in the Normal view",
+      "keys": [
+        [
+          "Alt",
+          "W",
+          "P",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Open the clipboard",
+      "keys": [
+        [
+          "Alt",
+          "H",
+          "F",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Insert a text box",
+      "keys": [
+        [
+          "Alt",
+          "N",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Insert an embedded document or spreadsheet as an object",
+      "keys": [
+        [
+          "Alt",
+          "N",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Insert WordArt",
+      "keys": [
+        [
+          "Alt",
+          "N",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Insert a picture from your device",
+      "keys": [
+        [
+          "Alt",
+          "N",
+          "P",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create: Other useful ribbon keyboard shortcuts",
+      "action": "Insert a shape",
+      "keys": [
+        [
+          "Alt",
+          "N",
+          "S",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Start a presentation from the beginning",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Start a presentation from the current slide",
+      "keys": [
+        [
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Start the presentation in Presenter View",
+      "keys": [
+        [
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Perform the next animation or advance to the next slide",
+      "keys": [
+        [
+          "N"
+        ],
+        [
+          "Enter"
+        ],
+        [
+          "Page down"
+        ],
+        [
+          "Right arrow"
+        ],
+        [
+          "Down arrow"
+        ],
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Perform the previous animation or return to the previous slide",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "Page up"
+        ],
+        [
+          "Left arrow"
+        ],
+        [
+          "Up arrow"
+        ],
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Hide the pointer and navigation buttons",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Display a blank black slide, or return to the presentation from a blank black slide",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "Period"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "Display a blank white slide, or return to the presentation from a blank white slide",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "Comma"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Frequently used shortcuts",
+      "action": "End the presentation",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Go to the next slide, if the next slide is hidden",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "View the All Slides dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Return to the first slide",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Go to the last slide",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "View the computer taskbar",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Display the context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Menu"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Display the shortcuts menu",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Go to the next hotspot on the current slide",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Go to the previous hyperlink on the current slide",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control the slide show",
+      "action": "Open the selected hyperlink",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Change the camera source for cameo (PowerPoint for Microsoft 365 only)",
+      "keys": [
+        [
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Play or pause media",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ],
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Stop media playback",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Go to the next bookmark",
+      "keys": [
+        [
+          "Alt",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Go to the previous bookmark",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Increase the sound volume",
+      "keys": [
+        [
+          "Alt",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Decrease the sound volume",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Mute the sound",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Move forward three seconds",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Move backward three seconds",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Move forward 0.25 seconds, then pause",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Right arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Move backward 0.25 seconds, then pause",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Left arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Control media in the slide show",
+      "action": "Show or hide the audio and subtitles menu",
+      "keys": [
+        [
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Start the laser pointer",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Change the pointer to a pen",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Change the pointer to an arrow",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Change the pen pointer to an eraser",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Hide the arrow pointer",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Show or hide ink markup",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Pointer and annotations in the slide show",
+      "action": "Erase on-screen annotations",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Rehearse the presentation",
+      "action": "Set new timings while rehearsing",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Rehearse the presentation",
+      "action": "Use original timings while rehearsing",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Rehearse the presentation",
+      "action": "Use mouse click to advance while rehearsing",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Rehearse the presentation",
+      "action": "Re-record slide narration and timing",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Cycle between Presenter View regions",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Cycle through tools within a Presenter View region",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Scroll down one line in the Notes pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Scroll up one line in the Notes pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Scroll down one screenful in the Notes pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Scroll up one screenful in the Notes pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Read the next line in the Notes pane",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Read the previous line in the Notes pane",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Read the elapsed time",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Read the next step (for example, the next slide, next animation, or end of slide show)",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deliver: Maneuver in Presenter View",
+      "action": "Close Presenter View",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

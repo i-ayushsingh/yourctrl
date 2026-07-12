@@ -1,0 +1,914 @@
+{
+  "app_name": "Helium",
+  "process_name": "helium.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "helium",
+  "brand_color": "#5B9BD5",
+  "shortcuts": [
+    {
+      "section": "Helium-Specific",
+      "action": "Copy page URL or Inspect Element (configurable)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Helium-Specific",
+      "action": "Inspect element",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Helium-Specific",
+      "action": "Open DevTools",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Helium-Specific",
+      "action": "Toggle DevTools",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Helium-Specific",
+      "action": "DevTools Console",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "New window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "New incognito window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "New tab",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Close tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Close window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Next tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Previous tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Jump to tab 1-9",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ],
+        [
+          "Ctrl",
+          "5"
+        ],
+        [
+          "Ctrl",
+          "6"
+        ],
+        [
+          "Ctrl",
+          "7"
+        ],
+        [
+          "Ctrl",
+          "8"
+        ],
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Reopen closed tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tab and Window Management",
+      "action": "Tab search",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Back",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Forward",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Reload",
+      "keys": [
+        [
+          "F5"
+        ],
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Hard reload (bypass cache)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus address bar",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ],
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus search (in address bar)",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "View page source",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Bookmark current page",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Bookmark all tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Find on page",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Find next",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ],
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Find previous",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ],
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Print",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Save page",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Reset zoom",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Scroll down",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Scroll up",
+      "keys": [
+        [
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Scroll to bottom",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Page Actions",
+      "action": "Scroll to top",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Paste without formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing and Text",
+      "action": "Select all",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Open browser menu",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ],
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Toggle bookmarks bar",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Open Bookmarks Manager",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Open Downloads",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Open History",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Clear browsing data",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Close window",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser and Settings",
+      "action": "Toggle fullscreen",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Developer Tools",
+      "action": "Toggle DevTools",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ],
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Developer Tools",
+      "action": "Open DevTools Console",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Developer Tools",
+      "action": "Inspect element",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Cycle through frame focus",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Cycle backward through frames",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Move focus forward",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Move focus backward",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Activate focused item",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Accessibility",
+      "action": "Submit form or activate button",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "community",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

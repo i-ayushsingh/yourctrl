@@ -1,0 +1,1037 @@
+{
+  "app_name": "Canva",
+  "process_name": "Canva.exe",
+  "category": "Graphic Design",
+  "platforms": ["windows"],
+  "icon_slug": "canva",
+  "brand_color": "#3961F2",
+  "shortcuts": [
+    {
+      "section": "Basic",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Redo",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Redo (alternate)",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Save",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Select all",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Show or hide sidebar",
+      "keys": [["Ctrl", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add text",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add rectangle",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add line",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add elbowed line",
+      "keys": [["Shift", "\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add circle",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add link",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add sticky note",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add emoji",
+      "keys": [["Win", ";"]],
+      "description": "Canva Docs and comments only",
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add empty page",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Delete empty page",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Navigate to toolbar",
+      "keys": [["Ctrl", "F1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Skip to canvas",
+      "keys": [["Ctrl", "F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Quick actions",
+      "keys": [["/"], ["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Show layers",
+      "keys": [["Alt", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Lock guides",
+      "keys": [["Ctrl", "Alt", ";"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Jump to comment on selected element",
+      "keys": [["Ctrl", "Alt", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Go to page",
+      "keys": [["Ctrl", "Alt", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Add page break",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Toggle duration",
+      "keys": [["Alt", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Next surface",
+      "keys": [["Ctrl", "F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Previous surface",
+      "keys": [["Ctrl", "Shift", "F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic",
+      "action": "Focus side panel",
+      "keys": [["Ctrl", "F3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Delete selected elements",
+      "keys": [["Backspace"], ["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Duplicate selected elements",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Group elements",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Ungroup elements",
+      "keys": [["Ctrl", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Lock element",
+      "keys": [["Shift", "Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Justify elements",
+      "keys": [["Ctrl", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Arrange forward",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Arrange backward",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Arrange to front",
+      "keys": [["Ctrl", "Alt", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Arrange to back",
+      "keys": [["Ctrl", "Alt", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Tidy up elements",
+      "keys": [["Shift", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Select next element",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Select previous element",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move left (small)",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move right (small)",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move up (small)",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move down (small)",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move left (large)",
+      "keys": [["Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move right (large)",
+      "keys": [["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move up (large)",
+      "keys": [["Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Move down (large)",
+      "keys": [["Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Rotate left (small)",
+      "keys": [["Alt", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Rotate right (small)",
+      "keys": [["Alt", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Rotate left (large)",
+      "keys": [["Shift", "Alt", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Rotate right (large)",
+      "keys": [["Shift", "Alt", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize left (small)",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize right (small)",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize up (small)",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize down (small)",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize left (large)",
+      "keys": [["Ctrl", "Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize right (large)",
+      "keys": [["Ctrl", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize up (large)",
+      "keys": [["Ctrl", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Elements",
+      "action": "Resize down (large)",
+      "keys": [["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Open font menu",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Find and replace",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Bold",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Italic",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Underline",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Strikethrough",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Subscript",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Superscript",
+      "keys": [["Ctrl", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Uppercase",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Align left",
+      "keys": [["Ctrl", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Align center",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Align right",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Increase font size",
+      "keys": [["Ctrl", "Shift", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Decrease font size",
+      "keys": [["Ctrl", "Shift", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Decrease line spacing",
+      "keys": [["Ctrl", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Increase line spacing",
+      "keys": [["Ctrl", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Increase letter spacing",
+      "keys": [["Ctrl", "Alt", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Decrease letter spacing",
+      "keys": [["Ctrl", "Alt", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Anchor text to top",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Anchor text to middle",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Anchor text to bottom",
+      "keys": [["Ctrl", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Numbered list",
+      "keys": [["Ctrl", "Shift", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Bulleted list",
+      "keys": [["Ctrl", "Shift", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Checklist",
+      "keys": [["Ctrl", "Shift", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Copy text style",
+      "keys": [["Ctrl", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Paste text style",
+      "keys": [["Ctrl", "Alt", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Apply body text style",
+      "keys": [["Ctrl", "Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Apply heading style",
+      "keys": [["Ctrl", "Shift", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text",
+      "action": "Apply subheading style",
+      "keys": [["Ctrl", "Shift", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Video",
+      "action": "Play or pause video",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Video",
+      "action": "Mute or unmute video",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Video",
+      "action": "Loop video",
+      "keys": [["Ctrl", "Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom to actual size",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom to fit",
+      "keys": [["Ctrl", "Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom to fill",
+      "keys": [["Ctrl", "Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Page View",
+      "action": "Show rulers and guides",
+      "keys": [["Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Page View",
+      "action": "Scrolling view",
+      "keys": [["Ctrl", "Alt", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Page View",
+      "action": "Thumbnail view",
+      "keys": [["Ctrl", "Alt", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Page View",
+      "action": "Grid view",
+      "keys": [["Ctrl", "Alt", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Page View",
+      "action": "Presentation mode",
+      "keys": [["Ctrl", "Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Comments",
+      "action": "Add comment",
+      "keys": [["Ctrl", "Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Comments",
+      "action": "Add emoji to a comment",
+      "keys": [["Shift", ";"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Comments",
+      "action": "Start new line in comment",
+      "keys": [["Enter"], ["Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Comments",
+      "action": "Submit comment",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Quit the Canva app",
+      "keys": [["Ctrl", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Reload the app",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Close the current tab",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Select next tab",
+      "keys": [["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Select previous tab",
+      "keys": [["Ctrl", "Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop App",
+      "action": "Re-open last closed tab",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

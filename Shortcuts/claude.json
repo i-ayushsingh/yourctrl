@@ -1,0 +1,20 @@
+{
+  "app_name": "Claude",
+  "process_name": "claude.exe",
+  "category": "AI",
+  "platforms": ["windows"],
+  "icon_slug": "claude",
+  "brand_color": "#D97706",
+  "shortcuts": [
+    { "section": "General", "action": "Quick Chat or Search", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Incognito Chat", "keys": [["Ctrl", "Shift", "I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Toggle Sidebar", "keys": [["Ctrl", "."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Keyboard Shortcuts", "keys": [["Ctrl", "/"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Settings", "keys": [["Ctrl", "Shift", ","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "In Chats", "action": "Send Message", "keys": [["Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "In Chats", "action": "New Line in Message", "keys": [["Shift", "Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "In Chats", "action": "Toggle Extended Thinking", "keys": [["Ctrl", "Shift", "E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "In Chats", "action": "Upload File", "keys": [["Ctrl", "U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "In Chats", "action": "Stop Claude's Response", "keys": [["Escape"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

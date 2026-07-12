@@ -1,0 +1,194 @@
+{
+  "app_name": "Audacity",
+  "process_name": "audacity.exe",
+  "category": "Audio Production",
+  "platforms": ["windows"],
+  "icon_slug": "audacity",
+  "brand_color": "#D1631F",
+  "shortcuts": [
+    { "section": "File", "action": "New", "keys": [["Ctrl","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Open...", "keys": [["Ctrl","O"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Close", "keys": [["Ctrl","W"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Compact Project", "keys": [["Shift","A"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Exit", "keys": [["Ctrl","Q"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Save Project", "keys": [["Ctrl","S"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Export Audio...", "keys": [["Ctrl","Shift","E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Export Multiple...", "keys": [["Ctrl","Shift","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "File", "action": "Import Audio...", "keys": [["Ctrl","Shift","I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Edit", "action": "Undo", "keys": [["Ctrl","Z"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Redo", "keys": [["Ctrl","Y"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Cut", "keys": [["Ctrl","X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Delete", "keys": [["Ctrl","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Copy", "keys": [["Ctrl","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Paste", "keys": [["Ctrl","V"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Duplicate", "keys": [["Ctrl","D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit", "action": "Preferences...", "keys": [["Ctrl","P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Edit - Remove Special", "action": "Split Cut", "keys": [["Ctrl","Alt","X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Remove Special", "action": "Split Delete", "keys": [["Ctrl","Alt","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Remove Special", "action": "Silence Audio", "keys": [["Ctrl","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Remove Special", "action": "Trim Audio", "keys": [["Ctrl","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Edit - Clip Boundaries", "action": "Split", "keys": [["Ctrl","I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Clip Boundaries", "action": "Split New", "keys": [["Ctrl","Alt","I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Clip Boundaries", "action": "Join", "keys": [["Ctrl","J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Clip Boundaries", "action": "Detach at Silences", "keys": [["Ctrl","Alt","J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Edit - Labels", "action": "Add Label at Selection", "keys": [["Ctrl","B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labels", "action": "Add Label at Playback Position", "keys": [["Ctrl","M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labels", "action": "Paste Text to New Label", "keys": [["Ctrl","Alt","V"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Edit - Labeled Audio", "action": "Cut", "keys": [["Alt","X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Delete", "keys": [["Alt","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Split Cut", "keys": [["Alt","Shift","X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Split Delete", "keys": [["Alt","Shift","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Silence Audio", "keys": [["Alt","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Copy", "keys": [["Alt","Shift","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Split", "keys": [["Alt","I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Join", "keys": [["Alt","J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Edit - Labeled Audio", "action": "Detach at Silences", "keys": [["Alt","Shift","J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Select", "action": "All", "keys": [["Ctrl","A"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select", "action": "None", "keys": [["Ctrl","Shift","A"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select", "action": "At Zero Crossings", "keys": [["Z"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Select - Tracks", "action": "In All Tracks", "keys": [["Ctrl","Shift","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Tracks", "action": "In All Sync-Locked Tracks", "keys": [["Ctrl","Shift","Y"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Select - Region", "action": "Left at Playback Position", "keys": [["["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Region", "action": "Right at Playback Position", "keys": [["]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Region", "action": "Track Start to Cursor", "keys": [["Shift","J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Region", "action": "Cursor to Track End", "keys": [["Shift","K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Select - Spectral", "action": "Toggle Spectral Selection", "keys": [["Q"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Select - Clip Boundaries", "action": "Previous Clip on selected track", "keys": [["Alt",","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Clip Boundaries", "action": "Next Clip on selected Track", "keys": [["Alt","."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Clip Boundaries", "action": "Previous Clip on focused Track", "keys": [["Shift","Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Select - Clip Boundaries", "action": "Next Clip on focused Track", "keys": [["Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "View", "action": "Scroll Project Rightwards", "keys": [["PageUp"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View", "action": "Scroll Project Leftwards", "keys": [["PageDown"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "View - Zoom", "action": "Zoom In", "keys": [["Ctrl","1"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Zoom", "action": "Zoom Normal", "keys": [["Ctrl","2"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Zoom", "action": "Zoom Out", "keys": [["Ctrl","3"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Zoom", "action": "Zoom to Selection", "keys": [["Ctrl","E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Zoom", "action": "Zoom Toggle", "keys": [["Shift","Z"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "View - Track Size", "action": "Fit to Width", "keys": [["Ctrl","F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Track Size", "action": "Fit to Height", "keys": [["Ctrl","Shift","F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Track Size", "action": "Collapse All Tracks", "keys": [["Ctrl","Shift","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Track Size", "action": "Expand Collapsed Tracks", "keys": [["Ctrl","Shift","X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "View - Skip to", "action": "Selection Start", "keys": [["Ctrl","["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View - Skip to", "action": "Selection End", "keys": [["Ctrl","]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Transport", "action": "Play/Stop", "keys": [["Space"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport", "action": "Play/Stop and Set Cursor", "keys": [["X"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport", "action": "Play Once/Stop", "keys": [["Shift","Space"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport", "action": "Pause", "keys": [["P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Transport - Recording", "action": "Record", "keys": [["R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Recording", "action": "Record New Track", "keys": [["Shift","R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Recording", "action": "Timer Record...", "keys": [["Shift","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Recording", "action": "Punch and Roll Record", "keys": [["Shift","D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Transport - Looping", "action": "Loop on/off", "keys": [["L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Looping", "action": "Clear Loop", "keys": [["Alt","Shift","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Looping", "action": "Set Loop to Selection", "keys": [["Shift","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Transport - Cursor to", "action": "Track Start", "keys": [["J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Cursor to", "action": "Track End", "keys": [["K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Cursor to", "action": "Project Start", "keys": [["Home"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Transport - Cursor to", "action": "Project End", "keys": [["End"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Tracks - Add New", "action": "Mono Track", "keys": [["Ctrl","Shift","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Tracks - Mix", "action": "Mix and Render to New Track", "keys": [["Ctrl","Shift","M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Tracks - Mute/Unmute", "action": "Mute All Tracks", "keys": [["Ctrl","U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tracks - Mute/Unmute", "action": "Unmute All Tracks", "keys": [["Ctrl","Shift","U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tracks - Mute/Unmute", "action": "Mute Tracks", "keys": [["Ctrl","Alt","U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tracks - Mute/Unmute", "action": "Unmute Tracks", "keys": [["Ctrl","Alt","Shift","U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Effect", "action": "Add Realtime Effects", "keys": [["E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Effect", "action": "Repeat Last Effect", "keys": [["Ctrl","R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Analyze", "action": "Contrast...", "keys": [["Ctrl","Shift","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra", "action": "Full Screen (on/off)", "keys": [["F11"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Transport", "action": "Play to Selection", "keys": [["B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play Before Selection Start", "keys": [["Shift","F5"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play After Selection Start", "keys": [["Shift","F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play Before Selection End", "keys": [["Shift","F7"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play After Selection End", "keys": [["Shift","F8"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play Before and After Selection Start", "keys": [["Ctrl","Shift","F5"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play Before and After Selection End", "keys": [["Ctrl","Shift","F7"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Transport", "action": "Play Cut Preview", "keys": [["C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Tools", "action": "Selection Tool", "keys": [["F1"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Envelope Tool", "keys": [["F2"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Draw Tool", "keys": [["F3"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Zoom Tool", "keys": [["F4"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Multi Tool", "keys": [["F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Previous Tool", "keys": [["A"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Tools", "action": "Next Tool", "keys": [["D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Edit", "action": "Delete Key", "keys": [["Backspace"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Edit", "action": "Delete Key2", "keys": [["Delete"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Play at Speed", "action": "Move to Previous Label", "keys": [["Alt","Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Play at Speed", "action": "Move to Next Label", "keys": [["Alt","Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Seek", "action": "Short Seek Left During Playback", "keys": [["Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Seek", "action": "Short Seek Right During Playback", "keys": [["Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Seek", "action": "Long Seek Left During Playback", "keys": [["Shift","Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Seek", "action": "Long Seek Right During Playback", "keys": [["Shift","Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Device", "action": "Change Recording Device...", "keys": [["Shift","I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Device", "action": "Change Playback Device...", "keys": [["Shift","O"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Device", "action": "Change Audio Host...", "keys": [["Shift","H"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Device", "action": "Change Recording Channels...", "keys": [["Shift","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Selection", "action": "Selection to Start", "keys": [["Shift","Home"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Selection", "action": "Selection to End", "keys": [["Shift","End"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Selection", "action": "Selection Extend Left", "keys": [["Shift","Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Selection", "action": "Selection Extend Right", "keys": [["Shift","Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Selection", "action": "Selection Contract Left", "keys": [["Ctrl","Shift","Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Selection", "action": "Selection Contract Right", "keys": [["Ctrl","Shift","Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Focus", "action": "Move Backward from Toolbars to Tracks", "keys": [["Ctrl","Shift","F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Forward from Toolbars to Tracks", "keys": [["Ctrl","F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to Previous Track", "keys": [["Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to Next Track", "keys": [["Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to First Track", "keys": [["Ctrl","Home"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to Last Track", "keys": [["Ctrl","End"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to Previous and Select", "keys": [["Shift","Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Move Focus to Next and Select", "keys": [["Shift","Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Focus", "action": "Toggle Focused Track", "keys": [["Enter"],["NumpadEnter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Cursor", "action": "Cursor Left", "keys": [["Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Cursor", "action": "Cursor Right", "keys": [["Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Cursor", "action": "Cursor Short Jump Left", "keys": [[","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Cursor", "action": "Cursor Short Jump Right", "keys": [["."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Cursor", "action": "Cursor Long Jump Left", "keys": [["Shift",","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Cursor", "action": "Cursor Long Jump Right", "keys": [["Shift","."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "Extra - Track", "action": "Change Pan on Focused Track...", "keys": [["Shift","P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Pan Left on Focused Track", "keys": [["Alt","Shift","Left"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Pan Right on Focused Track", "keys": [["Alt","Shift","Right"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Change Gain on Focused Track...", "keys": [["Shift","G"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Increase Gain on Focused Track", "keys": [["Alt","Shift","Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Decrease Gain on Focused Track", "keys": [["Alt","Shift","Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Open Menu on Focused Track...", "keys": [["Shift","M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Mute/Unmute Focused Track", "keys": [["Shift","U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Solo/Unsolo Focused Track", "keys": [["Shift","S"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Extra - Track", "action": "Close Focused Track", "keys": [["Shift","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+
+    { "section": "No Menu", "action": "Previous Window", "keys": [["Alt","Shift","F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "No Menu", "action": "Next Window", "keys": [["Alt","F6"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

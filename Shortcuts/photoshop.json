@@ -1,0 +1,1639 @@
+{
+  "app_name": "Photoshop",
+  "process_name": "photoshop.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "adobe-photoshop",
+  "brand_color": "#31A8FF",
+  "shortcuts": [
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Save As",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Save for Web",
+      "keys": [["Ctrl", "Shift", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Step Back",
+      "keys": [["Ctrl", "Alt", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Duplicate Layer",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Stamp Visible (Duplicate all visible layers into new layer)",
+      "keys": [["Ctrl", "Shift", "Alt", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Hide Extras",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Full-screen mode",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Restore Default Colors (black/white)",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Flip Foreground and Background colors",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Temporarily switch to Hand tool while in another tool",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Fill with Background color",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Fill with Foreground color",
+      "keys": [["Alt", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Decrease Brush Size",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Increase Brush Size",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Deselect",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Restore Last Selection",
+      "keys": [["Ctrl", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Temporarily switch to Move tool while in painting tool",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Temporarily switch to Eyedropper while in any paint tool",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Cross-Hair cursor on any painting tool",
+      "keys": [["Caps Lock"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Lock transparent pixels",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Open the Fill dialog box",
+      "keys": [["Shift", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Must-Know Photoshop Keyboard Shortcuts",
+      "action": "Commit edits when typing in text boxes",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 10%",
+      "keys": [["1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 20%",
+      "keys": [["2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 30%",
+      "keys": [["3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 40%",
+      "keys": [["4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 50%",
+      "keys": [["5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 60%",
+      "keys": [["6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 70%",
+      "keys": [["7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 80%",
+      "keys": [["8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 90%",
+      "keys": [["9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Layer Opacity / Tool Opacity to 100%",
+      "keys": [["0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Set Flow (combination of number keys, e.g. 1 and 2 for 12%)",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "medium",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Fit To Screen",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Actual Pixels (100% zoom)",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Load Red channel as selection",
+      "keys": [["Ctrl", "Alt", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Load Green channel as selection",
+      "keys": [["Ctrl", "Alt", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Number Pad Keyboard Shortcuts",
+      "action": "Load Blue channel as selection",
+      "keys": [["Ctrl", "Alt", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move selection/layer 1 pixel (Move tool active)",
+      "keys": [["Up"], ["Down"], ["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move selection/layer 10 pixels (Move tool active)",
+      "keys": [["Shift", "Up"], ["Shift", "Down"], ["Shift", "Left"], ["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move duplicate of selection 1 pixel",
+      "keys": [["Ctrl", "Alt", "Up"], ["Ctrl", "Alt", "Down"], ["Ctrl", "Alt", "Left"], ["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move duplicate of selection 10 pixels",
+      "keys": [["Ctrl", "Alt", "Shift", "Up"], ["Ctrl", "Alt", "Shift", "Down"], ["Ctrl", "Alt", "Shift", "Left"], ["Ctrl", "Alt", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move view to upper-left corner",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Move view to lower-right corner",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Scroll up 1 screen",
+      "keys": [["Page Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Scroll down 1 screen",
+      "keys": [["Page Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Scroll left 1 screen",
+      "keys": [["Ctrl", "Page Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow and Other Keys Keyboard Shortcuts",
+      "action": "Scroll right 1 screen",
+      "keys": [["Ctrl", "Page Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Rectangular Marquee Tool",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Move Tool",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Lasso Tool",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Object Selection Tool",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Crop Tool",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Frame Tool",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Eyedropper Tool",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Spot Healing Brush Tool",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Brush Tool",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Clone Stamp Tool",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "History Brush Tool",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Eraser Tool",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Gradient Tool",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Dodge Tool",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Pen Tool",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Horizontal Type Tool",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Path Selection Tool",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Rectangle Tool",
+      "keys": [["U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Hand Tool",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Zoom Tool",
+      "keys": [["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toolbar Shortcuts",
+      "action": "Quick Mask mode",
+      "keys": [["Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Fill with Background color (opaque pixels only)",
+      "keys": [["Shift", "Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Fill with Foreground color (opaque pixels only)",
+      "keys": [["Shift", "Alt", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Decrease Brush Hardness",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Increase Brush Hardness",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Switch to previous preset brush",
+      "keys": [["<"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Switch to next preset brush",
+      "keys": [[">"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Erase to History source state (with History Brush tool behavior on Eraser)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "medium",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Cycle through blend modes",
+      "keys": [["Shift", "+"], ["Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Expand/Collapse Preset Groups (in Brushes panel)",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "medium",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Rotate Brush left",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Rotate Brush right",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Rotate Brush left in 15-degree increments",
+      "keys": [["Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Rotate Brush right in 15-degree increments",
+      "keys": [["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Set Brush Blend Mode to Clear",
+      "keys": [["Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Painting Keyboard Shortcuts",
+      "action": "Use current brush to erase (with Brush Tool active)",
+      "keys": [["~"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Select All",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Select all opaque pixels (Alt-click on Layer Thumbnail)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Inverse Selection",
+      "keys": [["Ctrl", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Feather Selection",
+      "keys": [["Shift", "F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Draw marquee from center",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Add to a selection",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Subtract from a selection",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Intersect with a selection",
+      "keys": [["Shift", "Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Move selection 1 pixel (any selection tool active)",
+      "keys": [["Up"], ["Down"], ["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Move selection 10 pixels",
+      "keys": [["Shift", "Up"], ["Shift", "Down"], ["Shift", "Left"], ["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Move marquee while drawing selection",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection Keyboard Shortcuts",
+      "action": "Load luminosity of image as a selection",
+      "keys": [["Ctrl", "Alt", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Align Center",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Align Left",
+      "keys": [["Ctrl", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Align Right",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Justify paragraph, left aligns last line",
+      "keys": [["Ctrl", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Justify paragraph, force last line",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Bold / Faux Bold",
+      "keys": [["Ctrl", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Italic / Faux Italic",
+      "keys": [["Ctrl", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Underline",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Small Caps",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Show/Hide Selection (in type)",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Auto leading",
+      "keys": [["Ctrl", "Shift", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Set tracking / kerning to 0",
+      "keys": [["Ctrl", "Shift", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "medium",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "All Caps (on/off)",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts for Type",
+      "action": "Hyphenation (on/off)",
+      "keys": [["Ctrl", "Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Cycle forward through blending modes",
+      "keys": [["Shift", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Cycle backward through blending modes",
+      "keys": [["Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Normal blend mode",
+      "keys": [["Shift", "Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Dissolve blend mode",
+      "keys": [["Shift", "Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Behind blend mode (Brush tool only)",
+      "keys": [["Shift", "Alt", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Clear blend mode (Brush tool only)",
+      "keys": [["Shift", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Darken blend mode",
+      "keys": [["Shift", "Alt", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Multiply blend mode",
+      "keys": [["Shift", "Alt", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Color Burn blend mode",
+      "keys": [["Shift", "Alt", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Linear Burn blend mode",
+      "keys": [["Shift", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Lighten blend mode",
+      "keys": [["Shift", "Alt", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Screen blend mode",
+      "keys": [["Shift", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Color Dodge blend mode",
+      "keys": [["Shift", "Alt", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Linear Dodge blend mode",
+      "keys": [["Shift", "Alt", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Overlay blend mode",
+      "keys": [["Shift", "Alt", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Soft Light blend mode",
+      "keys": [["Shift", "Alt", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Hard Light blend mode",
+      "keys": [["Shift", "Alt", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Vivid Light blend mode",
+      "keys": [["Shift", "Alt", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Linear Light blend mode",
+      "keys": [["Shift", "Alt", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Pin Light blend mode",
+      "keys": [["Shift", "Alt", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Hard Mix blend mode",
+      "keys": [["Shift", "Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Difference blend mode",
+      "keys": [["Shift", "Alt", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Exclusion blend mode",
+      "keys": [["Shift", "Alt", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Hue blend mode",
+      "keys": [["Shift", "Alt", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Saturation blend mode",
+      "keys": [["Shift", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Color blend mode",
+      "keys": [["Shift", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Mode Keyboard Shortcuts",
+      "action": "Luminosity blend mode",
+      "keys": [["Shift", "Alt", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Switch between open documents",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Redo Last Filter",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Open Last Filter Dialog Box",
+      "keys": [["Ctrl", "Alt", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Reset dialog box (Cancel turns into Reset)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Repeat last Transformation",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Highlight fields in the Options bar",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Canvas Size dialog box",
+      "keys": [["Ctrl", "Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Image Size dialog box",
+      "keys": [["Ctrl", "Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Show/hide panels and Toolbar",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Show/hide panels only (keep Toolbar)",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Temporarily disable snap while moving object edge",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Hide all other layers (Alt-click on visibility icon)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Dodge/Burn tool range: Shadows",
+      "keys": [["Shift", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Dodge/Burn tool range: Midtones",
+      "keys": [["Shift", "Alt", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Dodge/Burn tool range: Highlights",
+      "keys": [["Shift", "Alt", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Desaturate with Sponge tool",
+      "keys": [["Shift", "Alt", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Saturate with Sponge tool",
+      "keys": [["Shift", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Threshold for bitmap images",
+      "keys": [["Shift", "Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other Useful Photoshop Keyboard Shortcuts",
+      "action": "Keyboard Shortcuts panel",
+      "keys": [["Ctrl", "Alt", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts For CS6 and Newer",
+      "action": "Blur Gallery - Temporarily hide on-canvas UI",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts For CS6 and Newer",
+      "action": "Blur Gallery - Temporarily show blur mask",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts For CS6 and Newer",
+      "action": "Liquify - Load Last Mesh",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Photoshop Keyboard Shortcuts For CS6 and Newer",
+      "action": "Liquify - Mirror Tool",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Commit crop",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Cancel crop",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Switch crop box orientation (portrait/landscape)",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Reset crop box",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Hide/show cropped area",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Create a new crop box (while dragging)",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Constrain proportions while dragging corner handle",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Invoke Straighten tool",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Prevent crop box from shrinking while rotating",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Temporarily disable snap to edge while cropping",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Cycle overlay options",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Cycle overlay orientation",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Crop Tool",
+      "action": "Front Image (Crop tool / Perspective Crop tool, Creative Cloud only)",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Activate Layer Below",
+      "keys": [["Alt", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Activate Layer Above",
+      "keys": [["Alt", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Add Layer Below to active layers",
+      "keys": [["Alt", "Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Move Layer Up",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Move Layer Down",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Move Layer to Top",
+      "keys": [["Ctrl", "Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Shortcuts",
+      "action": "Move Layer to Bottom",
+      "keys": [["Ctrl", "Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

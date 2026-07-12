@@ -1,0 +1,26 @@
+{
+  "app_name": "ZCode",
+  "process_name": "zcode.exe",
+  "category": "IDE",
+  "platforms": ["windows"],
+  "icon_slug": "zcode",
+  "brand_color": "#3B82F6",
+  "shortcuts": [
+    { "section": "Global", "action": "Create a New Task", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Toggle Sidebar", "keys": [["Ctrl", "B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Toggle Terminal Panel", "keys": [["Ctrl", "J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Toggle Right Side Pane", "keys": [["Ctrl", "Alt", "B"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Open Command Center", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Find in Conversation", "keys": [["Ctrl", "F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Go Back to Previous Task or Workspace", "keys": [["Ctrl", "["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Go Forward to Next Task or Workspace", "keys": [["Ctrl", "]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Switch to Previous Conversation", "keys": [["Ctrl", "Shift", "["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global", "action": "Switch to Next Conversation", "keys": [["Ctrl", "Shift", "]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Open Model Picker", "keys": [["Ctrl", "M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Cycle Execution Modes", "keys": [["Shift", "Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Open Thought Level Picker", "keys": [["Ctrl", "T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Move Through Options", "keys": [["Up"], ["Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Select Highlighted Option", "keys": [["Enter"], ["Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Quick Pickers", "action": "Close Current Panel or Menu", "keys": [["Escape"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

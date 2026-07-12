@@ -1,0 +1,2926 @@
+{
+  "app_name": "Lightroom Classic",
+  "process_name": "lightroomclassic.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "lightroom-classic",
+  "brand_color": "#ADD5E0",
+  "shortcuts": [
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide side panels",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide all panels",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide toolbar",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide Module Picker",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide Filmstrip",
+      "keys": [["F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide left panels",
+      "keys": [["F7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Show/hide right panels",
+      "keys": [["F8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Toggle solo mode",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Open a new panel without closing soloed panel",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Open/close all panels",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Open/close left panels, top to bottom",
+      "keys": [["Ctrl", "Shift", "0"], ["Ctrl", "Shift", "1"], ["Ctrl", "Shift", "2"], ["Ctrl", "Shift", "3"], ["Ctrl", "Shift", "4"], ["Ctrl", "Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Open/close right panels, Library and Develop modules, top to bottom",
+      "keys": [["Ctrl", "0"], ["Ctrl", "1"], ["Ctrl", "2"], ["Ctrl", "3"], ["Ctrl", "4"], ["Ctrl", "5"], ["Ctrl", "6"], ["Ctrl", "7"], ["Ctrl", "8"], ["Ctrl", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Open/close right panels, Slideshow, Print, and Web modules, top to bottom",
+      "keys": [["Ctrl", "1"], ["Ctrl", "2"], ["Ctrl", "3"], ["Ctrl", "4"], ["Ctrl", "5"], ["Ctrl", "6"], ["Ctrl", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Redo",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Redo (Windows only)",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with panels",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Library module",
+      "keys": [["Ctrl", "Alt", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Develop module",
+      "keys": [["Ctrl", "Alt", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Map module",
+      "keys": [["Ctrl", "Alt", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Book module",
+      "keys": [["Ctrl", "Alt", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Slideshow module",
+      "keys": [["Ctrl", "Alt", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Print module",
+      "keys": [["Ctrl", "Alt", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go to Web module",
+      "keys": [["Ctrl", "Alt", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go back",
+      "keys": [["Ctrl", "Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go forward",
+      "keys": [["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for navigating modules",
+      "action": "Go back to previous module",
+      "keys": [["Ctrl", "Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Double page view",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Multi-page view",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Next view mode",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Previous view mode",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Single page view",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Zoomed single-page view",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Create Saved Book",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Update Metadata captions",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Copy Book layout",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Paste Layout",
+      "keys": [["Ctrl", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Remove Page",
+      "keys": [["Ctrl", "Shift", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Select photo cells",
+      "keys": [["Ctrl", "Shift", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Select text cells",
+      "keys": [["Ctrl", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Show / Hide Filter Text",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Book module",
+      "action": "Show / Hide text safe area",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enter Library Loupe view",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enter Library Grid view",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enter Library Compare view",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enter Library Survey view",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Open selected photo in the Develop module",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Cycle forward through Lights Out modes",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Cycle backward through Lights Out modes",
+      "keys": [["Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Toggle Lights Dim mode",
+      "keys": [["Ctrl", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Cycle screen modes",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Switch between Normal and full-screen, hide panels",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Go to Normal screen mode",
+      "keys": [["Ctrl", "Alt", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Cycle info overlay",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Show/hide info overlay",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Open Reference view",
+      "keys": [["Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enable loupe overlay in the Library",
+      "keys": [["Ctrl", "Alt", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Enable and choose loupe overlay in the Library",
+      "keys": [["Ctrl", "Shift", "Alt", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Show Grid view styles",
+      "keys": [["Ctrl", "Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Zoom to 100",
+      "keys": [["Ctrl", "Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Open People View in the Library module",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for changing views and screen modes",
+      "action": "Toggle HDR view",
+      "keys": [["Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Open secondary window",
+      "keys": [["F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter Grid view (secondary window)",
+      "keys": [["Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter normal Loupe view (secondary window)",
+      "keys": [["Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter locked Loupe view (secondary window)",
+      "keys": [["Ctrl", "Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter Compare view (secondary window)",
+      "keys": [["Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter Survey view (secondary window)",
+      "keys": [["Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter Slideshow view (secondary window)",
+      "keys": [["Ctrl", "Alt", "Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Enter full-screen mode (requires a second monitor)",
+      "keys": [["Shift", "F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Show/hide Filter bar (secondary window)",
+      "keys": [["Shift", "\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Zoom in (secondary window)",
+      "keys": [["Ctrl", "Shift", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using a secondary window",
+      "action": "Zoom out (secondary window)",
+      "keys": [["Ctrl", "Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Import photos from disk",
+      "keys": [["Ctrl", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open catalog",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open Preferences",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open Catalog Settings",
+      "keys": [["Ctrl", "Alt", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Create new subfolder (segmented tethered capture)",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Hide/show tether capture bar",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Create a new folder in the Library module",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Create virtual copy (Library and Develop module only)",
+      "keys": [["Ctrl", "'"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Show in Explorer (Library and Develop module only)",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Go to next photo in the Filmstrip",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Go to previous photo in the Filmstrip",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Rename photo (in Library module)",
+      "keys": [["F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Delete selected photo(s)",
+      "keys": [["Backspace"], ["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Remove selected photo(s) from catalog",
+      "keys": [["Alt", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Delete selected photo(s) and move to Recycling Bin",
+      "keys": [["Ctrl", "Alt", "Shift", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Delete rejected photo(s)",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Edit in Photoshop",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open in other editor",
+      "keys": [["Ctrl", "Alt", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Export selected photo(s)",
+      "keys": [["Ctrl", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Export with previous settings",
+      "keys": [["Ctrl", "Alt", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open plug-in manager",
+      "keys": [["Ctrl", "Alt", "Shift", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Print selected photo",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open Page Setup dialog box",
+      "keys": [["Ctrl", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Go to the next image",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Go to the previous image",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Tethered capture",
+      "keys": [["F12"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Headless enhance",
+      "keys": [["Ctrl", "Alt", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open enhance dialog box",
+      "keys": [["Ctrl", "Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "HDR merge",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Headless HDR merge",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Pano merge",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Headless pano merge",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for managing photos and catalogs",
+      "action": "Open as Smart Object in Photoshop",
+      "keys": [["Ctrl", "Alt", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Switch to Loupe view",
+      "keys": [["E"], ["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Switch to Grid view",
+      "keys": [["G"], ["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Switch to Compare view",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Switch to Survey view",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Switch from Grid to Loupe view",
+      "keys": [["Spacebar"], ["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Swap select and candidate photos in Compare view",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Make next photos select and candidate in Compare view",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Toggle Zoom view",
+      "keys": [["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Zoom in in Loupe view",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Zoom out in Loupe view",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Play impromptu slide show",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Rotate photo right (clockwise)",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Rotate photo left (counterclockwise)",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Increase Grid thumbnail size",
+      "keys": [["="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Decrease Grid thumbnail size",
+      "keys": [["-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Toggle cell extras",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Show/hide badges",
+      "keys": [["Ctrl", "Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Cycle Grid views",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Open Library view options",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Select all photos",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Deselect all photos",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Select only active photo",
+      "keys": [["Ctrl", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Deselect active photo",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Add previous photo to selection",
+      "keys": [["Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Add next photo to selection",
+      "keys": [["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Select flagged photos",
+      "keys": [["Ctrl", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Deselect unflagged photos",
+      "keys": [["Ctrl", "Alt", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Group into stack",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Unstack",
+      "keys": [["Ctrl", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Toggle stack",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Move to top of stack",
+      "keys": [["Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Move up in stack",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for comparing photos in the Library module",
+      "action": "Move down in stack",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set 1-star rating",
+      "keys": [["1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set 2-star rating",
+      "keys": [["2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set 3-star rating",
+      "keys": [["3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set 4-star rating",
+      "keys": [["4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set 5-star rating",
+      "keys": [["5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Set star rating and go to next photo",
+      "keys": [["Shift", "1"], ["Shift", "2"], ["Shift", "3"], ["Shift", "4"], ["Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Remove star rating",
+      "keys": [["0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Remove star rating and go to next photo",
+      "keys": [["Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Increase rating by one star",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Decrease rating by one star",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Assign a red label",
+      "keys": [["6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Assign a yellow label",
+      "keys": [["7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Assign a green label",
+      "keys": [["8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Assign a blue label",
+      "keys": [["9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Assign a color label and go to next photo",
+      "keys": [["Shift", "6"], ["Shift", "7"], ["Shift", "8"], ["Shift", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Flag photo as a pick",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Flag photo as a pick and go to next photo",
+      "keys": [["Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Flag photo as a reject",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Flag photo as a reject and go to next photo",
+      "keys": [["Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Unflag photo",
+      "keys": [["U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Unflag photo and go to next photo",
+      "keys": [["Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Increase flag status",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Decrease flag status",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Cycle flag settings",
+      "keys": [["`"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Refine photos",
+      "keys": [["Ctrl", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Show/hide Library Filter bar",
+      "keys": [["\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Toggle filters on/off",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for rating and filtering photos",
+      "action": "Find photo in the Library module",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Create a new collection in the Library module",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Add to Quick Collection",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Add to Quick Collection and go to next photo",
+      "keys": [["Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Show Quick Collection",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Save Quick Collection",
+      "keys": [["Ctrl", "Alt", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Clear Quick Collection",
+      "keys": [["Ctrl", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with collections",
+      "action": "Set as target collection",
+      "keys": [["Ctrl", "Alt", "Shift", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Add keywords",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Edit keywords",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Set a keyword shortcut",
+      "keys": [["Ctrl", "Alt", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Add/remove keyword shortcut from selected photo",
+      "keys": [["Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Enable painting",
+      "keys": [["Ctrl", "Alt", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Add a keyword from a keyword set to selected photo",
+      "keys": [["Alt", "1"], ["Alt", "2"], ["Alt", "3"], ["Alt", "4"], ["Alt", "5"], ["Alt", "6"], ["Alt", "7"], ["Alt", "8"], ["Alt", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Cycle forward through keyword sets",
+      "keys": [["Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Cycle backward through keyword sets",
+      "keys": [["Alt", "Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Copy metadata",
+      "keys": [["Ctrl", "Alt", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Paste metadata",
+      "keys": [["Ctrl", "Alt", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Save metadata to file",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Visual Search",
+      "keys": [["Ctrl", "Alt", "Shift", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working with metadata and keywords in the Library module",
+      "action": "Edit Face name",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Toggle Use Generative AI",
+      "keys": [["Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Toggle Detect Aware",
+      "keys": [["Alt", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle through variations of Generative Remove",
+      "keys": [["Alt", "Left"], ["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Convert to grayscale",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Auto tone",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Auto white balance",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Edit in Photoshop",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Copy Develop settings",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Paste Develop settings",
+      "keys": [["Ctrl", "Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Paste settings from previous photo",
+      "keys": [["Ctrl", "Alt", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Copy After settings to Before",
+      "keys": [["Ctrl", "Alt", "Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Copy Before settings to After",
+      "keys": [["Ctrl", "Alt", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Swap Before and After settings",
+      "keys": [["Ctrl", "Alt", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Reset all settings",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Sync settings",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Sync settings bypassing Synchronize Settings dialog box",
+      "keys": [["Ctrl", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Enable Auto Sync",
+      "keys": [["Ctrl", "Alt", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Match total exposures",
+      "keys": [["Ctrl", "Alt", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select White Balance tool (from any module)",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select the Crop tool (from any module)",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Constrain aspect ratio when Crop tool is selected",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Crop to same aspect ratio as previous crop",
+      "keys": [["Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle Crop grid overlay",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle Crop grid overlay orientation",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Switch crop between portrait and landscape orientation",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Reset crop",
+      "keys": [["Ctrl", "Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select the Guided Upright tool",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select the Spot Removal tool",
+      "keys": [["Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Toggle Brush between Clone and Heal modes when Spot Removal tool is selected",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select the Adjustment Brush tool (from any module)",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select the Graduated Filter tool",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Toggle Mask between Edit and Brush modes when the Graduated Filter or Radial Filter is selected",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Increase brush size",
+      "keys": [["]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Decrease brush size",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Increase brush feathering",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Decrease brush feathering",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Switch between local adjustment brush A and B",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Show/hide local adjustment pin",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Show/hide local adjustment mask overlay",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle local adjustment mask overlay colors",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select Targeted Adjustment tool to apply a Tone Curve adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select Targeted Adjustment tool to apply a Hue adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select Targeted Adjustment tool to apply a Saturation adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select Targeted Adjustment tool to apply a Luminance adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Select Targeted Adjustment tool to apply a Grayscale Mix adjustment",
+      "keys": [["Ctrl", "Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Deselect Targeted Adjustment tool",
+      "keys": [["Ctrl", "Alt", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Show clipping",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Rotate photo right (clockwise)",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Rotate photo left (counterclockwise)",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Toggle between Loupe and 1:1 Zoom preview",
+      "keys": [["Spacebar"], ["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Play impromptu slide show",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "View Before and After left/right",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "View Before and After top/bottom",
+      "keys": [["Alt", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "View Before and After in a split screen",
+      "keys": [["Shift", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "View Before only",
+      "keys": [["\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a new snapshot",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a new preset",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a new preset folder",
+      "keys": [["Ctrl", "Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Open Develop view options",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a Radial filter",
+      "keys": [["Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a Luminance filter",
+      "keys": [["Shift", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Crop to original",
+      "keys": [["Ctrl", "Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Create a color range",
+      "keys": [["Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle Overlay mode in Crop / Masking",
+      "keys": [["Alt", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Lock Zoom position in Develop or Library",
+      "keys": [["Shift", "Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Open / close Masking",
+      "keys": [["Shift", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Hide / unhide Gamut destination warning in Soft Proofing",
+      "keys": [["Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Expand / collapse soft proofing",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Never show overlay / pins in Develop",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Always show overlay / pins in Develop",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Cycle through transform options",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Develop module",
+      "action": "Copy a Mask",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Play slide show",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Play impromptu slide show",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Pause slide show",
+      "keys": [["Spacebar"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Preview slide show",
+      "keys": [["Alt", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "End slide show",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Go to next slide",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Go to previous slide",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Rotate photo right (clockwise)",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Rotate photo left (counterclockwise)",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Show/hide guides",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Export PDF slide show",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Export JPEG slide show",
+      "keys": [["Ctrl", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Export video slide show",
+      "keys": [["Ctrl", "Alt", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Create a new slide show template",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Create a new slide show template folder",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Save slide show settings",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Play all",
+      "keys": [["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Previous menu",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Slideshow module",
+      "action": "Next menu",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Print one copy",
+      "keys": [["Ctrl", "Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Open Page Setup dialog box",
+      "keys": [["Ctrl", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Open Print Settings dialog box",
+      "keys": [["Ctrl", "Alt", "Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Go to first page",
+      "keys": [["Ctrl", "Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Go to last page",
+      "keys": [["Ctrl", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Go to previous page",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Go to next page",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide guides",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide rulers",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide page bleed",
+      "keys": [["Ctrl", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide margins and gutters",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide image cells",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show/hide dimensions",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Play impromptu slide show",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Rotate photo right (clockwise)",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Rotate photo left (counterclockwise)",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Create a new print template",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Create a new print template folder",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Save print settings",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Print module",
+      "action": "Show Guides",
+      "keys": [["Ctrl", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Next Track in Tracklog",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Previous Track in Tracklog",
+      "keys": [["Ctrl", "Alt", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Search",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Delete All Location data",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Dark Map style",
+      "keys": [["Ctrl", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Hybrid Map style",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Light Map style",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Lock Pins on Map",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Road Map style",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Satellite Map style",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Change to Terrain Map style",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Show / Hide map info",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Map module",
+      "action": "Show / Hide Location preset overlay",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Reload web gallery",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Preview in browser",
+      "keys": [["Ctrl", "Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Play impromptu slide show",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Export web gallery",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Create a new web gallery template",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Create a new web gallery template folder",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Save web gallery settings",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for working in the Web module",
+      "action": "Open advance settings panel",
+      "keys": [["Ctrl", "Shift", "Alt", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using Help",
+      "action": "Display current module shortcuts",
+      "keys": [["Ctrl", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using Help",
+      "action": "Go to current module Help",
+      "keys": [["Ctrl", "Alt", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for using Help",
+      "action": "Open Community Help",
+      "keys": [["F1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

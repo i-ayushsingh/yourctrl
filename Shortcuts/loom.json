@@ -1,0 +1,26 @@
+{
+  "app_name": "Loom",
+  "process_name": "Loom.exe",
+  "category": "Screen Recording",
+  "platforms": ["windows"],
+  "icon_slug": "loom",
+  "brand_color": "#625DF5",
+  "shortcuts": [
+    { "section": "Recording", "action": "Start / Stop recording", "keys": [["Ctrl","Shift","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recording", "action": "Pause / Resume recording", "keys": [["Alt","Shift","P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recording", "action": "Cancel recording", "keys": [["Alt","Shift","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Recording", "action": "Quick restart", "keys": [["Ctrl","Shift","R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Screenshot", "action": "Full-screen screenshot", "keys": [["Ctrl","Shift","1"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Screenshot", "action": "Custom size screenshot", "keys": [["Ctrl","Shift","2"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Drawing", "action": "Draw", "keys": [["Ctrl","Shift","D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Drawing", "action": "Confetti", "keys": [["Ctrl","Alt","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Jump forward 6 seconds", "keys": [["Right"],["L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Jump back 6 seconds", "keys": [["Left"],["J"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Step forward 1 second", "keys": [["."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Step back 1 second", "keys": [[","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Play / Pause playback", "keys": [["K"],["Space"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Toggle full screen", "keys": [["F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Volume up", "keys": [["Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Playback", "action": "Volume down", "keys": [["Down"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

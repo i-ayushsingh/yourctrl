@@ -100,6 +100,7 @@ export function SettingsView() {
   const setSearchScope = useAppStore((s) => s.setSearchScope);
   const autoUpdate = useAppStore((s) => s.autoUpdate);
   const setAutoUpdate = useAppStore((s) => s.setAutoUpdate);
+
   const [filter, setFilter] = useState("");
   const [activeApp, setActiveApp] = useState<{ app_name: string; process_name: string } | null>(null);
   const [refreshing, setRefreshing] = useState(false);
@@ -215,6 +216,7 @@ export function SettingsView() {
     }
   };
 
+
   const storeApps = useAppStore((s) => s.apps);
   const apps = useMemo(() => {
     const t = filter.trim().toLowerCase();
@@ -236,7 +238,6 @@ export function SettingsView() {
       </header>
 
       <div className="mx-auto w-full max-w-5xl flex-1 overflow-y-auto px-5 pb-10 pt-6">
-        {/* General settings */}
         <h2 className="mb-2 px-1 font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
           General Settings
         </h2>
@@ -364,7 +365,7 @@ export function SettingsView() {
                 step="0.05"
                 value={popoverOpacity}
                 onChange={(e) => setPopoverOpacity(Number(e.target.value))}
-                className="w-full accent-primary h-[2px] bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
+                className="w-full accent-primary h-0.5 bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
               />
             </div>
           </div>
@@ -388,7 +389,7 @@ export function SettingsView() {
                 step="0.05"
                 value={popoverScale}
                 onChange={(e) => setPopoverScale(Number(e.target.value))}
-                className="w-full accent-primary h-[2px] bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
+                className="w-full accent-primary h-0.5 bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
               />
             </div>
           </div>
@@ -418,7 +419,7 @@ export function SettingsView() {
                 step="50"
                 value={holdMs}
                 onChange={(e) => setHoldMs(Number(e.target.value))}
-                className="w-full accent-primary h-[2px] bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
+                className="w-full accent-primary h-0.5 bg-muted-foreground/20 rounded-lg appearance-none cursor-pointer"
               />
             </div>
           </div>
@@ -578,7 +579,7 @@ export function SettingsView() {
                 </span>
               )}
               {downloadProgress !== null && (
-                <div className="w-full max-w-[120px] h-1.5 bg-muted rounded-full overflow-hidden">
+                <div className="w-full max-w-30 h-1.5 bg-muted rounded-full overflow-hidden">
                   <div
                     className="h-full bg-primary rounded-full transition-all duration-300"
                     style={{ width: `${Math.min(100, (downloadProgress / 1000000) * 100)}%` }}
@@ -613,7 +614,7 @@ export function SettingsView() {
               Reset to Default
             </Button>
           </div>
-          <div className="max-h-[420px] overflow-y-auto">
+          <div className="max-h-105 overflow-y-auto">
             {apps.map((a, i) => {
               const excluded = excludedApps.includes(a.app_name);
               return (

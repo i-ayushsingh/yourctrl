@@ -1,0 +1,6594 @@
+{
+  "app_name": "Reaper",
+  "process_name": "reaper.exe",
+  "category": "Audio Production",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "reaper",
+  "brand_color": "#C7C7C7",
+  "shortcuts": [
+    {
+      "section": "Automation",
+      "action": "Write Current Values for All Writing Envelopes to Time Selection",
+      "keys": [
+        [
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Automation",
+      "action": "Write Current Values for All Writing Envelopes from Cursor to End of Project",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Toggle track/take pan envelope visibility (depending on focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Toggle track/take volume envelope visibility (depending on focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Toggle track pre-FX volume envelope visible",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Toggle track pre-FX pan or take pitch envelope visibility (depending on focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Toggle track/take mute envelope visibility (depending on focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "View Envelopes for Current / Last Touched Track",
+      "keys": [
+        [
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Select next track/take envelope (depending on focus)",
+      "keys": [
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Select previous track/take envelope (depending on focus)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Add/edit envelope point value at cursor",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Insert New Point at Current Position",
+      "keys": [
+        [
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move to Previous Envelope Point",
+      "keys": [
+        [
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move to Next Envelope Point",
+      "keys": [
+        [
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move to previous envelope point (leaving other points selected)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move to next envelope point (leaving other points selected)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move Selected Envelope Points Down",
+      "keys": [
+        [
+          "Alt",
+          "Numpad2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Move Selected Envelope Points Up",
+      "keys": [
+        [
+          "Alt",
+          "Numpad8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Show All Active Envelopes for Tracks",
+      "keys": [
+        [
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Insert Automation Item",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Insert Four Envelope Points at Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Hide All Envelopes for Tracks",
+      "keys": [
+        [
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Envelopes",
+      "action": "Hide All Envelopes for All Tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Copy Items / Tracks / Envelope Points, ignoring Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Copy Items / Tracks / Envelope Points within Time Selection (Smart Copy)",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Cut Items / Tracks / Envelope Points, ignoring Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Cut Items / Tracks / Envelope Points within Time Selection (Smart Cut)",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Paste Items / Tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Select All Items / Tracks / Envelope Points (depending on Focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Jump (go) to time window",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor Back 1 Measure",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor Forward 1 Measure",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Start of Current Measure",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Start of Next Measure",
+      "keys": [
+        [
+          "Alt",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor Back 1 Beat",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor Forward 1 Beat",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Cursor Left to Grid Division",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Cursor Right to Grid Division",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Previous Tempo or Time Signature Change",
+      "keys": [
+        [
+          "Shift",
+          "Semicolon"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Next Tempo or Time Signature Change",
+      "keys": [
+        [
+          "Shift",
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Previous Zero Crossing in Items",
+      "keys": [
+        [
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Move Edit Cursor to Next Zero Crossing in Items",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Scrub Cursor Left 1 Pixel",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Scrub Cursor Right 1 Pixel",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Scrub Cursor Left Creating Time Selection",
+      "keys": [
+        [
+          "Shift",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Scrub Cursor Right Creating Time Selection",
+      "keys": [
+        [
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Select from Cursor to Start of Project",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Select from Cursor to End of Project",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Toggle looped-segment scrub at edit cursor",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert & Name Track",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert Media File",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ],
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert New MIDI Item",
+      "keys": [
+        [
+          "Shift",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert Virtual Instrument On New Track",
+      "keys": [
+        [
+          "Ctrl",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert empty space at time selection (moving later items)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/2",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/32",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/4",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/6, 1/4 Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/16",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/24, 1/16 Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/8",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/12, 1/8 Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Grid: Set to 1/48 (1/32 triplet)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Switch Items to Next Take",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Switch Items to Previous Take",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Active Take Volume Up",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Active Take Volume Down",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Paste As Take In Items",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Delete Active Take from Items (Prompt to Confirm)",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Toggle Take Reverse",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Duplicate Active Take",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set Take Channel Mode to Normal",
+      "keys": [
+        [
+          "Ctrl",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set Take Channel Mode to Mono, Down Mix",
+      "keys": [
+        [
+          "Ctrl",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set Take Channel Mode to Mono, Left",
+      "keys": [
+        [
+          "Ctrl",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set Take Channel Mode to Mono, Right",
+      "keys": [
+        [
+          "Ctrl",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set Start Point (Time Selection)",
+      "keys": [
+        [
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Set End Point (Time Selection)",
+      "keys": [
+        [
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Go to Start of Time Selection",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Go to End of Time Selection",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Remove items/tracks/contents of time selection/markers/envelope points",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge left (Time Selection)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Right (Time Selection)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Left Edge Left",
+      "keys": [
+        [
+          "Ctrl",
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Left Edge Right",
+      "keys": [
+        [
+          "Ctrl",
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Right Edge Left",
+      "keys": [
+        [
+          "Alt",
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Nudge Right Edge Right",
+      "keys": [
+        [
+          "Alt",
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Shift Left, by Time Selection Length",
+      "keys": [
+        [
+          "Shift",
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Shift Right, by Time Selection Length",
+      "keys": [
+        [
+          "Shift",
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Insert Empty Space at Time Selection, Moving Later Items",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Remove Time Selection & Loop Points",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Show undo history window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rendering",
+      "action": "Render Project to Disk",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rendering",
+      "action": "Render project using most recent settings (new target file name)",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rendering",
+      "action": "Save Live Output to Disk, Bounce",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rendering",
+      "action": "Open Render Queue",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Folders",
+      "action": "Cycle Track Folder State",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Folders",
+      "action": "Cycle Folder Collapse State",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "View FX Chain for Current / Last Touched Track",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "View FX Chain for Master Track",
+      "keys": [
+        [
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "View FX Parameters for Current Track / Take (depending on Focus)",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "View FX Parameters for Master Track",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Show FX Chain for Item Take",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Show / Hide Track/take Envelope for Last Touched FX Parameter",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Toggle FX Bypass for Current / Last Touched Track",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Toggle FX Bypass On All Tracks",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Toggle FX Bypass for Master Track",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Toggle all take FX bypass for selected items (requires SWS)",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "FX",
+      "action": "Monitoring FX Toggle Bypass",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "AutoTrim/Split Items Remove Silence",
+      "keys": [
+        [
+          "Ctrl",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Duplicate Items",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Duplicate Selected Area of Items",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Fade Items into Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Fade Items Out from Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Glue Items",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Heal Splits In Items",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Move & Stretch Items to fit Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Move Items to Sub Project (Non Destructive Glue)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Down, Resampled A",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Up, Resampled A",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Down, Resampled B",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Up, Resampled B",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Down",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Up",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Down, B",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Nudge Item Pitch Up, B",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Item: Open in built-in MIDI editor",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Quantise Item Positions & MIDI Note Positions to Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Open Item Copies in Primary External Editor",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Open Item Copies in Secondary External Editor",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Select & Split Item Under Edit or Play Cursor",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Select All Items in Track",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Select All Items in Current Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Select All Items on Selected Tracks in Current Time Selection",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Set item end to source media end",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Split at Previous Zero Crossing",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Split Items at Edit or Play Cursor",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Split Items at Time Selection",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Split Items at Edit or Play Cursor, ignoring Grouping",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Time Compress Selected Items, Fine",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Items",
+      "action": "Time Stretch Selected Items, Fine",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Equals"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Grow Left Edge of Items",
+      "keys": [
+        [
+          "Ctrl",
+          "Comma"
+        ],
+        [
+          "Ctrl",
+          "Numpad4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Shrink Left Edge of Items",
+      "keys": [
+        [
+          "Ctrl",
+          "Period"
+        ],
+        [
+          "Ctrl",
+          "Numpad6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Shrink Right Edge of Items",
+      "keys": [
+        [
+          "Alt",
+          "Comma"
+        ],
+        [
+          "Alt",
+          "Numpad4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Grow Right Edge of Items",
+      "keys": [
+        [
+          "Alt",
+          "Period"
+        ],
+        [
+          "Alt",
+          "Numpad6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Contents of Items Left",
+      "keys": [
+        [
+          "Shift",
+          "Comma"
+        ],
+        [
+          "Numpad1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Contents of Items Right",
+      "keys": [
+        [
+          "Shift",
+          "Period"
+        ],
+        [
+          "Numpad3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Down 1 Track",
+      "keys": [
+        [
+          "Numpad2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Up 1 Track",
+      "keys": [
+        [
+          "Numpad8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Left",
+      "keys": [
+        [
+          "Comma"
+        ],
+        [
+          "Numpad4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Right",
+      "keys": [
+        [
+          "Period"
+        ],
+        [
+          "Numpad6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items Left Preserving Timing of Contents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Comma"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "Numpad7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items Right Preserving Timing of Contents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Period"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "Numpad9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Left by Grid Size",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Comma"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "Numpad4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move Items / Envelope Points Right by Grid Size",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Period"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "Numpad6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move position of item to edit cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Comma"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Editing",
+      "action": "Move right edge of item to edit cursor (preserving item length)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Period"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Grouping",
+      "action": "Group Items",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Grouping",
+      "action": "Remove Items from Group",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Grouping",
+      "action": "Select All Items in Groups",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Grouping",
+      "action": "Toggle Item Grouping Override",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Select & Move to Previous Item",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Select & Move to Next Item",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Move cursor to start of items",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Comma"
+        ],
+        [
+          "Ctrl",
+          "Numpad7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Move cursor to end of items",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Period"
+        ],
+        [
+          "Ctrl",
+          "Numpad9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Move to Previous Item, leaving Other Items Selected",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Navigation",
+      "action": "Move to Next Item, leaving Other Items Selected",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Decrease Item Rate by 0.6% (10 cents)",
+      "keys": [
+        [
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Increase Item Rate by 0.6% (10 cents)",
+      "keys": [
+        [
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Decrease Item Rate by 0.6% (10 cents) Clear Preserve Pitch",
+      "keys": [
+        [
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Increase Item Rate by 0.6% (10 cents) Clear Preserve Pitch",
+      "keys": [
+        [
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Decrease Item Rate by 6% (1 Semitone) Clear Preserve Pitch",
+      "keys": [
+        [
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Increase Item Rate by 6% (1 Semitone) Clear Preserve Pitch",
+      "keys": [
+        [
+          "Shift",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Normalize items (peak/RMS/LUFS)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Normalize items (to loudest item) to +0dB peak",
+      "keys": [
+        [
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Pitch Item Down 1 Cent",
+      "keys": [
+        [
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Pitch Item Up 1 cent",
+      "keys": [
+        [
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Pitch Item Down 1 Semitone",
+      "keys": [
+        [
+          "Shift",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Pitch Item Up 1 Semitone",
+      "keys": [
+        [
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Reset Item Pitch",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Set Item Rate to 1.0",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Show Media Items / Take Properties",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Show Media Item Source Properties",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Toggle Item Mute",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Item Properties",
+      "action": "Toggle Item Solo exclusive",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Loop Points",
+      "action": "Go to Start of Loop",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Loop Points",
+      "action": "Go to End of Loop",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Loop Points",
+      "action": "Set Start Point (Loop)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "LeftBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Loop Points",
+      "action": "Set End Point (Loop)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "RightBracket"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Insert Project Marker at Current Position",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Insert/Edit Project Marker at Current Position",
+      "keys": [
+        [
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 1",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 2",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 3",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 4",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 5",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 6",
+      "keys": [
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 7",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 8",
+      "keys": [
+        [
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 9",
+      "keys": [
+        [
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Marker 10",
+      "keys": [
+        [
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 1 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 2 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 3 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 4 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 5 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 6 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 7 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 8 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 9 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Marker 10 to Play/Edit Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Previous Marker / Project Start",
+      "keys": [
+        [
+          "Semicolon"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Next Marker / Project End",
+      "keys": [
+        [
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Report tempo and Time Signature Marker at Cursor",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move edit cursor to Previous tempo or time signature change",
+      "keys": [
+        [
+          "Shift",
+          "Semicolon"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move edit cursor to next tempo or time signature change",
+      "keys": [
+        [
+          "Shift",
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Add Stretch Marker at Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Add Stretch Marker to Cursor & Snap to Grid",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Previous Stretch Marker",
+      "keys": [
+        [
+          "Ctrl",
+          "Semicolon"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Next Stretch Marker",
+      "keys": [
+        [
+          "Ctrl",
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Move Last Focused Stretch Marker to Current Edit Cursor Position",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Insert / Edit Tempo Marker & Add Stretch Marker at Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Create Measure from Time Selection, New Time Signature",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Insert Region from Time Selection",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Edit region near cursor",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 1 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 2 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 3 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 4 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 5 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 6 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 7 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 8 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 9 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Go to Region 10 (Smooth Seek after current finishes)",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Markers & Regions",
+      "action": "Show Region / Marker Manager Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "View routing and I/O for master track",
+      "keys": [
+        [
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "Nudge Volume of Master Track Up",
+      "keys": [
+        [
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "Nudge Volume of Master Track Down",
+      "keys": [
+        [
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "Toggle Master Track Visible",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "Toggle Mute for Master Track",
+      "keys": [
+        [
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Master Track",
+      "action": "Toggle Stereo / Mono L+R",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "File menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Edit menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "View menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Insert menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Item menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Track menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Options menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Actions menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Extensions menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu Bar (Windows)",
+      "action": "Help menu accelerator",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show All Channels",
+      "keys": [
+        [
+          "Shift",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 01",
+      "keys": [
+        [
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 02",
+      "keys": [
+        [
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 03",
+      "keys": [
+        [
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 04",
+      "keys": [
+        [
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 05",
+      "keys": [
+        [
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 06",
+      "keys": [
+        [
+          "Shift",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 07",
+      "keys": [
+        [
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 08",
+      "keys": [
+        [
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 09",
+      "keys": [
+        [
+          "Shift",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Only Channel 10",
+      "keys": [
+        [
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Copy Events within Time Selection if any (Smart Copy)",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Cut Events within Time Selection if any (Smart Cut)",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Duplicate Events",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Duplicate Events within Time Selection if any (Smart Duplicate)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Fit Notes to Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Insert Note at Edit Cursor (maintaining position)",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Insert note, advancing edit cursor",
+      "keys": [
+        [
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move Pitch Cursor Up 1 Semitone",
+      "keys": [
+        [
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move Pitch Cursor Down 1 Semitone",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move Pitch Cursor Up 1 Octave",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move Pitch Cursor Down 1 Octave",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Mute Events Toggle",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Select All Events",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Invert Selection",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Split Notes",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Split Notes at Mouse Cursor",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Join Notes",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Double Length of MIDI (Repeat in Contents)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Humanize Notes",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Quantize",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Quantize Notes Position to Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Quantize Notes Position & End to Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Quantize Using Last Quantize Dialog Settings",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Select & Quantize Notes Position to Grid",
+      "keys": [
+        [
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Transpose Notes",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show / Hide Filter Window",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Revert File (MIDI File Mode Only)",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Save File (MIDI File Mode Only)",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Send All Notes Off to All MIDI Outputs / Plugins",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Reset all MIDI devices",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Reset all MIDI control surface devices",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, whole",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, half",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Thirty-second",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Quarter",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Quarter Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Sixteenth",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Sixteenth Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Eighth",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Eighth Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Sixteenth Triplet",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Set Length for Next Inserted Note, Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "BackSpace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Toggle Snap to Grid",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Piano Roll view",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Drum Map view",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Event List view",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Notation view",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Activate previous MIDI rack",
+      "keys": [
+        [
+          "Ctrl",
+          "Arrow Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Activate next MIDI track",
+      "keys": [
+        [
+          "Ctrl",
+          "Arrow Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Go to previous MIDI item",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Go to next MIDI item",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move backward to previous single note or chord",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move forward to next single note or chord",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move backward to previous single note or chord (add to selection)",
+      "keys": [
+        [
+          "Shift",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move forward to next single note or chord (add to selection)",
+      "keys": [
+        [
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move to lower note in chord",
+      "keys": [
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move to Higher note in chord",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move to lower note in Chord (add to selection)",
+      "keys": [
+        [
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Move to higher note in chord (add to selection)",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Events as Rectangles (Normal Mode)",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Events as Triangles (Drum Mode)",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Show Events as Diamonds (Drum Mode)",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Toggle Grid visibility",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Toggle Show Velocity Handles on Notes",
+      "keys": [
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Toggle Show Note Names",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Zoom In Vertically",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "MIDI",
+      "action": "Zoom Out Vertically",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Toggle Metronome",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Show Metronome / Pre Roll Settings",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Solo In Front",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Toggle track solo defeat",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Auto-crossfade media items when editing",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Toggle Locking",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Show Snap / Grid Settings",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Global Options",
+      "action": "Toggle Snapping",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Configuration",
+      "keys": [
+        [
+          "Ctrl",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Enable Non Contiguous Selection / Toggle Selection of Current Track / Item",
+      "keys": [
+        [
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Move to Item Peak & Report Position",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Current Peak for Channel 1 of Current Track",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Current Peak for Channel 2 of Current Track",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Current Peak for Channel 1 of Master Track",
+      "keys": [
+        [
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Current Peak for Channel 2 of Master Track",
+      "keys": [
+        [
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report edit/play cursor position, transport state and nearest markers/regions",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report project length",
+      "keys": [
+        [
+          "Ctrl",
+          "Windows",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report muted tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report record armed tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Ripple Editing Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report soloed tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report track/item/time/MIDI selection (depending on focus)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report tracks with record monitor on",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report tracks with phase inverted",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Select Items Under Edit Cursor on Selected Tracks",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Configure Peak Watcher for current track/track FX",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Peak Watcher value for first watcher first channel",
+      "keys": [
+        [
+          "Alt",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Peak Watcher value for first watcher second channel",
+      "keys": [
+        [
+          "Alt",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Peak Watcher value for second watcher first channel",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Report Peak Watcher value for Second watcher second channel",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Reset Peak Watcher first watcher",
+      "keys": [
+        [
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "OSARA",
+      "action": "Reset Peak Watcher second watcher",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "New Project",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Open Project",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Save Project",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Save Project As",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Save new version of project (auto-increment)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Project Settings",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "New Project TAB",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Next Project TAB",
+      "keys": [
+        [
+          "Ctrl",
+          "TAB"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Previous Project TAB",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "TAB"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Close Current Project TAB",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Close All Projects Except Current",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Insert New Sub Project",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Open Associated Project in New TAB",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project Management",
+      "action": "Open Related Project 1",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Cycle Track Record Monitor",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Duplicate Tracks",
+      "keys": [
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Insert New Track at End of Track List",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Invert Track Phase",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Go to Previous Track",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Go to Next Track",
+      "keys": [
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Go to Previous Track, leaving Other Tracks Selected",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Go to Next Track, leaving Other Tracks Selected",
+      "keys": [
+        [
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Move Tracks to Sub Project",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Track Pan Left",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Track Pan Right",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Track Volume Up",
+      "keys": [
+        [
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Track Volume Down",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Volume of Selected Tracks Up (1dB, requires SWS)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Nudge Volume of Selected Tracks Down (1dB, requires SWS)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Rename Last Touched Track",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Set Track Grouping Parameters",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Cycle through midi recording modes of selected tracks",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Backslash"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Toggle mute for selected tracks",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Toggle solo for selected tracks",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Toggle Record Arming for Current / Last Touched Track",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Unarm All Tracks for Recording",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Unmute All Tracks",
+      "keys": [
+        [
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "Unsolo All Tracks",
+      "keys": [
+        [
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Track Management",
+      "action": "View Routing & I/O for Current / Last Touched Track",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Move to Next Transient",
+      "keys": [
+        [
+          "TAB"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Move to Previous Transient",
+      "keys": [
+        [
+          "Shift",
+          "TAB"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Transient Sensitivity / Threshold Adjust",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Transient Detection Sensitivity, Increase",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Transient Detection Sensitivity, Decrease",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Transient Detection Threshold, Increase",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transients",
+      "action": "Transient Detection Threshold, Decrease",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Fast Forward",
+      "keys": [
+        [
+          "Ctrl",
+          "Equals"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Rewind a little bit",
+      "keys": [
+        [
+          "Ctrl",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Go to Start of Project",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Go to End of Project",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Decrease Playrate by 0.6% (10 cents)",
+      "keys": [
+        [
+          "Shift",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Increase Playrate by 0.6% (10 cents)",
+      "keys": [
+        [
+          "Shift",
+          "Equals"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Play Selected Items Once",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Play / Pause",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Play / Stop",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Play, Skip Time Selection",
+      "keys": [
+        [
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Record",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Tap Tempo",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Toggle PreRoll ON Record",
+      "keys": [
+        [
+          "Shift",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Toggle count-in before recording (requires SWS)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Toggle Preserve Pitch in Audio Items when changing Master Playrate",
+      "keys": [
+        [
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Toggle Repeat",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Transport",
+      "action": "Set Playrate to 1.0",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Show Undo Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Show Virtual MIDI Keyboard",
+      "keys": [
+        [
+          "Alt",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Zoom In Horizontal",
+      "keys": [
+        [
+          "Equals"
+        ],
+        [
+          "NumpadPlus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Zoom Out Horizontal",
+      "keys": [
+        [
+          "Minus"
+        ],
+        [
+          "NumpadMinus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Zoom Time Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "NumpadPlus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Show / Hide Media Explorer",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Show / Hide Video Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Show Action List",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Toggle Full Screen",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Toggle Open / Close Nudge Set Dialog",
+      "keys": [
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "About REAPER",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "About OSARA",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Mouse Modifier Keys & Action Shortcuts",
+      "keys": [
+        [
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Analyze & Display Item Peak & RMS",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Analyze Loudness",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Command Parameters",
+      "keys": [
+        [
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Copy Current Snapshot",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Fill Gaps Between Selected Items (Advanced, Last Settings)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Normalise Loudness of Selected Items / Tracks",
+      "keys": [
+        [
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Nudge Section Loop Start Earlier",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Nudge Section Loop Start Later",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Nudge Section Loop Overlap Shorter",
+      "keys": [
+        [
+          "Alt",
+          "Numpad7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Nudge Section Loop Overlap Longer",
+      "keys": [
+        [
+          "Alt",
+          "Numpad9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Open / Close Queue Bus Generator",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Open Console",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Open Snapshots Window",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Options Cycle Thru Record Modes",
+      "keys": [
+        [
+          "Alt",
+          "Backslash"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Paste Snapshot",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Recall Current Snapshot",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Save Over Current Snapshot",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Set Volume & Pan of Selected Takes",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Toggle All Take FX Bypass for Selected Items",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "SWS",
+      "action": "Toggle Count-In Before Recording",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Backquote"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "app_name": "Snipping Tool",
+  "process_name": "SnippingTool.exe",
+  "category": "Windows OS",
+  "platforms": ["windows"],
+  "icon_slug": "windows",
+  "brand_color": "#0078D4",
+  "shortcuts": [
+    {
+      "section": "Open",
+      "action": "Open the Snipping Tool overlay to capture an image snapshot",
+      "keys": [["Win", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Open",
+      "action": "Open the Snipping Tool overlay to capture a video clip",
+      "keys": [["Win", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Open",
+      "action": "Take a static image snapshot of the entire screen and place it in the clipboard",
+      "keys": [["PrtSc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Open",
+      "action": "Capture the screen including an open menu (Windows 10)",
+      "keys": [["Ctrl", "PrtSc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "In Snipping Tool",
+      "action": "Choose a snipping mode",
+      "keys": [["Alt", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "In Snipping Tool",
+      "action": "Create a new snip in the same mode as the last one",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "In Snipping Tool",
+      "action": "Delay capture by 1-5 seconds",
+      "keys": [["Alt", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "In Snipping Tool",
+      "action": "Copy the snip to the clipboard",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "In Snipping Tool",
+      "action": "Save the snip",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

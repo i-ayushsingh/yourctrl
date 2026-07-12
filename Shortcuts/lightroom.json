@@ -1,0 +1,694 @@
+{
+  "app_name": "Lightroom",
+  "process_name": "lightroom.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "adobe-lightroom",
+  "brand_color": "#ADD5E0",
+  "shortcuts": [
+    {
+      "section": "Popular shortcuts",
+      "action": "Crop & Rotate",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Detail",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Edit",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Full Screen",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Grid",
+      "keys": [["G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Info",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Keywords",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Cut",
+      "keys": [["Ctrl", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Copy",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Paste",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Redo",
+      "keys": [["Shift", "Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Minimize",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Auto Tone",
+      "keys": [["Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Edit in Photoshop",
+      "keys": [["Shift", "Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Rotate Left (CCW)",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Rotate Right (CW)",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Zoom In",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Zoom Out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Select all",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Select None",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Paste Selected settings",
+      "keys": [["Shift", "Ctrl", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Preferences",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Popular shortcuts",
+      "action": "Search",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Visualize Spots (when Healing Brush is selected)",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Cycle Overlay",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Photos",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Linear Gradient",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Radial Gradient",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Toggle Clipping Indicators On/Off",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "White Balance Sampler",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Show/Hide Filmstrip",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Show Original",
+      "keys": [["\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Toggle Zoom States",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Cycle Mask color",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "(Export with) Previous Settings",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Export Dialog (Custom...)",
+      "keys": [["Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Enter Full Screen",
+      "keys": [["F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Group Into Stack",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Ungroup Stack",
+      "keys": [["Shift", "Ctrl", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Guided Upright",
+      "keys": [["Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Hide Lightroom",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Quit Lightroom",
+      "keys": [["Ctrl", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Create Version",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Close Window",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Remove photo",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Hide others",
+      "keys": [["Alt", "Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Add Photos",
+      "keys": [["Shift", "Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other common shortcuts",
+      "action": "Versions (Expand Panel)",
+      "keys": [["Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Light Panel",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Color Panel",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Effects Panel",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Details Panel",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Optics Panel",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Expand/Retract Geometry Panel",
+      "keys": [["Ctrl", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Open Presets Panel",
+      "keys": [["Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panel shortcuts",
+      "action": "Show/Hide Histogram",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Increase brush size",
+      "keys": [["["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Decrease brush size",
+      "keys": [[ "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Increase brush feather",
+      "keys": [["Shift", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Decrease brush feather",
+      "keys": [["Shift", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Adjustment brush",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush shortcuts",
+      "action": "Healing brush",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Merge shortcuts",
+      "action": "Merge to HDR",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Merge shortcuts",
+      "action": "Merge to HDR (Headless)",
+      "keys": [["Shift", "Ctrl", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Merge shortcuts",
+      "action": "Merge to Pano",
+      "keys": [["Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Merge shortcuts",
+      "action": "Merge to Pano (Headless)",
+      "keys": [["Shift", "Ctrl", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Flags",
+      "action": "Pick Flag",
+      "keys": [["Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Flags",
+      "action": "Remove Pick Flag",
+      "keys": [["U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Flags",
+      "action": "Flag as Rejected",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 0",
+      "keys": [["0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 1",
+      "keys": [["1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 2",
+      "keys": [["2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 3",
+      "keys": [["3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 4",
+      "keys": [["4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Setting Rating",
+      "action": "Set rating to 5",
+      "keys": [["5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

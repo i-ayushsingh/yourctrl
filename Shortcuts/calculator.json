@@ -1,0 +1,550 @@
+{
+  "app_name": "Calculator",
+  "process_name": "Calculator.exe",
+  "category": "Windows OS",
+  "platforms": ["windows"],
+  "icon_slug": "windows",
+  "brand_color": "#0078D4",
+  "shortcuts": [
+    {
+      "section": "Standard",
+      "action": "Square root (√x)",
+      "keys": [["Shift", "2"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Switch to Standard mode",
+      "keys": [["Alt", "1"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Toggle history",
+      "keys": [["Control", "H"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Memory Plus (M+)",
+      "keys": [["Control", "P"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Memory Recall (MR)",
+      "keys": [["Control", "R"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Memory Minus (M-)",
+      "keys": [["Control", "Q"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Memory Store (MS)",
+      "keys": [["Control", "M"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Memory Clear (MC)",
+      "keys": [["Control", "L"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Clear current input (CE)",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Clear all (C)",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Plus or minus (+/-)",
+      "keys": [["F9"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Reciprocal (1/x)",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Percent (%)",
+      "keys": [["Shift", "5"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Standard",
+      "action": "Delete history",
+      "keys": [["Control", "Shift", "D"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Switch to Scientific mode",
+      "keys": [["Alt", "2"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Degrees (DEG)",
+      "keys": [["F3"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Radians (RAD)",
+      "keys": [["F4"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Gradians (GRAD)",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "10 power x",
+      "keys": [["Control", "G"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "cosh(x)",
+      "keys": [["Control", "O"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "sinh(x)",
+      "keys": [["Control", "S"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "tanh(x)",
+      "keys": [["Control", "T"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "sin⁻¹(x)",
+      "keys": [["Shift", "S"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "cos⁻¹(x)",
+      "keys": [["Shift", "O"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "tan⁻¹(x)",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "y√x",
+      "keys": [["Control", "Y"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "X Mod",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "log(x)",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "dms(x)",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "ln(x)",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "eˣ",
+      "keys": [["Control", "N"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "cos(x)",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Pi",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "sqrt(x)",
+      "keys": [["Q"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "sin(x)",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "tan(x)",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "F-E",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Exponential",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "X power Y",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "X power 3",
+      "keys": [["#"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "n!",
+      "keys": [["!"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scientific",
+      "action": "Mod",
+      "keys": [["%"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Switch to Programmer mode",
+      "keys": [["Alt", "3"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "DWORD",
+      "keys": [["F2"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "WORD",
+      "keys": [["F3"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "BYTE",
+      "keys": [["F4"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "HEX",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "DEC",
+      "keys": [["F6"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "OCT",
+      "keys": [["F7"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "BIN",
+      "keys": [["F8"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "QWORD",
+      "keys": [["F12"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Left shift (Lsh)",
+      "keys": [["<"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Right shift (Rsh)",
+      "keys": [[">"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Mod",
+      "keys": [["%"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Or",
+      "keys": [["|"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Xor",
+      "keys": [["^"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "Not",
+      "keys": [["~"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Programmer",
+      "action": "And",
+      "keys": [["&"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Conversion",
+      "action": "Switch to Date calculation",
+      "keys": [["Alt", "4"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Conversion",
+      "action": "Date calculation",
+      "keys": [["Control", "E"]],
+      "os": "windows",
+      "source": "webnots",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

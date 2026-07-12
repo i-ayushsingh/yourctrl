@@ -1,0 +1,730 @@
+{
+  "app_name": "Zoom",
+  "process_name": "Zoom.exe",
+  "category": "Communication",
+  "platforms": ["windows"],
+  "icon_slug": "zoom",
+  "brand_color": "#2D8CFF",
+  "shortcuts": [
+    {
+      "section": "Meeting",
+      "action": "Change focus to Zoom Meeting controls (on top when sharing screen)",
+      "keys": [["Ctrl", "Alt", "Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "View the previous page of video participants in gallery view",
+      "keys": [["PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "View the next page of video participants in gallery view",
+      "keys": [["PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Toggle the option Always show meeting controls in General settings",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Switch to Speaker view",
+      "keys": [["Alt", "F1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Switch to Gallery view",
+      "keys": [["Alt", "F2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Close the current window",
+      "keys": [["Alt", "F4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Start/stop video",
+      "keys": [["Alt", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Mute/unmute audio",
+      "keys": [["Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Mute/unmute audio for everyone except host (host only)",
+      "keys": [["Alt", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Open share screen window or stop screen share if already sharing",
+      "keys": [["Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Show/hide windows and applications available to share",
+      "keys": [["Alt", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Pause or resume screen share",
+      "keys": [["Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Start/stop computer recording",
+      "keys": [["Alt", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Start/stop cloud recording",
+      "keys": [["Alt", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Pause/resume recording",
+      "keys": [["Alt", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Switch camera",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Enter or exit full screen mode",
+      "keys": [["Alt", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Show/hide in-meeting chat panel",
+      "keys": [["Alt", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Show/hide participants panel",
+      "keys": [["Alt", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Open invite window",
+      "keys": [["Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Copy invitation link",
+      "keys": [["Alt", "Shift", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Raise/lower hand",
+      "keys": [["Alt", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Display prompt to end or leave meeting",
+      "keys": [["Alt", "Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Begin remote control",
+      "keys": [["Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Revoke/give up remote control permission",
+      "keys": [["Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Read active speaker name",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Show/hide floating meeting controls",
+      "keys": [["Ctrl", "Alt", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Increase chat display size",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Decrease chat display size",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Focus input field (only when in chat window)",
+      "keys": [["Alt", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Focus last received parent message in chat history (only when in chat window)",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Focus list of chats (only when in chat window)",
+      "keys": [["Control", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Jump to start of unread messages (only when in chat window)",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Start new chat with meeting participants (only when in chat window)",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Open the AI chat panel in a meeting",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Open Reactions panel",
+      "keys": [["Ctrl", "Shift", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send audible clap",
+      "keys": [["Alt", "Shift", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send thumbs up",
+      "keys": [["Alt", "Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send heart",
+      "keys": [["Alt", "Shift", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send joy",
+      "keys": [["Alt", "Shift", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send open mouth",
+      "keys": [["Alt", "Shift", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Meeting",
+      "action": "Send tada",
+      "keys": [["Alt", "Shift", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Screenshot",
+      "keys": [["Alt", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Hide current chat session",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Go to previous chat",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Go to next chat",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Back in chat history",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Forward in chat history",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Start a new chat",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Focus to list of all chats and channels",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Focus keyboard to latest message in current group chat or channel",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Add member to current group chat or channel",
+      "keys": [["Ctrl", "Alt", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Jump to start of new messages in the current group chat or channel",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Chat",
+      "action": "Insert a hyperlink",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Call highlighted phone number",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Accept inbound call",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "End current call",
+      "keys": [["Ctrl", "Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Decline inbound call",
+      "keys": [["Ctrl", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Mute/unmute call",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Hold/unhold call",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Phone",
+      "action": "Transfer call",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open the AI chat panel (out of meeting)",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open the Calendar panel",
+      "keys": [["Ctrl", "Shift", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Close current window",
+      "keys": [["Alt", "F4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Search",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Navigate among Zoom popup windows",
+      "keys": [["F6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to next product tab",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to previous product tab",
+      "keys": [["Ctrl", "Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 1",
+      "keys": [["Ctrl", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 2",
+      "keys": [["Ctrl", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 3",
+      "keys": [["Ctrl", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 4",
+      "keys": [["Ctrl", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 5",
+      "keys": [["Ctrl", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 6",
+      "keys": [["Ctrl", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 7",
+      "keys": [["Ctrl", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to product tab 8",
+      "keys": [["Ctrl", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch to the last product tab",
+      "keys": [["Ctrl", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Switch between Portrait and Landscape views",
+      "keys": [["Alt", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Start network diagnostic",
+      "keys": [["Ctrl", "Alt", "Shift", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

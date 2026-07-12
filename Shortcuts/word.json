@@ -1,0 +1,4166 @@
+{
+  "app_name": "Microsoft Word",
+  "process_name": "WINWORD.EXE",
+  "category": "Productivity",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "microsoftword",
+  "brand_color": "#2B579A",
+  "shortcuts": [
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Open a document.",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Create a new document.",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Save the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Close the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Cut the selected content to the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Copy the selected content to the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Paste the contents of the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Paste text only.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Select all document content.",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Apply bold formatting to text.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Apply italic formatting to text.",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Apply underline formatting to text.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Decrease the font size by 1 point.",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Increase the font size by 1 point.",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Center the text.",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Align the text to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Align the text to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Cancel a command.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Undo the previous action.",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Redo the previous action, if possible.",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Zoom in.",
+      "keys": [
+        [
+          "Ctrl",
+          "Plus (",
+          ")"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Zoom out.",
+      "keys": [
+        [
+          "Ctrl",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Return back to 100% zoom.",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Zoom in and out with mouse.",
+      "keys": [
+        [
+          "Ctrl",
+          "Scroll"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Split the document window.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used shortcuts",
+      "action": "Remove the document window split.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "C"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Select the active tab on the ribbon and activate the access keys.",
+      "keys": [
+        [
+          "Alt"
+        ],
+        [
+          "the Arrows."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Move the focus to commands on the ribbon.",
+      "keys": [
+        [
+          "Tab key"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Move between command groupings on the ribbon.",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ],
+        [
+          "Right Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Move among the items on the ribbon.",
+      "keys": [
+        [
+          "Arrows"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Show the tooltip for the ribbon element currently in focus.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Activate the selected button.",
+      "keys": [
+        [
+          "Space"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Open the list for the selected command.",
+      "keys": [
+        [
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Open the menu for the selected button.",
+      "keys": [
+        [
+          "Alt",
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "When a menu or submenu is open, move to the next command.",
+      "keys": [
+        [
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Expand or collapse the ribbon.",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Open the context menu.",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Or, on a Windows keyboard, the Windows Menu key (between the right Alt and right Ctrl keys)",
+      "keys": [
+        [
+          "Move to the submenu when a main menu is open"
+        ],
+        [
+          "selected."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Right arrow key",
+      "keys": [
+        [
+          "Toggle AutoSave on"
+        ],
+        [
+          "off."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Alt+Z, A",
+      "keys": [
+        [
+          "Expand"
+        ],
+        [
+          "collapse the ribbon."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Ctrl+F1",
+      "keys": [
+        [
+          "Open the dialog box to rename the document"
+        ],
+        [
+          "save it to another location."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work in the ribbon with the keyboard",
+      "action": "Alt+B",
+      "keys": [
+        [
+          "[Top of Page]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor one word to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "Left Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor one word to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "Right Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor up by one paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Up Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor down by one paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the end of the current line.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the beginning the current line.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the top of the screen.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the bottom of the screen.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor by scrolling the document view up by one screen.",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor by scrolling the document view down by one screen.",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the top of the next page.",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the top of the previous page.",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the end of the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the beginning of the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Move the cursor to the location of the previous revision.",
+      "keys": [
+        [
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Exit the floating shape navigation and return to the normal navigation.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Display the **Navigation** task pane, to search within the document content.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Display the **Go To** dialog box, to navigate to a specific page, bookmark, footnote, table, comment, graphic, or other location.",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate the document",
+      "action": "Cycle through the locations of the four previous changes made to the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Print the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Switch to print preview.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Move around the preview page when zoomed in.",
+      "keys": [
+        [
+          "Arrows"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Move by one preview page when zoomed out.",
+      "keys": [
+        [
+          "PageUp"
+        ],
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Move to the first preview page when zoomed out.",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Preview and print documents",
+      "action": "Move to the last preview page when zoomed out.",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select text.",
+      "keys": [
+        [
+          "Shift",
+          "Arrows"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select the word to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select the word to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the beginning of the current line.",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the end of the current line.",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the beginning of the current paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the end of the current paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the top of the screen.",
+      "keys": [
+        [
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the bottom of the screen.",
+      "keys": [
+        [
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the beginning of the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the end of the document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select from the current position to the bottom of the window.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text and graphics",
+      "action": "Select all document content.",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "Start extending the selection.",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "In the extend selection mode, clicking a location in the document extends the current selection to that location.",
+      "keys": [
+        [
+          "Select the nearest character to the left"
+        ],
+        [
+          "right."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "F8, Left or Right arrow key",
+      "keys": [
+        [
+          "Expand the selection."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "F8 repeatedly to expand the selection to the entire word, sentence, paragraph, section, and document.",
+      "keys": [
+        [
+          "Reduce the selection."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "Shift+F8",
+      "keys": [
+        [
+          "Select a vertical block of text."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "Ctrl+Shift+F8, then press the arrow keys",
+      "keys": [
+        [
+          "Stop extending the selection."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Extend a selection",
+      "action": "Esc",
+      "keys": [
+        [
+          "[Top of Page]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Delete one word to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Delete one word to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Cut the selected content to the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Copy the selected content to the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Paste the contents of the Clipboard.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Define an AutoText block with the selected content.",
+      "keys": [
+        [
+          "Alt",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Cut the selected content to the Spike.",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Paste the contents of the Spike.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Copy the selected text formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Paste the selected text formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Paste text only.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Copy the header or footer used in the previous section of the document.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit text and graphics",
+      "action": "Display the **Replace** dialog box, to find and replace text, specific formatting, or special items.",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Center the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Justify the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Align the paragraph to the left.",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Align the paragraph to the right.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Indent the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Remove a paragraph indent.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Create a hanging indent.",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Remove a hanging indent.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Remove paragraph formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply single spacing to the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply double spacing to the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply 1.5-line spacing to the paragraph.",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Enable AutoFormat.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply the **Normal** style.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply the **Heading 1** style.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply the **Heading 2** style.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Apply the **Heading 3** style.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Display the **Apply Styles** task pane.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Align and format paragraphs",
+      "action": "Display the **Styles** task pane.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Display the **Font** dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Increase the font size.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Decrease the font size.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Increase the font size by 1 point.",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Decrease the font size by 1 point.",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Switch the text between upper case, lower case, and title case.",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Change the text to all upper case.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Hide the selected text.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply bold formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Add a bulleted list.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply underline formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply underline formatting to the words, but not the spaces.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply double-underline formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply italic formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply small caps formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply subscript formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Apply superscript formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Plus (",
+          ")"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Remove manual character formatting.",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Format characters",
+      "action": "Change the selected text to the Symbol font.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage text formatting",
+      "action": "Display all nonprinting characters.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage text formatting",
+      "action": "Display the **Reveal Formatting** task pane.",
+      "keys": [
+        [
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a line break.",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a page break.",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a column break.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert an em dash (—).",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert an en dash (–).",
+      "keys": [
+        [
+          "Ctrl",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert an optional hyphen.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a nonbreaking hyphen.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a nonbreaking space.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a registered trademark symbol (®).",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert a trademark symbol (™).",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Insert an ellipsis (…)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Period"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert special characters",
+      "action": "Alt+the character code (on the numeric keypad)",
+      "keys": [
+        [
+          "[Top of Page]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with web content",
+      "action": "Insert a hyperlink.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with web content",
+      "action": "Go back one page.",
+      "keys": [
+        [
+          "Alt",
+          "Left Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with web content",
+      "action": "Go forward one page.",
+      "keys": [
+        [
+          "Alt",
+          "Right Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with web content",
+      "action": "Refresh the page.",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the next cell in the row and select its content.",
+      "keys": [
+        [
+          "Tab key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the previous cell in the row and select its content.",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the first cell in the row.",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the last cell in the row.",
+      "keys": [
+        [
+          "Alt",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the first cell in the column.",
+      "keys": [
+        [
+          "Alt",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the last cell in the column.",
+      "keys": [
+        [
+          "Alt",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the previous row.",
+      "keys": [
+        [
+          "Up Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move to the next row.",
+      "keys": [
+        [
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move one row up.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Up Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move around in a table",
+      "action": "Move one row down.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select table content",
+      "action": "Select the content in the next cell.",
+      "keys": [
+        [
+          "Tab key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select table content",
+      "action": "Select the content in the previous cell.",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select table content",
+      "action": "Extend a selection to adjacent cells.",
+      "keys": [
+        [
+          "Shift",
+          "Arrows"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select table content",
+      "action": "Select a column.",
+      "keys": [
+        [
+          "Select the top"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select table content",
+      "action": "Select a row.",
+      "keys": [
+        [
+          "Select the first"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert paragraphs and tab characters in a table",
+      "action": "Insert a new paragraph in a cell.",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert paragraphs and tab characters in a table",
+      "action": "Insert a tab character in a cell.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Review a document",
+      "action": "Insert a comment.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Review a document",
+      "action": "Turn change tracking on or off.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Review a document",
+      "action": "Close the Reviewing Pane.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Mark a table of contents entry.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Mark a table of authorities entry (citation).",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Mark an index entry.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Insert a footnote.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Insert an endnote.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Go to the next footnote.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with references, citations, and indexing",
+      "action": "Go to the previous footnote.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Perform a mail merge",
+      "action": "Preview the mail merge.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Perform a mail merge",
+      "action": "Merge a document.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Perform a mail merge",
+      "action": "Print the merged document.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Perform a mail merge",
+      "action": "Edit a mail-merge data document.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Perform a mail merge",
+      "action": "Insert a merge field.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Insert a DATE field.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Insert a LISTNUM field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Insert a PAGE field.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Insert a TIME field.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Insert an empty field.",
+      "keys": [
+        [
+          "Ctrl",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Update the linked information in a Word source document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Update the selected fields.",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Unlink a field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Switch between a selected field code and its result.",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Switch between all field codes and their results.",
+      "keys": [
+        [
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Run GOTOBUTTON or MACROBUTTON from a field displaying field results.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Go to the next field.",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Go to the previous field.",
+      "keys": [
+        [
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Lock a field.",
+      "keys": [
+        [
+          "Ctrl",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Work with fields",
+      "action": "Unlock a field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert international characters",
+      "action": "Ctrl+Forward slash (/), o or O",
+      "keys": [
+        [
+          "¿"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert international characters",
+      "action": "Ctrl+Alt+Shift+Question mark (?)",
+      "keys": [
+        [
+          "¡"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert international characters",
+      "action": "Ctrl+Alt+Shift+Exclamation point (!)",
+      "keys": [
+        [
+          "ß"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Insert international characters",
+      "action": "Ctrl+Shift+Ampersand (&), s",
+      "keys": [
+        [
+          "[Top of Page]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Use Input Method Editors for East Asian languages",
+      "action": "Switch to the Japanese Input Method Editor (IME) for a 101-key keyboard, if available.",
+      "keys": [
+        [
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Use Input Method Editors for East Asian languages",
+      "action": "Switch to the Korean Input Method Editor (IME) for a 101-key keyboard, if available.",
+      "keys": [
+        [
+          "Right Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Use Input Method Editors for East Asian languages",
+      "action": "Switch to the Chinese Input Method Editor (IME) for a 101-key keyboard, if available.",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Switch the document view",
+      "action": "Switch to the **Print Layout** view.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Switch the document view",
+      "action": "Switch to the **Outline** view.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Switch the document view",
+      "action": "Switch to the **Draft** view.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Promote a paragraph.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Left Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Demote a paragraph.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Right Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Demote the paragraph to body text.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Move the selected paragraphs up.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Up Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Move the selected paragraphs down.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Down Arrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Expand the text under a heading.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Plus (",
+          ")"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Collapse the text under a heading.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Plus (",
+          ")"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Expand or collapse all text or headings.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Hide or display the character formatting.",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Switch between showing the first line of body text and showing all body text.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Show all headings with the **Heading 1** style.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Show all headings with the specified heading level.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Heading level number"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Outline a document",
+      "action": "Insert a tab character.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move through the document in Read Mode",
+      "action": "Move to the beginning of the document.",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move through the document in Read Mode",
+      "action": "Move to the end of the document.",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move through the document in Read Mode",
+      "action": "Exit Read Mode.",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom and adjust view",
+      "action": "Zoom in.",
+      "keys": [
+        [
+          "Ctrl",
+          "Plus (",
+          ")"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom and adjust view",
+      "action": "Zoom out.",
+      "keys": [
+        [
+          "Ctrl",
+          "Minus"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom and adjust view",
+      "action": "Return to 100% zoom.",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom and adjust view",
+      "action": "Zoom in and out.",
+      "keys": [
+        [
+          "Ctrl",
+          "Scroll"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Word help** task pane.",
+      "keys": [
+        [
+          "F1 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays or hides context-sensitive help or the **Reveal Formatting** task pane.",
+      "keys": [
+        [
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays or hides the ribbon.",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves to the next field.",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves to the previous field.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves the selected text or graphic. Use the arrow keys to place the cursor where you want to move the text or graphic, and then press Enter to move, or press Esc to cancel.",
+      "keys": [
+        [
+          "F2 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Copies the selected text or graphic. Use the arrow keys to place the cursor where you want to copy the text or graphic, and then press Enter to copy, or press Esc to cancel.",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the print preview area on the **Print** tab in the Backstage view.",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Saves the document.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Open** dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches the selected text between upper case, lower case, and title case.",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Cuts the selected content to the Spike. You can cut multiple texts and graphics to the Spike, and paste them as a group to another location.",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Pastes the contents of the Spike.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Creates a new Building Block.",
+      "keys": [
+        [
+          "Alt",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Repeats the last command or action, if possible.",
+      "keys": [
+        [
+          "F4 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Repeats the last **Find** or **Go To** action.",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Closes the current document.",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Closes Word.",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Go To** dialog box.",
+      "keys": [
+        [
+          "F5 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves the cursor to the last change.",
+      "keys": [
+        [
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Bookmark** dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Restores the document window size.",
+      "keys": [
+        [
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switch between the document, task pane, status bar, and ribbon. In a document that has been split, F6 includes the split panes when switching between panes and the task pane.",
+      "keys": [
+        [
+          "F6 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches between the document, ribbon, status bar, and task pane.",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches to the next document window when more than one document is open.",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches to the previous document window when more than one document is open.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves from an open dialog box back to the document, for dialog boxes that support this behavior.",
+      "keys": [
+        [
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Editor** task pane to check spelling and grammar in the document or the selected text.",
+      "keys": [
+        [
+          "F7 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Thesaurus** task pane.",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Updates the linked information in a Word source document.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Finds the next spelling or grammatical error.",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Translator** task pane.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Extends the selection. For example, if a word is selected, the selection size is extended to one sentence.",
+      "keys": [
+        [
+          "F8 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Reduces the selection. For example, if a paragraph is selected, the selection size is reduced to one sentence.",
+      "keys": [
+        [
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Turns extend selection mode on and off. In the extend selection mode, the arrow keys extend the selection.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Macro** dialog box to create, run, edit, or delete a macro.",
+      "keys": [
+        [
+          "Alt",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Updates the selected fields.",
+      "keys": [
+        [
+          "F9 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches between a field code and its result.",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Inserts an empty field.",
+      "keys": [
+        [
+          "Ctrl",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Unlinks the current field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Switches between all field codes and their results.",
+      "keys": [
+        [
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Runs GOTOBUTTON or MACROBUTTON from a field displaying field results.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Turns KeyTips on or off.",
+      "keys": [
+        [
+          "F10 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the shortcut menu for the selected item.",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Maximizes or restores the document window size.",
+      "keys": [
+        [
+          "Ctrl",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Selection** task pane.",
+      "keys": [
+        [
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the menu or message for available actions, for example, for pasted text or an **AutoCorrect** change.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves to the next field.",
+      "keys": [
+        [
+          "F11 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Moves to the previous field.",
+      "keys": [
+        [
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Locks the current field.",
+      "keys": [
+        [
+          "Ctrl",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Unlocks the current field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Opens the **Microsoft Visual Basic for Applications** editor, in which you can create a macro using Visual Basic for Applications (VBA).",
+      "keys": [
+        [
+          "Alt",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Save As** dialog box.",
+      "keys": [
+        [
+          "F12 alone"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Saves the document.",
+      "keys": [
+        [
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Open** dialog box.",
+      "keys": [
+        [
+          "Ctrl",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Displays the **Print** tab in the Backstage view.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function keys",
+      "action": "Selects the **Table of Contents** button in the Table of Contents container when the container is active.",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

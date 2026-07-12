@@ -3,7 +3,7 @@ import type { Shortcut } from "@/types";
 import { KeyCap } from "./KeyCap";
 import { ShieldAlert } from "lucide-react";
 
-function groupBySection(shortcuts: Shortcut[]): [string, Shortcut[]][] {
+export function groupBySection(shortcuts: Shortcut[]): [string, Shortcut[]][] {
   const order: string[] = [];
   const map = new Map<string, Shortcut[]>();
   for (const s of shortcuts) {

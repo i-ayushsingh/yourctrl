@@ -1,0 +1,18 @@
+{
+  "app_name": "Microsoft To Do",
+  "process_name": "Microsoft.Todos.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "microsofttodo",
+  "brand_color": "#0078D2",
+  "shortcuts": [
+    { "section": "Tasks", "action": "Add a new task", "keys": [["Ctrl","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tasks", "action": "Create a new list", "keys": [["Ctrl","L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tasks", "action": "Add task to My Day", "keys": [["Ctrl","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Tasks", "action": "Complete task", "keys": [["Ctrl","D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigate", "action": "Search", "keys": [["Ctrl","F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Editing", "action": "Paste", "keys": [["Ctrl","V"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigate", "action": "Sync now", "keys": [["Ctrl","R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigate", "action": "Open sidebar in minified view", "keys": [["Ctrl","1"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

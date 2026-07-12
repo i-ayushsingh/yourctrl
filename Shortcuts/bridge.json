@@ -1,0 +1,370 @@
+{
+  "app_name": "Bridge",
+  "process_name": "bridge.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "adobe-bridge",
+  "brand_color": "#000000",
+  "shortcuts": [
+    {
+      "section": "",
+      "action": "Go to next view",
+      "keys": [["Ctrl", "\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Go to previous view",
+      "keys": [["Ctrl", "Shift", "\\"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Show/hide panels",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Switch between 0 and 1-star rating",
+      "keys": [["Ctrl", "'"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Increase thumbnail size",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Decrease thumbnail size",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Step thumbnail size up",
+      "keys": [["Ctrl", "Shift", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Step thumbnail size down",
+      "keys": [["Ctrl", "Shift", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move up a folder (in the Folders panel or a row)",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move down a folder (in the Folders panel or a row)",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move up a level (in the Folders panel)",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move left one item",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move right one item",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move to the first item",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move to the last item",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Add to selection (discontiguous)",
+      "keys": [["Ctrl", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Refresh Contents panels",
+      "keys": [["F5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Add an item to the selection",
+      "keys": [["Shift", "Right"], ["Shift", "Left"], ["Shift", "Up"], ["Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Display Help",
+      "keys": [["F1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Rename next (with filename selected in the Content panel)",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Rename previous (with filename selected in the Content panel)",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Show items with star rating of 1-5 or higher in the Filter panel",
+      "keys": [["Ctrl", "Alt", "1"], ["Ctrl", "Alt", "2"], ["Ctrl", "Alt", "3"], ["Ctrl", "Alt", "4"], ["Ctrl", "Alt", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Show items with selected star rating in the Filter panel",
+      "keys": [["Ctrl", "Alt", "Shift", "1"], ["Ctrl", "Alt", "Shift", "2"], ["Ctrl", "Alt", "Shift", "3"], ["Ctrl", "Alt", "Shift", "4"], ["Ctrl", "Alt", "Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Show items with labels 1-4 in the Filter panel",
+      "keys": [["Ctrl", "Alt", "6"], ["Ctrl", "Alt", "7"], ["Ctrl", "Alt", "8"], ["Ctrl", "Alt", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Show all items with a selected rating or higher in the Filter panel",
+      "keys": [["Shift", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Clear filters",
+      "keys": [["Ctrl", "Alt", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Select inverse in the Filter panel",
+      "keys": [["Alt", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Display the Loupe tool in the Preview panel or Review mode",
+      "keys": [["Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move Loupe tool",
+      "keys": [["Click"], ["Drag"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Display additional Loupes in the Preview panel (multiple selection)",
+      "keys": [["Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Move multiple Loupe tools simultaneously",
+      "keys": [["Ctrl", "Click"], ["Ctrl", "Drag"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Zoom in with the Loupe tool",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Zoom out with the Loupe tool",
+      "keys": [["-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Zoom in with the Loupe tool (multiple selections)",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Zoom out with the Loupe tool (multiple selections)",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Select all items in a stack",
+      "keys": [["Alt", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Apply or remove current keyword and all parent keywords in the Keywords panel",
+      "keys": [["Shift", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Forcibly remove current keyword in the Keywords panel",
+      "keys": [["Alt", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Open disclosure triangle in the Keywords panel",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "",
+      "action": "Close disclosure triangle in the Keywords panel",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "app_name": "Audition",
+  "process_name": "audition.exe",
+  "category": "Adobe Suite",
+  "platforms": ["windows"],
+  "icon_slug": "adobe-audition",
+  "brand_color": "#9999FF",
+  "shortcuts": [
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Toggle between Waveform and Multitrack Editor",
+      "keys": [["1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Start and stop playback",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move current-time indicator to beginning of timeline",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move current-time indicator to end of timeline",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move current-time indicator to the previous marker, clip, or selection edge",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move current-time indicator to next marker, clip, or selection edge",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Toggle preference for Return CTI To Start Position On Stop",
+      "keys": [["Shift", "X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Zoom in horizontally",
+      "keys": [["="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Zoom in vertically",
+      "keys": [["Alt", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Zoom out horizontally",
+      "keys": [["-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Zoom out vertically",
+      "keys": [["Alt", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Add marker",
+      "keys": [["M"], ["*"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move to the previous marker",
+      "keys": [["Ctrl", "Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for playing and zooming audio",
+      "action": "Move to the next marker",
+      "keys": [["Ctrl", "Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Repeat the previous command (opening its dialog box and selecting OK)",
+      "keys": [["Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Repeat the previous command (opening its dialog box but not selecting OK)",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Open the Convert Sample Type dialog box",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Capture a noise reduction profile for the Noise Reduction effect",
+      "keys": [["Shift", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Activate the left channel of a stereo file for editing",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Activate the right channel of a stereo file for editing",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Make the spectral display more logarithmic or linear",
+      "keys": [["Ctrl", "Alt", "Up"], ["Ctrl", "Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Make the spectral display fully logarithmic or linear",
+      "keys": [["Ctrl", "Alt", "PageUp"], ["Ctrl", "Alt", "PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for editing audio files",
+      "action": "Increase or decrease spectral resolution",
+      "keys": [["Ctrl", "Shift", "Up"], ["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Select the same input or output for all audio tracks",
+      "keys": [["Ctrl", "Shift", "Select"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Activate or deactivate Mute, Solo, Arm For Record, or Monitor Input in all tracks",
+      "keys": [["Ctrl", "Shift", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Adjust knobs in large increments",
+      "keys": [["Shift", "Drag"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Adjust knobs in small increments",
+      "keys": [["Ctrl", "Drag"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Nudge the selected clip to the left",
+      "keys": [["Alt", ","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Nudge the selected clip to the right",
+      "keys": [["Alt", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Nudge the selected clip up",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keys for mixing multitrack sessions",
+      "action": "Nudge the selected clip down",
+      "keys": [["Alt", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

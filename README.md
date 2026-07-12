@@ -5,20 +5,22 @@ Your shortcuts, always within reach.
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4.svg)
 ![Built with](https://img.shields.io/badge/Built%20with-Tauri-FFC131.svg)
-![Version](https://img.shields.io/badge/Version-v1.0.0-green.svg)
+![Version](https://img.shields.io/badge/Version-v1.1.0-green.svg)
 
 <!-- Add popover screenshot here -->
 <!-- Add dashboard screenshot here -->
 
 ## About
 
-YourCtrl is a lightweight Windows desktop app that shows keyboard shortcuts for the currently focused application. Hold Ctrl anywhere on your desktop and a popup appears with all the shortcuts for whatever app you're using. If no app is focused, the popup shows a list of your currently running supported apps so you can pick one to browse. It supports 160+ apps across 26 categories and works fully offline with no account required.
+YourCtrl is a lightweight Windows desktop app that shows keyboard shortcuts for the currently focused application. Hold Ctrl anywhere on your desktop and a popup appears with all the shortcuts for whatever app you're using. If no app is focused, the popup shows a list of your currently running supported apps so you can pick one to browse. It supports 140+ apps across 26 categories and works fully offline with no account required.
 
 ## Features
 
 - Hold Ctrl to instantly see shortcuts for the active app
+- Pin the popover window to keep it visible as an Always-On-Top overlay
+- Export shortcut cheat sheets offline as PNG or multi-page A4 PDF files
 - On desktop, shows a list of running apps to pick from
-- 160+ apps across 26 categories
+- 140+ apps across 26 categories
 - Works fully offline — all data stored locally
 - Native Windows 11 look and feel
 - Exclude apps you don't want shortcuts for
@@ -57,7 +59,7 @@ Click any app in the dashboard to browse its full shortcut list.
 
 ## Supported Apps
 
-YourCtrl supports 160+ apps across 26 categories including browsers, IDEs, AI tools, creative software, terminals, productivity apps, and more.
+YourCtrl supports 140+ apps across 26 categories including browsers, IDEs, AI tools, creative software, terminals, productivity apps, and more.
 
 [See the full app list](data/README.md)
 

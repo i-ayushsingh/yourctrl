@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { useAppStore } from "@/store";
 import logoUrl from "@/assets/yourctrl.png";
+import { sortCategories } from "@/data/categoryOrder";
 
 export function catId(name: string) {
   return "cat-" + name.replace(/[^a-z0-9]/gi, "-").toLowerCase();
@@ -24,7 +25,7 @@ export function AppSidebar() {
         list.push(a.category);
       }
     }
-    return list;
+    return sortCategories(list);
   }, [apps]);
 
   const jumpTo = (category: string) => {

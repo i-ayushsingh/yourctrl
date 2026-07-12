@@ -1,0 +1,541 @@
+{
+  "app_name": "ShareX",
+  "process_name": "ShareX.exe",
+  "category": "Screenshots",
+  "platforms": ["windows"],
+  "icon_slug": "sharex",
+  "brand_color": "#328BDB",
+  "shortcuts": [
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Start region selection",
+      "keys": [["Insert"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Delete current shape",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Delete all shapes",
+      "keys": [["Shift", "Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Copy position and size info",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Paste image or text",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Duplicate shape",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Redo",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Move cursor / Move current shape",
+      "keys": [["Up"], ["Down"], ["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Resize current shape from bottom-right corner",
+      "keys": [["Ctrl", "Up"], ["Ctrl", "Down"], ["Ctrl", "Left"], ["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Resize current shape from top-left corner",
+      "keys": [["Alt", "Up"], ["Alt", "Down"], ["Alt", "Left"], ["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Resize or move faster",
+      "keys": [["Shift", "Up"], ["Shift", "Down"], ["Shift", "Left"], ["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Move current shape to top",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Move current shape to bottom",
+      "keys": [["End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Move current shape up",
+      "keys": [["PageUp"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Move current shape down",
+      "keys": [["PageDown"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture & Image Editor (Common)",
+      "action": "Disable shape selection (hold to draw on top)",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (Creating Region)",
+      "action": "Finish region selection",
+      "keys": [["Insert"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (Creating Region)",
+      "action": "Cancel region selection",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (Creating Region)",
+      "action": "Move shape (hold)",
+      "keys": [["Ctrl"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (Creating Region)",
+      "action": "Proportional resizing (hold)",
+      "keys": [["Shift"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (Creating Region)",
+      "action": "Snap selection to preset sizes (hold)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (On Shape)",
+      "action": "Select shape",
+      "keys": [["Insert"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture (On Shape)",
+      "action": "Delete shape",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Close region capture",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Switch between last region and last drawing tool",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Fullscreen capture",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Specific monitor capture",
+      "keys": [["1"], ["2"], ["3"], ["4"], ["5"], ["6"], ["7"], ["8"], ["9"], ["0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Active monitor capture",
+      "keys": [["~"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Region Capture Only",
+      "action": "Capture selected regions (multi-region mode)",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Reset zoom",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Zoom to fit",
+      "keys": [["Ctrl", "Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Close editor and continue with changes applied",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Close editor and continue without applying changes",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Close editor and cancel task",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Save image",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Save image as",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Copy image to clipboard",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Upload image",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Image Editor",
+      "action": "Print image",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Select and move",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Rectangle",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Ellipse",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Freehand",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Line",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Arrow",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Text (Outline)",
+      "keys": [["O"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Text (Background)",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Speech balloon",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Step",
+      "keys": [["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Blur",
+      "keys": [["B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Pixelate",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Highlight",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Crop image",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Cut out",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pin to Screen",
+      "action": "Close image",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pin to Screen",
+      "action": "Copy image",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

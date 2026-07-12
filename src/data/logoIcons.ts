@@ -4,11 +4,13 @@ export const logoIcons: Record<string, string> = {
   "Google Chrome": "chrome",
   "Brave": "brave",
   "Firefox": "firefox",
+  "Mozilla Firefox": "firefox",
   "Opera": "opera",
   "Arc": "arc",
   "Vivaldi": "vivaldi-icon",
+  "Microsoft Edge": "microsoft-edge",
   "Flow Browser": "flow",
-  "VS Code": "visual-studio-code",
+  "Visual Studio Code": "visual-studio-code",
   "IntelliJ IDEA": "intellij-idea",
   "WebStorm": "webstorm",
   "PyCharm": "pycharm",
@@ -45,8 +47,11 @@ export const logoIcons: Record<string, string> = {
   "Godot": "godot-icon",
   "Photoshop": "adobe-photoshop",
   "Illustrator": "adobe-illustrator",
+  "Adobe Illustrator": "adobe-illustrator",
   "After Effects": "adobe-after-effects",
   "InDesign": "adobe-indesign",
+  "Adobe InDesign": "adobe-indesign",
   "Adobe XD": "adobe-xd",
-  "Lightroom": "adobe-lightroom"
+  "Lightroom": "adobe-lightroom",
+  "Loom": "simple-icons:loom"
 };

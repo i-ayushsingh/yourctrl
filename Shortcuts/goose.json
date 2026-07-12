@@ -1,0 +1,22 @@
+{
+  "app_name": "Goose",
+  "process_name": "goose.exe",
+  "category": "AI",
+  "platforms": ["windows"],
+  "icon_slug": "goose",
+  "brand_color": "#10B981",
+  "shortcuts": [
+    { "section": "Navigation", "action": "New Session", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "New Chat", "keys": [["Ctrl", "T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Close Session", "keys": [["Ctrl", "W"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Open Settings", "keys": [["Ctrl", ","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Navigation", "action": "Search Sessions", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Send Message", "keys": [["Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "New Line in Message", "keys": [["Shift", "Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Force Send", "keys": [["Ctrl", "Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Cancel Current Generation", "keys": [["Escape"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Editing", "action": "Copy Selected Text", "keys": [["Ctrl", "C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Editing", "action": "Paste", "keys": [["Ctrl", "V"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Editing", "action": "Select All", "keys": [["Ctrl", "A"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

@@ -23,11 +23,12 @@ export const customIcons: Record<string, string> = {
   WinRAR: "winrar.svg",
   // PDF Readers
   "Sumatra PDF": "sumatra-pdf.png",
+  "SumatraPDF": "sumatra-pdf.png",
   "Adobe Acrobat Reader": "adobe-acrobat.svg",
   // Terminals
   "Windows Terminal": "windows-terminal.svg",
   "Wave Terminal": "wave-terminal.png",
-  Kitty: "kitty.png",
+  "kitty": "kitty.png",
   Tabby: "tabby.svg",
   // Git Clients
   "GitHub Desktop": "github-desktop.svg",
@@ -79,6 +80,9 @@ export const customIcons: Record<string, string> = {
   "Power Automate Desktop": "power-automate.svg",
   "Microsoft Project": "project.png",
   "Microsoft Planner": "planner.png",
+  "Microsoft OneDrive": "onedrive.png",
+  "eM Client": "em-client.png",
+  "Mailbird": "mailbird.png",
 };
 
 // Monochrome (single-color) custom icons — inverted in dark mode to stay visible.

@@ -34,3 +34,18 @@ __pycache__/
 
 # Signing keys (NEVER commit - keep in home directory)
 ~/.tauri/
+
+# Vite temporary files
+vite.config.ts.timestamp-*
+
+# Local temporary logs
+err.txt
+
+# Agent & AI Assistant files
+.opencode/
+opencode.json
+skills/
+hooks/
+AGENTS.md
+.agents/
+

@@ -1,0 +1,3457 @@
+{
+  "app_name": "Microsoft Excel",
+  "process_name": "EXCEL.EXE",
+  "category": "Productivity",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "microsoftexcel",
+  "brand_color": "#217346",
+  "shortcuts": [
+    {
+      "section": "Frequently used",
+      "action": "Close a workbook",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Open a workbook",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the Home tab",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Save a workbook",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Copy selection",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Paste selection",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Undo recent action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Remove cell contents",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Choose a fill color",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Cut selection",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the Insert tab",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Apply bold formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Center align cell contents",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ],
+        [
+          "A"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the Page Layout tab",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the Data tab",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the View tab",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Open the context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Windows Menu key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Add borders",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Delete column",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ],
+        [
+          "D"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Go to the Formula tab",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Hide the selected rows",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frequently used",
+      "action": "Hide the selected columns",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move to the ribbon Search field",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the File menu",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Home tab",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Insert tab",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Page Layout tab",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Formulas tab",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Data tab",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the Review tab",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the View tab",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Select the active tab and activate access keys",
+      "keys": [
+        [
+          "Alt"
+        ],
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move focus to commands on the ribbon or add-in pane",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move among items on the ribbon",
+      "keys": [
+        [
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Show the tooltip for the ribbon element in focus",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Activate a selected button",
+      "keys": [
+        [
+          "Spacebar"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the list for a selected command",
+      "keys": [
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open the menu for a selected button",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move to the next command when a menu is open",
+      "keys": [
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Expand or collapse the ribbon",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Open a context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ],
+        [
+          "Windows Menu key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move to the submenu when a main menu is open",
+      "keys": [
+        [
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ribbon",
+      "action": "Move from one group of controls to another",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ],
+        [
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the previous cell",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one cell up",
+      "keys": [
+        [
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one cell down",
+      "keys": [
+        [
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one cell left",
+      "keys": [
+        [
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one cell right",
+      "keys": [
+        [
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the edge of the current data region",
+      "keys": [
+        [
+          "Ctrl",
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Enter End mode and move to next nonblank cell",
+      "keys": [
+        [
+          "End"
+        ],
+        [
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the last cell on a worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Extend selection to the last used cell",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to upper-left corner when Scroll Lock is on",
+      "keys": [
+        [
+          "Home",
+          "Scroll lock"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the beginning of a worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one screen down",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the next sheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one screen to the right",
+      "keys": [
+        [
+          "Alt",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one screen up",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one screen to the left",
+      "keys": [
+        [
+          "Alt",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move to the previous sheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Move one cell to the right",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Open the list of validation choices",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Cycle through floating shapes",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Exit floating shape navigation",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Equal sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Minus sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Format Cells dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Format fonts in the Format Cells dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Edit the active cell",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Insert a note",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Insert a threaded comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Insert dialog box to insert blank cells",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Plus sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Delete dialog box to delete selected cells",
+      "keys": [
+        [
+          "Ctrl",
+          "Minus sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Enter the current time",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Colon"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Enter the current date",
+      "keys": [
+        [
+          "Ctrl",
+          "Semicolon"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Switch between displaying values or formulas",
+      "keys": [
+        [
+          "Ctrl",
+          "Grave accent"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Copy a formula from the cell above",
+      "keys": [
+        [
+          "Ctrl",
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Move the selected cells",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Copy the selected cells",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Paste content at the insertion point",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Paste Special dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Italicize text or remove italic formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Bold text or remove bold formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Underline text or remove underline",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply or remove strikethrough formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Switch between hiding objects and displaying objects",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply an outline border to selected cells",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Ampersand"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Remove the outline border from selected cells",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Underscore"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Display or hide the outline symbols",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Fill Down command",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the General number format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tilde"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Currency format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Dollar sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Percentage format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Percent sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Scientific number format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Caret"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Date format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Number sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Time format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "At sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Apply the Number format",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Exclamation point"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Insert hyperlink dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Check spelling",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Display Quick Analysis options",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Display the Create Table dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ],
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Formatting",
+      "action": "Open the Workbook Statistics dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste all cell contents and formatting",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only the formulas",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only the values",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only the copied formatting",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only comments and notes",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only the data validation settings",
+      "keys": [
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste all cell contents and formatting from copied cells",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste all cell contents without borders",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only column widths",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only formulas and number formats",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paste Special",
+      "action": "Paste only values and number formats",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the entire worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the current and next sheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the current and previous sheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Extend the selection by one cell",
+      "keys": [
+        [
+          "Shift",
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to last nonblank cell",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Turn extend mode on or off",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Add a non-adjacent cell or range to selection",
+      "keys": [
+        [
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Start a new line in the same cell",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Fill the selected cell range with current entry",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Complete a cell entry and select the cell above",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select an entire column",
+      "keys": [
+        [
+          "Ctrl",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select an entire row",
+      "keys": [
+        [
+          "Shift",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select all objects on a worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to the beginning of the worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the current region",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the current region around the active cell",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Asterisk"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select the first command on a menu",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Repeat the last command or action",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Undo the last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Turn on or off formula tooltips in the formula bar",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Edit the active cell",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Expand or collapse the formula bar",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Cancel an entry in the cell or formula bar",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Complete an entry in the formula bar and select cell below",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Move the cursor to end of text in the formula bar",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Select all text in the formula bar to the end",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Calculate all worksheets in all open workbooks",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Calculate the active worksheet",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Calculate all worksheets regardless of changes",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Check dependent formulas and calculate all",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Display menu or message for an Error Checking button",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Display the Function Arguments dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Insert argument names and parentheses",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Insert the Sum formula",
+      "keys": [
+        [
+          "Alt",
+          "Equal sign"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Invoke Flash Fill",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Cycle through absolute and relative references",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Insert a function",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Copy the value from the cell above",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Straight quotation mark"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Create an embedded chart",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Create a chart in a separate Chart sheet",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Define a name to use in references",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ],
+        [
+          "M"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Paste a name from the Paste Name dialog box",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Move to first field in next record of a data form",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Create, run, edit, or delete a macro",
+      "keys": [
+        [
+          "Alt",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Open the Visual Basic for Applications Editor",
+      "keys": [
+        [
+          "Alt",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Data and Formulas",
+      "action": "Open the Power Query Editor",
+      "keys": [
+        [
+          "Alt",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "External Data",
+      "action": "Stop a refresh operation",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "External Data",
+      "action": "Refresh data in the current worksheet",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "External Data",
+      "action": "Refresh all data in the workbook",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Open the context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select the entire table",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Copy selected data",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Delete the table",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move the table",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Rename the table",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Save the file",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Redo the last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Undo the last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select the current column",
+      "keys": [
+        [
+          "Ctrl",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select the current row",
+      "keys": [
+        [
+          "Shift",
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select cells to the last cell of the column",
+      "keys": [
+        [
+          "Shift",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select cells to the first cell of the column",
+      "keys": [
+        [
+          "Shift",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select cells to the last cell of the row",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Select cells to the first cell of the row",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to the previous table",
+      "keys": [
+        [
+          "Ctrl",
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to the next table",
+      "keys": [
+        [
+          "Ctrl",
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to first cell of selected table",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to last cell of selected table",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to first cell of selected row",
+      "keys": [
+        [
+          "Ctrl",
+          "Left arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to last cell of selected row",
+      "keys": [
+        [
+          "Ctrl",
+          "Right arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to first cell of selected column",
+      "keys": [
+        [
+          "Ctrl",
+          "Up arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Move to last cell of selected column",
+      "keys": [
+        [
+          "Ctrl",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Close a dialog box or cancel a process",
+      "keys": [
+        [
+          "Ctrl",
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Open the AutoFilter Menu dialog box",
+      "keys": [
+        [
+          "Alt",
+          "Down arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Open the Go To dialog box",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Power Pivot",
+      "action": "Recalculate all formulas in the Power Pivot window",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Excel Help task pane",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display or hide the ribbon",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Create an embedded chart of the current range",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Insert a new worksheet",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Toggle full screen mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Edit the active cell",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Add or edit a cell note",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Edit the active cell in the formula bar",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Paste Name dialog box",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Insert Function dialog box",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Repeat the last command or cycle references",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Close the selected workbook window",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Close Excel",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Go To dialog box",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Restore the window size of the selected workbook window",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Switch between worksheet, ribbon, task pane, Zoom",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Switch between worksheet, Zoom, task pane, ribbon",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Switch between two Excel windows",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Switch between all Excel windows",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Open the Spelling dialog box",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Perform the Move command on the workbook window",
+      "keys": [
+        [
+          "Ctrl",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Turn extend mode on or off",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Add a non-adjacent cell or range to a selection",
+      "keys": [
+        [
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Perform the Size command when not maximized",
+      "keys": [
+        [
+          "Ctrl",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Macro dialog box",
+      "keys": [
+        [
+          "Alt",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Calculate all worksheets in all open workbooks",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Calculate the active worksheet",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Calculate all worksheets regardless of changes",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Recheck dependent formulas and calculate all",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Minimize a workbook window to an icon",
+      "keys": [
+        [
+          "Ctrl",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Turn key tips on or off",
+      "keys": [
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the context menu for a selected item",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the menu or message for an Error Checking button",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Maximize or restore the selected workbook window",
+      "keys": [
+        [
+          "Ctrl",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Create a chart in a separate Chart sheet",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Insert a new worksheet",
+      "keys": [
+        [
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Open the Visual Basic for Applications Editor",
+      "keys": [
+        [
+          "Alt",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Function Keys",
+      "action": "Display the Save As dialog box",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Display the Key Tips on the ribbon",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Switch the worksheet to Page Layout view",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Switch the worksheet to Normal view",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Switch the worksheet to Page Break Preview view",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Move one cell in a worksheet",
+      "keys": [
+        [
+          "Arrow key"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Delete to the left or clear the active cell",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Remove cell contents or delete to the right",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Turn End mode on or off",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Complete a cell entry and select the cell below",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Cancel an entry or close a dialog",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Move to the beginning of a row",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Move one screen down",
+      "keys": [
+        [
+          "Page down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Move one screen up",
+      "keys": [
+        [
+          "Page up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Perform the action for the selected button",
+      "keys": [
+        [
+          "Spacebar"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Move to the next option or cell",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

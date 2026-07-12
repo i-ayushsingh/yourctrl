@@ -1,0 +1,91 @@
+{
+  "app_name": "Microsoft Planner",
+  "process_name": "msedge.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "microsoftplanner",
+  "brand_color": "#0078D2",
+  "shortcuts": [
+    {
+      "section": "Navigate",
+      "action": "Move forward to the next area or item (next plan, bucket, or element in a task bucket).",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Move back to the previous area or item.",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Activate or open an item (open a board, activate New plan, collapse/expand plan lists).",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Exit a menu, dialog box, or mode (New Plan or task detail dialog).",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Scroll down the left navigation pane or move down in a long dialog box.",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Scroll up the left navigation pane or move up in a long dialog box.",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Go back one page in the web browser.",
+      "keys": [["Alt", "Left"], ["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "Go forward one page in the web browser.",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate",
+      "action": "In an open task, for a checklist item, move between the Make this a new task and Remove checklist item options.",
+      "keys": [["Left"], ["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

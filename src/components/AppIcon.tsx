@@ -47,6 +47,7 @@ import opencodeUrl from "@/assets/lobe/opencode.svg";
 import gooseUrl from "@/assets/lobe/goose.svg";
 import openclawUrl from "@/assets/lobe/openclaw.svg";
 import hermesUrl from "@/assets/lobe/hermesagent.svg";
+import capcutUrl from "@/assets/lobe/capcut.svg";
 
 const LOBE: Record<string, { url: string; mono?: boolean }> = {
   ChatGPT: { url: openaiUrl, mono: true },
@@ -67,6 +68,7 @@ const LOBE: Record<string, { url: string; mono?: boolean }> = {
   Goose: { url: gooseUrl, mono: true },
   OpenClaw: { url: openclawUrl },
   "Hermes Agent": { url: hermesUrl, mono: true },
+  CapCut: { url: capcutUrl },
 };
 
 const PALETTE = [
@@ -148,7 +150,7 @@ export function AppIcon({ slug, color, name, size = 40, className }: AppIconProp
     return (
       <span className={cn(tileBase, className)} style={{ width: size, height: size }} aria-label={name} title={name}>
         <span className="dark:brightness-[0.78]">
-          <Icon icon={`logos:${logo}`} width={Math.round(size * 0.58)} height={Math.round(size * 0.58)} />
+          <Icon icon={logo.includes(":") ? logo : `logos:${logo}`} width={Math.round(size * 0.58)} height={Math.round(size * 0.58)} />
         </span>
       </span>
     );

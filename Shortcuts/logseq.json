@@ -1,0 +1,982 @@
+{
+  "app_name": "Logseq",
+  "process_name": "Logseq.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "logseq",
+  "brand_color": "#18181B",
+  "shortcuts": [
+    {
+      "section": "Basics",
+      "action": "Create new block",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "New line in current block",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Indent block",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Outdent block",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Select all blocks",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Select parent block",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Search pages and blocks",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Search blocks in the current page",
+      "keys": [["Ctrl", "Shift", "K"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Redo",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Redo",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Copy (copies either selection, or block reference)",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Copy selections as text",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Basics",
+      "action": "Cut",
+      "keys": [["Ctrl", "X"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Slash autocomplete",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Block content autocomplete",
+      "keys": [["<"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Page reference autocomplete",
+      "keys": [["["], ["["], ["]"], ["]"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Block reference",
+      "keys": [["("], ["("], [")"], [")"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Open link in sidebar",
+      "keys": [["Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Triggers",
+      "action": "Block context menu",
+      "keys": [["RightClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor up / Select up",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor up / Select up",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor down / Select down",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor down / Select down",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor left / Open selected block at beginning",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Move cursor right / Open selected block at end",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Zoom in editing block / Forwards otherwise",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Zoom out editing block / Backwards otherwise",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Collapse",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Expand",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Toggle open blocks (collapse or expand all blocks)",
+      "keys": [["T"], ["O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Backwards",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Forwards",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to home",
+      "keys": [["G"], ["H"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to journals",
+      "keys": [["G"], ["J"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to all pages",
+      "keys": [["G"], ["A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to graph view",
+      "keys": [["G"], ["G"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to all graphs",
+      "keys": [["G"], ["Shift", "G"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to whiteboards",
+      "keys": [["G"], ["W"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Toggle flashcards",
+      "keys": [["G"], ["F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to tomorrow",
+      "keys": [["G"], ["T"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to next journal",
+      "keys": [["G"], ["N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to previous journal",
+      "keys": [["G"], ["P"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Go to keyboard shortcuts",
+      "keys": [["G"], ["S"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Delete backwards",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Delete forwards",
+      "keys": [["Del"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Indent block",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Outdent block",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Create new block",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "New line in current block",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Zoom in editing block / Forwards otherwise",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Zoom out editing block / Backwards otherwise",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Rotate the TODO state of the current item",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Follow link under cursor",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Open link in sidebar",
+      "keys": [["Ctrl", "Shift", "O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Move block up",
+      "keys": [["Alt", "Shift", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block editing general",
+      "action": "Move block down",
+      "keys": [["Alt", "Shift", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Backspace / Delete backwards",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Delete entire block content",
+      "keys": [["Alt", "L"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Delete line before cursor position",
+      "keys": [["Alt", "U"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Delete line after cursor position",
+      "keys": [["Alt", "K"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Move cursor to the beginning of a block",
+      "keys": [["Alt", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Move cursor to the end of a block",
+      "keys": [["Alt", "E"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Move cursor forward a word",
+      "keys": [["Alt", "F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Move cursor backward a word",
+      "keys": [["Alt", "B"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Delete a word forwards",
+      "keys": [["Alt", "D"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Delete a word backwards",
+      "keys": [["Alt", "W"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Replace block reference with its content at point",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Copy a block embed pointing to the current block",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Paste text into one block at point",
+      "keys": [["Ctrl", "Shift", "V"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Select content above",
+      "keys": [["Shift", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block command editing",
+      "action": "Select content below",
+      "keys": [["Shift", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Edit selected block",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Select all blocks",
+      "keys": [["Ctrl", "Shift", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Select parent block",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Select block above",
+      "keys": [["Alt", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Select block below",
+      "keys": [["Alt", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Delete selected blocks",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Block selection",
+      "action": "Delete selected blocks",
+      "keys": [["Del"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Bold",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "HTML Link",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Italics",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Formatting",
+      "action": "Highlight",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle help",
+      "keys": [["?"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle open blocks (collapse or expand all blocks)",
+      "keys": [["T"], ["O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle wide mode",
+      "keys": [["T"], ["W"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle cards",
+      "keys": [["T"], ["C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle document mode",
+      "keys": [["T"], ["D"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle whether to display brackets",
+      "keys": [["Ctrl", "C"], ["Ctrl", "B"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle between dark/light theme",
+      "keys": [["T"], ["T"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle left sidebar",
+      "keys": [["T"], ["L"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle right sidebar",
+      "keys": [["T"], ["R"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle settings",
+      "keys": [["T"], ["S"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle settings",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Toggle",
+      "action": "Toggle Contents in sidebar",
+      "keys": [["Alt", "Shift", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Pdf: Previous page of current pdf doc",
+      "keys": [["Alt", "P"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Pdf: Next page of current pdf doc",
+      "keys": [["Alt", "N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Pdf: Close current pdf doc",
+      "keys": [["Alt", "X"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Pdf: Search text of current pdf doc",
+      "keys": [["Alt", "F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Add to/remove from favorites",
+      "keys": [["Ctrl", "Shift", "F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Toggle command palette",
+      "keys": [["Ctrl", "Shift", "P"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Select graph to open",
+      "keys": [["Alt", "Shift", "G"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Closes the top item in the right sidebar",
+      "keys": [["C"], ["T"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Clear all in the right sidebar",
+      "keys": [["Ctrl", "C"], ["Ctrl", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Open today's page in the right sidebar",
+      "keys": [["Alt", "Shift", "J"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Rebuild search index",
+      "keys": [["Ctrl", "C"], ["Ctrl", "S"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Insert YouTube timestamp",
+      "keys": [["Ctrl", "Shift", "Y"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "New whiteboard",
+      "keys": [["N"], ["W"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}

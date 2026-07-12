@@ -1,0 +1,1027 @@
+{
+  "app_name": "Todoist",
+  "process_name": "Todoist.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "todoist",
+  "brand_color": "#E44D26",
+  "shortcuts": [
+    {
+      "section": "General shortcuts",
+      "action": "Quick Add",
+      "keys": [["Q"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Search",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Search",
+      "keys": [["F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Dismiss/Cancel",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Open/close sidebar",
+      "keys": [["M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Show keyboard shortcuts",
+      "keys": [["?"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Open Quick Find",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Print current view",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Zoom in/Increase font size",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Zoom out/Decrease font size",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Reset zoom level/font size",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General shortcuts",
+      "action": "Collapse or expand all sections and tasks with sub-tasks in a project view, or all folders in the workspace overview",
+      "keys": [["Ctrl", "Alt", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open task in its project",
+      "keys": [["Shift", "G"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Select and move focus to different elements of the task view",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus backwards",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open Productivity",
+      "keys": [["O"], ["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open help",
+      "keys": [["O"], ["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open notifications",
+      "keys": [["O"], ["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open profile photo menu",
+      "keys": [["O"], ["U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus up",
+      "keys": [["K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus up",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus down",
+      "keys": [["J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus down",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus to the right",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Move focus to the left",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to home",
+      "keys": [["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to home",
+      "keys": [["G"], ["H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to Inbox",
+      "keys": [["G"], ["I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to Today",
+      "keys": [["G"], ["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to Upcoming",
+      "keys": [["G"], ["U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to labels",
+      "keys": [["G"], ["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to projects",
+      "keys": [["G"], ["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go to section",
+      "keys": [["G"], ["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open settings",
+      "keys": [["O"], ["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open theme",
+      "keys": [["O"], ["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open Reporting",
+      "keys": [["G"], ["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Open Filters & Labels",
+      "keys": [["G"], ["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go back to the previous view",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation shortcuts",
+      "action": "Go forward to the most recent view",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global shortcuts",
+      "action": "Open Quick Add",
+      "keys": [["Ctrl", "Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global shortcuts",
+      "action": "Quick Ramble (new app downloads)",
+      "keys": [["Alt", "Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global shortcuts",
+      "action": "Quick Ramble (existing app downloads)",
+      "keys": [["Alt", "Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global shortcuts",
+      "action": "Show or hide Todoist",
+      "keys": [["Win", "Alt", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Set a priority level",
+      "keys": [["P1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Set a priority level",
+      "keys": [["P2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Set a priority level",
+      "keys": [["P3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Set a priority level",
+      "keys": [["P4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Pick a project",
+      "keys": [["#"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Pick a section",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Add an assignee",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Add a label",
+      "keys": [["@"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Add a reminder",
+      "keys": [["!"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Quick Add",
+      "action": "Add a deadline",
+      "keys": [["{date}"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "Add new task to the bottom of list",
+      "keys": [["A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "Add new task to the top of list",
+      "keys": [["Shift", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "Save a newly created task and create a new one below",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "Save changes to an existing task and create a new task below",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "Save a new task or save changes to an existing one and create a new task above",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Create tasks",
+      "action": "In a project, paste a file to create a new task with the file name as the title and the file attached",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Complete focused task",
+      "keys": [["E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Complete and archive recurring task",
+      "keys": [["Shift", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Open task view",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Edit task",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Edit task",
+      "keys": [["Alt", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Save edits",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Close task view",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Set date",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Remove date",
+      "keys": [["Shift", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Set priority level",
+      "keys": [["1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Set priority level",
+      "keys": [["2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Set priority level",
+      "keys": [["3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Set priority level",
+      "keys": [["4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Change priority level",
+      "keys": [["Y"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Comment",
+      "keys": [["C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Add label",
+      "keys": [["L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Assign/reassign",
+      "keys": [["Shift", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Move to …",
+      "keys": [["V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "More task actions",
+      "keys": [["."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Select focused task",
+      "keys": [["X"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Select focused task",
+      "keys": [["Ctrl", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Select multiple tasks",
+      "keys": [["Ctrl", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Select multiple tasks",
+      "keys": [["Shift", "Click"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Move focus to multi-select toolbar",
+      "keys": [[","]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Delete selected task(s)",
+      "keys": [["Shift", "Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Copy link to task",
+      "keys": [["Shift", "Ctrl", "C"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Move to the task above the task currently being edited",
+      "keys": [["Ctrl", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Task shortcuts - Manage tasks",
+      "action": "Move to the task below the task currently being edited",
+      "keys": [["Ctrl", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort tasks",
+      "action": "Sort by date",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort tasks",
+      "action": "Sort by priority",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort tasks",
+      "action": "Sort by name",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort tasks",
+      "action": "Sort by assignee",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sub-task shortcuts",
+      "action": "Increase indent of focused task",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sub-task shortcuts",
+      "action": "Decrease indent of focused task",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sub-task shortcuts",
+      "action": "See or hide sub-tasks",
+      "keys": [["Shift", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Change to list/board/calendar layout",
+      "keys": [["Shift", "V"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Add section",
+      "keys": [["S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Share project",
+      "keys": [["Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Sort by date",
+      "keys": [["D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Sort by priority",
+      "keys": [["P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Sort alphabetically",
+      "keys": [["N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Sort by assignee",
+      "keys": [["R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Open more project actions",
+      "keys": [["W"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Scroll all the way to the top of your task list",
+      "keys": [["Ctrl", "Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project shortcuts",
+      "action": "Scroll all the way down to the bottom of your task list",
+      "keys": [["Ctrl", "End"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Upcoming view shortcuts",
+      "action": "Go to today in Upcoming",
+      "keys": [["Home"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Upcoming view shortcuts",
+      "action": "Next week in Upcoming",
+      "keys": [["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Upcoming view shortcuts",
+      "action": "Previous week in Upcoming",
+      "keys": [["Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar layout shortcuts",
+      "action": "Go back to today",
+      "keys": [["T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar layout shortcuts",
+      "action": "Go to next week",
+      "keys": [["Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calendar layout shortcuts",
+      "action": "Go to previous week",
+      "keys": [["Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multi-window shortcuts",
+      "action": "Open current view in new window",
+      "keys": [["Shift", "Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multi-window shortcuts",
+      "action": "Open new Home view window",
+      "keys": [["Shift", "Alt", "Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multi-window shortcuts",
+      "action": "Float window on top",
+      "keys": [["Ctrl", "F11"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

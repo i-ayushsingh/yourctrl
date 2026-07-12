@@ -15,7 +15,12 @@
     "core:window:allow-unmaximize",
     "core:window:allow-toggle-maximize",
     "core:window:allow-close",
+    "core:window:allow-set-always-on-top",
+    "core:window:allow-set-position",
+    "core:window:allow-outer-position",
     "updater:default",
-    "process:default"
+    "process:default",
+    "dialog:default",
+    "fs:default"
   ]
 }

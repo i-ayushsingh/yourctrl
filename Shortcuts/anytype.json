@@ -1,0 +1,622 @@
+{
+  "app_name": "Anytype",
+  "process_name": "anytype.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "anytype",
+  "brand_color": "#000000",
+  "shortcuts": [
+    {
+      "section": "Main",
+      "action": "Create new object",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Open the Quick Capture menu",
+      "keys": [["Ctrl", "Alt", "N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "New Anytype window",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Opens object in new window from search interface",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Toggle full screen",
+      "keys": [["Ctrl", "Alt", "F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Redo",
+      "keys": [["Ctrl", "Shift", "Z"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Search in object",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Close Anytype",
+      "keys": [["Ctrl", "Q"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Show object edit history",
+      "keys": [["Ctrl", "H"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "In Object link will open it in modal view",
+      "keys": [["Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "In Object link will open it in new window",
+      "keys": [["Ctrl", "LeftClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Shortcuts to launch shortcuts view",
+      "keys": [["Ctrl", "Space"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Toggle sidebar",
+      "keys": [["Ctrl", "\\"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Toggle sidebar",
+      "keys": [["Ctrl", "."]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "="]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Default zoom",
+      "keys": [["Ctrl", "0"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Switch to the next/previous space",
+      "keys": [["Ctrl", "Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Switch to the previous space",
+      "keys": [["Ctrl", "Shift", "Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Main",
+      "action": "Switch color mode (light/dark)",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Select word",
+      "keys": [["DoubleClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Select an entire block",
+      "keys": [["TripleClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Select all blocks in the page",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Expand your selection up or down",
+      "keys": [["Shift", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Expand your selection down",
+      "keys": [["Shift", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Select or deselect an entire block",
+      "keys": [["Ctrl", "LeftClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Structuring",
+      "action": "Select block and blocks in between",
+      "keys": [["Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Activate command menu",
+      "keys": [["/"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Open action menu",
+      "keys": [["Ctrl", "/"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Deletes the words left to the cursor",
+      "keys": [["Ctrl", "Backspace"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Copy selected block/blocks or text part",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Cut selected block/blocks or text part",
+      "keys": [["Ctrl", "X"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Paste data outside Anytype, block/blocks or text part",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Duplicate selected block/blocks",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Actions",
+      "action": "Show emoji picker",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Bold",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Italic",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Underline",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Strikethrough",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Add a link",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Convert to inline code",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Apply previously selected font color",
+      "keys": [["Ctrl", "Shift", "C"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text style",
+      "action": "Apply previously selected highlight",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Open Settings",
+      "keys": [["Ctrl", ","]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Open the Flow pane",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Open the Graph pane",
+      "keys": [["Ctrl", "Alt", "O"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Open the Search pane",
+      "keys": [["Ctrl", "S"], ["Ctrl", "K"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Return to home screen",
+      "keys": [["Alt", "H"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Show previous object from History",
+      "keys": [["Alt", "Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Show next object from History",
+      "keys": [["Alt", "Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to next option",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to next option",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to previous option",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to previous option",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to the left side of navigation. Link from page",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Go to the right side of navigation. Link to page",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Menu, search and navigation pane",
+      "action": "Select option",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Expand/Collapse toggle",
+      "keys": [["Ctrl", "Shift", "T"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Go up/down one line",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Go down one line",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Go to the start of the line",
+      "keys": [["Ctrl", "Left"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Go to the end of the line",
+      "keys": [["Ctrl", "Right"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Move selected blocks around",
+      "keys": [["Ctrl", "Shift", "Up"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Move selected blocks around down",
+      "keys": [["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Open relations view",
+      "keys": [["Ctrl", "Shift", "R"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editor navigation",
+      "action": "Check/Uncheck checkbox",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "defkey",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "app_name": "Bitwarden",
+  "process_name": "bitwarden.exe",
+  "category": "Security",
+  "platforms": ["windows"],
+  "icon_slug": "bitwarden",
+  "brand_color": "#175DDC",
+  "shortcuts": [
+    { "section": "Browser Extension", "action": "Activate Extension", "keys": [["Ctrl", "Shift", "Y"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Browser Extension", "action": "Generate Password", "keys": [["Ctrl", "Shift", "9"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Browser Extension", "action": "Lock Vault", "keys": [["Ctrl", "Shift", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Browser Extension", "action": "Autofill Last Used Login", "keys": [["Ctrl", "Shift", "L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Lock Vault", "keys": [["Ctrl", "L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Open Preferences", "keys": [["Ctrl", ","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Reload App", "keys": [["Ctrl", "Shift", "R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Quit App", "keys": [["Ctrl", "Q"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Search Vault", "keys": [["Ctrl", "F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Open Generator", "keys": [["Ctrl", "G"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Add New Login", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Copy Username", "keys": [["Ctrl", "U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Copy Password", "keys": [["Ctrl", "P"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Copy TOTP", "keys": [["Ctrl", "T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Zoom In", "keys": [["Ctrl", "="]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Zoom Out", "keys": [["Ctrl", "-"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Reset Zoom", "keys": [["Ctrl", "0"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Fullscreen", "keys": [["F11"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Minimize", "keys": [["Ctrl", "M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Hide to Tray", "keys": [["Ctrl", "Shift", "M"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Always on Top", "keys": [["Ctrl", "Shift", "T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Desktop", "action": "Close Window", "keys": [["Ctrl", "W"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

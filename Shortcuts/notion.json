@@ -1,0 +1,1180 @@
+{
+  "app_name": "Notion",
+  "process_name": "Notion.exe",
+  "category": "Productivity",
+  "platforms": ["windows"],
+  "icon_slug": "notion",
+  "brand_color": "#000000",
+  "shortcuts": [
+    {
+      "section": "Most popular",
+      "action": "Search inside a page",
+      "keys": [["Ctrl", "F"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Open search or jump to a recently viewed page",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Open search or jump to a recently viewed page",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Copy a page's URL",
+      "keys": [["Ctrl", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Go back a page",
+      "keys": [["Ctrl", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Go forward a page",
+      "keys": [["Ctrl", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Go to previous database page (in database peek view)",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Go to next database page (in database peek view)",
+      "keys": [["Ctrl", "J"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Most popular",
+      "action": "Toggle between dark mode and light mode",
+      "keys": [["Ctrl", "Shift", "L"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop keyboard shortcuts",
+      "action": "Create a new page",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop keyboard shortcuts",
+      "action": "Open a new Notion window",
+      "keys": [["Ctrl", "Shift", "N"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop keyboard shortcuts",
+      "action": "Open a page as a new window",
+      "keys": [["Alt", "Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop keyboard shortcuts",
+      "action": "Open a link as a new Notion tab",
+      "keys": [["Ctrl", "LeftClick"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Desktop keyboard shortcuts",
+      "action": "Create a new Notion tab",
+      "keys": [["Ctrl", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (while typing)",
+      "action": "Bold",
+      "keys": [["**"], ["**"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (while typing)",
+      "action": "Italicize",
+      "keys": [["*"], ["*"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (while typing)",
+      "action": "Inline code",
+      "keys": [["`"], ["`"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (while typing)",
+      "action": "Strikethrough",
+      "keys": [["~"], ["~"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a bulleted list",
+      "keys": [["*"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a bulleted list",
+      "keys": [["-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a bulleted list",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a to-do checkbox",
+      "keys": [["[", "]"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a numbered list",
+      "keys": [["1", "."]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create an H1 heading",
+      "keys": [["#"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create an H2 sub-heading",
+      "keys": [["#", "#"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create an H3 sub-heading",
+      "keys": [["#", "#", "#"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a toggle list",
+      "keys": [[">"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Markdown style (at beginning of new line or existing block)",
+      "action": "Create a quote block",
+      "keys": [["\""]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Insert a line of text",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a line break within a block of text",
+      "keys": [["Shift", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a comment",
+      "keys": [["Ctrl", "Shift", "M"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a divider",
+      "keys": [["-", "-", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Bold text",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Italicize text",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Underline text",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Strikethrough",
+      "keys": [["Ctrl", "Shift", "S"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Add a link",
+      "keys": [["Ctrl", "K"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Inline code",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Indent and nest content",
+      "keys": [["Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Un-nest content",
+      "keys": [["Shift", "Tab"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Turn block into a different type",
+      "keys": [["/turn"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Change color or highlight color",
+      "keys": [["/color"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create text",
+      "keys": [["Ctrl", "Shift", "0"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create an H1 heading",
+      "keys": [["Ctrl", "Shift", "1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create an H2 heading",
+      "keys": [["Ctrl", "Shift", "2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create an H3 heading",
+      "keys": [["Ctrl", "Shift", "3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a to-do checkbox",
+      "keys": [["Ctrl", "Shift", "4"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a bulleted list",
+      "keys": [["Ctrl", "Shift", "5"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a numbered list",
+      "keys": [["Ctrl", "Shift", "6"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a toggle list",
+      "keys": [["Ctrl", "Shift", "7"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a code block",
+      "keys": [["Ctrl", "Shift", "8"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Create a new page or turn line into a page",
+      "keys": [["Ctrl", "Shift", "9"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Go up one level in the page hierarchy",
+      "keys": [["Ctrl", "Shift", "U"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Fill cells right (in table, multiple cells selected)",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create and style your content",
+      "action": "Fill cells down (in table, multiple cells selected)",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select the block you're currently in / clear selected blocks",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select the block your cursor is in",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Open a selected image in full-screen / exit full-screen",
+      "keys": [["Space"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select a different block",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select a different block",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select a different block",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select a different block",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Expand your selection up or down",
+      "keys": [["Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Expand your selection down",
+      "keys": [["Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select or de-select an entire block",
+      "keys": [["Alt", "Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Select another block and all blocks in between",
+      "keys": [["Shift", "LeftClick"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Delete selected blocks",
+      "keys": [["Backspace"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Delete selected blocks",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Duplicate the blocks you've selected",
+      "keys": [["Ctrl", "D"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Edit any text inside a selected block / open a page inside a page",
+      "keys": [["Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Edit or change one or more selected blocks",
+      "keys": [["Ctrl", "/"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Move a selected block around",
+      "keys": [["Ctrl", "Shift", "Up"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Move a selected block around",
+      "keys": [["Ctrl", "Shift", "Down"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Move a selected block around",
+      "keys": [["Ctrl", "Shift", "Left"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Move a selected block around",
+      "keys": [["Ctrl", "Shift", "Right"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Expand or close all toggles in a toggle list",
+      "keys": [["Ctrl", "Alt", "T"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Apply the last text or highlight color you used",
+      "keys": [["Ctrl", "Shift", "H"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit and move blocks",
+      "action": "Modify the current block you're in",
+      "keys": [["Ctrl", "Enter"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "@ commands",
+      "action": "Mention a person",
+      "keys": [["@"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "@ commands",
+      "action": "Mention a page",
+      "keys": [["@"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "@ commands",
+      "action": "Mention a date",
+      "keys": [["@"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "@ commands",
+      "action": "Add a reminder",
+      "keys": [["@remind"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "@ commands",
+      "action": "Dismiss the @-command menu",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "[[ commands",
+      "action": "Link a page",
+      "keys": [["[", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "[[ commands",
+      "action": "Create a sub-page",
+      "keys": [["[", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "[[ commands",
+      "action": "Create a new page somewhere else",
+      "keys": [["[", "["]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "+ commands",
+      "action": "Create a sub-page",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "+ commands",
+      "action": "Create a new page somewhere else",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "+ commands",
+      "action": "Link a page",
+      "keys": [["+"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a new text block",
+      "keys": [["/text"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a new text block",
+      "keys": [["/plain"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a new page (and will open it automatically when you press enter)",
+      "keys": [["/page"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a bulleted list",
+      "keys": [["/bullet"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a numbered list",
+      "keys": [["/num"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a to-do list with checkboxes",
+      "keys": [["/todo"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a toggle list",
+      "keys": [["/toggle"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a light gray divider",
+      "keys": [["/div"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a quote block of larger text",
+      "keys": [["/quote"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a large heading",
+      "keys": [["/h1"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a large heading",
+      "keys": [["/#"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a medium-sized heading",
+      "keys": [["/h2"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a medium-sized heading",
+      "keys": [["/##"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a small heading",
+      "keys": [["/h3"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a small heading",
+      "keys": [["/###"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Creates a link to another page in your workspace",
+      "keys": [["/link"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Basic)",
+      "action": "Clears the / menu",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Inline)",
+      "action": "Mention a page or a person in your workspace",
+      "keys": [["/mention"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Inline)",
+      "action": "Add a timestamp or reminder to your page",
+      "keys": [["/date"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Inline)",
+      "action": "Add a timestamp or reminder to your page",
+      "keys": [["/reminder"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Inline)",
+      "action": "Add a TeX formula in line with your text",
+      "keys": [["/equation"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Inline)",
+      "action": "Brings up the emoji picker",
+      "keys": [["/emoji"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Upload or embed an image, or add one from Unsplash",
+      "keys": [["/image"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Paste in a URL to any PDF so it will display inline on your page",
+      "keys": [["/pdf"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Paste in a URL to any website to create a web bookmark",
+      "keys": [["/book"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Upload a video file or embed a video from YouTube, Vimeo, etc.",
+      "keys": [["/video"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Upload an audio file or embed a recording from SoundCloud, Spotify, etc.",
+      "keys": [["/audio"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Creates a code block where you can write and copy any snippet of code",
+      "keys": [["/code"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Upload any file from your computer or create an embed",
+      "keys": [["/file"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Media)",
+      "action": "Add any one of the 500+ embeds that work with Notion",
+      "keys": [["/embed"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Creates an exact copy of the current block",
+      "keys": [["/duplicate"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Move that block to a different page",
+      "keys": [["/moveto"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Deletes the current block",
+      "keys": [["/delete"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Creates a Table of Contents block",
+      "keys": [["/toc"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Gives you a template button that duplicates any combination of blocks you define",
+      "keys": [["/button"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Gives you a template button that duplicates any combination of blocks you define",
+      "keys": [["/template"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Inserts a breadcrumb menu that shows where your current page is in your workspace",
+      "keys": [["/bread"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Write mathematical equations and symbols using TeX",
+      "keys": [["/math"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Slash commands (Advanced)",
+      "action": "Write mathematical equations and symbols using TeX",
+      "keys": [["/latex"]],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}

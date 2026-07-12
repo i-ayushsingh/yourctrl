@@ -1,0 +1,20 @@
+{
+  "app_name": "ChatGPT",
+  "process_name": "chatgpt.exe",
+  "category": "AI",
+  "platforms": ["windows"],
+  "icon_slug": "chatgpt",
+  "brand_color": "#10A37F",
+  "shortcuts": [
+    { "section": "Composer", "action": "Send Message or Stop Answering", "keys": [["Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Composer", "action": "Toggle Dictation", "keys": [["Ctrl", "Shift", "D"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Composer", "action": "Add Photos", "keys": [["Ctrl", "U"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Open New Chat", "keys": [["Ctrl", "Shift", "O"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Show Shortcuts", "keys": [["Ctrl", "/"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Toggle Dev Mode", "keys": [["Ctrl", "."]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Toggle Sidebar", "keys": [["Ctrl", "Shift", "S"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Set Custom Instructions", "keys": [["Ctrl", "Shift", "I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Copy Last Code Block", "keys": [["Ctrl", "Shift", ";"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "App", "action": "Delete Chat", "keys": [["Ctrl", "Shift", "Backspace"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}

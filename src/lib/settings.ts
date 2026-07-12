@@ -1,13 +1,15 @@
 import { useEffect, useRef } from "react";
 import { useAppStore, type ThemePref } from "@/store";
-
-const isTauri = () => typeof window !== "undefined" && "__TAURI_INTERNALS__" in window;
+import { isTauri } from "./tauri";
 
 interface PersistedSettings {
   theme: string;
+  accent_color?: string;
+  match_os_accent?: boolean;
+  pinned?: boolean;
+  pinned_position?: { x: number; y: number };
   excluded: string[];
   hold_ms: number;
-  trigger_type: string;
   autostart?: boolean;
   start_minimized?: boolean;
   disable_unsupported_trigger?: boolean;
@@ -36,11 +38,12 @@ export function useSyncSettings() {
         const s = await invoke<PersistedSettings>("load_settings");
         const store = useAppStore.getState();
         store.setThemePref((s.theme as ThemePref) || "system");
+        if (s.accent_color) store.setAccentColor(s.accent_color);
+        store.setMatchOsAccent(!!s.match_os_accent);
+        if (typeof s.pinned === "boolean") store.setPinned(s.pinned);
+        if (s.pinned_position) store.setPinnedPosition(s.pinned_position);
         store.setExcludedApps(s.excluded ?? []);
         if (typeof s.hold_ms === "number") store.setHoldMs(s.hold_ms);
-        if (s.trigger_type === "hold" || s.trigger_type === "double") {
-          store.setTriggerType(s.trigger_type);
-        }
         if (typeof s.autostart === "boolean") store.setAutostart(s.autostart);
         if (typeof s.start_minimized === "boolean") store.setStartMinimized(s.start_minimized);
         if (typeof s.disable_unsupported_trigger === "boolean") {
@@ -65,9 +68,12 @@ export function useSyncSettings() {
         timer = setTimeout(() => {
           void invoke("save_settings", {
             theme: state.themePref,
+            accentColor: state.accentColor,
+            matchOsAccent: state.matchOsAccent,
+            pinned: state.pinned,
+            pinnedPosition: state.pinnedPosition,
             excluded: state.excludedApps,
             holdMs: state.holdMs,
-            triggerType: state.triggerType,
             autostart: state.autostart,
             startMinimized: state.startMinimized,
             disableUnsupportedTrigger: state.disableUnsupportedTrigger,

@@ -25,9 +25,29 @@ function RouteView() {
 
 export default function App() {
   const themePref = useAppStore((s) => s.themePref);
+  const accentColor = useAppStore((s) => s.accentColor);
   const route = useAppStore((s) => s.route);
-  useApplyTheme(themePref);
+  useApplyTheme(themePref, accentColor);
   useSyncSettings();
+
+  // If the user opted to match the Windows accent color, fetch it on load.
+  useEffect(() => {
+    const applyOsAccent = async () => {
+      const { matchOsAccent, setAccentColor, setMatchOsAccent } = useAppStore.getState();
+      if (!matchOsAccent) return;
+      if (typeof window !== "undefined" && "__TAURI_INTERNALS__" in window) {
+        try {
+          const { invoke } = await import("@tauri-apps/api/core");
+          const hex = await invoke<string | null>("get_windows_accent_color");
+          if (hex) setAccentColor(hex);
+          else setMatchOsAccent(false);
+        } catch {
+          setMatchOsAccent(false);
+        }
+      }
+    };
+    void applyOsAccent();
+  }, []);
 
   const setApps = useAppStore((s) => s.setApps);
 

@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Search, X, HelpCircle, ArrowLeft, Check, AlertTriangle, ThumbsUp, ChevronRight, LayoutGrid } from "lucide-react";
+import { Search, X, HelpCircle, ArrowLeft, Check, AlertTriangle, ThumbsUp, ChevronRight, LayoutGrid, Pin, PinOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useAppStore } from "@/store";
 import { filterShortcuts } from "@/filter";
 import { AppIcon } from "./AppIcon";
 import { ShortcutGroups } from "./ShortcutGroups";
-import { dismissPopover } from "@/popover-control";
+import { dismissPopover, requestDismissPopover } from "@/popover-control";
+import { isTauri } from "@/lib/tauri";
 import { cn } from "@/lib/utils";
 
 const UNSUPPORTED = "__unsupported__";
@@ -23,6 +24,9 @@ export function CommandPopover() {
   const showShortcutCountBadge = useAppStore((s) => s.showShortcutCountBadge);
   const popoverOpacity = useAppStore((s) => s.popoverOpacity);
   const searchScope = useAppStore((s) => s.searchScope);
+  const pinned = useAppStore((s) => s.pinned);
+  const setPinned = useAppStore((s) => s.setPinned);
+  const setPinnedPosition = useAppStore((s) => s.setPinnedPosition);
 
   const [detectedProcess, setDetectedProcess] = useState("");
   const [showSuggestForm, setShowSuggestForm] = useState(false);
@@ -164,7 +168,7 @@ export function CommandPopover() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
-        void dismissPopover();
+        void requestDismissPopover();
         return;
       }
 
@@ -253,18 +257,82 @@ export function CommandPopover() {
     void (async () => {
       const { getCurrentWindow } = await import("@tauri-apps/api/window");
       unlisten = await getCurrentWindow().onFocusChanged(({ payload: focused }) => {
-        if (!focused) void dismissPopover();
+        if (!focused) void requestDismissPopover();
       });
     })();
     return () => unlisten?.();
   }, []);
+
+  // When the popover opens already pinned (restored from settings), re-assert the
+  // always-on-top flag and restore its last on-screen position.
+  useEffect(() => {
+    if (!("__TAURI_INTERNALS__" in window)) return;
+    if (!pinned) return;
+    let moveUnlisten: (() => void) | undefined;
+    void (async () => {
+      const { getCurrentWindow } = await import("@tauri-apps/api/window");
+      const win = getCurrentWindow();
+      await win.setAlwaysOnTop(true);
+      const saved = useAppStore.getState().pinnedPosition;
+      if (saved) {
+        try {
+          await win.setPosition({ type: "Physical", x: saved.x, y: saved.y } as any);
+        } catch {
+          /* ignore positioning errors */
+        }
+      }
+      // Keep the saved position in sync while pinned and being dragged.
+      moveUnlisten = await win.onMoved(({ payload }) => {
+        if (useAppStore.getState().pinned) {
+          setPinnedPosition({ x: payload.x, y: payload.y });
+        }
+      });
+    })();
+    return () => moveUnlisten?.();
+  }, [pinned, setPinnedPosition]);
+
+  const togglePin = async () => {
+    const next = !pinned;
+    setPinned(next);
+    if (isTauri()) {
+      const { invoke } = await import("@tauri-apps/api/core");
+      await invoke("set_pinned", { pinned: next });
+      const { getCurrentWindow } = await import("@tauri-apps/api/window");
+      const win = getCurrentWindow();
+      await win.setAlwaysOnTop(next);
+      if (next) {
+        try {
+          const pos = await win.outerPosition();
+          setPinnedPosition({ x: pos.x, y: pos.y });
+        } catch {
+          /* ignore */
+        }
+      }
+    }
+  };
+
+  const handleClose = async () => {
+    if (pinned) {
+      setPinned(false);
+      if (isTauri()) {
+        const { invoke } = await import("@tauri-apps/api/core");
+        await invoke("set_pinned", { pinned: false });
+        const { getCurrentWindow } = await import("@tauri-apps/api/window");
+        await getCurrentWindow().setAlwaysOnTop(false);
+      }
+    }
+    void dismissPopover();
+  };
 
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.97 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.16, ease: [0.2, 0, 0, 1] }}
-      className="flex h-screen max-h-[520px] flex-col overflow-hidden rounded-xl text-popover-foreground ring-1 ring-white/8 backdrop-blur-2xl dark:ring-white/6"
+      className={cn(
+        "flex h-screen max-h-[520px] flex-col overflow-hidden rounded-xl text-popover-foreground ring-1 ring-white/8 backdrop-blur-2xl dark:ring-white/6",
+        pinned && "ring-2 ring-primary/70",
+      )}
       style={{ backgroundColor: `rgba(15, 15, 17, ${popoverOpacity})` }}
     >
       {/* Title bar */}
@@ -319,6 +387,22 @@ export function CommandPopover() {
           </div>
         )}
         <div className="flex items-center gap-1" data-no-drag>
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => void togglePin()}
+            className={cn(
+              "size-6 rounded-md",
+              pinned
+                ? "text-primary bg-primary/10"
+                : "text-muted-foreground/50 hover:bg-white/5 hover:text-foreground",
+            )}
+            title={pinned ? "Unpin (auto-hide on release)" : "Pin (keep visible)"}
+            aria-label={pinned ? "Unpin popover" : "Pin popover"}
+            aria-pressed={pinned}
+          >
+            {pinned ? <PinOff className="size-3.5" /> : <Pin className="size-3.5" />}
+          </Button>
           {view === "shortcuts" && app && (
             <Button
               variant="ghost"
@@ -342,7 +426,7 @@ export function CommandPopover() {
             variant="ghost"
             size="icon"
             className="size-6 rounded-md text-muted-foreground/50 hover:bg-destructive/15 hover:text-destructive"
-            onClick={() => void dismissPopover()}
+            onClick={() => void handleClose()}
             aria-label="Close"
           >
             <X className="size-3.5" />

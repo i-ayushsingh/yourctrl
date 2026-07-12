@@ -1,0 +1,325 @@
+{
+  "app_name": "Paint",
+  "process_name": "mspaint.exe",
+  "category": "Windows OS",
+  "platforms": ["windows"],
+  "icon_slug": "windows",
+  "brand_color": "#0078D4",
+  "shortcuts": [
+    {
+      "section": "File & Edit",
+      "action": "New picture",
+      "keys": [["Ctrl", "N"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Open a picture",
+      "keys": [["Ctrl", "O"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Save",
+      "keys": [["Ctrl", "S"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Save as a new file",
+      "keys": [["F12"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Print",
+      "keys": [["Ctrl", "P"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Exit Paint",
+      "keys": [["Alt", "F4"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Undo",
+      "keys": [["Ctrl", "Z"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Redo",
+      "keys": [["Ctrl", "Y"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Cut",
+      "keys": [["Ctrl", "X"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Copy",
+      "keys": [["Ctrl", "C"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Paste",
+      "keys": [["Ctrl", "V"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File & Edit",
+      "action": "Select all",
+      "keys": [["Ctrl", "A"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move the selection or shape left 1 pixel",
+      "keys": [["Left"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move the selection or shape right 1 pixel",
+      "keys": [["Right"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move the selection or shape up 1 pixel",
+      "keys": [["Up"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move the selection or shape down 1 pixel",
+      "keys": [["Down"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Cancel a selection",
+      "keys": [["Esc"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Delete a selection",
+      "keys": [["Delete"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Zoom in",
+      "keys": [["Ctrl", "PageUp"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Zoom out",
+      "keys": [["Ctrl", "PageDown"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "View the picture in full screen",
+      "keys": [["F11"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Show or hide the ruler",
+      "keys": [["Ctrl", "R"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Show or hide gridlines",
+      "keys": [["Ctrl", "G"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Increase brush/line/outline width by 1 pixel",
+      "keys": [["Ctrl", "+"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View & Zoom",
+      "action": "Decrease brush/line/outline width by 1 pixel",
+      "keys": [["Ctrl", "-"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Image & Text",
+      "action": "Open the Properties dialog (image dimensions)",
+      "keys": [["Ctrl", "E"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Image & Text",
+      "action": "Open the Resize and Skew dialog",
+      "keys": [["Ctrl", "W"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Image & Text",
+      "action": "Bold the selected text (Text tool)",
+      "keys": [["Ctrl", "B"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Image & Text",
+      "action": "Italicize the selected text (Text tool)",
+      "keys": [["Ctrl", "I"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Image & Text",
+      "action": "Underline the selected text (Text tool)",
+      "keys": [["Ctrl", "U"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ribbon & Help",
+      "action": "Display KeyTips (shortcut letters on the ribbon)",
+      "keys": [["Alt"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ribbon & Help",
+      "action": "Display KeyTips (shortcut letters on the ribbon)",
+      "keys": [["F10"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ribbon & Help",
+      "action": "Expand or collapse the ribbon",
+      "keys": [["Ctrl", "F1"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ribbon & Help",
+      "action": "Show the current context (right-click) menu",
+      "keys": [["Shift", "F10"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ribbon & Help",
+      "action": "Open Paint Help",
+      "keys": [["F1"]],
+      "os": "windows",
+      "source": "tutorialtactic",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

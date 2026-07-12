@@ -18,9 +18,12 @@ interface AppState {
 
   // Settings
   themePref: ThemePref;
+  accentColor: string;
+  matchOsAccent: boolean;
+  pinned: boolean;
+  pinnedPosition: { x: number; y: number } | null;
   excludedApps: string[];
   holdMs: number;
-  triggerType: "hold" | "double";
   autostart: boolean;
   startMinimized: boolean;
   disableUnsupportedTrigger: boolean;
@@ -45,12 +48,15 @@ interface AppState {
   openReportWithPrefill: (appName: string, processName: string) => void;
   openSettings: () => void;
   setThemePref: (pref: ThemePref) => void;
+  setAccentColor: (hex: string) => void;
+  setMatchOsAccent: (match: boolean) => void;
+  setPinned: (pinned: boolean) => void;
+  setPinnedPosition: (pos: { x: number; y: number } | null) => void;
   toggleExcluded: (appName: string) => void;
   setExcludedApps: (apps: string[]) => void;
   resetExcludedApps: () => void;
   setPendingCategoryScroll: (category: string | null) => void;
   setHoldMs: (ms: number) => void;
-  setTriggerType: (type: "hold" | "double") => void;
   setAutostart: (enabled: boolean) => void;
   setStartMinimized: (minimized: boolean) => void;
   setSuggestTab: (tab: "suggest" | "broken") => void;
@@ -76,9 +82,12 @@ export const useAppStore = create<AppState>((set) => ({
   suggestTab: "suggest",
   suggestPrefill: null,
   themePref: "dark",
+  accentColor: "#7C5CFC",
+  matchOsAccent: false,
+  pinned: false,
+  pinnedPosition: null,
   excludedApps: [],
   holdMs: 700,
-  triggerType: "hold",
   autostart: false,
   startMinimized: false,
   disableUnsupportedTrigger: false,
@@ -104,6 +113,10 @@ export const useAppStore = create<AppState>((set) => ({
   openReportWithPrefill: (appName, processName) => set({ route: "suggest", suggestTab: "broken", suggestPrefill: { appName, processName } }),
   openSettings: () => set({ route: "settings" }),
   setThemePref: (themePref) => set({ themePref }),
+  setAccentColor: (accentColor) => set({ accentColor }),
+  setMatchOsAccent: (matchOsAccent) => set({ matchOsAccent }),
+  setPinned: (pinned) => set({ pinned }),
+  setPinnedPosition: (pinnedPosition) => set({ pinnedPosition }),
   toggleExcluded: (appName) =>
     set((s) => ({
       excludedApps: s.excludedApps.includes(appName)
@@ -114,7 +127,6 @@ export const useAppStore = create<AppState>((set) => ({
   resetExcludedApps: () => set({ excludedApps: [] }),
   setPendingCategoryScroll: (pendingCategoryScroll) => set({ pendingCategoryScroll }),
   setHoldMs: (holdMs) => set({ holdMs }),
-  setTriggerType: (triggerType) => set({ triggerType }),
   setAutostart: (autostart) => set({ autostart }),
   setStartMinimized: (startMinimized) => set({ startMinimized }),
   setSuggestTab: (suggestTab) => set({ suggestTab }),

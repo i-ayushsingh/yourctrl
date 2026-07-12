@@ -1,0 +1,19 @@
+{
+  "app_name": "Msty",
+  "process_name": "Msty.exe",
+  "category": "AI Tools",
+  "platforms": ["windows"],
+  "icon_slug": "msty",
+  "brand_color": "#7C3AED",
+  "shortcuts": [
+    { "section": "General", "action": "New Chat", "keys": [["Ctrl","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Add Split Chat", "keys": [["Ctrl","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "General", "action": "Toggle Search Conversations", "keys": [["Ctrl","F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View", "action": "Toggle Vapor Mode", "keys": [["Ctrl","Shift","N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View", "action": "Toggle Theme Tray", "keys": [["Ctrl","Shift","T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Copy Last Message", "keys": [["Ctrl","Shift","C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Regenerate Last AI Message", "keys": [["Ctrl","Shift","R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Edit Last User Message", "keys": [["Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat", "action": "Edit Last AI Message", "keys": [["Alt","Up"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}
