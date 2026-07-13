@@ -1,0 +1,23 @@
+{
+  "app_name": "Cherry Studio",
+  "category": "AI",
+  "platforms": ["windows"],
+  "shortcuts": [
+    { "section": "View & Navigation", "action": "Zoom In", "keys": [["Ctrl", "="]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Zoom Out", "keys": [["Ctrl", "-"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Reset Zoom", "keys": [["Ctrl", "0"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Open Settings", "keys": [["Ctrl", ","]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Toggle Assistant List", "keys": [["Ctrl", "["]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Toggle Topic List", "keys": [["Ctrl", "]"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "View & Navigation", "action": "Exit Full Screen", "keys": [["Escape"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat Management", "action": "New Topic", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat Management", "action": "Rename Topic", "keys": [["Ctrl", "T"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat Management", "action": "Clear Context", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chat Management", "action": "Clear Messages", "keys": [["Ctrl", "L"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Message Handling", "action": "Search Messages", "keys": [["Ctrl", "Shift", "F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Message Handling", "action": "Search in Chat", "keys": [["Ctrl", "F"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Message Handling", "action": "Copy Last Message", "keys": [["Ctrl", "Shift", "C"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Message Handling", "action": "Edit Last User Message", "keys": [["Ctrl", "Shift", "E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Global Tools", "action": "Quick Assistant", "keys": [["Ctrl", "E"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}
