@@ -1,0 +1,3185 @@
+{
+  "app_name": "Autodesk Revit",
+  "process_name": "Revit.exe",
+  "category": "3D Modeling",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "autodeskrevit",
+  "brand_color": "#0892D1",
+  "shortcuts": [
+    {
+      "section": "Annotate",
+      "action": "ALIGNED DIMENSION / Creates an aligned dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "DETAIL LINE / Creates view-specific lines.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "SPOT ELEVATION / Displays the elevation of a selected point.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "FIND/REPLACE / Find and replace.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "MODEL GROUP:CREATE GROUP; DETAIL GROUP:CREATE GROUP / Creates a group of elements.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "TAG ROOM; ROOM TAG / Tags the selected room.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "TAG BY CATEGORY / Applies tags to elements based on their categories.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Annotate",
+      "action": "TEXT / Adds text.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "ADJUST ANALYTICAL MODEL / Adjusts the analytical model of the structural member in relation to those of the elements to which it joins.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "CHECK DUCT SYSTEMS / Examines the mechanical systems in a project to verify that each system is assigned to a userdefined system, and properly connected.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "CHECK CIRCUITS / Verifies all circuits for proper connections to panels and valid system assignments.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "LOADS / Applies point, line and area loads to a model.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "HEATING AND COOLING LOADS / Prepares a heating and cooling load analysis report based on an existing building model.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "CHECK PIPE SYSTEMS / Examines the piping systems in a project to verify that each system is assigned to a user-defined system, and properly connected.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "PANEL SCHEDULES / Generates a panel schedule for a specific panel.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Analyze",
+      "action": "RESET ANALYTICAL MODEL / Restores the analytical model alignment methods to auto-detect.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "COLUMN; STRUCTURAL COLUMN / Adds a vertical load-bearing element to the building model.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "PLACE A COMPONENT / Place a component.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "DOOR / Adds a door to the building model.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "GRID / Places column grid lines in the building design.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "LEVEL / Places a level in view.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "ROOM / Creates a room bounded by model elements and separation lines.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "TAG ROOM; ROOM TAG / Tags the selected room.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "FLOOR:FLOOR: STRUCTURAL / Adds structural floors to a building model.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "WALL; WALL:WALL: ARCHITECTURAL / Creates a non-bearing wall or a structural wall in the building model.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Architecture",
+      "action": "WINDOW / Places a window in a wall or skylight in a roof.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Collaborate",
+      "action": "EDITING REQUESTS / Displays a list of usersí requests to borrow elements in worksets, as well as pending requests.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Collaborate",
+      "action": "RELOAD LATEST / Loads the latest version of the central model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Collaborate",
+      "action": "RELOAD LATEST / Loads the latest version of the central model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "MOVE TO PROJECT / Move the model relative to a shared coordinate system.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "DEFINE A NEW CENTER OF ROTATION / Relocates center of rotation when rotating elements.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "RESTORE ALL EXCLUDED / Restores all excluded parts and elements.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "RESTORE EXCLUDED MEMBER / Restores an excluded member.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "REPEAT LAST COMMAND / Repeats the last command.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context Menu",
+      "action": "SELECT ALL INSTANCES: IN ENTIRE PROJECT / Selects all of the elements that are similar to the selected element in the current view, or throughout the project.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "DIVIDE SURFACE / Applies a division grid along a surface in a conceptual design.",
+      "keys": [
+        [
+          "//"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "ADJUST ANALYTICAL MODEL / Adjusts the analytical model of the structural member in relation to those of the elements to which it joins.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "ATTACH DETAIL GROUP / Creates an attached detail group.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "ADD TO GROUP / Adds elements to a group.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "STRUCTURAL BEAM SYSTEM; AUTOMATIC BEAM SYSTEM / Creates a layout that is used to control the number and spacing of a series of parallel beams.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "CANCEL / Cancels an action.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "ALIGNED DIMENSION / Creates an aligned dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "EDIT GROUP / Edits a group.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "SPOT ELEVATION / Displays the elevation of a selected point.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "EDIT PAR / Edits a part element.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "UNHIDE ELEMENT / Enables a hidden element to appear in view.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "EDIT WITNESS LINES / Edits a witness line",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "FINISH / Finishes editing a group.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "SHOW HELP TOOLTIP / Displays the Help Tooltip.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "JUSTIFICATION POINTS / Sets a justification point for relocating elements.",
+      "keys": [
+        [
+          "J"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "YOFFSET / Offsets an element in the y direction.",
+      "keys": [
+        [
+          "J"
+        ],
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "ZOFFSET / Offsets an element in the z direction.",
+      "keys": [
+        [
+          "J"
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "MODEL LINE; BOUNDARY LINE; REBAR LINE / Places a new line.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "RESTORE ALL EXCLUDED / Restores all excluded parts and elements.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "REMOVE FROM GROUP / Removes elements from a group.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "TOGGLE REVEAL HIDDEN ELEMENTS MODE / Toggles the Reveal Hidden Elements Mode.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "UNGROUP / Ungroups members of a group.",
+      "keys": [
+        [
+          "U"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Contextual Tabs",
+      "action": "UNHIDE CATEGORY / Enables a hidden category to appear in view.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "PLACE A COMPONENT / Place a component.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "ALIGNED DIMENSION / Creates an aligned dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "FIND/REPLACE / Find and replace.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "MODEL GROUP:CREATE GROUP; DETAIL GROUP:CREATE GROUP / Creates a group of elements.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "MODEL LINE; BOUNDARY LINE; REBAR LINE / Places a new line.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "LEVEL / Places a level in view.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "MODIFY / Enters selection mode to select elements to modify.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Create",
+      "action": "TEXT / Adds text",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage",
+      "action": "MEP SETTINGS:ELECTRICAL SETTINGS / Accesses dialog box to specify wiring parameters, voltages definitions, distribution systems, cable tray and conduit settings, and load calculation and circuit numbering settings.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage",
+      "action": "MEP SETTINGS:MECHANICAL SETTINGS / Accesses dialog box to configure component sizes, and the behavior and appearance of the mechanical systems.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage",
+      "action": "ADDITIONAL SETTINGS:SUN SETTINGS / Opens the sun settings dialog box.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage",
+      "action": "PROJECT UNITS / Opens the Project Units tool.",
+      "keys": [
+        [
+          "U"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "ALIGN / Aligns one or more elements with selected element.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "ARRAY / Creates a linear or radial array of selected elements.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "COPY / Copies selected element(s).",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "COPY / Copies selected element(s).",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "COPE; APPLY COPING / Applies coping to steel beam or columns.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "CREATE SIMILAR / Creates an element of the same type as the selected element.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "DELETE / Removes selected element(s) from the building model.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "ALIGNED DIMENSION / Creates an aligned dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "MIRROR - DRAW AXIS / Reverses the position of a selected model element, using a user-generated line as the mirror axis.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "HIDE IN VIEW:HIDE ELEMENTS / Hides an element from view.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "SPOT ELEVATION / Displays the elevation of a selected point.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "OVERRIDE GRAPHICS IN VIEW:OVERRIDE BY ELEMENT / Changes the graphic display settings for selected elements in the current view.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "O"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "MODEL LINE; BOUNDARY LINE; REBAR LINE / Places a new line.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "LINEWORK / Overrides the line style of selected line in the active view only.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "MATCH TYPE PROPERTIES / Opens the Match Type tool to convert one or more elements to match the type assigned to another element.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "MIRROR - PICK AXIS / Reverses the position of a selected model element, using a selected line as the mirror axis.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "MOVE / Moves a selected element.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "OFFSET / Moves a selected model line, detail line, wall, or beam a specified distance perpendicular to its length.",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "PIN / Locks a model element in place.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "PAINT / Opens the Paint tool.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "COPE:REMOVE COPING / Removes coping.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "SCALE / Resizes the selected element.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "ROTATE / Rotates selected element around an axis.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "SPLIT FACE / Divides the face of an element into regions for application of different materials.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "SPLIT ELEMENT / Cuts an element (such as a wall or line) at a selected point.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modify",
+      "action": "TRIM/EXTEND TO CORNER / Trims or extend one or more elements to form a corner.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "2D MODE / Navigates the view using only 2D navigation options.",
+      "keys": [
+        [
+          "3"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "FLY MODE / Simulates flying through a model.",
+      "keys": [
+        [
+          "3"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "OBJECT MODE / Navigates and reorients the view in the direction of the controller cap.",
+      "keys": [
+        [
+          "3"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "WALK MODE / Simulates walking through a model.",
+      "keys": [
+        [
+          "3"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM ALL TO FIT / Zooms to fit all in view.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM TO FIT / Zooms to fit.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM TO FIT / Zooms to fit.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM TO FIT / Zooms to fit.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM OUT(2X) / Zooms out the project view by 2X.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM OUT(2X) / Zooms out the project view by 2X.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "PREVIOUS PAN/ZOOM / Returns to previous pan or zoom.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "PREVIOUS PAN/ZOOM / Returns to previous pan or zoom.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM IN REGION / Zooms to a region.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation Bar",
+      "action": "ZOOM IN REGION / Zooms to a region.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "SNAP TO POINT CLOUDS / Snaps to point cloud.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "CENTERS / Snaps to center",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "ENDPOINTS / Snaps to endpoints.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "INTERSECTIONS / Snaps to intersection.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "MIDPOINTS / Snaps to midpoint.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "NEAREST / Snaps to nearest.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "SNAPS OFF / Turns snaps off.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "PERPENDICULAR / Snaps to perpendicular.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "QUADRANTS / Snaps to quadrant.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "SNAP TO REMOTE OBJECTS / Snaps to objects that are not near the element.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "TURN OVERRIDE OFF / Turns off override feature.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "TANGENTS / Snaps to tangent.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "WORK PLANE GRID / Snaps to the work plane grid.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Snaps",
+      "action": "POINTS / Snaps to points.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "STRUCTURAL FRAMING: BEAM / Adds a load-bearing structural beam element to the building model.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "STRUCTURAL FRAMING: BRACE / Adds diagonal members that are connected to beams and columns.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "STRUCTURAL BEAM SYSTEM; AUTOMATIC BEAM SYSTEM / Creates a layout that is used to control the number and spacing of a series of parallel beams.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "COLUMN; STRUCTURAL COLUMN / Adds a vertical load-bearing element to the building model.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "PLACE A COMPONENT / Place a component.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "STRUCTURAL FOUNDATION: WALL / Creates a wall foundation for the building model.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "GRID / Places column grid lines in the building design.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "LEVEL / Places a level in view.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "REINFORCEMENT NUMBERS / Defines or edits numbering sequences by partition for rebar and fabric sheets.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "FLOOR:FLOOR: STRUCTURAL / Adds structural floors to a building model.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Structure",
+      "action": "WALL; WALL:WALL: ARCHITECTURAL / Creates a non-bearing wall or a structural wall in the building model.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "AIR TERMINAL / Places a register, grille or diffuser.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "PLACE A COMPONENT / Place a component.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "CONDUIT / Draws a rigid conduit run.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "CABLE TRAY / Draws a cable tray run.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "CONVERT TO FLEX DUCT / Converts a section of rigid duct to flexible duct.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "DUCT ACCESSORY / Adds duct accessories, such as dampers, in duct systems.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "DUCT FITTING / Places duct fittings (elbows, tees, end caps, and so on) in duct systems.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "DUCT / Draws ductwork in the building model.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "ELECTRICAL EQUIPMENT / Places electrical equipment, such as panels and switch gear.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "ARC WIRE / Draws an arced wire run.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "FLEX DUCT / Draws flexible ductwork in the building model.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "FLEX PIPE / Draws flexible pipes.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "LIGHTING FIXTURE / Adds a lighting fixture element.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "MECHANICAL EQUIPMENT / Places mechanical equipment such as boilers, furnaces or fans.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "CONDUIT FITTING / Places conduit fittings.",
+      "keys": [
+        [
+          "N"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "PIPE ACCESSORY / Adds pipe accessories.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "PIPE FITTING / Draws a pipe fitting in a piping system.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "PIPE / Draws rigid piping.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "PLUMBING FIXTURE / Places a plumbing fixture.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "REFERENCE PLANE / Creates a reference plane using drawing tools.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "SPRINKLER / Places a sprinkler",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "System",
+      "action": "CABLE TRAY FITTING / Places cable tray fittings.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "SYSTEM BROWSER / Finds components that are not assigned to a system.",
+      "keys": [
+        [
+          "Fn9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "KEYBOARD SHORTCUTS / Assigns key sequences to tools.",
+      "keys": [
+        [
+          "K"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "PROPERTIES; TOGGLE PROPERTIES PALETTE / Toggles the Properties palette.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "RENDER IN CLOUD / Renders 3D views online.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "RENDER GALLERY / Enables access to multiple versions of renderings, render images as panoramas, change rendering quality, and apply background environments to rendered scenes.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "RENDER / Creates a photorealistic image of the building model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "THIN LINES / Displays all lines on the screen as a single width, regardless of zoom level.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "VISIBILITY/GRAPHICS / Controls the visibility and graphic display of model elements, datum elements, and viewspecific elements for each view in a project.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "VISIBILITY/GRAPHICS / Controls the visibility and graphic display of model elements, datum elements, and viewspecific elements for each view in a project.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "CASCADE WINDOWS / Arranges all open windows in a series in the drawing area.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View",
+      "action": "TILE WINDOWS / See all open views at the same time.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "TOGGLE REVEAL CONSTRAINTS MODE / Toggles the constraints in a view.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "GRAPHIC DISPLAY OPTIONS / Opens the Graphics dialog box.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "HIDE CATEGORY / Hides all selected categories in the view.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "HIDE ELEMENT / Hides an element from view.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "ISOLATE ELEMENT / Isolates selected elements.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "HIDDEN LINE / Displays the image with all edges and lines drawn except those obstructed by surfaces.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "RESET TEMPORARY HIDE/ISOLATE / Restores any temporarily hidden elements or categories.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "ISOLATE CATEGORY / Isolates selected categories.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "RENDER IN CLOUD / Renders 3D views online.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "RENDER GALLERY / Enables access to multiple versions of renderings, render images as panoramas, change rendering quality, and apply background environments to rendered scenes.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "TOGGLE REVEAL HIDDEN ELEMENTS MODE / Toggles the Reveal Hidden Elements Mode.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "RENDER / Creates a photorealistic image of the building model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "RAY TRACE / Opens Ray Trace visual style, enabling a photorealistic rendering mode that allows panning and zooming around the model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "SHADED WITH EDGES / Applies a shaded edge.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Control Bar",
+      "action": "WIREFRAME / Displays the image of the model with all edges and lines drawn, but with no surfaces drawn.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
