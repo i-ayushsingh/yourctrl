@@ -1,0 +1,141 @@
+{
+  "app_name": "Jumpshare",
+  "category": "Screen Recording",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Screen Recording",
+      "action": "Start/Stop Recording",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screen Recording",
+      "action": "Pause/Resume Recording",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screen Recording",
+      "action": "Toggle Drawing Mode",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screen Recording",
+      "action": "Restart Recording",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screen Recording",
+      "action": "Cancel Recording",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screenshot Annotation",
+      "action": "Save Screenshot",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screenshot Annotation",
+      "action": "Copy Screenshot",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screenshot Annotation",
+      "action": "Upload Screenshot",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Management",
+      "action": "Upload to Jumpshare from Windows Explorer",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
