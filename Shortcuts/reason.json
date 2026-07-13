@@ -1,0 +1,2061 @@
+{
+  "app_name": "Reason",
+  "process_name": "Reason.exe",
+  "category": "Audio Production",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "reason",
+  "brand_color": "#FF2B2B",
+  "shortcuts": [
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize/restore Main Mixer",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize/restore Rack",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize/restore Sequencer",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize Main Mixer and Rack in one window",
+      "keys": [
+        [
+          "F5",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize Main Mixer and Sequencer in one window",
+      "keys": [
+        [
+          "F5",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Maximize Rack and Sequencer in one window",
+      "keys": [
+        [
+          "F6",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Detach/Attach Main Mixer",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Detach/Attach Rack",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "View All in one window",
+      "keys": [
+        [
+          "Ctrl",
+          "F7 or F5",
+          "F6",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Show/hide Spectrum EQ Window",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Show/hide Browser",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Show/Hide Recording Meter",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Show/hide On-screen Piano Keys window",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Show/hide Tool window",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle Rack front/rear",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create new Song",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Open Song",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Save Song",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Save Song As",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Close active detached Rack or Mixer window",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Close Song (if the window containing the Sequencer is active)",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Import Audio File",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Quit (macOS only)",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Exit (Windows only)",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Delete Devices and Tracks (without warning).",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Duplicate Devices and tracks, or selected clip(s), or selected comp row(s) in open audio clips, or selected note(s) in note clips, or selected automation point(s) in automation clips.",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Route to > New Output Bus",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create Audio Track",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create Instrument",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create Instrument (Windows only)",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create Effect",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Create Mix Channel",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Browse Patches for selected device.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle the \u201cReduce Cable Clutter\u201d option",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle the \u201cAuto-group Devices and Tracks\u201d option",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle the \u201cFollow Song\u201d option",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle the \u201cKeep Events in Clip While Editing\u201d option",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Toggle the Show Block/Song View option (when Blocks are on)",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Hide Reason (macOS only)",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Minimize Reason (macOS only)",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Open Preferences (macOS only)",
+      "keys": [
+        [
+          "Ctrl",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Cut Track & Device (track selected in Track List), Cut Clip or Event (depending on current selection).",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Copy Track & Device (track selected in Track List), Copy Clip or Event (depending on current selection).",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Paste Track & Device, Paste Clip or Event.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Open Help",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General keyboard shortcuts",
+      "action": "Switch to one of the 10 corresponding global Remote variations (or \"keyboard shortcut variations\").",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Alt",
+          "1...0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Disable auto-routing of device.",
+      "keys": [
+        [
+          "Shift",
+          "Create device"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Fold/unfold all devices.",
+      "keys": [
+        [
+          "Alt",
+          "unfold device"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Fold/unfold all tracks.",
+      "keys": [
+        [
+          "Alt",
+          "unfold track"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Select multiple devices/tracks/channels",
+      "keys": [
+        [
+          "Ctrl",
+          "Select"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Select range of multiple devices/tracks/channels",
+      "keys": [
+        [
+          "Shift",
+          "Select"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Increase precision when making settings.",
+      "keys": [
+        [
+          "Shift",
+          "knob"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General modifier keys",
+      "action": "Prevent creation of Sequencer-track for devices that normally will get a track. Create Sequencer-track for devices that normally will not get a track.",
+      "keys": [
+        [
+          "Alt",
+          "Create device"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Transport keyboard shortcuts",
+      "action": "Toggle Stop/Play",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Transport keyboard shortcuts",
+      "action": "Tempo Up",
+      "keys": [
+        [
+          "Numeric keypad",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Toggle Arrange/Edit Mode.",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Toggle Song/Blocks view.",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Arrow tool.",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Pencil tool.",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Eraser tool.",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Razor tool.",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Mute tool",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Magnifying Glass tool.",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Select Hand tool.",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Open selected clip for editing",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Close open clip",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Quantize",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Duplicate Track & Device (device or track selected).",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Join selected Clips on the same lane.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Merge Note Lanes on Tracks.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Mute/Unmute selected Clips or selected Notes in an open Note Clip.",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Snap on/off.",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Toggle Metronome Pre-count on/off",
+      "keys": [
+        [
+          "Ctrl and P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Loop on/off",
+      "keys": [
+        [
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Set Loop Locators to encompass all selected clips",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Set the Left and Right Loop Locators to encompass selected clips and start playback in Loop Mode.",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Crossfade selected (partly) overlapping audio clips",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Transpose selected notes up/down in octave steps",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "d arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Horizontal zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "+",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Horizontal zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "\u2013"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Vertical zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Alt",
+          "+",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Vertical zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "Ctrl",
+          "Alt",
+          "\u2013"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts",
+      "action": "Follow Song on/off (auto-scrolling Arrange/Edit pane)",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts in Audio Edit Mode",
+      "action": "Select Speaker tool",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts in Audio Edit Mode",
+      "action": "Change Comp Row assignment in the segment with focus in Comp Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Ctrl",
+          "Alt",
+          "d arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts in Audio Edit Mode",
+      "action": "Exit Slice Edit mode for Single Take audio clips",
+      "keys": [
+        [
+          "Escape or Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer keyboard shortcuts in Audio Edit Mode",
+      "action": "Correct note pitch(es) in Pitch Edit Mode.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys",
+      "action": "Select alternate tool in Toolbar",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys",
+      "action": "Toggle Pencil/Line tool (velocity edit lane only).",
+      "keys": [
+        [
+          "Ctrl"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys",
+      "action": "Restrict movement direction to either horizontal or vertical.",
+      "keys": [
+        [
+          "Shift",
+          "clips"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys",
+      "action": "Copy data instead of moving it.",
+      "keys": [
+        [
+          "Ctrl",
+          "Move data"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys in Audio Edit Mode",
+      "action": "Switch from Arrow tool to Cut (Razor) tool on the comp rows in an open audio clip",
+      "keys": [
+        [
+          "Altl"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sequencer modifier keys in Audio Edit Mode",
+      "action": "Switch from Arrow tool to Speaker tool on the comp rows in an open audio clip",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Select next device up or down (rack selected), select next track up or down (track list selected), select clip on next/previous lane (Arrange view selected).",
+      "keys": [
+        [
+          "d keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Select next/previous clip on lane (Arrange view selected), select next/previous value field (Position displays).",
+      "keys": [
+        [
+          "right keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Nudge selection one Snap unit back/forward in the sequencer.",
+      "keys": [
+        [
+          "Ctrl",
+          "right keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Nudge selection one Beat back/forward in the sequencer.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "right keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Nudge selection one Tick back/forward in the sequencer.",
+      "keys": [
+        [
+          "Alt",
+          "Alt",
+          "Ctrl",
+          "right keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow keys",
+      "action": "Transpose selected notes in Edit mode",
+      "keys": [
+        [
+          "Ctrl",
+          "d arrow keys"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Save dialog keyboard shortcuts",
+      "action": "Cancel",
+      "keys": [
+        [
+          "Ctrl",
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Save dialog keyboard shortcuts",
+      "action": "Yes (save song)",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Save dialog keyboard shortcuts",
+      "action": "No (do not save song)",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Sustain",
+      "keys": [
+        [
+          "Shift"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Octave Down",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Octave Up",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 1",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 14",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 28",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 42",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 56",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 70",
+      "keys": [
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 84",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 98",
+      "keys": [
+        [
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 112",
+      "keys": [
+        [
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "On-screen Piano Keys keyboard shortcuts",
+      "action": "Velocity value = 127",
+      "keys": [
+        [
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "NN-XT keyboard shortcuts",
+      "action": "Select All Zones",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "NN-XT keyboard shortcuts",
+      "action": "Copy selected Zone(s)",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "NN-XT keyboard shortcuts",
+      "action": "Paste currently copied Zone(s)",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Dr. Octo Rex keyboard shortcuts",
+      "action": "Cut Loop.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Dr. Octo Rex keyboard shortcuts",
+      "action": "Copy Loop.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Dr. Octo Rex keyboard shortcuts",
+      "action": "Paste Loop.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Cut Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Copy Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Paste pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Shift Pattern Left.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Shift Pattern Right.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Randomize Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redrum keyboard shortcuts",
+      "action": "Alter Pattern.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Cut Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Copy Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Paste Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Shift Pattern Left.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Shift Pattern Right.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Shift Pattern Up.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Shift Pattern Down.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Randomize Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix keyboard shortcuts",
+      "action": "Alter Pattern.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix modifier keys",
+      "action": "Allows you to draw lines and ramps.",
+      "keys": [
+        [
+          "Shift",
+          "Curve values"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Matrix modifier keys",
+      "action": "Temporarily toggle Tie mode on/off.",
+      "keys": [
+        [
+          "Shift",
+          "Draw Gate"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "RPG-8 keyboard shortcuts",
+      "action": "Shift Pattern Left.",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "RPG-8 keyboard shortcuts",
+      "action": "Shift Pattern Right.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "RPG-8 keyboard shortcuts",
+      "action": "Randomize Pattern.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "RPG-8 keyboard shortcuts",
+      "action": "Alter Pattern.",
+      "keys": [
+        [
+          "Shift",
+          "Shift",
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "MIDI Out Device keyboard shortcuts",
+      "action": "MIDI: Send All Notes Off",
+      "keys": [
+        [
+          "!"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
