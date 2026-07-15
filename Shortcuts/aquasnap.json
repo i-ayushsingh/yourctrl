@@ -1,0 +1,864 @@
+{
+  "app_name": "AquaSnap",
+  "category": "Window Management",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Window Management",
+      "action": "Maximize",
+      "keys": [
+        [
+          "Win",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Maximize across all monitors",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize",
+      "keys": [
+        [
+          "Win",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize all",
+      "keys": [
+        [
+          "Win",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize all (all monitors)",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize others",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize others (all monitors)",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize to tray",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Close",
+      "keys": [
+        [
+          "Win",
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Kill process",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Send to background",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Always on top",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Center window",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock top left",
+      "keys": [
+        [
+          "Win",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock top",
+      "keys": [
+        [
+          "Win",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock top right",
+      "keys": [
+        [
+          "Win",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock left",
+      "keys": [
+        [
+          "Win",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock right",
+      "keys": [
+        [
+          "Win",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock bottom left",
+      "keys": [
+        [
+          "Win",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock bottom",
+      "keys": [
+        [
+          "Win",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Dock bottom right",
+      "keys": [
+        [
+          "Win",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch up left",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch up",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch up right",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch left",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch right",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch down left",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch down",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch down right",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Stretch all directions",
+      "keys": [
+        [
+          "Win",
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Top left monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Top monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Top right monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Left monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Right monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Bottom left monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Bottom monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Bottom right monitor",
+      "keys": [
+        [
+          "Shift",
+          "Win",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move up left",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move up",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move up right",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move left",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move right",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move down left",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move down",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move down right",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Increase size",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "",
+          ""
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Decrease size",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Increase width",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Decrease width",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Increase height",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Decrease height",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Win",
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Shut down computer",
+      "keys": [
+        [
+          "unassigned"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Restart computer",
+      "keys": [
+        [
+          "unassigned"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Sign out",
+      "keys": [
+        [
+          "unassigned"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Sleep",
+      "keys": [
+        [
+          "unassigned"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Hibernate",
+      "keys": [
+        [
+          "unassigned"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
