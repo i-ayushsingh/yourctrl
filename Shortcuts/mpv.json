@@ -1,0 +1,1369 @@
+{
+  "app_name": "mpv",
+  "category": "Media Player",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Interactive Control",
+      "action": "Seek backward/forward 5 seconds",
+      "keys": [
+        [
+          "Left"
+        ],
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek forward/backward 1 minute",
+      "keys": [
+        [
+          "Up"
+        ],
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek to the previous/next subtitle",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ],
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust subtitle delay so that the previous or next subtitle is displayed",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Decrease/increase current playback speed by 10%",
+      "keys": [
+        [
+          "["
+        ],
+        [
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Halve/double current playback speed",
+      "keys": [
+        [
+          "{"
+        ],
+        [
+          "}"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Reset playback speed to normal",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Undo the last seek",
+      "keys": [
+        [
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Mark the current position",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Go backward/forward in the playlist",
+      "keys": [
+        [
+          "<"
+        ],
+        [
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Go forward in the playlist",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Go to the first/last playlist entry",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ],
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Pause (pressing again unpauses)",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Step forward",
+      "keys": [
+        [
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Step backward",
+      "keys": [
+        [
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Stop playing and quit",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Likeq, but store the current playback position",
+      "keys": [
+        [
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Decrease/increase volume",
+      "keys": [
+        [
+          "/"
+        ],
+        [
+          "*"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Decrease/increase volume",
+      "keys": [
+        [
+          "NumpadDivide"
+        ],
+        [
+          "NumpadMultiply"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Decrease/increase volume",
+      "keys": [
+        [
+          "9"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Mute sound",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle through the available video tracks",
+      "keys": [
+        [
+          "_"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle through the available audio tracks",
+      "keys": [
+        [
+          "#"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle through the available Editions",
+      "keys": [
+        [
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle fullscreen",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Exit fullscreen mode",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle stay-on-top",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Decrease/increase pan-and-scan range",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show progression bar, elapsed time and total duration on the OSD",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle OSD states between normal and playback time/duration",
+      "keys": [
+        [
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle subtitle visibility",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle secondary subtitle visibility",
+      "keys": [
+        [
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle through the available subtitles",
+      "keys": [
+        [
+          "J"
+        ],
+        [
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust subtitle delay by -/+ 0",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Set/clear A-B loop points",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle infinite looping",
+      "keys": [
+        [
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust audio delay (A/V sync) by +/- 0",
+      "keys": [
+        [
+          "Ctrl",
+          "",
+          ""
+        ],
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust audio delay (A/V sync) by +/- 0",
+      "keys": [
+        [
+          "Ctrl",
+          "NumpadAdd"
+        ],
+        [
+          "Ctrl",
+          "NumpadSubtract"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust subtitle font size by +/- 10%",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ],
+        [
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Switch between applying only--sub-ass-*overrides (default) to SSA/ASS",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle through which video data gets used for ASS rendering",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Move subtitles up/down",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Take a screenshot",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Take a screenshot, without subtitles",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Take a screenshot, as the window shows it (with subtitles, OSD, and scaled",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek to the beginning of the file",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek to the beginning of the previous/next chapter",
+      "keys": [
+        [
+          "PageUp"
+        ],
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek backward or forward by 10 minutes",
+      "keys": [
+        [
+          "Shift",
+          "PageUp"
+        ],
+        [
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Activate/deactivate debanding",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle the deinterlacing filter",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle aspect ratio override",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle hardware video decoding on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Move the video rectangle (panning)",
+      "keys": [
+        [
+          "Alt",
+          "LEFT, Alt",
+          "RIGHT, Alt",
+          "UP, Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Change video zoom",
+      "keys": [
+        [
+          "Alt",
+          "",
+          ""
+        ],
+        [
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Change video zoom",
+      "keys": [
+        [
+          "Alt",
+          "NumpadAdd"
+        ],
+        [
+          "Alt",
+          "NumpadSubtract"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Reset the pan/zoom settings",
+      "keys": [
+        [
+          "Alt",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show the playlist and the current position in it",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show the list of audio and subtitle streams",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Append the file or URL in the clipboard to the playlist",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Reload the current file, preserving the time position and any changed",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show/toggle an overlay displaying statistics about the currently playing",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle an overlay displaying the active key bindings",
+      "keys": [
+        [
+          "?"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Cycle OSC visibility between never / auto (mouse-move) / always",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show the console",
+      "keys": [
+        [
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust contrast",
+      "keys": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust brightness",
+      "keys": [
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust gamma",
+      "keys": [
+        [
+          "5"
+        ],
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Adjust saturation",
+      "keys": [
+        [
+          "7"
+        ],
+        [
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Resize video window to half its original size",
+      "keys": [
+        [
+          "Alt",
+          "0 (and Command",
+          "0 on macOS)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Resize video window to its original size",
+      "keys": [
+        [
+          "Alt",
+          "1 (and Command",
+          "1 on macOS)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Resize video window to double its original size",
+      "keys": [
+        [
+          "Alt",
+          "2 (and Command",
+          "2 on macOS)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Toggle fullscreen",
+      "keys": [
+        [
+          "Command ",
+          " f (macOS only)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a playlist entry",
+      "keys": [
+        [
+          "g-p"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a subtitle track",
+      "keys": [
+        [
+          "g-s"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a secondary subtitle track",
+      "keys": [
+        [
+          "g-S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select an audio track",
+      "keys": [
+        [
+          "g-a"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a video track",
+      "keys": [
+        [
+          "g-v"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a track of any type",
+      "keys": [
+        [
+          "g-t"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a chapter",
+      "keys": [
+        [
+          "g-c"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select an MKV edition or DVD/Blu-ray title",
+      "keys": [
+        [
+          "g-e"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a subtitle line to seek to",
+      "keys": [
+        [
+          "g-l"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a secondary subtitle line to seek to",
+      "keys": [
+        [
+          "g-L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select an audio device",
+      "keys": [
+        [
+          "g-d"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a file from the watch history",
+      "keys": [
+        [
+          "g-h"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a file from watch later config files  to",
+      "keys": [
+        [
+          "g-w"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Select a defined input binding",
+      "keys": [
+        [
+          "g-b"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show the values of all properties",
+      "keys": [
+        [
+          "g-r"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show a menu with miscellaneous entries",
+      "keys": [
+        [
+          "g-m, Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Show the context menu",
+      "keys": [
+        [
+          "MENU, Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Pause",
+      "keys": [
+        [
+          "Pause"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Stop playing and quit",
+      "keys": [
+        [
+          "Stop"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Seek backward/forward 1 minute",
+      "keys": [
+        [
+          "Previous"
+        ],
+        [
+          "Next"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Interactive Control",
+      "action": "Change video zoom",
+      "keys": [
+        [
+          "Zoomin"
+        ],
+        [
+          "Zoomout"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
