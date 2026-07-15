@@ -1,0 +1,2721 @@
+{
+  "app_name": "Notepad++",
+  "process_name": "notepad++.exe",
+  "category": "Development",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "notepadplusplus",
+  "brand_color": "#90E59A",
+  "shortcuts": [
+    {
+      "section": "File",
+      "action": "New",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Open...",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Reload from Disk",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Save",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Save As...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Save All",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Close",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Close All",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Print...",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Exit",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Restore Recent Closed File",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "UPPERCASE",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "lowercase",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Proper Case",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Proper Case (blend)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Sentence case",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Sentence case (blend)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Split Lines",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Join Lines",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Move Up Current Line",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Move Down Current Line",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Insert Blank Line Above Current",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Insert Blank Line Below Current",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Toggle Single Line Comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Single Line Comment",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Single Line Uncomment",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Block Comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Function Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Path Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Word Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Function Parameters Hint",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Column Editor...",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Text Direction RTL",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Text Direction LTR",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Toggle macro record",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Playback",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Trim Trailing and save",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find...",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find in Files...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find Next",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find Previous",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Select and Find Next",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Select and Find Previous",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find (Volatile) Next",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Find (Volatile) Previous",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Replace...",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Incremental Search",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Search Results Window",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous Search Result",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next Search Result",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Go to...",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Go to Matching Brace",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Select All Between Matching Braces",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Mark...",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark using 1st Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark using 2nd Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark using 3rd Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark using 4th Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark using 5th Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous mark created with Mark",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark using 1st Style",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark using 2nd Style",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark using 3rd Style",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark using 4th Style",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark using 5th Style",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next mark created with Mark",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Toggle Bookmark",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Next Bookmark",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Previous Bookmark",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Toggle Full Screen Mode",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Post-It",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "1st Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "2nd Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "3rd Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "4th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "5th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "6th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "7th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "8th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "9th Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Numpad9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Next Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Previous Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Move Tab Forward",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Move Tab Backward",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Switch to previous document",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Switch to next document",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Hide Lines",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Focus on Another View",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Fold All",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Unfold All",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Current Level",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Current Level",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 1",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 2",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 3",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 4",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 5",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 6",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 7",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Collapse Level 8",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 1",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 2",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 3",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 4",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 5",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 6",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 7",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "Uncollapse Level 8",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "View",
+      "action": "About Notepad++",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Run",
+      "action": "Run...",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Run",
+      "action": "Get PHP help",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Run",
+      "action": "Google Search",
+      "keys": [
+        [
+          "Alt",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Run",
+      "action": "Wikipedia Search",
+      "keys": [
+        [
+          "Alt",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Run",
+      "action": "Open file in another instance",
+      "keys": [
+        [
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CUT",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CUT",
+      "keys": [
+        [
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_COPY",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_COPY",
+      "keys": [
+        [
+          "Ctrl",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PASTE",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PASTE",
+      "keys": [
+        [
+          "Shift",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_SELECTALL",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CLEAR",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_UNDO",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_UNDO",
+      "keys": [
+        [
+          "Alt",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_REDO",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_REDO",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_NEWLINE",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_NEWLINE",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_TAB",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_BACKTAB",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_ZOOMIN",
+      "keys": [
+        [
+          "Ctrl",
+          "Num_plus"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_ZOOMOUT",
+      "keys": [
+        [
+          "Ctrl",
+          "Num-"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_SETZOOM",
+      "keys": [
+        [
+          "Ctrl",
+          "Num/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_SELECTIONDUPLICATE",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_EDITTOGGLEOVERTYPE",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEDOWN",
+      "keys": [
+        [
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEDOWNEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEDOWNRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINESCROLLDOWN",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEUP",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEUPEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEUPRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINESCROLLUP",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PARADOWN",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PARADOWNEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PARAUP",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PARAUPEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARLEFT",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARLEFTEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARLEFTRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARRIGHT",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARRIGHTEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CHARRIGHTRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDLEFT",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDLEFTEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDRIGHT",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDRIGHTENDEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDPARTLEFT",
+      "keys": [
+        [
+          "Ctrl",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDPARTLEFTEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDPARTRIGHT",
+      "keys": [
+        [
+          "Ctrl",
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_WORDPARTRIGHTEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_HOMEDISPLAY",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_VCHOMEWRAPEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_VCHOMERECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_VCHOMEWRAP",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEENDWRAPEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEENDRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEENDDISPLAY",
+      "keys": [
+        [
+          "Alt",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEENDWRAP",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DOCUMENTSTART",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DOCUMENTSTARTEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DOCUMENTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DOCUMENTENDEXTEND",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEUP",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEUPEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEUPRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEDOWN",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEDOWNEXTEND",
+      "keys": [
+        [
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_PAGEDOWNRECTEXTEND",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELETEBACK",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELETEBACK",
+      "keys": [
+        [
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELWORDLEFT",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELWORDRIGHT",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELLINELEFT",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_DELLINERIGHT",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINEDELETE",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINECUT",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINECOPY",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_LINETRANSPOSE",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Scintilla",
+      "action": "SCI_CANCEL",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}

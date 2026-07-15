@@ -1,0 +1,869 @@
+{
+  "app_name": "Maxthon Browser",
+  "process_name": "maxthon.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "maxthon",
+  "brand_color": "#00B4FF",
+  "shortcuts": [
+    {
+      "section": "Most-Used",
+      "action": "Open a URL",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ],
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Open a new window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Open a new blank window",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Open home page in a new tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Open URL from clipboard in a new tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Close the current tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ],
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Close all tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Close all tabs except current",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Refresh",
+      "keys": [
+        [
+          "F5"
+        ],
+        [
+          "Ctrl",
+          "R"
+        ],
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Refresh all tabs",
+      "keys": [
+        [
+          "Shift",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Stop loading",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most-Used",
+      "action": "Stop all tabs",
+      "keys": [
+        [
+          "Shift",
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Select all",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Find on current page",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Edit",
+      "action": "Print",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Save",
+      "action": "Save as",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Save",
+      "action": "Save HTML",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Save",
+      "action": "Auto save",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Switch Tabs",
+      "action": "Previous tab",
+      "keys": [
+        [
+          "F2"
+        ],
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Switch Tabs",
+      "action": "Next tab",
+      "keys": [
+        [
+          "F3"
+        ],
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Switch Tabs",
+      "action": "Switch tabs",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Switch Tabs",
+      "action": "Switch tabs in reverse",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Switch Tabs",
+      "action": "Display tabs 1–10",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ],
+        [
+          "Ctrl",
+          "5"
+        ],
+        [
+          "Ctrl",
+          "6"
+        ],
+        [
+          "Ctrl",
+          "7"
+        ],
+        [
+          "Ctrl",
+          "8"
+        ],
+        [
+          "Ctrl",
+          "9"
+        ],
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Go To (Navigation)",
+      "action": "Back",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Go To (Navigation)",
+      "action": "Forward",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Go To (Navigation)",
+      "action": "Home",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom page to 100%",
+      "keys": [
+        [
+          "Ctrl",
+          "*"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom in (+20%)",
+      "keys": [
+        [
+          "Ctrl",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zoom",
+      "action": "Zoom out (−20%)",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search Bar",
+      "action": "Focus search bar & highlight keywords",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search Bar",
+      "action": "Search keywords using multiple engines",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search Bar",
+      "action": "Toggle keyword highlighting on active page",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Sidebar / Explorer Bar",
+      "action": "Toggle the Search sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Sidebar / Explorer Bar",
+      "action": "Toggle the Favorites sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Sidebar / Explorer Bar",
+      "action": "Toggle the History sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Sidebar / Explorer Bar",
+      "action": "Hide the favorites bar",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ad Hunter",
+      "action": "Send to the filter list",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ad Hunter",
+      "action": "Toggle the popup filter",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ad Hunter",
+      "action": "Toggle the auto popup filter",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Ad Hunter",
+      "action": "Toggle the content filter",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Forms",
+      "action": "Save the current form data",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Forms",
+      "action": "Save the current form data as default",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Forms",
+      "action": "Fill in the current form",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Open the Collector",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Add to Favorites",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Tile windows vertically",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Toggle the main Menu bar",
+      "keys": [
+        [
+          "Ctrl",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Full screen",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Focus Address bar & select current URL",
+      "keys": [
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Focus Address bar & open URL list",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Hide / Show Maxthon",
+      "keys": [
+        [
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "View links list of current page",
+      "keys": [
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Lock the current tab",
+      "keys": [
+        [
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Others",
+      "action": "Reopen the last closed tab",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third_party",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}
