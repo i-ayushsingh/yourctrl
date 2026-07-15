@@ -1,0 +1,4688 @@
+{
+  "app_name": "AutoCAD",
+  "process_name": "acad.exe",
+  "category": "3D Modeling",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "autocad",
+  "brand_color": "#E2211C",
+  "shortcuts": [
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle coordinate display",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Cycle isometric planes",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle running object snaps",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle Pick Style",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle Hide pallets",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle Coords",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle General Features",
+      "action": "Toggle Infer Constraints",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Display Help",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle text screen",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle object snap mode",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle 3DOsnap",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle Isoplane",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle Dynamic UCS",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle grid mode",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle ortho mode",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle snap mode",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle polar mode",
+      "keys": [
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle object snap tracking",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Toggle Drawing Modes",
+      "action": "Toggle dynamic input mode",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Clean Screen",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Property Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Design Center Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Toggle Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Sheet Set Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "DBConnect Manager",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Markup Set Manager Palette",
+      "keys": [
+        [
+          "Ctrl",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Quick Calc",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Screen",
+      "action": "Command Line",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Copy object",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Cut object",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Paste object",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Copy to clipboard with base point",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Paste data as block",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Undo last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Redo last action",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Cancel current command (or ctrl+\\)",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Workflow",
+      "action": "Cancel current command",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "New Drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Save drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Open drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Plot dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Switch to next",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Switch to previous drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Switch to previous tab in current drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Switch to next tab in current drawing",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Exit",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Manage Drawings",
+      "action": "Select all objects",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ARC / Creates an arc.",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "AREA / Calculates the area and perimeter of objects or of defined areas.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ADCENTER / Manages and inserts content such as blocks, xrefs, and hatch patterns.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "D"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ALIGN / Aligns objects with other objects in 2D and 3D.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "APPLOAD / Load Application.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ARRAY / Creates multiple copies of objects in a pattern.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ACTRECORD / Starts the Action Recorder.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ACTUSERMESSAGE / Inserts a user message into an action macro.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ACTUSERINPUT / Pauses for user input in an action macro.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ACTSTOP / Stops the Action Recorder and provides the option of saving the recorded actions to an action macro file.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ATTIPEDIT / Changes the textual content of an attribute within a block.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "T"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ATTDEF / Redefines a block and updates associated attributes.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "T"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "A",
+      "action": "ATTEDIT / Changes attribute information in a block.",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "T"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BLOCK / Creates a block definition from selected objects.",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BCLOSE / Closes the Block Editor.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BEDIT / Opens the block definition in the Block Editor.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "HATCH / Fills an enclosed area or selected objects with a hatch pattern, solid fill, or gradient fill.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BOUNDARY / Creates a region or a polyline from an enclosed area.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BREAK / Breaks the selected object between two points.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BSAVE / Saves the current block definition.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "B",
+      "action": "BVSTATE / Creates, sets, or deletes a visibility state in a dynamic block.",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "V"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CIRCLE / Creates a circle.",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CAMERA / Sets a camera and target location to create and save a 3D perspective view of objects.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "A"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CONSTRAINTBAR / A toolbar-like UI element that displays the available geometric constraints on an object.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "B"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "PROPERTIES / Controls properties of existing objects.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CHAMFER / Bevels the edges of objects.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "H"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CHECKSTANDARDS / Checks the current drawing for standards violations.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "H"
+        ],
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "COMMANDLINE / Displays the Command Line window.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "L"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "COLOR / Sets the color for new objects.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "O"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "COPY / Copies objects a specified distance in a specified direction.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CTABLESTYLE / Sets the name of the current table style.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "NAVVCUBE / Controls the visibility and display properties of the ViewCube tool.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "U"
+        ],
+        [
+          "B"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "C",
+      "action": "CYLINDER / Creates a 3D solid cylinder.",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMSTYLE / Creates and modifies dimension styles.",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMANGULAR / Creates an angular dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "A"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMARC / Creates an arc length dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMBASELINE / Creates a linear, angular, or ordinate dimension from the baseline of the previous or selected dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "B"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DBCONNECT / Provides an interface to external database tables.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "B"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMCENTER / Creates the center mark or the centerlines of circles and arcs.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "C"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMCONTINUE / Creates a dimension that starts from an extension line of a previously created dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "C"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMCONSTRAINT / Applies dimensional constraints to selected objects or points on objects.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "C"
+        ],
+        [
+          "O"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMDISASSOCIATE / Removes associativity from selected dimensions.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMDIAMETER / Creates a diameter dimension for a circle or an arc.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMEDIT / Edits dimension text and extension lines.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "E"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIST / Measures the distance and angle between two points.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIVIDE / Creates evenly spaced point objects or blocks along the length or perimeter of an object.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "I"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMJOGLINE / Adds or removes a jog line on a linear or aligned dimension.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "J"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMJOGGED / Creates jogged dimensions for circles and arcs.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "J"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DATALINK / The Data Link dialog box is displayed.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DATALINKUPDATE / Updates data to or from an established external data link.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "L"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DONUT / Creates a filled circle or a wide ring.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMORDINATE / Creates ordinate dimensions.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "O"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMOVERRIDE / Controls overrides of system variables used in selected dimensions.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "O"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DRAWORDER / Changes the draw order of images and other objects.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMRADIUS / Creates a radius dimension for a circle or an arc.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DIMREASSOCIATE / Associates or re-associates selected dimensions to objects or points on objects.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "R"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DRAWINGRECOVERY / Displays a list of drawing files that can be recovered after a program or system failure.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "R"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DSETTINGS / Sets grid and snap, polar and object snap tracking, object snap modes, Dynamic Input, and Quick Properties.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "TEXT / Creates a single-line text object.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DVIEW / Defines parallel projection or perspective views by using a camera and target.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "D",
+      "action": "DATAEXTRACTION / Extracts drawing data and merges data from an external source to a data extraction table or external file.",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "ERASE / Removes objects from a drawing.",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "DDEDIT / Edits single-line text, dimension text, attribute definitions, and feature control frames.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "ELLIPSE / Creates an ellipse or an elliptical arc.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "EXPORTPDF / Exports drawing to PDF.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "P"
+        ],
+        [
+          "D"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "EXTERNALREFERENCES / Opens the External References palette.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "EXTEND / Extends objects to meet the edges of other objects.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "QUIT / Exits the program.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "X"
+        ],
+        [
+          "I"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "EXPORT / Saves the objects in a drawing to a different file format.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "X"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "E",
+      "action": "EXTRUDE / Extends the dimensions of a 2D object or 3D face into 3D space.",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "X"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "F",
+      "action": "FILLET / Rounds and fillets the edges of objects.",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "F",
+      "action": "FILTER / Creates a list of requirements that an object must meet to be included in a selection set.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "F",
+      "action": "FSMODE / Creates a selection set of all objects that touch the selected object.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "F",
+      "action": "FLATSHOT / Creates a 2D representation of all 3D objects based on the current view.",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "S"
+        ],
+        [
+          "H"
+        ],
+        [
+          "O"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "G",
+      "action": "GROUP / Creates and manages saved sets of objects called groups.",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "G",
+      "action": "GEOCONSTRAINT / Applies or persists geometric relationships between objects or points on objects.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "C"
+        ],
+        [
+          "O"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "G",
+      "action": "GRADIENT / Fills an enclosed area or selected objects with a gradient fill.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "G",
+      "action": "GEOGRAPHICLOCATION / Specifies the geographic location information for a drawing file.",
+      "keys": [
+        [
+          "G"
+        ],
+        [
+          "E"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "H",
+      "action": "HATCH / Fills an enclosed area or selected objects with a hatch pattern, solid fill, or gradient fill.",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "H",
+      "action": "HATCHEDIT / Modifies an existing hatch or fill.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "H",
+      "action": "HIDE / Regenerates a 3D wireframe model with hidden lines suppressed.",
+      "keys": [
+        [
+          "H"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "INSERT / Inserts a block or drawing into the current drawing.",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "IMAGEADJUST / Controls the image display of the brightness, contrast, and fade values of images.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "A"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "IMAGEATTACH / Inserts a reference to an image file.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "A"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "IMAGECLIP / Crops the display of a selected image to a specified boundary.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "C"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "ID / Displays the UCS coordinate values of a specified location.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "IMAGE / Displays the External References palette.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "IMPORT / Imports files of different formats into the current drawing.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "M"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "INTERSECT / Creates a 3D solid, surface, or 2D region from overlapping solids, surfaces, or regions.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "INTERFERE / Creates a temporary 3D solid from the interferences between two sets of selected 3D solids.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "N"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "I",
+      "action": "INSERTOBJ / Inserts a linked or embedded object.",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "J",
+      "action": "JOIN / Joins similar objects to form a single, unbroken object.",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "J",
+      "action": "DIMJOGGED / Creates jogged dimensions for circles and arcs.",
+      "keys": [
+        [
+          "J"
+        ],
+        [
+          "O"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LINE / Creates straight line segments.",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LAYER / Manages layers and layer properties.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LAYERSTATE / Saves, restores, and manages named layer states.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "A"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "QLEADER / Creates a leader and leader annotation.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LENGTHEN / Changes the length of objects and the included angle of arcs.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "E"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "MESHSMOOTHLESS / Decreases the level of smoothness for mesh objects by one level.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "E"
+        ],
+        [
+          "S"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LIST / Displays property data for selected objects.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LAYOUT / Creates and modifies drawing layout tabs.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LINETYPE / Loads, sets, and modifies linetypes.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LTSCALE / Changes the scale factor of linetypes for all objects in a drawing.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "T"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "L",
+      "action": "LWEIGHT / Sets the current lineweight, lineweight display options, and lineweight units.",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MOVE / Moves objects a specified distance in a specified direction.",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MATCHPROP / Applies the properties of a selected object to other objects.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MATERIALS / Shows or hides the Materials window.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "A"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MEASURE / Creates point objects or blocks at measured intervals along the length or perimeter of an object.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MEASUREGEOM / Measures the distance, radius, angle, area, and volume of selected objects or sequence of points.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "E"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MIRROR / Creates a mirrored copy of selected objects.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLINE / Creates multiple parallel lines..",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLEADERALIGN / Aligns and spaces selected multileader objects.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLEADERCOLLECT / Organizes selected multileaders that contain blocks into rows or columns, and displays the result with a single leader.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLEADER / Creates a multileader object.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLEADEREDIT / Adds leader lines to, or removes leader lines from, a multileader object.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MLEADERSTYLE / Creates and modifies multileader styles.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "L"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "PROPERTIES / Controls properties of existing objects.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MESHSMOOTHMORE / Increases the level of smoothness for mesh objects by one level.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "O"
+        ],
+        [
+          "R"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MSPACE / Switches from paper space to a model space viewport.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MARKUP / Opens the Markup Set Manager.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "S"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MTEXT / Creates a multiline text object.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "M",
+      "action": "MVIEW / Creates and controls layout viewports.",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "N",
+      "action": "GEOGRAPHICLOCATION / Specifies the geographic location information for a drawing file.",
+      "keys": [
+        [
+          "N"
+        ],
+        [
+          "O"
+        ],
+        [
+          "R"
+        ],
+        [
+          "T"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "N",
+      "action": "NEWSHOT / Creates a named view with motion that is played back when viewed with ShowMotion.",
+      "keys": [
+        [
+          "N"
+        ],
+        [
+          "S"
+        ],
+        [
+          "H"
+        ],
+        [
+          "O"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "N",
+      "action": "NEWVIEW / Creates a named view with no motion.",
+      "keys": [
+        [
+          "N"
+        ],
+        [
+          "V"
+        ],
+        [
+          "I"
+        ],
+        [
+          "E"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "O",
+      "action": "OFFSET / Creates concentric circles, parallel lines, and parallel curves.",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "O",
+      "action": "OPTIONS / Customizes the program settings.",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "O",
+      "action": "3DORBIT / Rotates the view in 3D space, but constrained to horizontal and vertical orbit only.",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "R"
+        ],
+        [
+          "B"
+        ],
+        [
+          "I"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "O",
+      "action": "OSNAP / Sets running object snap modes.",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PAN / Adds a parameter with grips to a dynamic block definition.",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PASTESPEC / Pastes objects from the Clipboard into the current drawing and controls the format of the data.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PARAMETERS / Controls the associative parameters used in the drawing.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "BPARAMETER / Adds a parameter with grips to a dynamic block definition.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "A"
+        ],
+        [
+          "R"
+        ],
+        [
+          "A"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "SURFPATCH / Creates a new surface by fitting a cap over a surface edge that forms a closed loop.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "A"
+        ],
+        [
+          "T"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POINTCLOUD / Provides options to create and attach point cloud files.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POINTCLOUDATTACH / Inserts an indexed point cloud file into the current drawing.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "C"
+        ],
+        [
+          "A"
+        ],
+        [
+          "T"
+        ],
+        [
+          "T"
+        ],
+        [
+          "A"
+        ],
+        [
+          "C"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POINTCLOUDINDEX / Creates an indexed point cloud (PCG or ISD) file from a scan file.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "C"
+        ],
+        [
+          "I"
+        ],
+        [
+          "N"
+        ],
+        [
+          "D"
+        ],
+        [
+          "E"
+        ],
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PEDIT / Edits polylines and 3D polygon meshes.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PLINE / Creates a 2D polyline.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POINT / Creates a point object.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "HIDEPALETTES / Hides currently displayed palettes (including the command line).",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "O"
+        ],
+        [
+          "F"
+        ],
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POLYGON / Creates an equilateral closed polyline.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "O"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "SHOWPALETTES / Restores the display of hidden palettes.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "O"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PROPERTIES / Displays Properties palette.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PREVIEW / Displays the drawing as it will be plotted.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "R"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PLOT / Plots a drawing to a plotter, printer, or file.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "R"
+        ],
+        [
+          "I"
+        ],
+        [
+          "N"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PSPACE / Switches from a model space viewport to paper space.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "POLYSOLID / Creates a 3D wall-like polysolid.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "S"
+        ],
+        [
+          "O"
+        ],
+        [
+          "L"
+        ],
+        [
+          "I"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PURGE / Removes unused items, such as block definitions and layers, from the drawing.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "P",
+      "action": "PYRAMID / Creates a 3D solid pyramid.",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "Y"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QUICKCALC / Opens the QuickCalc calculator.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QUICKCUI / Displays the Customize User Interface Editor in a collapsed state.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "C"
+        ],
+        [
+          "U"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QUICKPROPERTIES / Displays open drawings and layouts in a drawing in preview images.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QSAVE / Saves the current drawing.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "S"
+        ],
+        [
+          "A"
+        ],
+        [
+          "V"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QVDRAWING / Displays open drawings and layouts in a drawing using preview images.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "V"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QVDRAWINGCLOSE / Closes preview images of open drawings and layouts in a drawing.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "V"
+        ],
+        [
+          "D"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QVLAYOUT / Displays preview images of model space and layouts in a drawing.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "V"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Q",
+      "action": "QVLAYOUTCLOSE / Closes preview images of model space and layouts in the current drawing.",
+      "keys": [
+        [
+          "Q"
+        ],
+        [
+          "V"
+        ],
+        [
+          "L"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REDRAW / Refreshes the display in the current viewport.",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REDRAWALL / Refreshes the display in all viewports.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RENDERCROP / Renders a specified rectangular area, called a crop window, within a viewport.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REGEN / Regenerates the entire drawing from the current viewport.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REGENALL / Regenerates the drawing and refreshes all viewports.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RECTANG / Creates a rectangular polyline.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REGION / Converts an object that encloses an area into a region object.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ],
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RENAME / Changes the names assigned to items such as layers and dimension styles.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "REVOLVE / Creates a 3D solid or surface by sweeping a 2D object around an axis.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "E"
+        ],
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "ROTATE / Rotates objects around a base point.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RENDERPRESETS / Specifies render presets, reusable rendering parameters, for rendering an image.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RPREF / Displays or hides the Advanced Render Settings palette for access to advanced rendering settings.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "P"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RENDER / Creates a photorealistic or realistically shaded image of a 3D solid or surface model.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "R",
+      "action": "RENDERWIN / Displays the Render window without starting a rendering operation.",
+      "keys": [
+        [
+          "R"
+        ],
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "STRETCH / Stretches objects crossed by a selection window or polygon.",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SCALE / Enlarges or reduces selected objects, keeping the proportions of the object the same after scaling.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SCRIPT / Executes a sequence of commands from a script file.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "C"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SECTION / Uses the intersection of a plane and solids, surfaces, or mesh to create a region.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "E"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SETVAR / Lists or changes the values of system variables.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "E"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SHADEMODE / Starts the VSCURRENT command..",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "H"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SLICE / Creates new 3D solids and surfaces by slicing, or dividing, existing objects.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SNAP / Restricts cursor movement to specified intervals.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SOLID / Creates solid-filled triangles and quadrilaterals.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SPELL / Checks spelling in a drawing.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SPLINEDIT / Edits a spline or splinefit polyline.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SPLINE / Creates a smooth curve that passes through or near specified points.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SECTIONPLANE / Creates a section object that acts as a cutting plane through 3D objects.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ],
+        [
+          "L"
+        ],
+        [
+          "A"
+        ],
+        [
+          "N"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SEQUENCEPLAY / Plays named views in one category.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ],
+        [
+          "L"
+        ],
+        [
+          "A"
+        ],
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "MESHSPLIT / Splits a mesh face into two faces.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "P"
+        ],
+        [
+          "L"
+        ],
+        [
+          "I"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SHEETSET / Opens the Sheet Set Manager",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "S"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "STYLE / Creates, modifies, or specifies text styles.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "STANDARDS / Manages the association of standards files with drawings.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "T"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "S",
+      "action": "SUBTRACT / Combines selected 3D solids, surfaces, or 2D regions by subtraction.",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "MTEXT / Creates a multiline text object.",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TEXTALIGN / Aligns multiple text objects vertically, horizontally, or obliquely.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TABLE / Creates an empty table object.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TEXTEDIT / Edits a dimensional constraint, dimension, or text object.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "E"
+        ],
+        [
+          "D"
+        ],
+        [
+          "I"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "THICKNESS / Sets the default 3D thickness property when creating 2D geometric objects.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TILEMODE / Controls whether paper space can be accessed.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TOOLBAR / Displays, hides, and customizes toolbars.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TOLERANCE / Creates geometric tolerances contained in a feature control frame.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "O"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TORUS / Creates a donut-shaped 3D solid.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "O"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TOOLPALETTES / Opens the Tool Palettes window.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TRIM / Trims objects to meet the edges of other objects.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "T",
+      "action": "TABLESTYLE / Creates, modifies, or specifies table styles.",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "U",
+      "action": "UCSMAN / Manages defined user coordinate systems.",
+      "keys": [
+        [
+          "U"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "U",
+      "action": "UNITS / Controls coordinate and angle display formats and precision.",
+      "keys": [
+        [
+          "U"
+        ],
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "U",
+      "action": "UNION / Unions two solid or two region objects.",
+      "keys": [
+        [
+          "U"
+        ],
+        [
+          "N"
+        ],
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "VIEW / Saves and restores named views, camera views, layout views, and preset views.",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "VIEWGO / Restores a named view.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "G"
+        ],
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "DDVPOINT / Sets the 3D viewing direction.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "VIEWPLAY / Plays the animation associated to a named view.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "P"
+        ],
+        [
+          "L"
+        ],
+        [
+          "A"
+        ],
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "VSCURRENT / Sets the visual style in the current viewport.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "V",
+      "action": "VISUALSTYLES / Creates and modifies visual styles and applies a visual style to a viewport.",
+      "keys": [
+        [
+          "V"
+        ],
+        [
+          "S"
+        ],
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "W",
+      "action": "WBLOCK / Writes objects or a block to a new drawing file.",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "W",
+      "action": "WEDGE / Creates a 3D solid wedge.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "W",
+      "action": "NAVSWHEEL / Displays a wheel that contains a collection of view navigation tools.",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "H"
+        ],
+        [
+          "E"
+        ],
+        [
+          "E"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "EXPLODE / Breaks a compound object into its component objects.",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "XATTACH / Inserts a DWG file as an external reference (xref).",
+      "keys": [
+        [
+          "X"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "XBIND / Binds one or more definitions of named objects in an xref to the current drawing.",
+      "keys": [
+        [
+          "X"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "XCLIP / Crops the display of a selected external reference or block reference to a specified boundary.",
+      "keys": [
+        [
+          "X"
+        ],
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "XLINE / Creates a line of infinite length.",
+      "keys": [
+        [
+          "X"
+        ],
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "X",
+      "action": "XREF / Starts the EXTERNALREFERENCES command.",
+      "keys": [
+        [
+          "X"
+        ],
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Z",
+      "action": "ANALYSISZEBRA / Projects stripes onto a 3D model to analyze surface continuity.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "E"
+        ],
+        [
+          "B"
+        ],
+        [
+          "R"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Z",
+      "action": "ETRANSMIT / Creates a Self-Extracting or Zipped Transmittal Package.",
+      "keys": [
+        [
+          "Z"
+        ],
+        [
+          "I"
+        ],
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
