@@ -1,0 +1,3017 @@
+{
+  "app_name": "DataGrip",
+  "process_name": "datagrip.exe",
+  "category": "Database",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "datagrip",
+  "shortcuts": [
+    {
+      "section": "Top Shortcuts",
+      "action": "Find Action",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Show Files window",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Show Intention Actions",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Recent Files",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Find Usages",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Select In...",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Settings",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Generate...",
+      "keys": [
+        [
+          "Alt",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Debug...",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "View Breakpoints...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Attach to Process...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "VCS Operations Popup...",
+      "keys": [
+        [
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Refactor This...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Top Shortcuts",
+      "action": "Reformat Code",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Paste as Plain Text",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Paste from History...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Copy Paths",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Copy Reference",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Save All",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Indent Selection",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Unindent Line or Selection",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Auto-Indent Lines",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Start New Line",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Start New Line Before Current",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Delete Line",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Join Lines",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Duplicate Line or Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Toggle Case",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Scratch File",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Open Source in New Window",
+      "keys": [
+        [
+          "Shift",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Increase Font Size in All Editors",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Basic editing",
+      "action": "Decrease Font Size in All Editors",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Previous Word",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Next Word",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Line Start",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Line End",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Matching Brace",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Code Block Start",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Code Block End",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Next Method",
+      "keys": [
+        [
+          "Alt",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Previous Method",
+      "keys": [
+        [
+          "Alt",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Page Top",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Page Bottom",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Page Up",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Page Down",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Text Start",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Caret navigation",
+      "action": "Move Caret to Text End",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Left with Selection",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Right with Selection",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Previous Word with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Next Word with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Line Start with Selection",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Line End with Selection",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Up with Selection",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Down with Selection",
+      "keys": [
+        [
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Code Block Start with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Code Block End with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Page Top with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Page Bottom with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Page Up with Selection",
+      "keys": [
+        [
+          "Shift",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Page Down with Selection",
+      "keys": [
+        [
+          "Shift",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Text Start with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Move Caret to Text End with Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Extend Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select text",
+      "action": "Shrink Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Expand",
+      "keys": [
+        [
+          "Ctrl",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Collapse",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Expand Recursively",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Collapse Recursively",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Expand All",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Collapse All",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code folding",
+      "action": "Fold Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multiple carets and selection ranges",
+      "action": "Toggle Column Selection Mode",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multiple carets and selection ranges",
+      "action": "Add Caret to Each Line in Selection",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multiple carets and selection ranges",
+      "action": "Add Selection for Next Occurrence",
+      "keys": [
+        [
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multiple carets and selection ranges",
+      "action": "Select All Occurrences",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Multiple carets and selection ranges",
+      "action": "Deselect Last Occurrence",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Show Intention Actions",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Basic Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Type-Matching Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Second Basic Completion",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Complete Current Statement",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Reformat Code",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Parameter Info",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Quick Documentation",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Statement Up",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Statement Down",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Element Left",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Statement Right",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Line Up",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Move Line Down",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Comment with Line Comment",
+      "keys": [
+        [
+          "Ctrl",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Comment with Block Comment",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Surround With...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Coding assistance",
+      "action": "Generate...",
+      "keys": [
+        [
+          "Alt",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Next Method",
+      "keys": [
+        [
+          "Alt",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Previous Method",
+      "keys": [
+        [
+          "Alt",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Go to Line/Column...",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Switcher",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Select In...",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Recent Files",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Recent Changes",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Last Edit Location",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Back",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Forward",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Select Next Tab",
+      "keys": [
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Select Previous Tab",
+      "keys": [
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Toggle Anonymous Bookmark",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Toggle Bookmark with Mnemonic",
+      "keys": [
+        [
+          "Ctrl",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Show All Bookmarks",
+      "keys": [
+        [
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Show Mnemonic Bookmarks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Show Structure window",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Show Find window",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Next Occurrence",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Context navigation",
+      "action": "Previous Occurrence",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Find...",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Find Next / Move to Next Occurrence",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Find Previous / Move to Previous Occurrence",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Replace...",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Find in Files...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Replace in Files...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Next Occurrence of the Word at Caret",
+      "keys": [
+        [
+          "Ctrl",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Go to File...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "File Structure",
+      "keys": [
+        [
+          "Ctrl",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Go to Symbol...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Find everything",
+      "action": "Find Action...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate from symbols",
+      "action": "Find Usages",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate from symbols",
+      "action": "Go to Declaration",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate from symbols",
+      "action": "Show Usages",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigate from symbols",
+      "action": "Highlight Usages in File",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Show Intention Actions",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Error Description",
+      "keys": [
+        [
+          "Ctrl",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Next Highlighted Error",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Previous Highlighted Error",
+      "keys": [
+        [
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Run Inspection by Name...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code analysis",
+      "action": "Show Problems window",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Run context configuration",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Run...",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Debug context configuration",
+      "keys": [
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Debug...",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Attach to Process...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Stop",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Resume Program",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Stop Background Processes...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Step Over",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Force Step Over",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Step Into",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Smart Step Into",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Force Step Into",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Step Out",
+      "keys": [
+        [
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Run To Cursor",
+      "keys": [
+        [
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Force Run To Cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Show Execution Point",
+      "keys": [
+        [
+          "Alt",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Evaluate Expression...",
+      "keys": [
+        [
+          "Alt",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Quick Evaluate Expression",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Toggle Line Breakpoint",
+      "keys": [
+        [
+          "Ctrl",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Toggle Temporary Line Breakpoint",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "View Breakpoints...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Edit Breakpoint",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Show Run window",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Show Debug window",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Run and debug",
+      "action": "Show Services window",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Refactor This...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Rename...",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Change Signature...",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Move...",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Introduce Parameter...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Refactorings",
+      "action": "Introduce Variable...",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "VCS Operations Popup...",
+      "keys": [
+        [
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Commit...",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Update Project",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Rollback",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Push...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Next Change",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Previous Change",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Show Version Control window",
+      "keys": [
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global VCS actions",
+      "action": "Show Commit window",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Show Diff",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Compare Files",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Next Difference",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Previous Difference",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Accept Left Side",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Accept Right Side",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Select Opposite Diff Pane",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Diff Viewer",
+      "action": "Show Diff Settings Popup...",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Hide Active Tool Window",
+      "keys": [
+        [
+          "Shift",
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Hide All Tool Windows",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Jump to Last Tool Window",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Stretch to Left",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Stretch to Right",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Stretch to Top",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Stretch to Bottom",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Files window",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Find window",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Run window",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Debug window",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Problems window",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Structure window",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Services window",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Version Control window",
+      "keys": [
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Commit window",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool windows",
+      "action": "Show Terminal window",
+      "keys": [
+        [
+          "Alt",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
