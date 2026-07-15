@@ -1,0 +1,7042 @@
+{
+  "app_name": "3ds Max",
+  "process_name": "3dsmax.exe",
+  "category": "3D",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Main UI - Asset Tracking System",
+      "action": "Asset Tracking Toggle",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Align",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Clone",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Delete Objects",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Fetch",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Hold",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Normal Align",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Redo Scene Operation",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Transform Type-In Dialog Toggle",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Edit",
+      "action": "Undo Scene Operation",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Extrude Face (Poly)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Grow Selection (Poly)",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ],
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Ignore Backfacing Toggle (Poly)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Select Sub-object Loop",
+      "keys": [
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Select Sub-object Ring",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Shrink Selection (Poly)",
+      "keys": [
+        [
+          "Ctrl",
+          "PgDown"
+        ],
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Polygon Object",
+      "action": "Soft Selection Toggle (Poly)",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Editable Spline Object",
+      "action": "Refine (Spline)",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - File",
+      "action": "New Scene",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - File",
+      "action": "Open File",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - File",
+      "action": "Save File",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - File",
+      "action": "Save File As",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - File",
+      "action": "Save Incremental (+)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Groups",
+      "action": "Group Attach",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Lights and Cameras",
+      "action": "Create Camera (Physical) From View",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ],
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Lights and Cameras",
+      "action": "Create Camera (Standard) From View",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - MAX Script",
+      "action": "MAXScript Listener",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Show End Result",
+      "keys": [
+        [
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Sub-Object Level 1",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Sub-Object Level 2",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Sub-Object Level 3",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Sub-Object Level 4",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Modifier Stack",
+      "action": "Sub-object Level 5",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Circle Loops",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Geo Poly",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Insert Loop",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "PolyShift Move",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Set Flow",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Spin Edge",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Straighten Loops",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - PolyTools",
+      "action": "Swift Loop",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Projection Modifier",
+      "action": "Geometry Selection Visibility Toggle",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Animation [Alt+RMB]",
+      "keys": [
+        [
+          "Alt",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Custom [Shift+Ctrl+Alt+RMB]",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Custom [Shift+Ctrl+RMB]",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Lighting | Render [Ctrl+Alt+RMB]",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Lock",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Modeling [Ctrl+RMB]",
+      "keys": [
+        [
+          "Ctrl",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Snap [Shift+RMB]",
+      "keys": [
+        [
+          "Shift",
+          "RMB"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Viewports",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Quad Menu Sets",
+      "action": "Windows",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Advanced Lighting Panel",
+      "keys": [
+        [
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Create Animated Sequence File...",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Environment Dialog Toggle",
+      "keys": [
+        [
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Render",
+      "keys": [
+        [
+          "Shift",
+          "Q"
+        ],
+        [
+          "Shift",
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Render Last",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Render",
+      "action": "Render SetUp...",
+      "keys": [
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select Ancestor",
+      "keys": [
+        [
+          "PgUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select By Name",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select Child",
+      "keys": [
+        [
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select Children",
+      "keys": [
+        [
+          "Shift",
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select Invert",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select None",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Select Similar",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Selection Lock Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Selection",
+      "action": "Smart Select",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Set Key Tools",
+      "action": "Auto Key Mode Toggle",
+      "keys": [
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Set Key Tools",
+      "action": "Set Keys",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Snaps",
+      "action": "Angle Snap Toggle",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Snaps",
+      "action": "Cycle Active Snap Type",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Snaps",
+      "action": "Enable Axis Constraints in Snaps Toggle",
+      "keys": [
+        [
+          "Alt",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Snaps",
+      "action": "Snaps Toggle",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Time",
+      "action": "Backup Time One Unit",
+      "keys": [
+        [
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Time",
+      "action": "Forward Time One Unit",
+      "keys": [
+        [
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Time",
+      "action": "Go to End Frame",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Time",
+      "action": "Go to Start Frame",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Time",
+      "action": "Play Animation",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Affect Pivot Only Mode Toggle",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Center Point Cycle",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Cycle Selection Method",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Display as See-Through Toggle",
+      "keys": [
+        [
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Hide Selection",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Hide Unselected",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Isolate Selection",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Isolate Selection Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Keyboard Shortcut Override Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Material Editor Toggle",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Maximize Viewport Toggle",
+      "keys": [
+        [
+          "Alt",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Pan Viewport",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Quick Align",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Scale Cycle",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Select and Move",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Select and Rotate",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Show Statistics Toggle",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Smart Place",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Smart Scale",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Sound Toggle",
+      "keys": [
+        [
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Spacing Tool",
+      "keys": [
+        [
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Sub-object Selection Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Transform Gizmo Plane Constraint Cycle",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Transform Gizmo Size Up",
+      "keys": [
+        [
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Transform Gizmo X Constraint",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Transform Gizmo Y Constraint",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Transform Gizmo Z Constraint",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Unhide All",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Viewport Lighting Illuminate with Default / Scene Lights Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Viewport Safe Frames Toggle",
+      "keys": [
+        [
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Viewport Selection Shade Selected Faces Toggle",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Viewport Selection Show Selection Bracket Toggle",
+      "keys": [
+        [
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Pan Down",
+      "keys": [
+        [
+          "Num2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Pan Left",
+      "keys": [
+        [
+          "Num4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Pan Right",
+      "keys": [
+        [
+          "Num6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Pan Up",
+      "keys": [
+        [
+          "Num8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Toggle",
+      "keys": [
+        [
+          "Num/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Zoom In",
+      "keys": [
+        [
+          "NumPad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Virtual Viewport Zoom Out",
+      "keys": [
+        [
+          "Num-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Window / Crossing Toggle",
+      "keys": [
+        [
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Extents All",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Extents Selected",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom In 2X",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Mode",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Region Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Viewport In",
+      "keys": [
+        [
+          "["
+        ],
+        [
+          "Ctrl",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Tools",
+      "action": "Zoom Viewport Out",
+      "keys": [
+        [
+          "]"
+        ],
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Track View",
+      "action": "Add/Edit Parameters... (TV)",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - User Interface",
+      "action": "Launch Global Search",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Viewport Lighting and Shadows",
+      "action": "High Quality",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Adaptive Degradation Toggle",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Camera View",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Disable Viewport",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Expert Mode Toggle",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Front View",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Cameras Toggle",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Geometry Toggle",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Grids Toggle",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Helpers Toggle",
+      "keys": [
+        [
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Lights Toggle",
+      "keys": [
+        [
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Particle Systems Toggle",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Shapes Toggle",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Hide Space Warps Toggle",
+      "keys": [
+        [
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Home View",
+      "keys": [
+        [
+          "Alt",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Left View",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Orbit View Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Orthographic User View",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Pan View",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Perspective User View",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Redo Viewport Operation",
+      "keys": [
+        [
+          "Shift",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Redraw All Views",
+      "keys": [
+        [
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Selection/Preview Highlights Toggle",
+      "keys": [
+        [
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Show Floating Dialogs",
+      "keys": [
+        [
+          "Ctrl",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Spot/Directional Light View",
+      "keys": [
+        [
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Top View",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Undo Viewport Operation",
+      "keys": [
+        [
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Update Background Image",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "View Edged Faces Toggle",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Viewport Background",
+      "keys": [
+        [
+          "Alt",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "WalkThrough View Mode",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Main UI - Views",
+      "action": "Wireframe / Smooth+Highlights Toggle",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Break Normals",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Copy Normal",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Edge Level",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Face Level",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Make Explicit",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Normal Level",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Object Level",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Paste Normal",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Reset Normals",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Specify Normals",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Unify Normals",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Vertex Level",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Attach",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Bevel Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Break",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Cap",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Chamfer Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Collapse",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Connect",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Constrain to Edges",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Cut",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Detach",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Edit Soft Selection Mode",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Extrude along Spline Mode",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Extrude Mode",
+      "keys": [
+        [
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Grow Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ],
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Hide",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Hide Unselected",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Ignore Backfacing in Selections",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Make Planar",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "MeshSmooth",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Quickslice Mode",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Repeat Last Operation",
+      "keys": [
+        [
+          ";"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Shrink Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "PgDown"
+        ],
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Target Weld Mode",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Unhide All",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Use Soft Selection",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Extrude Polygon (Move tool selected)",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Clone Polygon (Move tool selected)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Inset Polygon (Scale tool selected)",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Attach Mode",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Break Vertices",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Cut Mode",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Edge Turn",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Hide Selected",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Soft Selection",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Weld Selected",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit",
+      "action": "Weld Target Mode",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - HSDS",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - Mesh Select",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - MeshSmooth",
+      "action": "Edit Soft Selection Mode",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - Patch Select",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - Poly Select",
+      "action": "Edit Soft Selection Mode",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - Projection Modifier",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit - Vol. Select",
+      "action": "Edit Soft Selection",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Add Bookmark",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Display Floater",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Filters",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Free All",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Free Selected",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Hide Selected",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Invert Selected Nodes",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Move Children",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Next Bookmark",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Previous Bookmark",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Refresh View",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Rename Object",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Select All Nodes",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Select Children",
+      "keys": [
+        [
+          "Shift",
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Select None",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Show Grid",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Toggle Shrink",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Use Connect Tool",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Use Pan Tool",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Use Select Tool",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Use Zoom Region Tool",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Use Zoom Tool",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Zoom Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Schematic View",
+      "action": "Zoom Selected Extents",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Add/Remove Keys",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Apply Ease Curve",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Apply Multiplier Curve",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Assign Controller",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Copy Controller",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Expand Object Toggle",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Expand Track Toggle",
+      "keys": [
+        [
+          "Enter"
+        ],
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Filters",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Frame Horizontal Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Frame Horizontal Extents Keys",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Lock Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Lock Tangents Toggle",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Make Controller Unique",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Move Highlight Down",
+      "keys": [
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Move Highlight Up",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Move Keys",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Nudge Keys Left",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Nudge Keys Right",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Pan",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Paste Controller",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Retime Move Left",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Retime Move Right",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Scroll Down",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Scroll Up",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Select Children",
+      "keys": [
+        [
+          "Shift",
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Select Invert",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Select None",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Snap Frames",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Zoom",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track View",
+      "action": "Zoom Region",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Align Horizontal",
+      "keys": [
+        [
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Align to Edge",
+      "keys": [
+        [
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Align Vertical",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Break Selected Vertices",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Cylindrical Mapping",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Detach Edge Verts",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Edge Selection to Pelt Seam Add",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Edge Selection to Pelt Seam Replace",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Edit UVW's",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Filter Selected Polygons",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Flatten by Smoothing Group",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Freeform Mode",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Freeze Selected",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Grid Visible",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Grow",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Hide Selected",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Ignore Back Polygons",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Lock selected vertices",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Pack",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Pan",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Planar map faces/patches",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Quick Planar Map",
+      "keys": [
+        [
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Relax",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Relax Brush Type Cycle",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Rotate -90",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Rotate +90",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Show Map",
+      "keys": [
+        [
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Shrink",
+      "keys": [
+        [
+          "Ctrl",
+          "PgDn"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Show Seams In Viewport",
+      "keys": [
+        [
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Snap",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Soft Selection",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Stitch",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Straighten Edges",
+      "keys": [
+        [
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Contract Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "PgDown"
+        ],
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Expand Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ],
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Move Mode",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Rotate Mode",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Scale Mode",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture Vertex Weld Selected",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Texture VertexTarget Weld",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "TV Element Mode",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "TV Loop Select",
+      "keys": [
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "TV Ring Select",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Unfold3D Peel",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Unfreeze All",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Unhide All",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Unwrap Options",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Update Map",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "UV Paint Movement",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Zoom",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Zoom Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Zoom Extents Selected",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Zoom Region",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "UVW Unwrap - Unwrap UVW",
+      "action": "Zoom To Gizmo",
+      "keys": [
+        [
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Assign Material to Selection",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Get Material",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Go Backward to Sibling",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Go Forward to Sibling",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Go to Parent",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - Material Editor",
+      "action": "Make Preview",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Assign Material to Selection",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Delete Selected",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Hide Unused Nodeslots",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Lay Out All",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Lay Out Children",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Material/Map Browser",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Move Children",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Navigator",
+      "keys": [
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Pan to Selected",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Pan Tool",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Parameter Editor",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Rename",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select Children",
+      "keys": [
+        [
+          "Shift",
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select Invert",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select None",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select Tool",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Select Tree",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Show Grid",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Update Selected Previews",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Zoom Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Zoom Extents Selected",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Zoom Region Tool",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Material Editor and SME - SME",
+      "action": "Zoom Tool",
+      "keys": [
+        [
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Copy/Paste - Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Copy/Paste - Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Copy/Paste - Paste Opposite",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Fix Graphs",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Move All - Collapse",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Reset All Limb Keys",
+      "keys": [
+        [
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Scale In Transform",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Set Animation Range",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Set Key",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "Trackbar - Toggle Biped Keys",
+      "keys": [
+        [
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "TV Select end of footsteps",
+      "keys": [
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "TV Select entire foostep",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Biped",
+      "action": "TV Select start of foosteps",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Attenuate",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Clump",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Puff",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Rotate",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Scale",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Stand",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Brush Translate",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Clump",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Cut",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Expand Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ],
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Guide",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Hide Selected",
+      "keys": [
+        [
+          "Alt",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Ignore Back",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Invert Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Lock",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Merge Hairgroups",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Pop Selected",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Pop Zerosized",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Puff",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Recomb",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Reset Rest",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Root",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Rotate",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Rotate Selection",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Scale",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Select",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Show Hidden",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Soft Falloff",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Split Hairgroups",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Stand",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Tip",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Toggle Collisions",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Toggle Hairs",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Translate",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Unlock",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Hair Styling",
+      "action": "Verts",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Clean Up Particle Flow",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Copy Selected In Particle View",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Open PFlow Preset Manager dialog",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Particle View Toggle",
+      "keys": [
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Paste In Particle View",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Repair PFlow Cache System",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Reset Particle View",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Select All In Particle View",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Selected Particle Emission Toggle",
+      "keys": [
+        [
+          "Shift",
+          ";"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Synchronize Particle Flow Layers",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Copy Selected In Data View",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Cut Selected In Data View",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Down In Data View",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Down x10 In Data View",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Left In Data View",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Left x10 In Data View",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Right In Data View",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Right x10 In Data View",
+      "keys": [
+        [
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Up In Data View",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Move Selected Up x10 In Data View",
+      "keys": [
+        [
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Paste In Data View",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Rename Suboperator In Data View",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Select All In Data View",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Particle Flow",
+      "action": "Select None In Data View",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - SteeringWheels",
+      "action": "Decrease Walk Speed",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - SteeringWheels",
+      "action": "Increase Walk Speed",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - SteeringWheels",
+      "action": "Toggle SteeringWheels",
+      "keys": [
+        [
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - SteeringWheels",
+      "action": "Tour Building Wheel",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - ViewCube",
+      "action": "Home",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - ViewCube",
+      "action": "Toggle ViewCube Visibility",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Accelerate Toggle",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Back",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Decelerate Toggle",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Decrease Step Size",
+      "keys": [
+        [
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Down",
+      "keys": [
+        [
+          "C"
+        ],
+        [
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Forward",
+      "keys": [
+        [
+          "W"
+        ],
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Increase Step Size",
+      "keys": [
+        [
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Left",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Level",
+      "keys": [
+        [
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Lock Vertical Rotation",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Reset Step Size",
+      "keys": [
+        [
+          "Alt",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Right",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Steering Wheel, Viewcube, and Walkthrough - WalkThrough",
+      "action": "Up",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - ActiveShade",
+      "action": "Draw Region",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - ActiveShade",
+      "action": "Initialize",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - ActiveShade",
+      "action": "Render",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - ActiveShade",
+      "action": "Select Object",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - ActiveShade",
+      "action": "Update",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Crowd",
+      "action": "Solve",
+      "keys": [
+        [
+          "S"
+        ],
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - FFD",
+      "action": "Switch To Control Point Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - FFD",
+      "action": "Switch To Lattice Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - FFD",
+      "action": "Switch To Set Volume Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - FFD",
+      "action": "Switch To Top Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "CV Constrained Normal Move",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "CV Constrained U Move",
+      "keys": [
+        [
+          "Alt",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "CV Constrained V Move",
+      "keys": [
+        [
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Display Curves",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Display Shaded Lattice",
+      "keys": [
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Lock 2D Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Select Next in U",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Select Next in V",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Select Previous in U",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Select Previous in V",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Select Sub-Object By Name",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Set Tessellation Preset 1",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Set Tessellation Preset 2",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Set Tessellation Preset 3",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Soft Selection",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Curve CV Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Curve Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Imports Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Point Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Surface CV Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Surface Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - NURBS",
+      "action": "Switch To Top Level",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Copy Envelope",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Delete",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Next",
+      "keys": [
+        [
+          "PgDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Paste Envelope",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Previous",
+      "keys": [
+        [
+          "PgUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Physique",
+      "action": "Reset Envelopes",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Reaction Manager",
+      "action": "Set Max Influence",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Reaction Manager",
+      "action": "Set Min Influence",
+      "keys": [
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Video Post",
+      "action": "Execute Sequence",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Video Post",
+      "action": "New Sequence",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Video Post",
+      "action": "Pan",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Video Post",
+      "action": "Zoom Extents",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - Video Post",
+      "action": "Zoom Region",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - WeightTable",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - WeightTable",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - WeightTable",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - WeightTable",
+      "action": "Select Invert",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - WeightTable",
+      "action": "Select None",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Misc - PaintWeight",
+      "action": "Toggle Paint mode",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
