@@ -1,0 +1,785 @@
+{
+  "app_name": "MusicBee",
+  "category": "Media Player",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Playback",
+      "action": "Play / Pause",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Play Next Track",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Previous Track",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Play Now",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Queue",
+      "action": "Queue Last",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Queue",
+      "action": "Queue Next",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Stop",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Media Keys",
+      "action": "Play / Pause",
+      "keys": [
+        [
+          "MediaPlayPause"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Media Keys",
+      "action": "Next",
+      "keys": [
+        [
+          "MediaNextTrack"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Media Keys",
+      "action": "Previous",
+      "keys": [
+        [
+          "MediaPreviousTrack"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Media Keys",
+      "action": "Stop",
+      "keys": [
+        [
+          "MediaStop"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Volume Up",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Volume Down",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Mute On / Off",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Library",
+      "action": "Remove (from library/playlist)",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Library",
+      "action": "Remove (hard delete to Recycle Bin)",
+      "keys": [
+        [
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Library",
+      "action": "Rescan / Add Files",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Refresh",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Configure MusicBee Preferences",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tags",
+      "action": "Copy Tags & Artwork Only",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tags",
+      "action": "Paste Copied Tags",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Custom Search",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tags",
+      "action": "Edit Tags",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Amend Clicked Column",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tabs",
+      "action": "Create New Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tabs",
+      "action": "Close Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Start / End Bookmark",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "0.5 Star Up",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "NumpadAdd"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "0.5 Star Down",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "NumpadSubtract"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "0 Stars",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "1 Star",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "2 Stars",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "3 Stars",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "4 Stars",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "5 Stars",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Global)",
+      "action": "Unrated",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "0.5 Star Up",
+      "keys": [
+        [
+          "Alt",
+          "NumpadAdd"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "0.5 Star Down",
+      "keys": [
+        [
+          "Alt",
+          "NumpadSubtract"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "0 Stars",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "1 Star",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "2 Stars",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "3 Stars",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "4 Stars",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "5 Stars",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Rating (Local)",
+      "action": "Unrated",
+      "keys": [
+        [
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Views",
+      "action": "Show Now Playing Assistant",
+      "keys": [
+        [
+          "Alt",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Views",
+      "action": "Show Now Playing Track Finder",
+      "keys": [
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Views",
+      "action": "Show Tag Manager",
+      "keys": [
+        [
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Views",
+      "action": "Show Visualizer Full-Screen",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tools",
+      "action": "Analyze Volume",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tools",
+      "action": "Auto-Organize Files",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tools",
+      "action": "Auto-Tag by Album",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tools",
+      "action": "Auto-Tag by Track (Update Tags)",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Tools",
+      "action": "Rip CD",
+      "keys": [
+        [
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}
