@@ -1,0 +1,23 @@
+{
+  "app_name": "Chatbox",
+  "category": "AI",
+  "platforms": ["windows"],
+  "shortcuts": [
+    { "section": "Application Window", "action": "Show/Hide the Application Window", "keys": [["Alt", "`"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation Navigation", "action": "Navigate to the Next Conversation", "keys": [["Ctrl", "Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation Navigation", "action": "Navigate to the Previous Conversation", "keys": [["Ctrl", "Shift", "Tab"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation Navigation", "action": "Create a New Conversation", "keys": [["Ctrl", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Conversation Navigation", "action": "Create a New Image-Creator Conversation", "keys": [["Ctrl", "Shift", "N"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Focus on the Input Box", "keys": [["Ctrl", "I"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Send", "keys": [["Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Insert New Line in the Input Box", "keys": [["Shift", "Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Send Without Generating Response", "keys": [["Ctrl", "Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Refresh Context, Start a New Thread", "keys": [["Alt", "R"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Quickly Insert the Previous Historical Input (in input box)", "keys": [["ArrowUp"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Chatting", "action": "Quickly Insert the Next Historical Input (in input box)", "keys": [["ArrowDown"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Searching", "action": "Show/Hide the Search Dialog", "keys": [["Ctrl", "K"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Searching", "action": "Navigate to the Previous Option (in search dialog)", "keys": [["ArrowUp"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Searching", "action": "Navigate to the Next Option (in search dialog)", "keys": [["ArrowDown"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true },
+    { "section": "Searching", "action": "Select the Current Option (in search dialog)", "keys": [["Enter"]], "os": "windows", "source": "official", "confidence": "high", "verified_against_official": true }
+  ]
+}
