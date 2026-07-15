@@ -1,0 +1,1677 @@
+{
+  "app_name": "Mattermost",
+  "category": "Communication",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Previous channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Next channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Previous channel or direct message in the channel sidebar with unread messages.",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Next channel or direct message in the channel sidebar with unread messages.",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Mark the last post in the channel as unread.",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "If text isn\u2019t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open theDirect Messagesdialog.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open theSettingsdialog.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open recent mentions.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Set focus to center channel input field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open or close the right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Expand or shrink the width of the open right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Find unread channels or search through all channels.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open or closeChannel Infodetails in the right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Upload a file.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Reprint previous message or slash command you entered.",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Reprint next message or slash command you entered.",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Reply to the most recent message in the current channel.",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Edit your last message in the current channel.",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "React to last message in channel or thread.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Bold text.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Italicize text.",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Format text as a link.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Go to the previous channel in your history.",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Go to the next channel in your history.",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Highlight text to the previous line.",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Highlight text to the next line.",
+      "keys": [
+        [
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Create a new line.",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Start or join call in current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Mute or unmute.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Raise or lower hand.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Share or unshare screen.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Show or hide participants list.",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Leave current call.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Hold to unmute (push to talk)Note: works in the expanded view/popout window only.",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open a new window for the current server",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open a new tab for the current server",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Go to the next tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Go to the previous tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Jump to a specific tab based on its position",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Close current tab when multiple tabs are open",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Close main window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Open theServersselector, press\u2191or\u2193to navigate between\nservers, then pressEnteron Windows or Linux, or\u21b5on macOS, to select a server.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the first server in theServerslist.Replace the number with the server\u2019s position within the server in the list.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the next product tab based on the current product selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the previous product tab based on the current product selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to theChannelstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to theBoardstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to thePlaybookstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server\u2019s tab position.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the next server tab based on the current server selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Navigate to the previous server tab based on the current server selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Next channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Increase font size (zoom in).",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mattermost keyboard shortcuts",
+      "action": "Decrease font size (zoom out).",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Previous channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Next channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Previous channel or direct message in the channel sidebar with unread messages.",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Next channel or direct message in the channel sidebar with unread messages.",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Mark the last post in the channel as unread.",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "If text isn\u2019t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Open theDirect Messagesdialog.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Open theSettingsdialog.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Open recent mentions.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Set focus to center channel input field.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Open or close the right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Expand or shrink the width of the open right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Find unread channels or search through all channels.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Channel navigation",
+      "action": "Open or closeChannel Infodetails in the right-hand sidebar.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File uploads",
+      "action": "Upload a file.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Reprint previous message or slash command you entered.",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Reprint next message or slash command you entered.",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Reply to the most recent message in the current channel.",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "Edit your last message in the current channel.",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Messages",
+      "action": "React to last message in channel or thread.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Message formatting",
+      "action": "Bold text.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Message formatting",
+      "action": "Italicize text.",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Message formatting",
+      "action": "Format text as a link.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Accessibility nagivation",
+      "action": "Go to the previous channel in your history.",
+      "keys": [
+        [
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Accessibility nagivation",
+      "action": "Go to the next channel in your history.",
+      "keys": [
+        [
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Accessibility nagivation",
+      "action": "Highlight text to the previous line.",
+      "keys": [
+        [
+          "Shift",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Accessibility nagivation",
+      "action": "Highlight text to the next line.",
+      "keys": [
+        [
+          "Shift",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Accessibility nagivation",
+      "action": "Create a new line.",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Start or join call in current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Mute or unmute.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Raise or lower hand.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Share or unshare screen.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Show or hide participants list.",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Leave current call.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Calls",
+      "action": "Hold to unmute (push to talk)Note: works in the expanded view/popout window only.",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Open a new window for the current server",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Open a new tab for the current server",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Go to the next tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Go to the previous tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Jump to a specific tab based on its position",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Close current tab when multiple tabs are open",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Close main window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Open theServersselector, press\u2191or\u2193to navigate between\nservers, then pressEnteron Windows or Linux, or\u21b5on macOS, to select a server.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the first server in theServerslist.Replace the number with the server\u2019s position within the server in the list.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the next product tab based on the current product selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the previous product tab based on the current product selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to theChannelstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to theBoardstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to thePlaybookstab.",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Move focus to theSearchfield and search the current channel.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server\u2019s tab position.",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the next server tab based on the current server selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Navigate to the previous server tab based on the current server selected.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Navigation in the desktop app",
+      "action": "Next channel or direct message in the channel sidebar.",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom in & zoom out display",
+      "action": "Increase font size (zoom in).",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom in & zoom out display",
+      "action": "Decrease font size (zoom out).",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
