@@ -1,0 +1,462 @@
+{
+  "app_name": "Flameshot",
+  "category": "Screenshots",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Capture",
+      "action": "Set the Pencil as paint tool",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set the Line as paint tool",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set the Arrow as paint tool",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set Selection as paint tool",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set the Rectangle as paint tool",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set the Circle as paint tool",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set the Marker as paint tool",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Add text to your capture",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Set Pixalate as the paint tool",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Start the color picker to grab a color from the screen",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Move selection 1px",
+      "keys": [
+        [
+          "Left"
+        ],
+        [
+          "Down"
+        ],
+        [
+          "Up"
+        ],
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Resize selection 1px",
+      "keys": [
+        [
+          "Shift",
+          "Left"
+        ],
+        [
+          "Shift",
+          "Down"
+        ],
+        [
+          "Shift",
+          "Up"
+        ],
+        [
+          "Shift",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Quit capture",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Move the selection area",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Copy to clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Save selection as a file",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Undo the last modification",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Redo the next modification",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Leave the capture screen",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Choose an app to open the capture",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Upload the selection to Imgur",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Toggle visibility of sidebar with options of the selected tool, color picker for the drawing color and history menu",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Show the color wheel",
+      "keys": [
+        [
+          "Right Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Change the tool's thickness",
+      "keys": [
+        [
+          "Mouse Wheel (scroll)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Screen",
+      "keys": [
+        [
+          "Print screen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Screenshot History",
+      "keys": [
+        [
+          "Shift",
+          "Print"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Preserve the aspect ratio",
+      "keys": [
+        [
+          "Ctrl",
+          "drag a handler of the selection area"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Mirror re-dimension in the opposite handler.",
+      "keys": [
+        [
+          "Shift",
+          "drag a handler of the selection area"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Start the Flameshot screenshot tool and take a screenshot",
+      "keys": [
+        [
+          "Prt Sc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Wait for 3 seconds, then start the Flameshot screenshot tool and take a screenshot",
+      "keys": [
+        [
+          "Ctrl",
+          "Prt Sc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Take a full-screen (all monitors) screenshot and save it",
+      "keys": [
+        [
+          "Shift",
+          "Prt Sc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Take a full-screen (all monitors) screenshot and copy it to the clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Prt Sc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
