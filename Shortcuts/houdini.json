@@ -1,0 +1,803 @@
+{
+  "app_name": "Houdini",
+  "category": "3D Modeling",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "General keys",
+      "action": "Open the tab menu of available nodes",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Center view tumbling on the point under the pointer",
+      "keys": [
+        [
+          "Space",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Show the default view",
+      "keys": [
+        [
+          "Space",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Zoom the view to show all objects",
+      "keys": [
+        [
+          "Space",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Zoom the view to show all selected objects/geometry",
+      "keys": [
+        [
+          "Space",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch shaded/wireframe",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Show display options window",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch single/quad viewports",
+      "keys": [
+        [
+          "Space",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch orthographic/perspective",
+      "keys": [
+        [
+          "Space",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch view one/view all",
+      "keys": [
+        [
+          "Space",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch current viewport to Perspective",
+      "keys": [
+        [
+          "Space",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch current viewport to Top",
+      "keys": [
+        [
+          "Space",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch current viewport to Front",
+      "keys": [
+        [
+          "Space",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch current viewport to Side",
+      "keys": [
+        [
+          "Space",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View keys",
+      "action": "Switch current viewport to UV editor",
+      "keys": [
+        [
+          "Space",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Select",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Move",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Rotate",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Scale",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "Node-specific handles",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tools",
+      "action": "View",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Toggle object/component selection",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select objects",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select points",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select edges",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select primitives (faces)",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select vertices",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select particles",
+      "keys": [
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select dynamics",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select all",
+      "keys": [
+        [
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection keys",
+      "action": "Select nothing",
+      "keys": [
+        [
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Set keyframe",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Toggle auto-keying",
+      "keys": [
+        [
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Key handle",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Key translations",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Key rotations",
+      "keys": [
+        [
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Animation",
+      "action": "Key scale",
+      "keys": [
+        [
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Play forward",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Play backward",
+      "keys": [
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "First frame",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Previous frame",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Next frame",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Previous scoped keyframe",
+      "keys": [
+        [
+          "Ctrl",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Timeline",
+      "action": "Next scoped keyframe",
+      "keys": [
+        [
+          "Ctrl",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Scene view",
+      "keys": [
+        [
+          "Alt",
+          "1"
+        ],
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Network editor",
+      "keys": [
+        [
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Parameters",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Tree view",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Textport",
+      "keys": [
+        [
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Animation editor",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Material palette",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Details view",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "New tab",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "“Tear off” tab into a new floating window",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Previous tab",
+      "keys": [
+        [
+          "Ctrl",
+          "PgUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Next tab",
+      "keys": [
+        [
+          "Ctrl",
+          "PgDn"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Close tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panes",
+      "action": "Close all tabs",
+      "keys": [
+        [
+          "Alt",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
