@@ -1,0 +1,94 @@
+{
+  "app_name": "Kreya",
+  "category": "API",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "kreya",
+  "shortcuts": [
+    {
+      "section": "Global",
+      "action": "Send request",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Open command palette",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Toggle sidebar",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Focus address bar",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Close modal",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Authentications",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
