@@ -1,0 +1,711 @@
+{
+  "app_name": "KeePassXC",
+  "category": "Security",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "General",
+      "action": "Settings",
+      "keys": [
+        [
+          "Ctrl",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open Database",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Save Database",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Save Database As",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "New Database",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Close Database",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ],
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Lock Current Database",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Lock All Databases",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Database Settings",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Database Reports",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Quit",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "New Entry",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Edit Entry",
+      "keys": [
+        [
+          "Enter"
+        ],
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Delete Entry",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Clone Entry",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Copy Username",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Copy Password",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Copy URL",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Open URL",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Copy TOTP",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Copy Password and TOTP",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Show TOTP",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Trigger AutoType",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Add key to SSH Agent",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Remove key from SSH Agent",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Jump to Group (from search)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Move entry up (if unsorted)",
+      "keys": [
+        [
+          "Alt",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Move entry down (if unsorted)",
+      "keys": [
+        [
+          "Alt",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Sort Groups A-Z",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Sort Groups Z-A",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Minimize Window",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Hide Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Select Next Database Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ],
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Select Previous Database Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ],
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Toggle Passwords Hidden",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Toggle Usernames Hidden",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Focus Groups (edit if focused)",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Focus Entries (edit if focused)",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Focus Search",
+      "keys": [
+        [
+          "F3"
+        ],
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Clear Search",
+      "keys": [
+        [
+          "Esc"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "Show Keyboard Shortcuts",
+      "keys": [
+        [
+          "Ctrl",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "+",
+      "keys": [
+        [
+          "Shift"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "^",
+      "keys": [
+        [
+          "Ctrl"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "%",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "#",
+      "keys": [
+        []
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "+",
+      "keys": [
+        [
+          "Shift"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "^",
+      "keys": [
+        [
+          "Ctrl"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "%",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "General",
+      "action": "#",
+      "keys": [
+        []
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
