@@ -1,0 +1,99 @@
+{
+  "app_name": "DisplayFusion",
+  "category": "Window Management",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Window Management",
+      "action": "Move Window to Next Monitor",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move Window to Next Monitor and Maximize",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move Window to Next Monitor and Size Proportionally",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Move Window to Previous Monitor",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Span Window Across all Monitors",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Management",
+      "action": "Load Next Random Wallpaper Image",
+      "keys": [
+        [
+          "Ctrl",
+          "Win",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
