@@ -1,0 +1,971 @@
+{
+  "app_name": "PotPlayer",
+  "category": "Media Player",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Playback",
+      "action": "Play / Pause",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window",
+      "action": "Full Screen",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Volume Up",
+      "keys": [
+        [
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Volume Down",
+      "keys": [
+        [
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Skip Forward 5 seconds",
+      "keys": [
+        [
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Skip Back 5 seconds",
+      "keys": [
+        [
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Capture",
+      "action": "Take Screenshot",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Speed Up",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Speed Down",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Subtitles",
+      "action": "Subtitle Sync Faster",
+      "keys": [
+        [
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Subtitles",
+      "action": "Subtitle Sync Slower",
+      "keys": [
+        [
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Mirror Video",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Bookmarks",
+      "action": "Add Bookmark",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "AB Repeat On/Off",
+      "keys": [
+        [
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Preferences",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "About PotPlayer",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Browse folder",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Open file",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Close",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playlist",
+      "action": "Playlist on/off",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Equalizer settings",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "File navigator",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Play previous file",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Play next file",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Move to starting point",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Move to position (time jump)",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Skip setup",
+      "keys": [
+        [
+          "'"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Skip playback on/off",
+      "keys": [
+        [
+          "Shift",
+          "'"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Scene explorer",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Play DVD",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Capture",
+      "action": "Turn on camera device",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Filter settings",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Filter control condition",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Subtitles",
+      "action": "Select subtitle track",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Subtitles",
+      "action": "Subtitle sync reset to default",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Reset playback speed to normal",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Capture",
+      "action": "Copy screenshot to clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Capture",
+      "action": "Continuous image capture (burst)",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Capture",
+      "action": "Open snapshot / capture options",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Flip picture vertically",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Video aspect ratio options",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Brightness decrease 1%",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Brightness increase 1%",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Contrast decrease 1%",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Contrast increase 1%",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Saturation decrease 1%",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Saturation increase 1%",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Colour decrease 1%",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Colour increase 1%",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Image properties reset",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Blur on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Denoise 3D on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Temporary denoise on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Remove colour blocks on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Image level control on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "PixelShader option",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Video",
+      "action": "Resize pixel shader on/off",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Audio stream options (switch tracks)",
+      "keys": [
+        [
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Audio sync 0.05s faster",
+      "keys": [
+        [
+          "Shift",
+          ">"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Audio sync 0.05s slower",
+      "keys": [
+        [
+          "Shift",
+          "<"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Audio recording",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Audio filter on/off",
+      "keys": [
+        [
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Voice filter on/off",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Voice processing filter on/off",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Normalised audio on/off",
+      "keys": [
+        [
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Crystallization on/off",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Noise reduction on/off",
+      "keys": [
+        [
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Bookmarks",
+      "action": "View bookmarks",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Set A point (start of loop)",
+      "keys": [
+        [
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Set B point (end of loop)",
+      "keys": [
+        [
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Move to next frame",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Move to previous frame",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}
