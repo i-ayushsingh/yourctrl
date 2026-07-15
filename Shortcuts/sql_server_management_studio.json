@@ -1,0 +1,1844 @@
+{
+  "app_name": "SQL Server Management Studio",
+  "process_name": "Ssms.exe",
+  "category": "Database",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "ssms",
+  "shortcuts": [
+    {
+      "section": "Menu Activation",
+      "action": "Move to the menu bar",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Activate the menu for a tool component",
+      "keys": [
+        [
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the context menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the New File dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the New Project dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the Open File dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the Open Project dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the Add New Item dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Display the Add Existing Item dialog box",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Menu Activation",
+      "action": "Close a menu or dialog box",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Open a new query editor window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Cycle through the MDI child windows",
+      "keys": [
+        [
+          "Ctrl",
+          "F6"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Cycle through the MDI child windows using the IDE navigator",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display a popup listing all open MDI child windows",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the IDE navigator with the first tool window selected",
+      "keys": [
+        [
+          "Alt",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the IDE navigator with the first MDI child window selected",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the dock menu",
+      "keys": [
+        [
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Query Designer",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Object Explorer",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Object Explorer Details",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Registered Servers",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Template Explorer",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Solution Explorer",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display Copilot in SSMS",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the Properties Window",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the Output window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the Toolbox",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the Browser Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the previous page in the viewing history",
+      "keys": [
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Display the next page in the viewing history",
+      "keys": [
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the next entry in the Error List window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Moves the insertion point to the dropdown bar",
+      "keys": [
+        [
+          "Ctrl",
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the current tool window toolbar",
+      "keys": [
+        [
+          "Shift",
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the next tool window",
+      "keys": [
+        [
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the previous tool window",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the next pane of a split pane view",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Move to the previous pane of a split pane view",
+      "keys": [
+        [
+          "Shift",
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Toggle between the Query Editor and the Results Pane",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Toggle between Object Explorer Details list view and property pane",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Toggle full screen mode",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Close current document window",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Close the current MDI child window",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Close the current tool window",
+      "keys": [
+        [
+          "Shift",
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Exit",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Windows Management and Toolbar",
+      "action": "Print",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor left",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor right",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move up the cursor",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor down",
+      "keys": [
+        [
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor to the beginning of the line",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor to the end of the line",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor to the beginning of the document",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor to the end of the document",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move up the cursor one screen",
+      "keys": [
+        [
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Move the cursor down one screen",
+      "keys": [
+        [
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Moves the cursor one word to the right",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Moves the cursor one word to the left",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Moves the cursor to the top of the document",
+      "keys": [
+        [
+          "Ctrl",
+          "PageUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cursor Movement",
+      "action": "Moves the cursor to the bottom of the document",
+      "keys": [
+        [
+          "Ctrl",
+          "PageDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text to start of line",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text to end of line",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text to beginning of document",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text to end of document",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text up line by line",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select text down line by line",
+      "keys": [
+        [
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select the word containing the cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Selection",
+      "action": "Select the entire current document",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Scroll text up one line",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Scroll text down one line",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Reverse the last editing action",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ],
+        [
+          "Alt",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Restore the previously undone edit",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ],
+        [
+          "Ctrl",
+          "Y"
+        ],
+        [
+          "Alt",
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Save the selected item",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Save all",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Delete all text in the current file",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Display the Go To Line dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Increase line indent",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Decrease line indent",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Make the selected text uppercase",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Make the selected text lowercase",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Specify values for template parameters",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Run the selected portion of the query editor",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Parse the selected portion of the query editor",
+      "keys": [
+        [
+          "Ctrl",
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Display the estimated execution plan",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Cancel the executing query",
+      "keys": [
+        [
+          "Alt",
+          "Break"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Include actual execution plan in the query output",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Output results in a grid",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Output results in text format",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Output results to a file",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Show or hide the query results pane",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Copy the result grid and headers",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Open SQL Server Profiler",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Run the sp_help system stored procedure",
+      "keys": [
+        [
+          "Alt",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Run the sp_who system stored procedure",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Run the sp_lock system stored procedure",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Delete one character to the right",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Delete one character to the left",
+      "keys": [
+        [
+          "Backspace"
+        ],
+        [
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Insert a blank line above the cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Insert a blank line below the cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Toggle between insert mode and overtype mode",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Delete the word to the right of the cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Manipulation",
+      "action": "Delete the word to the left of the cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "IntelliSense",
+      "action": "List members",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "IntelliSense",
+      "action": "Complete word",
+      "keys": [
+        [
+          "Enter"
+        ],
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "IntelliSense",
+      "action": "Refresh local cache",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Solution Explorer",
+      "action": "Change the name of the selected object",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tree Control",
+      "action": "Collapse tree nodes",
+      "keys": [
+        [
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tree Control",
+      "action": "Expand all tree nodes",
+      "keys": [
+        [
+          "*"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Help",
+      "action": "Help",
+      "keys": [
+        [
+          "F1"
+        ],
+        [
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Display the Find dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Display the Replace dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Display the Replace in Files dialog box",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Find the next occurrence of the search text",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Search",
+      "action": "Find the previous occurrence of the search text",
+      "keys": [
+        [
+          "Shift",
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cut and Paste",
+      "action": "Copy to the Clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ],
+        [
+          "Ctrl",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cut and Paste",
+      "action": "Paste from the Clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ],
+        [
+          "Shift",
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cut and Paste",
+      "action": "Pastes an item from the Clipboard Ring",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Cut and Paste",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity Monitor",
+      "action": "Launches Activity Monitor",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity Monitor",
+      "action": "Closes Activity Monitor",
+      "keys": [
+        [
+          "Shift",
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Activity Monitor",
+      "action": "Refresh",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Replication Monitor",
+      "action": "Open a detail window from a grid",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Replication Conflict Viewer",
+      "action": "Define filter",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Replication Conflict Viewer",
+      "action": "Apply filter",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Replication Conflict Viewer",
+      "action": "Show all columns",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Query Designer",
+      "action": "Displays or hides the diagram pane",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Query Designer",
+      "action": "Displays or hides the criteria pane",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Query Designer",
+      "action": "Displays or hides the SQL pane",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Table Designer",
+      "action": "Display the grid on the design surface",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
