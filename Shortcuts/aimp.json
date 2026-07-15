@@ -1,0 +1,146 @@
+{
+  "app_name": "AIMP",
+  "category": "Media Player",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Playback",
+      "action": "Play / Pause",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Increase Volume",
+      "keys": [
+        [
+          "Ctrl",
+          "Up"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Audio",
+      "action": "Decrease Volume",
+      "keys": [
+        [
+          "Ctrl",
+          "Down"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Jump to a Specific Time",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Next Track",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playback",
+      "action": "Previous Track",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playlist",
+      "action": "Create a New Playlist",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playlist",
+      "action": "Close the Current Playlist",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Playlist",
+      "action": "Save Playlist",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Open Queue Manager",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "myaimp.com",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}
