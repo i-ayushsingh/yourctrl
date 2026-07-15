@@ -1,0 +1,236 @@
+{
+  "app_name": "PicPick",
+  "category": "Screenshots",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Capture",
+      "action": "Capture Full Screen",
+      "keys": [
+        [
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Active Window",
+      "keys": [
+        [
+          "Alt",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Region",
+      "keys": [
+        [
+          "Shift",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Fixed Region",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Window Control",
+      "keys": [
+        [
+          "Ctrl",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Capture Scrolling Window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capture",
+      "action": "Freehand Capture",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Alt",
+          "PrintScreen"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Paste to New Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Paste from File...",
+      "keys": [
+        [
+          "Insert"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Image Resize...",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Canvas Resize...",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Invert Selection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editor",
+      "action": "Deselect",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Screen Recorder",
+      "action": "Recording Play/Stop",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
