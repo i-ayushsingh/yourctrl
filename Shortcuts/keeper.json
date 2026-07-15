@@ -1,0 +1,83 @@
+{
+  "app_name": "Keeper",
+  "category": "Security",
+  "platforms": [
+    "windows"
+  ],
+  "shortcuts": [
+    {
+      "section": "Browser Extension / Desktop",
+      "action": "Launch KeeperFill to fill username & password",
+      "keys": [
+        [
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser Extension / Desktop",
+      "action": "Fill Username",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser Extension / Desktop",
+      "action": "Fill Password",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser Extension / Desktop",
+      "action": "Open Desktop App",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser Extension / Desktop",
+      "action": "Logout",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "tutorialtactic.com",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}
