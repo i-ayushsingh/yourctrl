@@ -1,0 +1,296 @@
+{
+  "app_name": "HTTPie Desktop",
+  "category": "API",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "httpie",
+  "shortcuts": [
+    {
+      "section": "Global",
+      "action": "New tab (draft)",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Close tab",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Next tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Previous tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Nth tab",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ],
+        [
+          "Ctrl",
+          "2"
+        ],
+        [
+          "Ctrl",
+          "3"
+        ],
+        [
+          "Ctrl",
+          "4"
+        ],
+        [
+          "Ctrl",
+          "5"
+        ],
+        [
+          "Ctrl",
+          "6"
+        ],
+        [
+          "Ctrl",
+          "7"
+        ],
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Last tab",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Toggle library",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Open settings",
+      "keys": [
+        [
+          "Ctrl",
+          ","
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Global",
+      "action": "Open AI prompt",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Request",
+      "action": "Focus URL",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Request",
+      "action": "Send request",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ],
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Trigger autocomplete",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Open search",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Open filter",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Next occurrence",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Previous occurrence",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Next occurrence (inside search box)",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Code Editor",
+      "action": "Previous occurrence (inside search box)",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
