@@ -1,0 +1,283 @@
+{
+  "app_name": "SOLIDWORKS",
+  "process_name": "SLDWORKS.exe",
+  "category": "3D Modeling",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "solidworks",
+  "brand_color": "#D82027",
+  "shortcuts": [
+    {
+      "section": "Assemblies",
+      "action": "Mates. Temporarily hides a face when you hover over a face and click Alt.",
+      "keys": [
+        [
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Assemblies",
+      "action": "Hide/Show. Hides all components below the pointer. While Inserting a Component. Rotates the component 90º.",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Assemblies",
+      "action": "Mates. Show a temporarily hidden face when you hover over the hidden face and click Shift + Alt.",
+      "keys": [
+        [
+          "Shift",
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Assemblies",
+      "action": "Hide/Show. Shows all components below the pointer. While Inserting a Component. Rotates the component -90º.",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Assemblies",
+      "action": "Mates. Show all temporarily hidden faces in a semi-transparent state.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Assemblies",
+      "action": "Temporarily displays all hidden components as transparent and you can select which components to show. To show one or more components, move the pointer to the graphics area, and press and hold Ctrl + Shift + Tab. All hidden components are temporarily displayed as transparent. Click a hidden component to change it to shown.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Dimensions and Annotations",
+      "action": "Change the annotation view plane for a dimension or annotation.",
+      "keys": [
+        [
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display",
+      "action": "Zooms the model in.",
+      "keys": [
+        [
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display",
+      "action": "Zooms the model out.",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display",
+      "action": "Zooms to fit.",
+      "keys": [
+        [
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display",
+      "action": "Opens the View Selector.",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Display",
+      "action": "Opens the View Selector and Orientation dialog box.",
+      "keys": [
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection",
+      "action": "Select a transparent face on a part.",
+      "keys": [
+        [
+          "Shift"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sheet Metal",
+      "action": "Flips the direction of the forming tool when dragging the forming tool onto a face.",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sketching",
+      "action": "Changes the XYZ plane when sketching in a 3D sketch.",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "User Interface",
+      "action": "Rebuilds the model.",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "User Interface",
+      "action": "Redraws the screen.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "User Interface",
+      "action": "Moves among open documents.",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "User Interface",
+      "action": "Repeats the last command.",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "User Interface",
+      "action": "Opens the shortcut bar.",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
