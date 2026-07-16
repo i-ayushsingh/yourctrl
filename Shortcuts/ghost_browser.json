@@ -1,0 +1,139 @@
+{
+  "app_name": "Ghost Browser",
+  "process_name": "ghost.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "ghostbrowser",
+  "brand_color": "#6455D4",
+  "shortcuts": [
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Activate the Workspace menu",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Activate the Temporary Identity menu",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Clear current Temporary Identity data",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Duplicate into New Temporary Identity",
+      "keys": [
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "New Temporary Identity",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "New Global Tab",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Refresh current Temporary Identity",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Save current Workspace as",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sessions and Workspaces",
+      "action": "Start new empty Workspace",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
