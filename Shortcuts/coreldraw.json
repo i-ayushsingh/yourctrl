@@ -1,0 +1,343 @@
+{
+  "app_name": "CorelDRAW",
+  "process_name": "CorelDRW.exe",
+  "category": "Graphic Design",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "coreldraw",
+  "brand_color": "#00A14B",
+  "shortcuts": [
+    {
+      "section": "General",
+      "action": "Alien Bottorn",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Alien Left",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Alien Top",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Bold",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Brizghiness!Contrast Intensity...",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Center ta:Page",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Character Formatting",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Distnbute Spacing Honzontallky",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Distnbute Top",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Find Chyects...",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Force Justify",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Force Jushfy",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Graph Paper",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Interactive Fill",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Hew...",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pan",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Print...",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select Up 1 Paragraph",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Stop Recording Ctrl",
+      "keys": [
+        [
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "style List",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Underline",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Unzroup",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "\u00a55 TA Echtov...",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "What's Thus?",
+      "keys": [
+        [
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}
