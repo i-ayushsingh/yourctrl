@@ -1,0 +1,342 @@
+{
+  "app_name": "TickTick",
+  "process_name": "TickTick.exe",
+  "category": "Productivity",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "ticktick",
+  "brand_color": "#2062E6",
+  "shortcuts": [
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Sync",
+      "keys": [
+        [
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Go to Search",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Print",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Select Range",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Multi-select individual task",
+      "keys": [
+        [
+          "Ctrl",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "New Task",
+      "keys": [
+        [
+          "Tab",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Delete selected Tasks",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Save Tasks",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Complete selected Tasks",
+      "keys": [
+        [
+          "Tab",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Add Subtask",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Set\u00a0due date",
+      "keys": [
+        [
+          "Tab",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Clear time",
+      "keys": [
+        [
+          "Tab",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Set today",
+      "keys": [
+        [
+          "Tab",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Set tomorrow",
+      "keys": [
+        [
+          "Tab",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Set next week",
+      "keys": [
+        [
+          "Tab",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Set priority",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Most used TickTick Shortcuts",
+      "action": "Open Keyboard Shortcuts dialog",
+      "keys": [
+        [
+          "Ctrl",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Input box Shortcuts",
+      "action": "Set the due date for the task",
+      "keys": [
+        [
+          "*"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Input box Shortcuts",
+      "action": "Set priority for the task",
+      "keys": [
+        [
+          "!"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Input box Shortcuts",
+      "action": "Set a tag for the task",
+      "keys": [
+        [
+          "#"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Input box Shortcuts",
+      "action": "Add a task to a certain list",
+      "keys": [
+        [
+          "~"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    },
+    {
+      "section": "Input box Shortcuts",
+      "action": "Assign tasks to certain member",
+      "keys": [
+        [
+          "@"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "medium",
+      "verified_against_official": false
+    }
+  ]
+}
