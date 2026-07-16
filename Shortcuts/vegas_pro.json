@@ -1,0 +1,2933 @@
+{
+  "app_name": "VEGAS Pro",
+  "process_name": "vegas180.exe",
+  "category": "Video Editing",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "vegas-pro",
+  "brand_color": "#2BA1D4",
+  "shortcuts": [
+    {
+      "section": "Project file shortcuts",
+      "action": "Createnew project",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Createnew project andbypass the Project Properties dialog",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Exit VEGAS Pro",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Closethecurrent project",
+      "keys": [
+        [
+          "Ctrl",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Project properties",
+      "keys": [
+        [
+          "Alt",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Saveproject as",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Save Version(Incremental Save)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Set focus totimeline",
+      "keys": [
+        [
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Master Bus window",
+      "keys": [
+        [
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Video Preview window",
+      "keys": [
+        [
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Project Notes window",
+      "keys": [
+        [
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Transitions window",
+      "keys": [
+        [
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Video FX window",
+      "keys": [
+        [
+          "Alt",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Media Generators window",
+      "keys": [
+        [
+          "Alt",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Plug-In Manager window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Video Scopes window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Surround Panner window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Edit Details window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Mixing Console window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Device Explorer window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show Loudness Meters window",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Open Color Grading Mode",
+      "keys": [
+        [
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Open Motion Tracking Mode",
+      "keys": [
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hidevideobus tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hideevent mediamarkers",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hideactivetakeinformation",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hidewaveforms onevents inthetimeline",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hideevent buttons",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Toggle Event Headers",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hideevent fadelengths betweenselectedandnonselected",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Toggles thedisplay of theframeunderthecursorordisplay split-",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show/hideenvelopes",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show next window",
+      "keys": [
+        [
+          "F6or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Show previous window",
+      "keys": [
+        [
+          "Shift",
+          "F6or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Recall window layout",
+      "keys": [
+        [
+          "Alt",
+          "D, thenpress 0-9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Save window layout",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D, thenpress"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Loaddefault window layout",
+      "keys": [
+        [
+          "Alt",
+          "D, thenpress d"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Load VEGAS",
+      "keys": [
+        [
+          "14default layout alt",
+          "D, thenpress v"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Loadaudiomixing window layout",
+      "keys": [
+        [
+          "Alt",
+          "D, thenpress a"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Loadcolorcorrection window layout",
+      "keys": [
+        [
+          "Alt",
+          "D, thenpress c"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Project file shortcuts",
+      "action": "Switchfocus toprevious/next track orbus track",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Up/down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Zoom in/out horizontally inlargeincrements orzoom toselection",
+      "keys": [
+        [
+          "Ctrl",
+          "Up/downarrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Zoom intimeuntil eachvideothumbnail represents oneframe",
+      "keys": [
+        [
+          "Alt",
+          "Uparrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Decreaseheight of all tracks orbus tracks (dependingwhichhas",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowDown"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Increaseheight of all tracks orbus tracks (dependingwhichhas",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Uparrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Set track heights todefault height",
+      "keys": [
+        [
+          "Ctrl",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Minimize/restorethe window dockingarea",
+      "keys": [
+        [
+          "F11or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Maximize/restorethetimelinevertically andhorizontally",
+      "keys": [
+        [
+          "Ctrl",
+          "F11or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "( window dockingareaandtrack list will behidden)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Minimize/restorethetrack list",
+      "keys": [
+        [
+          "Shift",
+          "F11or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Zoom waveforms in/out vertically (audioonly)",
+      "keys": [
+        [
+          "Shift",
+          "Up/downarrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Set endof timeselection",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Gotobeginningof project",
+      "keys": [
+        [
+          "Ctrl",
+          "Homeorw"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Gotoendof project",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Select loopregion",
+      "keys": [
+        [
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Movetoprevious/next marker",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Moveoneframeleft/right",
+      "keys": [
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Moveleft/right toevent edit points (includingfadeedges)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Left/right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Jogleft/right (whennot inedge-trimmingmodeorduring",
+      "keys": [
+        [
+          "F3/f9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Moveedit cursortoplayback cursorpositionduringplayback",
+      "keys": [
+        [
+          "Alt",
+          "Downarrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Movecursortocorrespondingmarkerorselect corresponding",
+      "keys": [
+        [
+          "0-9keys (not numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Movetoprevious CD track",
+      "keys": [
+        [
+          "Ctrl",
+          "Comma"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Movetonext CD track",
+      "keys": [
+        [
+          "Ctrl",
+          "Period"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Createtimeselectionwhiledraggingonanevent",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Dragwith"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Cut selection",
+      "keys": [
+        [
+          "Ctrl",
+          "X or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Copy selection",
+      "keys": [
+        [
+          "Ctrl",
+          "C or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Arrow",
+      "action": "Pastefrom clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "V or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Trim event toselection",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Rendertonew track",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Create Nested Timeline",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Open Nestedtimeline",
+      "keys": [
+        [
+          "Alt",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Open Parent Timeline",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Switchtonormal editingtool",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Switchtoprevious editingtool",
+      "keys": [
+        [
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Rangeselect",
+      "keys": [
+        [
+          "Shift",
+          "Click events"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Multipleselect",
+      "keys": [
+        [
+          "Ctrl",
+          "Click individual"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Select all",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Unselect all",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Cut selection",
+      "keys": [
+        [
+          "Ctrl",
+          "X or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Copy selection",
+      "keys": [
+        [
+          "Ctrl",
+          "C or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Pastefrom clipboard",
+      "keys": [
+        [
+          "Ctrl",
+          "V or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Smart Split selectedevent",
+      "keys": [
+        [
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Trim/cropselectedevents",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Movecursortoedgeof previous selectedevent",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Trim thestart of theselectedevent tothecursorposition",
+      "keys": [
+        [
+          "Alt",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Timeselect previous selectedevent",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Movecursortoedgeof next selectedevent",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Trim theendof theselectedevent tothecursorposition",
+      "keys": [
+        [
+          "Alt",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "previous event edge",
+      "keys": [
+        [
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "event edge",
+      "keys": [
+        [
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Trim left/right (wheninedge-trimmingmode)",
+      "keys": [
+        [
+          "F3/f9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Timecompress/stretchselectedevents oneframeleft/right",
+      "keys": [
+        [
+          "Ctrl",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Sliptrim selectedevents oneframeleft/right",
+      "keys": [
+        [
+          "Alt",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "L/J trim left/right by frames",
+      "keys": [
+        [
+          "Shift",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Deleteselection Delete",
+      "action": "Slideatransitionorcrossfadeoneframeleft/right (trim adjacent)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad1/3",
+      "action": "L/J cut left/right by frames",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad1/3",
+      "action": "Timecompress/stretchselectedevents onepixel left/right",
+      "keys": [
+        [
+          "Ctrl",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad1/3",
+      "action": "Sliptrim selectedevents onepixel left/right",
+      "keys": [
+        [
+          "Alt",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad1/3",
+      "action": "L/J trim left/right by pixels",
+      "keys": [
+        [
+          "Shift",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad1/3",
+      "action": "Slideatransitionorcrossfadeonepixel left/right (trim adjacent)",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "L/J cut left/right by pixels",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Slip: movemediawithinevent without movingtheevent",
+      "keys": [
+        [
+          "Alt",
+          "Draginsidethe"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Sliptrim: moves themediawiththeedgeas it is trimmed",
+      "keys": [
+        [
+          "Alt",
+          "Dragedgeof event"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "L/J trim: ignores event groupingsoyoucantrim audioandvideo",
+      "keys": [
+        [
+          "Shift",
+          "Dragedgeof"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Trim adjacent: trims selectedevent andadjacent event",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Dragedgeof"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Trim adjacent whileignoringevent groupingforfast Land J cuts.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Slip-trim right edgeof event",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Dragevent"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Event split orsplit/trim",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Click or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Slide: trims bothends of event simultaneously",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Dragmiddleof"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Slidecrossfade: moves crossfade",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Dragovera"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Stretch(compress)themediaintheevent whiletrimming",
+      "keys": [
+        [
+          "Ctrl",
+          "Dragedgeof event"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Reset pitch",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "= or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Keypad4/6",
+      "action": "Select previous take",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad-",
+      "action": "Convert transitiontocut",
+      "keys": [
+        [
+          "Ctrl",
+          "Numeric keypad/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Scroll Left/Right Right/Left Arrow",
+      "action": "Press",
+      "keys": [
+        [
+          "Shift toscroll"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Scroll Left/Right Right/Left Arrow",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Jumptovertical centerof image",
+      "keys": [
+        [
+          "Shift",
+          "\\"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Arm track forrecord",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Arm forrecordandset recordingpath",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Play from start",
+      "keys": [
+        [
+          "Shift",
+          "Spacebaror"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Play from any window",
+      "keys": [
+        [
+          "Ctrl",
+          "Spacebaror"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Gotostart of project",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Gotoendof project",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Gotoprevious frame",
+      "keys": [
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Gotonext frame",
+      "keys": [
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Dim (attenuate)masterbus output",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Selectively prerendervideo",
+      "keys": [
+        [
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Builddynamic RAM preview",
+      "keys": [
+        [
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Toggleexternal monitorpreview",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Generate MIDI timecode",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Generate MIDI clock",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Triggerfrom MIDI timecode",
+      "keys": [
+        [
+          "Ctrl",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Insert new audiotrack",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Insert new videotrack",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Changeaudiotrack volumeorvideotrack compositinglevel",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Numeric Keypad*",
+      "action": "Changeaudiotrack panningorvideotrack fade-to-colorsetting",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Left/right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Muteselectedtracks Z",
+      "action": "Muteselectedtrack andremoveothertracks from mutegroup",
+      "keys": [
+        [
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Soloselectedtrack andremoveothertracks from sologroup",
+      "keys": [
+        [
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Muteselectedtrack group",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Muteselectedtrack groupandremoveothertrack groups from",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Soloselectedtrack group",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Soloselectedtrack groupandremoveothertrack groups from the",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Overridesnapping(if snappingis on)orenablesnapping(if",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Enable/disablesnapping",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Snaptoall events",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Post-edit rippleaffectedtracks, bus tracks, markers, andregions",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Post-edit rippleall tracks, markers, andregions",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Automatic crossfades",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Soloselectedtracks X",
+      "action": "Rendertonew track",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Ignoreevent grouping",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Cleargroupwithout deletingevents",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Select all events ingroup",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Removetrack volumeenvelope",
+      "keys": [
+        [
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Removetrack panningenvelope",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Show/hideenvelopes",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "button; press",
+      "keys": [
+        [
+          "8or2on"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "button; press",
+      "keys": [
+        [
+          "4or6on"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Adjust envelopepoint valueinfineincrements without changing",
+      "keys": [
+        [
+          "Ctrl",
+          "Dragenvelope"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Adjust envelopepoint valueinnormal increments without",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Adjust envelopepoint's timelinepositionwithout changingits",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Insert CD track index",
+      "keys": [
+        [
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Transfertimeselectionfrom timelineto Trimmerbeforecursor",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ungroupselectedevents U",
+      "action": "Toggleaudio/videostream height",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Up/down"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort Trimmerhistory H",
+      "action": "Clear Trimmerhistory",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort Trimmerhistory H",
+      "action": "Removecurrent mediafrom Trimmerhistory",
+      "keys": [
+        [
+          "Ctrl",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort Trimmerhistory H",
+      "action": "Toggleautomatic marker/regionsaving",
+      "keys": [
+        [
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sort Trimmerhistory H",
+      "action": "Show videoin Video Preview window",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track Motion",
+      "action": "Change3D layout",
+      "keys": [
+        [
+          "1-6(not numeric"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Track Motion",
+      "action": "Prevent scaling",
+      "keys": [
+        [
+          "Shift",
+          "X, shift",
+          "Y, and"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Surround Panner",
+      "action": "Constrainmotiontoalinethroughthecenterof the Surround",
+      "keys": [
+        [
+          "Shift",
+          "Dragthepan"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Surround Panner",
+      "action": "Constrainmotiontoaconstant radius from thecenter",
+      "keys": [
+        [
+          "Alt",
+          "Dragthepanpoint"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Surround Panner",
+      "action": "Constrainmotiontothemaximum circlethat will fit inthe",
+      "keys": [
+        [
+          "Alt",
+          "Shift",
+          "Dragthepan"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Surround Panner",
+      "action": "Keyboard shortcuts",
+      "keys": [
+        [
+          "13"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mousewheel",
+      "action": "(whenthepanpoint is selected)",
+      "keys": [
+        [
+          "Shift",
+          "Pageup/page"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Movethepanpoint toacorneronthelargest circlethat will fit in",
+      "keys": [
+        [
+          "Ctrl",
+          "Numeric keypad"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "the Surround Panner",
+      "keys": [
+        [
+          "1,3,7,9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Insert new audiotrack",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Hidetheselectedchannel strip",
+      "keys": [
+        [
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Show the Channel List pane",
+      "keys": [
+        [
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Show/hidefaderticks",
+      "keys": [
+        [
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Show/hidecontrol regionlabels",
+      "keys": [
+        [
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Adjust left channel of stereofader",
+      "keys": [
+        [
+          "Shift",
+          "Up/downarrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Panner",
+      "action": "Adjust right channel of stereofader",
+      "keys": [
+        [
+          "Ctrl",
+          "Up/downarrow"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "Application Help",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "What's this help",
+      "keys": [
+        [
+          "Shift",
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "Shortcut menu",
+      "keys": [
+        [
+          "Shift",
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "Makefinefader/slideradjustments",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "Changerelativekeyframespacing",
+      "keys": [
+        [
+          "Alt",
+          "Dragkeyframes"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Miscellaneous",
+      "action": "Moveregionwithout changinglength",
+      "keys": [
+        [
+          "Alt",
+          "Dragregiontag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Play/Pause Play/Pause",
+      "action": "Play from start",
+      "keys": [
+        [
+          "Shift",
+          "Play/pause"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mutetrack Mute",
+      "action": "Mutetrack andremoveothertracks from mutegroup",
+      "keys": [
+        [
+          "Shift",
+          "Mute"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mutetrack Mute",
+      "action": "Solotrack andremoveothertracks from sologroup",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Mute"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mutetrack Mute",
+      "action": "Changeaudiotrack volumeorvideotrack compositinglevel",
+      "keys": [
+        [
+          "Ctrl",
+          "Volume"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Mutetrack Mute",
+      "action": "Changeaudiotrack panningorvideotrack fade-to-colorsetting",
+      "keys": [
+        [
+          "Shift",
+          "Volume"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Command Shortcut",
+      "action": "Scroll vertically",
+      "keys": [
+        [
+          "Ctrl",
+          "Wheel"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Command Shortcut",
+      "action": "Scroll horizontally",
+      "keys": [
+        [
+          "Shift",
+          "Wheel"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Command Shortcut",
+      "action": "Movethecursorinsmall increments",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Wheel"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Command Shortcut",
+      "action": "Movethecursorby frames",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Shift",
+          "Wheel"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Command Shortcut",
+      "action": "Movefader/sliderinfineincrements",
+      "keys": [
+        [
+          "Ctrl",
+          "Hoveroverfader"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
