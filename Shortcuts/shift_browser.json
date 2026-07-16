@@ -1,0 +1,409 @@
+{
+  "app_name": "Shift Browser",
+  "process_name": "shift.exe",
+  "category": "Browsers",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "shift",
+  "brand_color": "#F35F56",
+  "shortcuts": [
+    {
+      "section": "The Basics",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Paste and Match Style",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Find",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "The Basics",
+      "action": "Find Next",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate Back",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate Forward",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate to Email",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate to Calendar",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate to Drive",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Navigate to Google Services",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Previous Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Next Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Right"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Previous Account/App",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Up"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Next Account/App",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Down"
+        ],
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Reload App",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Keyboard Shortcuts",
+      "keys": [
+        [
+          "Ctrl",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Unified Search",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Cycle Windows",
+      "keys": [
+        [
+          "Ctrl",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Toggle Full Screen",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Hide Window",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Show Window",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Custom Shift Shortcuts",
+      "action": "Minimize Window",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
