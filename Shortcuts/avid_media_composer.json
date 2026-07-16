@@ -1,0 +1,1234 @@
+{
+  "app_name": "Avid Media Composer",
+  "process_name": "AvidMediaComposer.exe",
+  "category": "Video Editing",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "avid",
+  "brand_color": "#4A3B91",
+  "shortcuts": [
+    {
+      "section": "Audio",
+      "action": "Snaps to Mid in Audio Mix tool",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Audio",
+      "action": "Snaps to 0 dB in Audio EQ and Audio tools",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Audio",
+      "action": "Selects track for audio scrub monitoring",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Audio",
+      "action": "Mutes selected track (1 to 8)",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Audio",
+      "action": "Moves selected audio keyframe horizontally in Timeline",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Audio",
+      "action": "Opens Audio Settings dialog box",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Creates a new bin",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Selects all items in the active bin or the Project Window, if selected",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Closes open windows, bins or dialog boxes",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Prints the selected bin in whatever view you have selected (Text, Frame or Script View)",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Duplicates selected clip(s), sequence(s), or title(s)",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Creates a Group Clip from selected Master Clips or Sub Clips",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "First, select clips or sequences in the bin, then use this shortcut to open the Console window, which will display useful information",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Hold down these shortcut keys, then click on the Clip Menu. By holding down these keys, you have changed the Relink selection to Unlink",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Makes a copy of the clip.",
+      "keys": [
+        [
+          "Alt",
+          "Drag s"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Using the shortcut, click on the Clip (the icon in Text View or the frame image in Frame View or Script View) or the Sequence Icon. This will create a pop-up window of information about the selected item.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "When in Frame View or Script View, this shortcut will increase the size of the Clip Frame images.",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "When in Frame View or Script View, this shortcut will decrease the size of the Clip Frame images.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "When in Frame View, this shortcut will make the Clip Frame images align to an invisible grid. A good way to",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "While capturing (but not Batch Capturing), pressing F1 will mark the In-Point of a subclip. If you press F1 at a later time (before pressing the F2 key) the in-Point will be updated.",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "While capturing (but not Batch Capturing), pressing F2 will mark the Out-Point of a subclip.",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Red locator to the clip",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "When in Capture Mode, F4 begins the capture. When in Log Mode, F4 logs a Master Clip to the bin.",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Red locator to the clip",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Green locator to the clip",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Blue locator to the clip",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Cyan locator to the clip",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Magenta locator to the clip",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Yellow locator to the clip",
+      "keys": [
+        [
+          "F10"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a Black locator to the clip",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Capturing",
+      "action": "Adds a White locator to the clip",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Performs an Undo of a previous editing operation such as Mark In or Splice.",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Performs an Redo of a previous editing operation such as Mark In or Splice.",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Copies the material between a Mark In and Mark Out on the selected tracks.",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Pastes copied material onto the same tracks from which it was copied, at the point at which you Mark In.",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Opens the selected item(s) in a pop-up monitor.",
+      "keys": [
+        [
+          "Alt",
+          "Double-click on a , sequence,"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Changes the cursor/pointer to a hand-icon. You can now drag a subclip or a subsequence to a bin.",
+      "keys": [
+        [
+          "Alt",
+          "Click on either the source"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "The clip(s) will be Spliced into your Sequence at the Mark In position.",
+      "keys": [
+        [
+          "Alt",
+          "Drag a  (or multiple s) into the record monitor"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "The clip(s) will be Overwritten into your Sequence at the Mark In position.",
+      "keys": [
+        [
+          "Shift",
+          "Drag a  (or multiple s)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "With either the Source Monitor or the Record Monitor selected, use this shortcut to enlarge the image. With the Timeline active, use this shortcut to enlarge the track width for selected tracks.",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "With either the Source Monitor or the Record Monitor selected, use this shortcut to reduce the image. With the Timeline active, use this shortcut to reduce the track width for selected tracks.",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Toggles between making the Source and Record monitors active.",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Sends selected window back to its default location.",
+      "keys": [
+        [
+          "Ctrl",
+          "Apostrophe"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Grab an active keyframe in the Keyframe Position Bar and move it earlier or later in time. Be sure you get the \"hand icon\" before you attempt to move a keyframe.",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "With the Keyframe Position Bar active, this will select all the keyframes.",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Changes the Arrow/cursor pointer to the Hand pointer for moving an enlarged video image around in the Record Monitor. This is also useful for moving the working area around when using the Advanced Keyframe features or when using the Speed and Position Graphs in the Timewarp Motion Effect Editor Window.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Click and drag video image (with image zoomed in)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Displays the percentage of the render that is complete.",
+      "keys": [
+        [
+          "Press p while rendering"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Displays render time completed and an estimated total render time.",
+      "keys": [
+        [
+          "Press t while rendering"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "Stops the render process and displays a dialog box asking if you would like to keep the already rendered portion or not. Keeping the rendered portion means that the next time you render that effect it will pick up where you left off.",
+      "keys": [
+        [
+          "Ctrl",
+          ". (period)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Editing",
+      "action": "This will quickly take you out of Effect Mode and return you to Source/Record Mode. Note: this shortcut does not work in Avid Xpress Pro.",
+      "keys": [
+        [
+          "Click anywhere in the timecode track"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Press either of these keys multiple times and you will speed up, much like shifting gears. The speeds are as follows: 1st press = 30fps 2nd press = 60fps 3rd press = 90fps 4th press = 150fps 5th press = 240fps NOTE: use the key to stop the playback at any time. NOTE: This shortcut also works when in Trim Mode.",
+      "keys": [
+        [
+          "Or"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Snaps the blue position indicator to the \"head frame\" (the first frame) of a segment. It also makes the blue position indicator snap to Mark In points or to the next audio keyframe.",
+      "keys": [
+        [
+          "Ctrl",
+          "Click near a transition"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Snaps the blue position indicator to the \"tail frame\" (the last frame) of a segment. It also makes the blue position indicator snap to Mark In points or to the next audio keyframe.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt click near a transition"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Increases the height of selected track(s).",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Decreases the height of selected track(s).",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Hold down the Option key (Mac) or the Control key (PC), then place your cursor between two tracks. The resize icon will appear. Now when you hold the mouse button down you make the track wider or narrower.",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Shows more or less detail in the Timeline. \"More Detail\" and \"Less Detail\" are also selections from the Timeline Fast Menu, if you'd like to map these functions to your keyboard. Common locations to map these functions to are the up arrow and down arrow keys.",
+      "keys": [
+        [
+          "Ctrl",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Opens the \"Find\" dialog box. This allows you to search the timeline for clip names, source (tape) names that are displayed, text in locators, etc.",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Adds a new video track.",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Adds a new audio track.",
+      "keys": [
+        [
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Opens a dialog box which allows you to add a specifically numbered audio or video track.",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Opens a dialog box which allows you to add a specifically numbered audio or video track.",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "NOTE: you may \"solo\" up to 16 audio tracks at one time, however you may only solo 1 video track at a time.",
+      "keys": [
+        [
+          "Ctrl",
+          "Click on video"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Allows you to select multiple segments.",
+      "keys": [
+        [
+          "Shift",
+          "Click segments when in segment mode"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Snaps the \"head\" of the selected segment(s) to a transition (that occurs on any track in the Timeline), as well as to Mark In, Mark Out and the blue position indicator.",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag segment"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Snaps the \"tail\" of the selected segment(s) to a transition (that occurs on any track in the Timeline), as well as to Mark In, Mark Out and the blue position indicator.",
+      "keys": [
+        [
+          "Alt",
+          "Ctrl",
+          "Drag segment"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Allows you to move segments to a higher or lower track without letting them move left or right, and thus getting out of sync.",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "Drag up"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "You must begin by clicking in the Timeline Window (the area with no tracks), then lasso the segments by going from LEFT to RIGHT, making sure your lasso totally surrounds the desired segments. This will place you into Segment Mode, specifically the last one you used during that session.",
+      "keys": [
+        [
+          "Lasso one"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Same as above, except you can now lasso segments inside the timeline tracks.",
+      "keys": [
+        [
+          "Alt",
+          "Lasso one"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "You must begin by clicking in the Timeline Window (the area with no tracks), then lasso only a transition (on one or multiple tracks) making sure your lasso totally surrounds the desired transition(s). This will place you into Trim Mode.",
+      "keys": [
+        [
+          "Lasso a transition"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Same as above, except you can now lasso transitions inside the timeline tracks.",
+      "keys": [
+        [
+          "Alt",
+          "Lasso"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "You must begin by clicking in the Timeline Window (the area with no tracks), then lasso just one segment per track by going from RIGHT to LEFT, making sure your lasso totally surrounds the desired segments. This will place you into Trim Mode, specifically the \"Slip\" function of trimming.",
+      "keys": [
+        [
+          "Lasso one"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Same as above, except you can now lasso segments inside the timeline tracks.",
+      "keys": [
+        [
+          "Alt",
+          "Lasso"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "Selects all tracks",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "De-selects all tracks",
+      "keys": [
+        [
+          "Shift",
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Playing & Marking",
+      "action": "When in a Single Roller Trim configuration, this allows the user to SHORTEN segments without getting out of sync. It does this by replacing the trimmed footage with Filler. NOTE: Sync Locks must be disabled for this to work.",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "First, select the Composer Window, a Bin, the Timeline or the Capture Tool, then use this shortcut to quickly open the related settings. To open the Trim settings, you must be in Trim Mode AND make sure that the Composer window is active (rather than the Timeline window).",
+      "keys": [
+        [
+          "Ctrl",
+          "="
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Opens or selects the Timeline window",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Audio tool",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Avid Calculator",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Command Pallette",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Composer window",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Media Creation",
+      "keys": [
+        [
+          "Ctrl",
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Console",
+      "keys": [
+        [
+          "Ctrl",
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Capture Tool",
+      "keys": [
+        [
+          "Ctrl",
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Effects Pallette",
+      "keys": [
+        [
+          "Ctrl",
+          "8"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Bin",
+      "action": "Project window",
+      "keys": [
+        [
+          "Ctrl",
+          "9"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Other",
+      "action": "Changes the Relink option to Unlink, allowing the Media Files to become Unlinked from the Master Clip.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Right click a master"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
