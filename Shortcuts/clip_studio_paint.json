@@ -1,0 +1,2817 @@
+{
+  "app_name": "Clip Studio Paint",
+  "process_name": "CLIPStudioPaint.exe",
+  "category": "Graphic Design",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "clip-studio-paint",
+  "brand_color": "#015383",
+  "shortcuts": [
+    {
+      "section": "Tool Shortcuts",
+      "action": "Zoom",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Move (Hand)",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Move (Rotate)",
+      "keys": [
+        [
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Operation (Object)",
+      "keys": [
+        [
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Operation (Select layer)",
+      "keys": [
+        [
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Operations (Light table)",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Operations (Edit timeline)",
+      "keys": [
+        [
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Move layer",
+      "keys": [
+        [
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Selection",
+      "keys": [
+        [
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Auto select",
+      "keys": [
+        [
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Pen",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Pencil",
+      "keys": [
+        [
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Brush",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Airbrush",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Decoration",
+      "keys": [
+        [
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Eraser",
+      "keys": [
+        [
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Blend",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Distort",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Fill",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Gradient",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Figure",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Frame border",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Ruler",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Text",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Balloon",
+      "keys": [
+        [
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool Shortcuts",
+      "action": "Correct line/Remove dust",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "CLIP STUDIO PAINT Menu (macOS/iPad)",
+      "action": "Preferences (macOS/tablet)",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "CLIP STUDIO PAINT Menu (macOS/iPad)",
+      "action": "Shortcut Settings (macOS/tablet)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "CLIP STUDIO PAINT Menu (macOS/iPad)",
+      "action": "Modifier Key Settings (macOS/tablet)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "CLIP STUDIO PAINT Menu (macOS/iPad)",
+      "action": "Quit CLIP STUDIO PAINT (macOS)",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "New",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Open",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Close",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Save",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Save as",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Save as",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Save as",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Print",
+      "keys": [
+        [
+          "Ctrl",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Preferences (Windows)",
+      "keys": [
+        [
+          "Ctrl",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Shortcut Settings (Windows)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "K"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Modifier Key Settings (Windows)",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "File Menu",
+      "action": "Quit CLIP STUDIO PAINT (Windows)",
+      "keys": [
+        [
+          "Ctrl",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Cut",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Copy",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Paste",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Paste to shown position",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Erase",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Erase",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Erase",
+      "keys": [
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Erase",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace \u00e2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Delete Outside Selection",
+      "keys": [
+        [
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Delete Outside Selection",
+      "keys": [
+        [
+          "Shift",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Fill",
+      "keys": [
+        [
+          "Alt",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Fill",
+      "keys": [
+        [
+          "Alt",
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Tonal correction",
+      "keys": [
+        [
+          "Hue/saturation/luminosity"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Reverse gradient",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Transform",
+      "keys": [
+        [
+          "Scale/rotate"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Menu",
+      "action": "Free Transform",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "New Raster Layer",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Create folder and insert layer",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Ungroup Layer Folder",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Layer settings",
+      "keys": [
+        [
+          "Clip to layer below"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Merge with layer below",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Merge selected layers",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Merge visible layers",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Change Selected Layer",
+      "keys": [
+        [
+          "Layer above"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Menu",
+      "action": "Layer Below",
+      "keys": [
+        [
+          "Alt",
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select Menu",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select Menu",
+      "action": "Deselect",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select Menu",
+      "action": "Reselect",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select Menu",
+      "action": "Invert selected area",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select Menu",
+      "action": "Invert selected area",
+      "keys": [
+        [
+          "Shift",
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Rotate/Invert",
+      "keys": [
+        [
+          "Rotate left"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Rotate right",
+      "keys": [
+        [
+          "^"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "Num",
+          ""
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          ";"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "Num -"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Ctrl",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "100%",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Fit to Screen",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Reset display",
+      "keys": [
+        [
+          "Ctrl",
+          "@"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Ruler",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Snap to Ruler",
+      "keys": [
+        [
+          "Ctrl",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Snap to Special Ruler",
+      "keys": [
+        [
+          "Ctrl",
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Snap to Grid",
+      "keys": [
+        [
+          "Ctrl",
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "View Menu",
+      "action": "Toggle special ruler snapping",
+      "keys": [
+        [
+          "Ctrl",
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Canvas\n(Windows/Galaxy/Android/Chromebook)",
+      "keys": [
+        [
+          "Next canvas"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Previous Canvas",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Canvas\n(macOS)",
+      "keys": [
+        [
+          "Next canvas"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Previous Canvas",
+      "keys": [
+        [
+          "Shift",
+          "Control",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Canvas (iPad)",
+      "keys": [
+        [
+          "Next canvas"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Previous Canvas",
+      "keys": [
+        [
+          "Control",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Window Menu",
+      "action": "Show/Hide All Palettes",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Help Menu",
+      "action": "Training and Tutorials",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Ink",
+      "keys": [
+        [
+          "Reduce opacity"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Increase opacity",
+      "keys": [
+        [
+          "Ctrl",
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Brush tip",
+      "keys": [
+        [
+          "Reduce brush density"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Increase brush density",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Spraying effect",
+      "keys": [
+        [
+          "Reduce particle density"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Increase particle density",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Tool property Palette",
+      "action": "Reference",
+      "keys": [
+        [
+          "On/off of multiple referring"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush Size Palette",
+      "action": "Select smaller preset than current",
+      "keys": [
+        [
+          "["
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Brush Size Palette",
+      "action": "Select larger preset than current",
+      "keys": [
+        [
+          "]"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sub tool palette",
+      "action": "Switch to previous sub tool",
+      "keys": [
+        [
+          "(comma)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Sub tool palette",
+      "action": "Switch to next sub tool",
+      "keys": [
+        [
+          ". (period)"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Layer Property Palette",
+      "action": "Switch using layer color",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Drawing color",
+      "action": "Switch main color and sub color",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Drawing color",
+      "action": "Switch drawing color and transparent color",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Hand",
+      "keys": [
+        [
+          "Space",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Rotate",
+      "keys": [
+        [
+          "Shift",
+          "Space",
+          "Drag\nshift",
+          "Mouse wheel"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Ctrl",
+          "Space",
+          "Click\nfor macos"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Zoom in",
+      "keys": [
+        [
+          "Press the spacebar and then the command."
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Zoom out",
+      "keys": [
+        [
+          "Alt",
+          "Space",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Select layer",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Click or drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Modifier keys in all versions of Clip Studio Paint",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Right click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Zoom Tool",
+      "action": "Switch between scaling up or down",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Object sub tool",
+      "action": "Add to selection",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Object sub tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select layer sub tool",
+      "action": "Add to selection",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select layer sub tool",
+      "action": "Deselect",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Light table sub tool",
+      "action": "Switch center point motion by clicking",
+      "keys": [
+        [
+          "Ctrl",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Light table sub tool",
+      "action": "Switch between Move and Rotate",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Timeline sub tool",
+      "action": "Switch between previous and next",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Edit Timeline sub tool",
+      "action": "Switch frame step",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move layer Tool",
+      "action": "Keep original image",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Move layer Tool",
+      "action": "Fix movement direction",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Marquee Tool",
+      "action": "Interlock selection and image",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Marquee Tool",
+      "action": "Delete from current selection",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Marquee Tool",
+      "action": "Add to current selection",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Marquee Tool",
+      "action": "Select from current selection",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Selection pen sub tool / Erase selection sub tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Interlock selection and image",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Temporarily toggle multiple referring on/off",
+      "keys": [
+        [
+          "Ctrl",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Delete from current selection",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Add to current selection",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Select from current selection",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Auto select tool",
+      "action": "Keep aspect ratio",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pen Tool / Pencil Tool / Brush Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pen Tool / Pencil Tool / Brush Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pen Tool / Pencil Tool / Brush Tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Pen Tool / Pencil Tool / Brush Tool",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Airbrush, Decoration, and Eraser Tools",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Airbrush, Decoration, and Eraser Tools",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Airbrush, Decoration, and Eraser Tools",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Airbrush, Decoration, and Eraser Tools",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Blend Tool",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Copy stamp sub tool",
+      "action": "Specify reference point",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Copy stamp sub tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Copy stamp sub tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Copy stamp sub tool",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Liquify tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Liquify tool",
+      "action": "Flip liquify mode",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Liquify tool",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Liquify tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Fill Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Fill Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Fill Tool",
+      "action": "Toggle multiple referring on/off",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Paint unfilled area sub tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Gradient Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Gradient Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Freeform gradient group",
+      "action": "Toggle multiple referring on/off",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Figure Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Figure Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Figure Tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frame border tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frame border tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Frame border tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ruler tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Ruler pen sub tool",
+      "action": "Draw straight line",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Text Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Balloon Tool",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Balloon Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Balloon Tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Balloon tail and Thought balloon tail sub tools",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Flash group",
+      "action": "Eyedropper",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Flash group",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Correct line Tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Correct line Tool",
+      "action": "Change brush size",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Control point sub tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Control point sub tool",
+      "action": "Delete control point",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Control point sub tool",
+      "action": "Add control point",
+      "keys": [
+        [
+          "Shift",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Control point sub tool",
+      "action": "Switch corner",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Redraw vector line sub tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Remove dust and Fill leftover sub tool",
+      "action": "Object",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Remove dust and Fill leftover sub tool",
+      "action": "Delete control point",
+      "keys": [
+        [
+          "Alt",
+          "Click"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Remove dust and Fill leftover sub tool",
+      "action": "Switch referring multiple layers",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select dust sub tool",
+      "action": "Interlock selection and image",
+      "keys": [
+        [
+          "Ctrl",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select dust sub tool",
+      "action": "Delete from current selection",
+      "keys": [
+        [
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select dust sub tool",
+      "action": "Add to current selection",
+      "keys": [
+        [
+          "Shift",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    },
+    {
+      "section": "Select dust sub tool",
+      "action": "Select from current selection",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "Drag"
+        ]
+      ],
+      "os": "windows",
+      "source": "official",
+      "confidence": "high",
+      "verified_against_official": true
+    }
+  ]
+}
