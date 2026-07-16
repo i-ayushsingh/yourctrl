@@ -1,0 +1,3984 @@
+{
+  "app_name": "Bitwig Studio",
+  "process_name": "Bitwig Studio.exe",
+  "category": "Audio Production",
+  "platforms": [
+    "windows"
+  ],
+  "icon_slug": "bitwig-studio",
+  "brand_color": "#FF6B00",
+  "shortcuts": [
+    {
+      "section": "File",
+      "action": "Close",
+      "keys": [
+        [
+          "Ctrl",
+          "W"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "New From Template.",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "New Project",
+      "keys": [
+        [
+          "Ctrl",
+          "N"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Open..",
+      "keys": [
+        [
+          "Ctrl",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Quit",
+      "keys": [
+        [
+          "Alt",
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Save",
+      "keys": [
+        [
+          "Ctrl",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "File",
+      "action": "Save as\u2026",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Adjust Value Down (fine)",
+      "keys": [
+        [
+          "ArrowD"
+        ],
+        [
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Adjust Value Step Down",
+      "keys": [
+        [
+          "ArrowD"
+        ],
+        [
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Adjust Value Step Up",
+      "keys": [
+        [
+          "ArrowUp"
+        ],
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Adjust Value Up (fine)",
+      "keys": [
+        [
+          "ArrowUp"
+        ],
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Auto-Crossfade",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Auto-Fade",
+      "keys": [
+        [
+          "Ctrl",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Bounce In Place",
+      "keys": [
+        [
+          "Ctrl",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Commander.",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Consolidate",
+      "keys": [
+        [
+          "Ctrl",
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Cut Time",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "DSP Performance Graph",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Eraser tool",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Focus/toggle Browser Panel",
+      "keys": [
+        [
+          "Alt",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Gain +1dB",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Gain +6dB",
+      "keys": [
+        [
+          "Alt",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Gain 1dB",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Gain -6dB",
+      "keys": [
+        [
+          "Alt",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Insert from Library..",
+      "keys": [
+        [
+          "B"
+        ],
+        [
+          "Insertert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Insert Silence",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "P"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Knife tool",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Larger Beat Grid",
+      "keys": [
+        [
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Launch",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Loop Selected Region",
+      "keys": [
+        [
+          "Ctrl",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Make Events One Bar Longer",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Make Events One Bar Shorter",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Make Events One Step Longer",
+      "keys": [
+        [
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Make Events One Step Shorter",
+      "keys": [
+        [
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Make Legato",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Next Beat Grid Subdivision",
+      "keys": [
+        [
+          "Alt",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Next history entry",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Nudge Events One Bar Backward",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ],
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Nudge Events One Bar Forward",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ],
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Nudge Events One Step Backward",
+      "keys": [
+        [
+          "ArrowLeft"
+        ],
+        [
+          "Alt",
+          "ArrowLeft"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Nudge Events One Step Forward",
+      "keys": [
+        [
+          "ArrowRight"
+        ],
+        [
+          "Alt",
+          "ArrowRight"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "right"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Paste Time",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pen tool",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pencil",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pointer",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pointer tool",
+      "keys": [
+        [
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Previous Beat Grid Subdivision",
+      "keys": [
+        [
+          "Alt",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Previous history entry",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Pulse",
+      "keys": [
+        [
+          "4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Quantize",
+      "keys": [
+        [
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Quantize Length",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Quantize..",
+      "keys": [
+        [
+          "Alt",
+          "Q"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Ramp",
+      "keys": [
+        [
+          "5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Remove Time",
+      "keys": [
+        [
+          "Shift",
+          "Backspace"
+        ],
+        [
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Reset Fades",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Saw",
+      "keys": [
+        [
+          "6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select Next Auto Complete Item",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select Next Track",
+      "keys": [
+        [
+          "Page ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select Previous Auto Complete Item",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Select Previous Track",
+      "keys": [
+        [
+          "Page ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Settings",
+      "keys": [
+        [
+          "Ctrl",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Slice to Drum Machine.",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Slide Content Left",
+      "keys": [
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Slide Content Right",
+      "keys": [
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Smaller Beat Grid",
+      "keys": [
+        [
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Split",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Step",
+      "keys": [
+        [
+          "3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Time Selection tool",
+      "keys": [
+        [
+          "2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Adaptive Beat Grid",
+      "keys": [
+        [
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Expanded Device View of Selected Device",
+      "keys": [
+        [
+          "\u2013"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Micro-pitch Editing",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Snap",
+      "keys": [
+        [
+          "S"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Snap to Events",
+      "keys": [
+        [
+          "Shift",
+          "/"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Snap to Grid",
+      "keys": [
+        [
+          "Shift",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Toggle Snap to Grid Offset",
+      "keys": [
+        [
+          "Shift",
+          "."
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Transpose Semitone Down",
+      "keys": [
+        [
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Transpose Semitone Up",
+      "keys": [
+        [
+          "Alt",
+          "+",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Transpose an Octave Down",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "-"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Transpose an Octave Up",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "+",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "General",
+      "action": "Triangle",
+      "keys": [
+        [
+          "7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Alternate Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Alternate Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Alternate Delete",
+      "keys": [
+        [
+          "Ctrl",
+          "Backspace"
+        ],
+        [
+          "Ctrl",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Alternate Duplicate",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Alternate Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Copy",
+      "keys": [
+        [
+          "Ctrl",
+          "C"
+        ],
+        [
+          "Ctrl",
+          "Insertert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Cut",
+      "keys": [
+        [
+          "Ctrl",
+          "X"
+        ],
+        [
+          "Shift",
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Delete",
+      "keys": [
+        [
+          "Backspace"
+        ],
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Duplicate",
+      "keys": [
+        [
+          "Ctrl",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Group",
+      "keys": [
+        [
+          "Ctrl",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Paste",
+      "keys": [
+        [
+          "Ctrl",
+          "V"
+        ],
+        [
+          "Shift",
+          "Insertert"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Redo",
+      "keys": [
+        [
+          "Ctrl",
+          "Y"
+        ],
+        [
+          "Ctrl",
+          "Shift",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Rename",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Toggle Active",
+      "keys": [
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Undo",
+      "keys": [
+        [
+          "Ctrl",
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Editing",
+      "action": "Ungroup",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Activate item",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Collapse Item",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Expand Item",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus next field",
+      "keys": [
+        [
+          "Tab"
+        ],
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus next panel",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus panel above",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus panel below",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus panel to the left",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus panel to the right",
+      "keys": [
+        [
+          "ArrowLeft"
+        ],
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus widget above",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus widget below",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus widget to the left",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Focus widget to the right",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Select Next Project",
+      "keys": [
+        [
+          "Ctrl",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Select Next Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Select Previous Project",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Navigation",
+      "action": "Select Previous Tab",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Toggle children expanded state",
+      "keys": [
+        [
+          "Ctrl",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Toggle siblings expanded state",
+      "keys": [
+        [
+          "Shift",
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Deselect All",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to first item",
+      "keys": [
+        [
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to item above",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to item below",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to item to left",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to item to right",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to last item",
+      "keys": [
+        [
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection range to next item",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ],
+        [
+          "Shift",
+          "ArrowRight"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend Selection Range to Next Lane",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ],
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend Selection Range to Previous Item",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ],
+        [
+          "Shift",
+          "ArrowLeft"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend Selection Range to Previous Lane",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ],
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to first item",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend Selection to First Lane",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ],
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to item above",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to item below",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to item to left",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to item to right",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Extend selection to last item",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move Cursor to Next Lane",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move Cursor to Previous Lane",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor down",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor left",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor right",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor to first item",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor to last item",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor to next item",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor to previous item",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Move selection cursor up",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select All",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select first item",
+      "keys": [
+        [
+          "Home"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select item above",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select item below",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select Item in Next Lane",
+      "keys": [
+        [
+          "ArrowD"
+        ],
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select Item in Previous Lane",
+      "keys": [
+        [
+          "ArrowUp"
+        ],
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select item to left",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select item to right",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select last item",
+      "keys": [
+        [
+          "End"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select Next Item",
+      "keys": [
+        [
+          "ArrowD"
+        ],
+        [
+          "ArrowRight"
+        ],
+        [
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Selection",
+      "action": "Select Previous Item",
+      "keys": [
+        [
+          "ArrowUp"
+        ],
+        [
+          "ArrowLeft"
+        ],
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Help",
+      "action": "Toggle selection of item at cursor",
+      "keys": [
+        [
+          "Ctrl",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Help",
+      "action": "Show Item Help",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Full screen",
+      "keys": [
+        [
+          "F11"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Maximize window",
+      "keys": [
+        [
+          "Ctrl",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Window Management",
+      "action": "Minimize window",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Dialogs",
+      "action": "Cancel Dialog",
+      "keys": [
+        [
+          "Escape"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Dialogs",
+      "action": "Yes",
+      "keys": [
+        [
+          "Y"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Commit Text",
+      "keys": [
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Delete character to left of cursor",
+      "keys": [
+        [
+          "Backspace"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Delete character to right of cursor",
+      "keys": [
+        [
+          "Delete"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Insert new line",
+      "keys": [
+        [
+          "Numpad Enter"
+        ],
+        [
+          "Enter"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection down",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection left",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection right",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection to end of document",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "End"
+        ],
+        [
+          "Win",
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection to end of line",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "E"
+        ],
+        [
+          "Shift",
+          "End"
+        ],
+        [
+          "Win",
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection to start of document",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "Home"
+        ],
+        [
+          "Win",
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection to start of line",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "A"
+        ],
+        [
+          "Shift",
+          "Home"
+        ],
+        [
+          "Win",
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection up",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection word left",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowLeft"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor and extend selection word right",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "ArrowRight"
+        ],
+        [
+          "Shift",
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor down",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor left",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor right",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor to end of document",
+      "keys": [
+        [
+          "Ctrl",
+          "End"
+        ],
+        [
+          "Win",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move Cursor to End of Line",
+      "keys": [
+        [
+          "Ctrl",
+          "E"
+        ],
+        [
+          "End"
+        ],
+        [
+          "Win",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor to start of document",
+      "keys": [
+        [
+          "Ctrl",
+          "Home"
+        ],
+        [
+          "Win",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move Cursor to Start of Line",
+      "keys": [
+        [
+          "Ctrl",
+          "A"
+        ],
+        [
+          "Home"
+        ],
+        [
+          "Win",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor up",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Move cursor word left",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ],
+        [
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Text Editing",
+      "action": "Reload",
+      "keys": [
+        [
+          "Ctrl",
+          "R"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Search",
+      "action": "Stop Editing Text",
+      "keys": [
+        [
+          "Escape",
+          "+"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zooming",
+      "action": "Invoke search-field action",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zooming",
+      "action": "Zoom In",
+      "keys": [
+        [
+          "Ctrl",
+          "+",
+          "x Ctrl",
+          "="
+        ],
+        [
+          "x Numpad",
+          "+"
+        ],
+        [
+          "Zoom In"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zooming",
+      "action": "Zoom Out",
+      "keys": [
+        [
+          "Ctrl",
+          "-X Numpad-"
+        ],
+        [
+          "Zoom Out"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zooming",
+      "action": "Zoom Fit",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Zooming",
+      "action": "Zoom to Fit Selection Or All",
+      "keys": [
+        [
+          "Z"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Activate Engine for Project",
+      "keys": [
+        [
+          "F12"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Add Audio Track",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Add FX Track",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Add Group Track",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Add Instrument Track",
+      "keys": [
+        [
+          "Ctrl",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Add Scene",
+      "keys": [
+        [
+          "Ctrl",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Continue Play Transport",
+      "keys": [
+        [
+          "Shift",
+          "Play"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Continue Playback or Stop",
+      "keys": [
+        [
+          "Shift",
+          "P"
+        ],
+        [
+          "Shift",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Delete All Project Automation",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "B"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Play from Start. or Stop Transport",
+      "keys": [
+        [
+          "Alt",
+          "P"
+        ],
+        [
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Play or Stop Transport",
+      "keys": [
+        [
+          "P"
+        ],
+        [
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Play Transport",
+      "keys": [
+        [
+          "Play"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Project",
+      "action": "Play Transport from Start",
+      "keys": [
+        [
+          "Alt",
+          "Play"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Stop Playback of Selected Tracks",
+      "keys": [
+        [
+          "Stop"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Tap Tempo",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "Space"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Toggle Record",
+      "keys": [
+        [
+          "F9"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Clip Launcher",
+      "action": "Add Scene from Playing Clips",
+      "keys": [
+        [
+          "Ctrl",
+          "Shift",
+          "1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus Track Header Area",
+      "keys": [
+        [
+          "T"
+        ],
+        [
+          "Alt",
+          "T"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Arranger Timeline Panel",
+      "keys": [
+        [
+          "O"
+        ],
+        [
+          "Alt",
+          "O"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Automation Editor Panel",
+      "keys": [
+        [
+          "A"
+        ],
+        [
+          "Alt",
+          "A"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Clip Launcher Panel",
+      "keys": [
+        [
+          "L"
+        ],
+        [
+          "Alt",
+          "L"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Detail Editor Panel",
+      "keys": [
+        [
+          "E"
+        ],
+        [
+          "Alt",
+          "E"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Device Panel",
+      "keys": [
+        [
+          "D"
+        ],
+        [
+          "Alt",
+          "D"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Inspector Panel",
+      "keys": [
+        [
+          "I"
+        ],
+        [
+          "Alt",
+          "I"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Focus/toggle Mixer Panel",
+      "keys": [
+        [
+          "M"
+        ],
+        [
+          "Alt",
+          "M"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Next Mode",
+      "keys": [
+        [
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Previous Sub-panel",
+      "keys": [
+        [
+          "Shift",
+          "`"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Sub panel 1",
+      "keys": [
+        [
+          "F5"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Sub-panel 2",
+      "keys": [
+        [
+          "F6"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Sub-panel 3",
+      "keys": [
+        [
+          "F7"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Select Sub-panel 4",
+      "keys": [
+        [
+          "F8"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Show Cue Markers",
+      "keys": [
+        [
+          "Shift",
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Automation Editor Panel",
+      "keys": [
+        [
+          "F2"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Detail Editor Panel",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Device Panel",
+      "keys": [
+        [
+          "F3"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Maximized Editing Mode",
+      "keys": [
+        [
+          "Shift",
+          "Tab"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Mixer Panel",
+      "keys": [
+        [
+          "F4"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Panel Management",
+      "action": "Toggle Track-timeline vs Clip-content Editing",
+      "keys": [
+        [
+          "Alt",
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Arranger",
+      "action": "Horizontally Zoom Arranger to Fit Selection or Previo\u2026",
+      "keys": [
+        [
+          "U"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Toggle Existing Automation Shown For All Tracks",
+      "keys": [
+        [
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Toggle Existing Automation Shown For Selected Tracks",
+      "keys": [
+        [
+          "Shift",
+          "G"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Zoom Arranger to Fit Selection or All",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Zoom In Arranger Lane Heights (All Tracks)",
+      "keys": [
+        [
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": ">>> has submenu",
+      "action": "Zoom Out Arranger Lane Heights (All Tracks)",
+      "keys": [
+        [
+          "Shift",
+          "H"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Down",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Down (coarse)",
+      "keys": [
+        [
+          "Shift",
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Left",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Left (coarse)",
+      "keys": [
+        [
+          "Shift",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Right",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Right (coarse)",
+      "keys": [
+        [
+          "Shift",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Up",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Multisample",
+      "action": "Nudge Up (coarse)",
+      "keys": [
+        [
+          "Shift",
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Clear Focused Filter",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Focus Browser File List",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Focus Category Column",
+      "keys": [
+        [
+          "C"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Focus Filters",
+      "keys": [
+        [
+          "Ctrl",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "ArrowD"
+        ],
+        [
+          "ArrowLeft"
+        ],
+        [
+          "Ctrl",
+          "ArrowLeft"
+        ],
+        [
+          "Page ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Focus Vendor Column",
+      "keys": [
+        [
+          "V"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Remove from all Collections",
+      "keys": [
+        [
+          "Alt",
+          "O"
+        ],
+        [
+          "Alt",
+          "Numpad"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Save Snapshot..",
+      "keys": [
+        [
+          "F1"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Select Next Filter Column",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Select Next Palette Item",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowD"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Select Prev Filter Column",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Select Prev Palette Item",
+      "keys": [
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowUp"
+        ],
+        [
+          "Ctrl",
+          "Alt",
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Show Presets for Device",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Stop Showing Presets For Device",
+      "keys": [
+        [
+          "ArrowLeft"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Toggle All Sources view",
+      "keys": [
+        [
+          "Ctrl",
+          "0"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Toggle Favorite",
+      "keys": [
+        [
+          "Numpad"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Toggle Preview Playback of Selected File",
+      "keys": [
+        [
+          "ArrowRight"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Browser",
+      "action": "Toggle Show Favorites",
+      "keys": [
+        [
+          "X"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Note Editor",
+      "action": "Toggle Expression Area",
+      "keys": [
+        [
+          "J"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Note Editor",
+      "action": "Toggle Folded Note Lanes",
+      "keys": [
+        [
+          "F"
+        ],
+        [
+          "Alt",
+          "F"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Comping",
+      "action": "Select Next Take",
+      "keys": [
+        [
+          "ArrowUp"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    },
+    {
+      "section": "Comping",
+      "action": "Select Previous Take",
+      "keys": [
+        [
+          "ArrowD"
+        ]
+      ],
+      "os": "windows",
+      "source": "third-party",
+      "confidence": "high",
+      "verified_against_official": false
+    }
+  ]
+}
