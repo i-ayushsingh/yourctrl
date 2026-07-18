@@ -1,7 +1,7 @@
 {
   "app_name": "SketchUp",
   "process_name": "SketchUp.exe",
-  "category": "3D Modeling",
+  "category": "CAD",
   "platforms": [
     "windows"
   ],

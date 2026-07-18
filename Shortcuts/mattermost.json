@@ -78,7 +78,7 @@
     },
     {
       "section": "Mattermost keyboard shortcuts",
-      "action": "If text isn\u2019t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
+      "action": "If text isn’t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
       "keys": [
         [
           "Ctrl",
@@ -639,7 +639,7 @@
     },
     {
       "section": "Mattermost keyboard shortcuts",
-      "action": "Open theServersselector, press\u2191or\u2193to navigate between\nservers, then pressEnteron Windows or Linux, or\u21b5on macOS, to select a server.",
+      "action": "Open theServersselector, press↑or↓to navigate between\nservers, then pressEnteron Windows or Linux, or↵on macOS, to select a server.",
       "keys": [
         [
           "Ctrl",
@@ -654,7 +654,7 @@
     },
     {
       "section": "Mattermost keyboard shortcuts",
-      "action": "Navigate to the first server in theServerslist.Replace the number with the server\u2019s position within the server in the list.",
+      "action": "Navigate to the first server in theServerslist.Replace the number with the server’s position within the server in the list.",
       "keys": [
         [
           "Ctrl",
@@ -754,7 +754,7 @@
     },
     {
       "section": "Mattermost keyboard shortcuts",
-      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server\u2019s tab position.",
+      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server’s tab position.",
       "keys": [
         [
           "Ctrl",
@@ -912,7 +912,7 @@
     },
     {
       "section": "Channel navigation",
-      "action": "If text isn\u2019t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
+      "action": "If text isn’t selected: Open theFind Channelsdialog.If text is selected: Create a hyperlink in the format[linktext](URL).",
       "keys": [
         [
           "Ctrl",
@@ -1473,7 +1473,7 @@
     },
     {
       "section": "Navigation in the desktop app",
-      "action": "Open theServersselector, press\u2191or\u2193to navigate between\nservers, then pressEnteron Windows or Linux, or\u21b5on macOS, to select a server.",
+      "action": "Open theServersselector, press↑or↓to navigate between\nservers, then pressEnteron Windows or Linux, or↵on macOS, to select a server.",
       "keys": [
         [
           "Ctrl",
@@ -1488,7 +1488,7 @@
     },
     {
       "section": "Navigation in the desktop app",
-      "action": "Navigate to the first server in theServerslist.Replace the number with the server\u2019s position within the server in the list.",
+      "action": "Navigate to the first server in theServerslist.Replace the number with the server’s position within the server in the list.",
       "keys": [
         [
           "Ctrl",
@@ -1588,7 +1588,7 @@
     },
     {
       "section": "Navigation in the desktop app",
-      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server\u2019s tab position.",
+      "action": "Navigate to the first server in theServerslist.\nReplace the number with the server’s tab position.",
       "keys": [
         [
           "Ctrl",
@@ -1673,5 +1673,6 @@
       "confidence": "high",
       "verified_against_official": true
     }
-  ]
+  ],
+  "icon_slug": "mattermost"
 }

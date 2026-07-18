@@ -110,16 +110,18 @@ export function SettingsView() {
   const [updateVersion, setUpdateVersion] = useState<string | null>(null);
   const [downloading, setDownloading] = useState(false);
   const [downloadProgress, setDownloadProgress] = useState<number | null>(null);
+  const [appVersion, setAppVersion] = useState("1.1.0");
 
   useEffect(() => {
     let unlisten: (() => void) | undefined;
+    let active = true;
     
     void (async () => {
       if (typeof window !== "undefined" && "__TAURI_INTERNALS__" in window) {
         try {
           const { invoke } = await import("@tauri-apps/api/core");
           const initial = await invoke<{ app_name: string; process_name: string }>("get_active_app");
-          setActiveApp(initial);
+          if (active) setActiveApp(initial);
         } catch (e) {
           console.error("Failed to get initial active app", e);
         }
@@ -129,16 +131,25 @@ export function SettingsView() {
           unlisten = await listen<{ app_name: string; process_name: string }>(
             "active-app-changed",
             (event) => {
-              setActiveApp(event.payload);
+              if (active) setActiveApp(event.payload);
             }
           );
         } catch (e) {
           console.error("Failed to listen for active-app-changed", e);
         }
+
+        try {
+          const { getVersion } = await import("@tauri-apps/api/app");
+          const ver = await getVersion();
+          if (active) setAppVersion(ver);
+        } catch (e) {
+          console.error("Failed to get app version", e);
+        }
       }
     })();
     
     return () => {
+      active = false;
       if (unlisten) unlisten();
     };
   }, []);
@@ -232,7 +243,12 @@ export function SettingsView() {
         <Button variant="ghost" size="icon" onClick={back} aria-label="Back" data-no-drag>
           <ArrowLeft className="size-4" />
         </Button>
-        <h1 className="text-sm font-semibold">Settings</h1>
+        <h1 className="text-sm font-semibold flex items-center gap-1.5">
+          Settings
+          <span className="text-[10px] font-normal text-muted-foreground bg-muted px-1.5 py-0.5 rounded border border-border/50">
+            v{appVersion}
+          </span>
+        </h1>
         <div className="flex-1" />
         <WindowControls />
       </header>

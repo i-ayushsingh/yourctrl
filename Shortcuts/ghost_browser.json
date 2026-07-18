@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "ghostbrowser",
+  "icon_slug": "ghost_browser",
   "brand_color": "#6455D4",
   "shortcuts": [
     {

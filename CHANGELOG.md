@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.2.0
+
+Performance improvements, dynamic UI counts, version checking, and full custom logos for new apps.
+
+### Features
+
+- Added dynamic version display in the Settings panel header (retrieved dynamically via app configuration)
+- Replaced hardcoded search counts with a reactive count of currently loaded apps (`apps.length`)
+- Added custom, high-quality full-color logos for all 57 newly supported apps (e.g. AutoCAD, Autodesk Fusion/Revit, SketchUp, Visual Studio, Bruno, Yaak, HTTPie, LM Studio, Chatbox, Pieces, etc.)
+- Updated the Msty logo to the correct icon representation
+
+### Bug Fixes & Technical Details
+
+- Fixed database freeze/unresponsiveness when clicking "Data Refresh" by utilizing transactional context (`tx`) in the Rust Tauri seed command (disk seed commit time reduced to ~100ms)
+- Fixed rendering of the Shift Browser logo by replacing the hotlink-blocked CDN asset with a locally served official SVG
+- Made `process_name` optional in TypeScript `AppEntry` types to support custom shortcut configurations without executable tracking
+
 ## v1.1.0
 
 Major experience and database synchronization update.

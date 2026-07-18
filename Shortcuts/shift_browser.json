@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "shift",
+  "icon_slug": "shift_browser",
   "brand_color": "#F35F56",
   "shortcuts": [
     {

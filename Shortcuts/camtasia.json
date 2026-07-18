@@ -1,6 +1,6 @@
 {
   "app_name": "Camtasia Editor",
-  "category": "Video Editing",
+  "category": "Screen Recording",
   "platforms": [
     "windows"
   ],
@@ -2329,5 +2329,6 @@
       "confidence": "high",
       "verified_against_official": true
     }
-  ]
+  ],
+  "icon_slug": "camtasia"
 }

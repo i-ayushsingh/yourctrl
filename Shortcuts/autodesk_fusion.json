@@ -1,11 +1,11 @@
 {
   "app_name": "Autodesk Fusion",
   "process_name": "Fusion360.exe",
-  "category": "3D Modeling",
+  "category": "CAD",
   "platforms": [
     "windows"
   ],
-  "icon_slug": "autodeskfusion360",
+  "icon_slug": "autodesk_fusion",
   "brand_color": "#0696D7",
   "shortcuts": [
     {

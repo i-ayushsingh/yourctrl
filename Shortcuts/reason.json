@@ -514,7 +514,7 @@
     },
     {
       "section": "General keyboard shortcuts",
-      "action": "Toggle the \u201cReduce Cable Clutter\u201d option",
+      "action": "Toggle the “Reduce Cable Clutter” option",
       "keys": [
         [
           "K"
@@ -527,7 +527,7 @@
     },
     {
       "section": "General keyboard shortcuts",
-      "action": "Toggle the \u201cAuto-group Devices and Tracks\u201d option",
+      "action": "Toggle the “Auto-group Devices and Tracks” option",
       "keys": [
         [
           "Ctrl",
@@ -543,7 +543,7 @@
     },
     {
       "section": "General keyboard shortcuts",
-      "action": "Toggle the \u201cFollow Song\u201d option",
+      "action": "Toggle the “Follow Song” option",
       "keys": [
         [
           "F"
@@ -556,7 +556,7 @@
     },
     {
       "section": "General keyboard shortcuts",
-      "action": "Toggle the \u201cKeep Events in Clip While Editing\u201d option",
+      "action": "Toggle the “Keep Events in Clip While Editing” option",
       "keys": [
         [
           "Shift",
@@ -1151,7 +1151,7 @@
       "keys": [
         [
           "Ctrl",
-          "\u2013"
+          "–"
         ]
       ],
       "os": "windows",
@@ -1184,7 +1184,7 @@
           "Ctrl",
           "Ctrl",
           "Alt",
-          "\u2013"
+          "–"
         ]
       ],
       "os": "windows",

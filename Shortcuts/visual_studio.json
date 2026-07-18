@@ -1,11 +1,11 @@
 {
   "app_name": "Visual Studio",
   "process_name": "devenv.exe",
-  "category": "IDE",
+  "category": "Development",
   "platforms": [
     "windows"
   ],
-  "icon_slug": "visual-studio",
+  "icon_slug": "visual_studio",
   "brand_color": "#5C2D91",
   "shortcuts": [
     {

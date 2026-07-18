@@ -1,11 +1,11 @@
 {
   "app_name": "ZBrush",
   "process_name": "",
-  "category": "",
+  "category": "3D Modeling",
   "platforms": [
     "windows"
   ],
-  "icon_slug": "",
+  "icon_slug": "zbrush",
   "brand_color": "",
   "shortcuts": [
     {

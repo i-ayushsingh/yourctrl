@@ -14,7 +14,7 @@ export interface Shortcut {
 
 export interface AppEntry {
   app_name: string;
-  process_name: string;
+  process_name?: string;
   category: string;
   /** Platform identifiers this app runs on, e.g. ["windows"]. */
   platforms?: string[];

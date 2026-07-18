@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "clip-studio-paint",
+  "icon_slug": "clip_studio_paint",
   "brand_color": "#015383",
   "shortcuts": [
     {
@@ -779,7 +779,7 @@
       "keys": [
         [
           "Ctrl",
-          "Backspace \u00e2"
+          "Backspace â"
         ]
       ],
       "os": "windows",

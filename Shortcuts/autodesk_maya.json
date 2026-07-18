@@ -1800,7 +1800,7 @@
     },
     {
       "section": "Window and View Operations",
-      "action": "Switches between Attribute Editor or Channel Box\u2013displays the Attribute Editor if neither is shown",
+      "action": "Switches between Attribute Editor or Channel Box–displays the Attribute Editor if neither is shown",
       "keys": [
         [
           "Ctrl",

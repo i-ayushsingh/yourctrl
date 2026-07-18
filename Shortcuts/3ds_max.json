@@ -1,7 +1,7 @@
 {
   "app_name": "3ds Max",
   "process_name": "3dsmax.exe",
-  "category": "3D",
+  "category": "3D Modeling",
   "platforms": [
     "windows"
   ],
@@ -7038,5 +7038,6 @@
       "confidence": "high",
       "verified_against_official": true
     }
-  ]
+  ],
+  "icon_slug": "3ds_max"
 }

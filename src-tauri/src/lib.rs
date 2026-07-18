@@ -1210,12 +1210,13 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
 
     let apps: serde_json::Value = serde_json::from_str(&raw).map_err(|e| e.to_string())?;
 
-    let conn = state.db_pool.get().map_err(|e| e.to_string())?;
+    let mut conn = state.db_pool.get().map_err(|e| e.to_string())?;
+    let tx = conn.transaction().map_err(|e| e.to_string())?;
 
     // Clear existing
-    conn.execute("DELETE FROM shortcut_overrides", []).map_err(|e| e.to_string())?;
-    conn.execute("DELETE FROM shortcuts", []).map_err(|e| e.to_string())?;
-    conn.execute("DELETE FROM apps", []).map_err(|e| e.to_string())?;
+    tx.execute("DELETE FROM shortcut_overrides", []).map_err(|e| e.to_string())?;
+    tx.execute("DELETE FROM shortcuts", []).map_err(|e| e.to_string())?;
+    tx.execute("DELETE FROM apps", []).map_err(|e| e.to_string())?;
 
     // Seed
     if let Some(apps_list) = apps.as_array() {
@@ -1227,11 +1228,11 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
             let icon_slug = app["icon_slug"].as_str();
             let platforms = app["platforms"].to_string();
 
-            let _ = conn.execute(
+            let _ = tx.execute(
                 "INSERT INTO apps (app_name, process_name, category, brand_color, icon_slug, platforms) VALUES (?1, ?2, ?3, ?4, ?5, ?6)",
                 (app_name, process_name, category, brand_color, icon_slug, platforms),
             );
-            let app_id = conn.last_insert_rowid();
+            let app_id = tx.last_insert_rowid();
 
             if let Some(shortcuts_list) = app["shortcuts"].as_array() {
                 for sh in shortcuts_list {
@@ -1244,7 +1245,7 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
                     let confidence = sh["confidence"].as_str().unwrap_or("high");
                     let verified = if sh["verified_against_official"].as_bool().unwrap_or(true) { 1 } else { 0 };
 
-                    let _ = conn.execute(
+                    let _ = tx.execute(
                         "INSERT INTO shortcuts (app_id, section, keys, action, description, os, source, confidence, verified_against_official)
                          VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)",
                         (app_id, section, keys, action, description, os, source, confidence, verified),
@@ -1281,7 +1282,9 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
         *pm = process_map;
     }
 
-    let _ = conn.execute("PRAGMA user_version = 2", []);
+    let _ = tx.execute("PRAGMA user_version = 2", []);
+
+    tx.commit().map_err(|e| e.to_string())?;
 
     get_apps(state)
 }

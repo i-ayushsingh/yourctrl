@@ -1,11 +1,11 @@
 {
   "app_name": "Pieces",
   "process_name": "",
-  "category": "Productivity",
+  "category": "AI",
   "platforms": [
     "windows"
   ],
-  "icon_slug": "",
+  "icon_slug": "pieces",
   "brand_color": "",
   "shortcuts": [
     {

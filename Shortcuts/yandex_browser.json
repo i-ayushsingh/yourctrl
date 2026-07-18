@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "yandex",
+  "icon_slug": "yandex_browser",
   "brand_color": "#FFCC00",
   "shortcuts": [
     {

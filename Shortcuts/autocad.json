@@ -1,7 +1,7 @@
 {
   "app_name": "AutoCAD",
   "process_name": "acad.exe",
-  "category": "3D Modeling",
+  "category": "CAD",
   "platforms": [
     "windows"
   ],

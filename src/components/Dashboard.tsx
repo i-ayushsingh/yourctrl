@@ -78,7 +78,7 @@ export function Dashboard() {
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search 189 apps…"
+            placeholder={`Search ${apps.length} apps…`}
             className="h-9 bg-muted/50 pl-9"
           />
         </div>

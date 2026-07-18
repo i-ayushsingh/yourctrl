@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "studio-one",
+  "icon_slug": "studio_one",
   "brand_color": "#2D8CFF",
   "shortcuts": [
     {
@@ -323,7 +323,7 @@
     },
     {
       "section": "Zoom",
-      "action": "\u201cOptions / General / Keyboard Shortcuts\u201d to access",
+      "action": "“Options / General / Keyboard Shortcuts” to access",
       "keys": [
         [
           "pre-configured"
@@ -362,7 +362,7 @@
     },
     {
       "section": "Zoom",
-      "action": "\u00a92020 PreSonus Audio Electronics, All Rights Reserved. Studio One is a trademark",
+      "action": "©2020 PreSonus Audio Electronics, All Rights Reserved. Studio One is a trademark",
       "keys": [
         [
           "of"

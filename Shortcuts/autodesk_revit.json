@@ -1,11 +1,11 @@
 {
   "app_name": "Autodesk Revit",
   "process_name": "Revit.exe",
-  "category": "3D Modeling",
+  "category": "CAD",
   "platforms": [
     "windows"
   ],
-  "icon_slug": "autodeskrevit",
+  "icon_slug": "autodesk_revit",
   "brand_color": "#0892D1",
   "shortcuts": [
     {

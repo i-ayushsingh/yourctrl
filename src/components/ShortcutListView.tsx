@@ -99,7 +99,7 @@ export function ShortcutListView() {
               variant="ghost"
               size="sm"
               className="gap-2 text-muted-foreground hover:text-foreground"
-              onClick={() => openReportWithPrefill(app.app_name, app.process_name)}
+              onClick={() => openReportWithPrefill(app.app_name, app.process_name || "")}
             >
               <AlertTriangle className="size-4" />
               Report

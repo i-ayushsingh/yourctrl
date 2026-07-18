@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "pro-tools",
+  "icon_slug": "pro_tools",
   "brand_color": "#812990",
   "shortcuts": [
     {

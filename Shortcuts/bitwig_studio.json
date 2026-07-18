@@ -5,7 +5,7 @@
   "platforms": [
     "windows"
   ],
-  "icon_slug": "bitwig-studio",
+  "icon_slug": "bitwig_studio",
   "brand_color": "#FF6B00",
   "shortcuts": [
     {
@@ -95,7 +95,7 @@
     },
     {
       "section": "File",
-      "action": "Save as\u2026",
+      "action": "Save as…",
       "keys": [
         [
           "Ctrl",
@@ -1029,7 +1029,7 @@
       "action": "Toggle Expanded Device View of Selected Device",
       "keys": [
         [
-          "\u2013"
+          "–"
         ]
       ],
       "os": "windows",
@@ -3468,7 +3468,7 @@
     },
     {
       "section": "Arranger",
-      "action": "Horizontally Zoom Arranger to Fit Selection or Previo\u2026",
+      "action": "Horizontally Zoom Arranger to Fit Selection or Previo…",
       "keys": [
         [
           "U"
