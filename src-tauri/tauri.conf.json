@@ -1,6 +1,6 @@
 {
   "productName": "YourCtrl",
-  "version": "1.2.0",
+  "version": "1.2.5",
   "identifier": "com.yourctrl.app",
   "build": {
     "devUrl": "http://localhost:5173",
@@ -42,7 +42,7 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": "default-src 'self'; img-src 'self' data: https: asset: http://asset.localhost; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://api.web3forms.com"
     }
   },
   "bundle": {

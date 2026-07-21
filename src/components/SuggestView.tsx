@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { useAppStore } from "@/store";
 import { cn } from "@/lib/utils";
 import { WindowControls } from "./WindowControls";
+import { checkRateLimit } from "@/lib/rate-limit";
 import {
   Select,
   SelectContent,
@@ -51,6 +52,11 @@ export function SuggestView() {
 
   const handleSubmitSuggest = async (e: React.FormEvent) => {
     e.preventDefault();
+    const rateCheck = checkRateLimit("suggest_app", 30);
+    if (!rateCheck.allowed) {
+      setError(`Please wait ${rateCheck.waitSeconds} seconds before submitting another suggestion.`);
+      return;
+    }
     setSubmitting(true);
     setError("");
     try {

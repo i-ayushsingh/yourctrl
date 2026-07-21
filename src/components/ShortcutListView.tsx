@@ -142,7 +142,7 @@ export function ShortcutListView() {
 
         {/* Shortcuts list container */}
         <div className="mx-auto w-full max-w-5xl flex-1 overflow-y-auto overscroll-contain px-16 pb-10 pt-5">
-          {app ? <ShortcutGroups shortcuts={shortcuts} variant="card" /> : null}
+          {app ? <ShortcutGroups shortcuts={shortcuts} appName={app.app_name} variant="card" /> : null}
         </div>
 
         {/* Right Arrow Button */}

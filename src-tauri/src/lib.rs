@@ -203,6 +203,8 @@ struct Settings {
     show_shortcut_count_badge: bool,
     #[serde(default = "default_auto_update")]
     auto_update: bool,
+    #[serde(default)]
+    favorites: Vec<String>,
 }
 
 impl Default for Settings {
@@ -214,6 +216,7 @@ impl Default for Settings {
             pinned: false,
             pinned_position: None,
             excluded: Vec::new(),
+            favorites: Vec::new(),
             hold_ms: default_hold_ms(),
             trigger_type: default_trigger_type(),
             autostart: false,
@@ -335,11 +338,24 @@ fn write_settings(path: &PathBuf, settings: &Settings) {
 // Foreground-window / active-key detection (Windows)
 // ----------------------------------------------------------------------------
 
+#[cfg(windows)]
+struct AutoHandle(windows::Win32::Foundation::HANDLE);
+
+#[cfg(windows)]
+impl Drop for AutoHandle {
+    fn drop(&mut self) {
+        if !self.0.is_invalid() {
+            unsafe {
+                let _ = windows::Win32::Foundation::CloseHandle(self.0);
+            }
+        }
+    }
+}
+
 /// Resolve a PID to its lowercased executable basename (e.g. "chrome.exe").
 #[cfg(windows)]
 fn process_name_of_pid(pid: u32) -> Option<String> {
     use windows::core::PWSTR;
-    use windows::Win32::Foundation::CloseHandle;
     use windows::Win32::System::Threading::{
         OpenProcess, QueryFullProcessImageNameW, PROCESS_NAME_WIN32,
         PROCESS_QUERY_LIMITED_INFORMATION,
@@ -350,12 +366,15 @@ fn process_name_of_pid(pid: u32) -> Option<String> {
     }
     unsafe {
         let handle = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, false, pid).ok()?;
+        let _guard = AutoHandle(handle);
         let mut buf = [0u16; 512];
         let mut size = buf.len() as u32;
         let res =
             QueryFullProcessImageNameW(handle, PROCESS_NAME_WIN32, PWSTR(buf.as_mut_ptr()), &mut size);
-        let _ = CloseHandle(handle);
         res.ok()?;
+        if size == 0 {
+            return None;
+        }
         let path = String::from_utf16_lossy(&buf[..size as usize]);
         let base = path
             .rsplit(|c| c == '\\' || c == '/')
@@ -596,10 +615,30 @@ fn check_hotkey_conflict(hotkey_str: &str) -> bool {
 #[cfg(not(windows))]
 fn check_hotkey_conflict(_hotkey_str: &str) -> bool { false }
 
+fn popover_is_onscreen(win: &tauri::WebviewWindow) -> bool {
+    if let (Ok(pos), Ok(monitors)) = (win.outer_position(), win.available_monitors()) {
+        for m in monitors {
+            let m_pos = m.position();
+            let m_size = m.size();
+            let m_right = m_pos.x + m_size.width as i32;
+            let m_bottom = m_pos.y + m_size.height as i32;
+            if pos.x >= m_pos.x - 50 && pos.x <= m_right - 50 && pos.y >= m_pos.y - 50 && pos.y <= m_bottom - 50 {
+                return true;
+            }
+        }
+        false
+    } else {
+        true
+    }
+}
+
 fn configure_popover_window(app: &tauri::AppHandle) {
     if let Some(win) = app.get_webview_window("popover") {
-        // When pinned, the user controls the window position; leave it where it is.
+        // When pinned, verify that the popover is still on a visible monitor.
         if app.state::<AppState>().pinned.load(Ordering::Relaxed) {
+            if !popover_is_onscreen(&win) {
+                let _ = win.center();
+            }
             return;
         }
 
@@ -1021,11 +1060,6 @@ fn get_apps(state: tauri::State<AppState>) -> Result<serde_json::Value, String> 
          FROM apps ORDER BY app_name ASC"
     ).map_err(|e| e.to_string())?;
 
-    let mut stmt_shortcuts = conn.prepare(
-        "SELECT section, keys, action, description, os, source, confidence, verified_against_official 
-         FROM shortcuts WHERE app_id = ?1"
-    ).map_err(|e| e.to_string())?;
-    
     let app_rows = stmt_apps.query_map([], |row| {
         let app_id: i64 = row.get(0)?;
         let app_name: String = row.get(1)?;
@@ -1040,41 +1074,58 @@ fn get_apps(state: tauri::State<AppState>) -> Result<serde_json::Value, String> 
         Ok((app_id, app_name, process_name, category, brand_color, icon_slug, platforms))
     }).map_err(|e| e.to_string())?;
 
-    let mut apps_list = Vec::new();
+    let mut apps_map = std::collections::BTreeMap::new();
+    let mut app_order = Vec::new();
+
     for app_res in app_rows {
         if let Ok((app_id, app_name, process_name, category, brand_color, icon_slug, platforms)) = app_res {
-            let shortcut_rows = stmt_shortcuts.query_map([app_id], |row| {
-                let section: String = row.get(0)?;
-                let keys_str: String = row.get(1)?;
-                let action: String = row.get(2)?;
-                let description: Option<String> = row.get(3)?;
-                let os: String = row.get(4)?;
-                let source: String = row.get(5)?;
-                let confidence: String = row.get(6)?;
-                let verified_val: i32 = row.get(7)?;
+            app_order.push(app_id);
+            apps_map.insert(app_id, (app_name, process_name, category, brand_color, icon_slug, platforms, Vec::new()));
+        }
+    }
 
-                let keys: serde_json::Value = serde_json::from_str(&keys_str).unwrap_or(serde_json::Value::Array(vec![]));
-                let verified_against_official = verified_val != 0;
+    let mut stmt_shortcuts = conn.prepare(
+        "SELECT app_id, section, keys, action, description, os, source, confidence, verified_against_official 
+         FROM shortcuts ORDER BY id ASC"
+    ).map_err(|e| e.to_string())?;
 
-                Ok(serde_json::json!({
-                    "section": section,
-                    "keys": keys,
-                    "action": action,
-                    "description": description,
-                    "os": os,
-                    "source": source,
-                    "confidence": confidence,
-                    "verified_against_official": verified_against_official
-                }))
-            }).map_err(|e| e.to_string())?;
+    let shortcut_rows = stmt_shortcuts.query_map([], |row| {
+        let app_id: i64 = row.get(0)?;
+        let section: String = row.get(1)?;
+        let keys_str: String = row.get(2)?;
+        let action: String = row.get(3)?;
+        let description: Option<String> = row.get(4)?;
+        let os: String = row.get(5)?;
+        let source: String = row.get(6)?;
+        let confidence: String = row.get(7)?;
+        let verified_val: i32 = row.get(8)?;
 
-            let mut shortcuts = Vec::new();
-            for sh in shortcut_rows {
-                if let Ok(sh_json) = sh {
-                    shortcuts.push(sh_json);
-                }
+        let keys: serde_json::Value = serde_json::from_str(&keys_str).unwrap_or(serde_json::Value::Array(vec![]));
+        let verified_against_official = verified_val != 0;
+
+        Ok((app_id, serde_json::json!({
+            "section": section,
+            "keys": keys,
+            "action": action,
+            "description": description,
+            "os": os,
+            "source": source,
+            "confidence": confidence,
+            "verified_against_official": verified_against_official
+        })))
+    }).map_err(|e| e.to_string())?;
+
+    for sh_res in shortcut_rows {
+        if let Ok((app_id, sh_json)) = sh_res {
+            if let Some(entry) = apps_map.get_mut(&app_id) {
+                entry.6.push(sh_json);
             }
+        }
+    }
 
+    let mut apps_list = Vec::with_capacity(app_order.len());
+    for app_id in app_order {
+        if let Some((app_name, process_name, category, brand_color, icon_slug, platforms, shortcuts)) = apps_map.remove(&app_id) {
             apps_list.push(serde_json::json!({
                 "app_name": app_name,
                 "process_name": process_name,
@@ -1117,6 +1168,7 @@ fn save_settings(
     auto_focus_search: bool,
     show_shortcut_count_badge: bool,
     auto_update: bool,
+    favorites: Option<Vec<String>>,
 ) {
     state.hold_ms.store(hold_ms.max(150), Ordering::Relaxed);
     state.disable_unsupported_trigger.store(disable_unsupported_trigger, Ordering::Relaxed);
@@ -1171,9 +1223,12 @@ fn save_settings(
             auto_focus_search,
             show_shortcut_count_badge,
             auto_update,
+            favorites: favorites.unwrap_or_default(),
         },
     );
 }
+
+const CURRENT_DB_VERSION: i32 = 5;
 
 #[tauri::command]
 fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, String> {
@@ -1282,11 +1337,27 @@ fn refresh_database(state: tauri::State<AppState>) -> Result<serde_json::Value, 
         *pm = process_map;
     }
 
-    let _ = tx.execute("PRAGMA user_version = 2", []);
+    let _ = tx.execute(&format!("PRAGMA user_version = {}", CURRENT_DB_VERSION), []);
 
     tx.commit().map_err(|e| e.to_string())?;
 
     get_apps(state)
+}
+
+fn sanitize_fts_query(query: &str) -> String {
+    let cleaned: String = query
+        .chars()
+        .filter(|c| c.is_alphanumeric() || c.is_whitespace())
+        .collect();
+    let terms: Vec<&str> = cleaned.split_whitespace().collect();
+    if terms.is_empty() {
+        return String::new();
+    }
+    terms
+        .iter()
+        .map(|t| format!("\"{}*\"", t))
+        .collect::<Vec<_>>()
+        .join(" ")
 }
 
 #[tauri::command]
@@ -1298,7 +1369,10 @@ fn search_shortcuts(state: tauri::State<AppState>, query: String) -> Result<serd
         return Ok(serde_json::Value::Array(vec![]));
     }
 
-    let fts_query = format!("\"{}\"", trimmed.replace("\"", ""));
+    let fts_query = sanitize_fts_query(trimmed);
+    if fts_query.is_empty() {
+        return Ok(serde_json::Value::Array(vec![]));
+    }
 
     let mut stmt = conn.prepare(
         "SELECT s.section, s.keys, s.action, s.description, s.os, s.source, s.confidence, s.verified_against_official, a.app_name, a.brand_color, a.icon_slug
@@ -1516,7 +1590,6 @@ fn build_state() -> AppState {
         init_db(&conn).expect("Failed to initialize database tables and triggers");
         
         let db_version: i32 = conn.query_row("PRAGMA user_version", [], |row| row.get(0)).unwrap_or(0);
-        const CURRENT_DB_VERSION: i32 = 5; // Increment when apps.json is updated to force re-seed
 
         let count: i64 = conn.query_row("SELECT COUNT(*) FROM apps", [], |row| row.get(0)).unwrap_or(0);
         if count == 0 || db_version < CURRENT_DB_VERSION {

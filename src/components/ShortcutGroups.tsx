@@ -1,11 +1,27 @@
 import { cn } from "@/lib/utils";
 import type { Shortcut } from "@/types";
 import { KeyCap } from "./KeyCap";
-import { ShieldAlert } from "lucide-react";
+import { ShieldAlert, Star } from "lucide-react";
+import { useAppStore } from "@/store";
 
-export function groupBySection(shortcuts: Shortcut[]): [string, Shortcut[]][] {
+export function groupBySection(shortcuts: Shortcut[], appName?: string, isFavFn?: (app: string, act: string) => boolean): [string, Shortcut[]][] {
   const order: string[] = [];
   const map = new Map<string, Shortcut[]>();
+
+  const favItems: Shortcut[] = [];
+  if (appName && isFavFn) {
+    for (const s of shortcuts) {
+      if (isFavFn(appName, s.action)) {
+        favItems.push(s);
+      }
+    }
+  }
+
+  if (favItems.length > 0) {
+    order.push("⭐ Favorites");
+    map.set("⭐ Favorites", favItems);
+  }
+
   for (const s of shortcuts) {
     if (!map.has(s.section)) {
       map.set(s.section, []);
@@ -18,13 +34,19 @@ export function groupBySection(shortcuts: Shortcut[]): [string, Shortcut[]][] {
 
 interface ShortcutGroupsProps {
   shortcuts: Shortcut[];
+  appName?: string;
   variant?: "card" | "flat";
   size?: "sm" | "md";
   onItemClick?: () => void;
   selectedIndex?: number; // Enable keyboard navigation highlighting
 }
 
-export function ShortcutGroups({ shortcuts, variant = "card", size = "md", onItemClick, selectedIndex = -1 }: ShortcutGroupsProps) {
+export function ShortcutGroups({ shortcuts, appName, variant = "card", size = "md", onItemClick, selectedIndex = -1 }: ShortcutGroupsProps) {
+  const favorites = useAppStore((s) => s.favorites);
+  const toggleFavorite = useAppStore((s) => s.toggleFavorite);
+
+  const isFavFn = (app: string, act: string) => favorites.includes(`${app}:${act}`);
+
   if (shortcuts.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-10">
@@ -38,7 +60,7 @@ export function ShortcutGroups({ shortcuts, variant = "card", size = "md", onIte
 
   return (
     <div className="flex flex-col">
-      {groupBySection(shortcuts).map(([section, items], si) => (
+      {groupBySection(shortcuts, appName, isFavFn).map(([section, items], si) => (
         <section key={section} className={si > 0 ? "mt-4" : undefined}>
           <div className="mb-0.5 px-2 text-[10px] font-medium uppercase tracking-widest text-muted-foreground/40">
             {section}
@@ -51,12 +73,13 @@ export function ShortcutGroups({ shortcuts, variant = "card", size = "md", onIte
             {items.map((s, i) => {
               const globalIdx = currentFlatIdx++;
               const isFocused = globalIdx === selectedIndex;
+              const isFav = appName ? isFavFn(appName, s.action) : false;
               return (
                 <div
-                  key={`${s.action}-${i}`}
+                  key={`${section}-${s.action}-${i}`}
                   onClick={onItemClick}
                   className={cn(
-                    "flex items-center justify-between gap-4 rounded-lg px-2.5 py-1.5 transition-colors",
+                    "group flex items-center justify-between gap-4 rounded-lg px-2.5 py-1.5 transition-colors",
                     onItemClick ? "cursor-pointer" : "",
                     isFocused 
                       ? "bg-primary/20 text-foreground font-medium ring-1 ring-primary/30" 
@@ -64,6 +87,20 @@ export function ShortcutGroups({ shortcuts, variant = "card", size = "md", onIte
                   )}
                 >
                   <div className="flex items-center gap-1.5 min-w-0 flex-1">
+                    {appName && (
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          e.preventDefault();
+                          toggleFavorite(appName, s.action);
+                        }}
+                        className="shrink-0 p-0.5 text-amber-400/70 hover:text-amber-400 focus:outline-none transition-colors cursor-pointer"
+                        title={isFav ? "Unstar shortcut" : "Star shortcut"}
+                      >
+                        <Star className={cn("size-3.5 transition-opacity", isFav ? "fill-amber-400 text-amber-400 opacity-100" : "text-muted-foreground/40 opacity-0 group-hover:opacity-100")} />
+                      </button>
+                    )}
                     <span 
                       className="truncate text-[13px] text-foreground/80" 
                       title={s.description || s.action}

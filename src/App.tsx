@@ -100,6 +100,10 @@ export default function App() {
           console.warn(`[YourCtrl] Hotkey conflict: ${hotkey} is already registered by another application.`);
           useAppStore.getState().setHotkeyConflict(hotkey);
         });
+
+        await listen<string[]>("favorites-changed", (e) => {
+          useAppStore.getState().setFavorites(e.payload);
+        });
       })();
     }
 

@@ -5,7 +5,7 @@ Your shortcuts, always within reach.
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4.svg)
 ![Built with](https://img.shields.io/badge/Built%20with-Tauri-FFC131.svg)
-![Version](https://img.shields.io/badge/Version-v1.1.0-green.svg)
+![Version](https://img.shields.io/badge/Version-v1.2.5-green.svg)
 
 <!-- Add popover screenshot here -->
 <!-- Add dashboard screenshot here -->

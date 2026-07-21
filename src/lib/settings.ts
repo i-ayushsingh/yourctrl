@@ -21,6 +21,7 @@ interface PersistedSettings {
   global_hotkey?: string;
   search_scope?: string;
   auto_update?: boolean;
+  favorites?: string[];
 }
 
 /** Loads persisted settings on startup and writes them back (debounced) on change. */
@@ -43,6 +44,7 @@ export function useSyncSettings() {
         if (typeof s.pinned === "boolean") store.setPinned(s.pinned);
         if (s.pinned_position) store.setPinnedPosition(s.pinned_position);
         store.setExcludedApps(s.excluded ?? []);
+        if (s.favorites) store.setFavorites(s.favorites);
         if (typeof s.hold_ms === "number") store.setHoldMs(s.hold_ms);
         if (typeof s.autostart === "boolean") store.setAutostart(s.autostart);
         if (typeof s.start_minimized === "boolean") store.setStartMinimized(s.start_minimized);
@@ -73,6 +75,7 @@ export function useSyncSettings() {
             pinned: state.pinned,
             pinnedPosition: state.pinnedPosition,
             excluded: state.excludedApps,
+            favorites: state.favorites,
             holdMs: state.holdMs,
             autostart: state.autostart,
             startMinimized: state.startMinimized,

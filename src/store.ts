@@ -36,6 +36,11 @@ interface AppState {
   searchScope: "action" | "all";
   autoUpdate: boolean;
 
+  favorites: string[]; // Stores "appName:action" strings
+  toggleFavorite: (appName: string, action: string) => void;
+  setFavorites: (favs: string[]) => void;
+  isFavorite: (appName: string, action: string) => boolean;
+
   apps: AppEntry[];
   setApps: (apps: AppEntry[]) => void;
 
@@ -74,7 +79,7 @@ interface AppState {
   setHotkeyConflict: (hotkey: string | null) => void;
 }
 
-export const useAppStore = create<AppState>((set) => ({
+export const useAppStore = create<AppState>((set, get) => ({
   route: "dashboard",
   searchQuery: "",
   selectedApp: null,
@@ -99,6 +104,25 @@ export const useAppStore = create<AppState>((set) => ({
   globalHotkey: "Ctrl+Shift+Y",
   searchScope: "all",
   autoUpdate: true,
+  favorites: [],
+  toggleFavorite: (appName, action) => {
+    const key = `${appName}:${action}`;
+    const curr = get().favorites;
+    const next = curr.includes(key) ? curr.filter((k) => k !== key) : [...curr, key];
+    set({ favorites: next });
+    if (typeof window !== "undefined" && "__TAURI_INTERNALS__" in window) {
+      void (async () => {
+        try {
+          const { emit } = await import("@tauri-apps/api/event");
+          await emit("favorites-changed", next);
+        } catch {
+          /* ignore */
+        }
+      })();
+    }
+  },
+  setFavorites: (favorites) => set({ favorites }),
+  isFavorite: (appName, action) => get().favorites.includes(`${appName}:${action}`),
   apps: mockApps,
   setApps: (apps) => set({ apps }),
   hotkeyConflict: null,

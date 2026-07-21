@@ -247,6 +247,9 @@ export function CommandPopover() {
       unlisten = await listen<{ app_name: string | null; process_name: string }>("active-app-changed", (e) => {
         void adopt(e.payload.app_name, e.payload.process_name);
       });
+      await listen<string[]>("favorites-changed", (e) => {
+        useAppStore.getState().setFavorites(e.payload);
+      });
     })();
     return () => unlisten?.();
   }, []);
@@ -269,6 +272,7 @@ export function CommandPopover() {
     if (!("__TAURI_INTERNALS__" in window)) return;
     if (!pinned) return;
     let moveUnlisten: (() => void) | undefined;
+    let debounceTimer: ReturnType<typeof setTimeout> | undefined;
     void (async () => {
       const { getCurrentWindow } = await import("@tauri-apps/api/window");
       const win = getCurrentWindow();
@@ -281,14 +285,20 @@ export function CommandPopover() {
           /* ignore positioning errors */
         }
       }
-      // Keep the saved position in sync while pinned and being dragged.
+      // Keep the saved position in sync while pinned and being dragged (debounced to prevent IPC spam)
       moveUnlisten = await win.onMoved(({ payload }) => {
         if (useAppStore.getState().pinned) {
-          setPinnedPosition({ x: payload.x, y: payload.y });
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            setPinnedPosition({ x: payload.x, y: payload.y });
+          }, 150);
         }
       });
     })();
-    return () => moveUnlisten?.();
+    return () => {
+      clearTimeout(debounceTimer);
+      moveUnlisten?.();
+    };
   }, [pinned, setPinnedPosition]);
 
   const togglePin = async () => {
@@ -543,7 +553,7 @@ export function CommandPopover() {
           </div>
 
           <div className="flex-1 overflow-y-scroll px-2 pb-4 pt-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            <ShortcutGroups shortcuts={shortcuts} variant="flat" size="sm" onItemClick={() => void dismissPopover()} selectedIndex={selectedIndex} />
+            <ShortcutGroups shortcuts={shortcuts} appName={app.app_name} variant="flat" size="sm" onItemClick={() => void dismissPopover()} selectedIndex={selectedIndex} />
           </div>
         </>
       ) : showSuggestForm ? (

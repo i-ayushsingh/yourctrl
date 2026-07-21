@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.2.5
+
+Shortcut star pinning, database stability, performance optimizations, and security enhancements.
+
+### Features
+
+- Added Shortcut Favorites & Star Pinning to star your most-used shortcuts and keep them grouped at the top of the list
+- Real-time favorite synchronization across all popover and dashboard windows
+
+### Improvements & Fixes
+
+- Fixed database version synchronization to ensure user configuration remains stable across data refreshes
+- Optimized query handling for faster app startup and shortcut browsing
+- Enhanced background process handling and screen boundary detection for multi-monitor setups
+- Added submission rate-limiting and security policy guardrails
+
 ## v1.2.0
 
 Performance improvements, dynamic UI counts, version checking, and full custom logos for new apps.

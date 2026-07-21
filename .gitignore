@@ -40,6 +40,9 @@ vite.config.ts.timestamp-*
 
 # Local temporary logs
 err.txt
+WORKLOG*.md
+RELEASE_NOTES*.md
+v1.3.0_work_log.md
 
 # Agent & AI Assistant files
 .opencode/
